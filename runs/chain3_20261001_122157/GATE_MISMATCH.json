@@ -1,0 +1,8 @@
+{
+  "reason": "same-history replay output diverged or hit generation budget; free KV expansion skipped",
+  "question_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac55ea55542993e66e82377",
+    "5ac3a76e554299741d48a2be"
+  ]
+}

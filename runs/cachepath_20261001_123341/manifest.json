@@ -1,0 +1,107 @@
+{
+  "settings": {
+    "purpose": "same sender-cache native receiver/CV control; not an accuracy experiment",
+    "reference_run": "chain3_20261001_122157",
+    "reference_manifest_sha256": "76303e896b210f5cfbd67fceec434f71920af5829af2bae5f0aa55c4aeac963c",
+    "case_id": "5add1d575542992c1e3a2540",
+    "cases_sha256": "fdcdb13437b4e78758bcdc28fbd1c3b1332b6239999c8a50a4f24791f4162c7f",
+    "model_path": "/home/liuxin/models/Qwen2.5-7B-Instruct",
+    "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "roles": {
+      "A": "You are Agent A, an evidence reader. Using only your supplied material, extract the entities and facts relevant to the question. State what the evidence supports in at most three short sentences. Do not invent missing facts.",
+      "B": "You are Agent B, an evidence integrator. The preceding history contains Agent A's evidence. Combine it with your own material to identify the link needed to answer the question. Give a concise evidence chain and a candidate answer in at most three short sentences. Do not invent missing facts.",
+      "C": "You are Agent C, an answer verifier. Check the evidence and analyses in the preceding history. Directly answer the question, with no explanation. Do not invent unsupported facts."
+    },
+    "budgets": {
+      "A": 256,
+      "B": 256,
+      "C": 48
+    },
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "greedy": true,
+    "repetition_penalty": 1.0,
+    "shift_back": false,
+    "all_layers": true,
+    "generate_calls": 4,
+    "cache_tail_forward_max": 1,
+    "warmup_calls": 0,
+    "order": [
+      "A_native_with_EOS_completion",
+      "B_joint_recomputation",
+      "B_native_same_sender_cache",
+      "B_CV_same_sender_cache"
+    ],
+    "selection": "first frozen calibration case; audit the recorded divergence, no answer-based selection",
+    "source_hashes": {
+      "cache_path_probe.py": "9c876e86d300ce54a3f1ee0fda529462a9c2bd1bd98e93b1e4e6dfb5b2d35afe",
+      "native_cache_control.py": "eb12212cb996c09d824ae73070c5d41041a1280b29a6d7c2752f3af8afc2cef8",
+      "chain_core.py": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb"
+    },
+    "evaluation_and_confirmation_used": false,
+    "network_transfer_measured": false
+  },
+  "settings_sha256": "0f3ebaded87bd05c90f4c84f6fab236fea36b96e1714c02815b52f6e284eb5b0",
+  "cpu_check_sha256": "a69f0349a67d3890089e9ad1c8bae8a2909639888d8cb60abebcde86c1fd45bb",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.53.3",
+  "cuda_visible_devices": "GPU-89523765-dcd4-46ea-1f2d-4ff7d509138c",
+  "gpu_at_launch": [
+    {
+      "index": "0",
+      "uuid": "GPU-0a075077-3745-799a-aff3-f0d34a17b6ac",
+      "utilization": "56",
+      "free_mib": "21919",
+      "used_mib": "2163"
+    },
+    {
+      "index": "1",
+      "uuid": "GPU-d7d04192-bf97-dfdb-3276-75ff261a9f51",
+      "utilization": "15",
+      "free_mib": "21919",
+      "used_mib": "2163"
+    },
+    {
+      "index": "2",
+      "uuid": "GPU-2121fa39-275f-d7eb-3c84-c7292ed702bc",
+      "utilization": "51",
+      "free_mib": "21919",
+      "used_mib": "2163"
+    },
+    {
+      "index": "3",
+      "uuid": "GPU-dcb52b28-8342-ab3b-cd6f-74719b63586f",
+      "utilization": "22",
+      "free_mib": "21919",
+      "used_mib": "2163"
+    },
+    {
+      "index": "4",
+      "uuid": "GPU-89523765-dcd4-46ea-1f2d-4ff7d509138c",
+      "utilization": "0",
+      "free_mib": "24081",
+      "used_mib": "0"
+    },
+    {
+      "index": "5",
+      "uuid": "GPU-8b952bd3-5cdf-11d4-561a-bc9ef3717773",
+      "utilization": "0",
+      "free_mib": "8267",
+      "used_mib": "15815"
+    },
+    {
+      "index": "6",
+      "uuid": "GPU-0179fbe0-2ace-59a4-7794-fa483dda1e46",
+      "utilization": "0",
+      "free_mib": "5079",
+      "used_mib": "19003"
+    },
+    {
+      "index": "7",
+      "uuid": "GPU-e230f5a4-ad5d-341f-2840-4f737f3c0c26",
+      "utilization": "0",
+      "free_mib": "4501",
+      "used_mib": "19581"
+    }
+  ]
+}

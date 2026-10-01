@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "audit_script_sha256": "390fabe88315081592ac549d39cf6623611db9c9759142601a41d782b0e62d3f",
+  "counts": {
+    "generate": 4,
+    "cache_tail_forward": 1
+  },
+  "checked_generation_forwards": 197,
+  "same_sender_history_and_cache": true,
+  "native_cached_vs_CV_token_matches": 52,
+  "saved_first_step_native_cached_CV_max_logit_difference": 0.0625,
+  "runtime_all_same_history_steps_native_cached_CV_max_logit_difference": 0.0625,
+  "joint_vs_native_cached_first_different_index": 46,
+  "all_receivers_EOS": true,
+  "any_truncated": false,
+  "sender_kv_content_bytes_recorded_from_actual_tensors": 11411456,
+  "sender_text_int32_content_bytes": 796,
+  "interpretation": "Divergence also occurs with native cache reuse; not unique to CV. Precision/kernel cause not isolated."
+}

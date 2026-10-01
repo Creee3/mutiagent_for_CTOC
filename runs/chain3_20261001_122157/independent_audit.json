@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "audit_script_sha256": "3a1cbad3839b855f8ccb089e7107e55eaccf063b3fb6228418e33b3481c790cf",
+  "run_name": "chain3_20261001_122157",
+  "counts": {
+    "generate": 20,
+    "cache_tail_forward": 8
+  },
+  "checked_nodes": 20,
+  "checked_generation_forwards": 712,
+  "all_recorded_nodes_EOS": true,
+  "truncated_nodes": 0,
+  "replay_matches": {
+    "B": 2,
+    "C": 3
+  },
+  "gate_passed": false,
+  "free_kv_chains": 0,
+  "source_cache_bytes_not_reaudited_from_saved_tensors": true,
+  "network_transfer_measured": false,
+  "main_details": [
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "reference_answer": "U2 released \"With or Without You\" first in 1987.",
+      "reference_score": {
+        "exact_match": false,
+        "standard_token_f1": 0.19999999999999998
+      },
+      "replay_output_matches": {
+        "B": true,
+        "C": true
+      },
+      "repeated_fraction_across_edges": 0.3258741258741259,
+      "inherited_A_fraction_of_B_to_C": 0.483402489626556
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "reference_answer": "Kurt Weill",
+      "reference_score": {
+        "exact_match": false,
+        "standard_token_f1": 0.8
+      },
+      "replay_output_matches": {
+        "B": true,
+        "C": true
+      },
+      "repeated_fraction_across_edges": 0.30798479087452474,
+      "inherited_A_fraction_of_B_to_C": 0.44505494505494503
+    },
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "reference_answer": "German.",
+      "reference_score": {
+        "exact_match": false,
+        "standard_token_f1": 0.0
+      },
+      "replay_output_matches": {
+        "B": false,
+        "C": true
+      },
+      "repeated_fraction_across_edges": 0.3114241001564945,
+      "inherited_A_fraction_of_B_to_C": 0.45227272727272727,
+      "B_divergence": {
+        "first_index_zero_based": 46,
+        "reference_response": "Evidence chain: Oliver Reed played Otto von Bismarck in Royal Flash. Otto von Bismarck was a Prussian statesman.\nCandidate answer: Oliver Reed's character in the film Royal Flash was Prussian, which means German.",
+        "replay_response": "Evidence chain: Oliver Reed played Otto von Bismarck in Royal Flash. Otto von Bismarck was a Prussian statesman.\nCandidate answer: Oliver Reed's character in the film Royal Flash was Prussian, which corresponds to German nationality.",
+        "saved_common_history_logits": {
+          "reference_top5": {
+            "ids": [
+              3363,
+              33210,
+              5285,
+              374,
+              646
+            ],
+            "values": [
+              22.75,
+              22.625,
+              21.875,
+              21.375,
+              20.375
+            ],
+            "top1_minus_top2": 0.125
+          },
+          "replay_top5": {
+            "ids": [
+              33210,
+              3363,
+              5285,
+              374,
+              646
+            ],
+            "values": [
+              22.75,
+              22.625,
+              21.875,
+              21.5,
+              20.375
+            ],
+            "top1_minus_top2": 0.125
+          },
+          "max_abs_difference": 0.375
+        }
+      }
+    }
+  ]
+}

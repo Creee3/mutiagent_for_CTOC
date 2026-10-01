@@ -1,0 +1,1077 @@
+{
+  "passed": true,
+  "tiny_random_cpu_only": true,
+  "real_7b_claim": false,
+  "purpose": "native HF cached suffix versus official CV receiver control",
+  "script_sha256": "eb12212cb996c09d824ae73070c5d41041a1280b29a6d7c2752f3af8afc2cef8",
+  "chain_core_sha256": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb",
+  "utc_started": "2026-10-01T12:33:09Z",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.53.3",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "seed": 42,
+  "device": "cpu",
+  "dtype": "float32",
+  "model_config": {
+    "vocab_size": 64,
+    "max_position_embeddings": 128,
+    "hidden_size": 32,
+    "intermediate_size": 64,
+    "num_hidden_layers": 4,
+    "num_attention_heads": 4,
+    "use_sliding_window": false,
+    "sliding_window": null,
+    "max_window_layers": 28,
+    "num_key_value_heads": 2,
+    "hidden_act": "silu",
+    "initializer_range": 0.02,
+    "rms_norm_eps": 1e-06,
+    "use_cache": true,
+    "rope_theta": 10000.0,
+    "rope_scaling": null,
+    "attention_dropout": 0.0,
+    "layer_types": [
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention"
+    ],
+    "return_dict": true,
+    "output_hidden_states": false,
+    "torchscript": false,
+    "torch_dtype": null,
+    "use_bfloat16": false,
+    "tf_legacy_loss": false,
+    "pruned_heads": {},
+    "tie_word_embeddings": false,
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": false,
+    "is_decoder": false,
+    "cross_attention_hidden_size": null,
+    "add_cross_attention": false,
+    "tie_encoder_decoder": false,
+    "max_length": 20,
+    "min_length": 0,
+    "do_sample": false,
+    "early_stopping": false,
+    "num_beams": 1,
+    "num_beam_groups": 1,
+    "diversity_penalty": 0.0,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "typical_p": 1.0,
+    "repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "encoder_no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "num_return_sequences": 1,
+    "output_scores": false,
+    "return_dict_in_generate": false,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "architectures": null,
+    "finetuning_task": null,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "tokenizer_class": null,
+    "prefix": null,
+    "bos_token_id": 1,
+    "pad_token_id": 0,
+    "eos_token_id": 63,
+    "sep_token_id": null,
+    "decoder_start_token_id": null,
+    "task_specific_params": null,
+    "problem_type": null,
+    "_name_or_path": "",
+    "transformers_version": "4.53.3",
+    "model_type": "qwen2",
+    "output_attentions": false
+  },
+  "generation_config": {
+    "max_length": 20,
+    "max_new_tokens": null,
+    "min_length": 0,
+    "min_new_tokens": 3,
+    "early_stopping": false,
+    "max_time": null,
+    "stop_strings": null,
+    "do_sample": false,
+    "num_beams": 1,
+    "num_beam_groups": 1,
+    "penalty_alpha": null,
+    "dola_layers": null,
+    "use_cache": true,
+    "cache_implementation": null,
+    "cache_config": null,
+    "return_legacy_cache": null,
+    "prefill_chunk_size": null,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "min_p": null,
+    "typical_p": 1.0,
+    "epsilon_cutoff": 0.0,
+    "eta_cutoff": 0.0,
+    "diversity_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "encoder_repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "force_words_ids": null,
+    "renormalize_logits": false,
+    "constraints": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": 63,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "sequence_bias": null,
+    "token_healing": false,
+    "guidance_scale": null,
+    "low_memory": null,
+    "watermarking_config": null,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "output_logits": null,
+    "return_dict_in_generate": false,
+    "pad_token_id": 0,
+    "bos_token_id": 1,
+    "eos_token_id": 63,
+    "encoder_no_repeat_ngram_size": 0,
+    "decoder_start_token_id": null,
+    "is_assistant": false,
+    "num_assistant_tokens": 20,
+    "num_assistant_tokens_schedule": "constant",
+    "assistant_confidence_threshold": 0.4,
+    "prompt_lookup_num_tokens": null,
+    "max_matching_ngram_size": null,
+    "assistant_early_exit": null,
+    "assistant_lookbehind": 10,
+    "target_lookbehind": 10,
+    "disable_compile": false,
+    "_from_model_config": true,
+    "transformers_version": "4.53.3"
+  },
+  "official_models_sha256": "d40a2f4163a3ee1fea2312e96fc928c4c6dd6f8cd77b7dda9fd8b850095518a0",
+  "sender": {
+    "kind": "generate",
+    "tag": "native_cache_control_cpu:sender:A",
+    "status": "ok",
+    "diagnostic_instrumented_seconds": 0.01132888998836279,
+    "backend_forward_trace": [
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:sender:A",
+        "input_ids": [
+          [
+            1,
+            3,
+            5,
+            7,
+            9
+          ]
+        ],
+        "past_length": 0,
+        "position_ids": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "cache_position": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "attention_mask_shape": [
+          1,
+          5
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:sender:A",
+        "position_ids": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:sender:A",
+        "cache_position": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "position_ids": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "past_length": 0,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:sender:A",
+        "input_ids": [
+          [
+            35
+          ]
+        ],
+        "past_length": 5,
+        "position_ids": [
+          [
+            5
+          ]
+        ],
+        "cache_position": [
+          5
+        ],
+        "attention_mask_shape": [
+          1,
+          6
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:sender:A",
+        "position_ids": [
+          [
+            5
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:sender:A",
+        "cache_position": [
+          5
+        ],
+        "position_ids": [
+          [
+            5
+          ]
+        ],
+        "past_length": 5,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:sender:A",
+        "input_ids": [
+          [
+            32
+          ]
+        ],
+        "past_length": 6,
+        "position_ids": [
+          [
+            6
+          ]
+        ],
+        "cache_position": [
+          6
+        ],
+        "attention_mask_shape": [
+          1,
+          7
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:sender:A",
+        "position_ids": [
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:sender:A",
+        "cache_position": [
+          6
+        ],
+        "position_ids": [
+          [
+            6
+          ]
+        ],
+        "past_length": 6,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:sender:A",
+        "input_ids": [
+          [
+            6
+          ]
+        ],
+        "past_length": 7,
+        "position_ids": [
+          [
+            7
+          ]
+        ],
+        "cache_position": [
+          7
+        ],
+        "attention_mask_shape": [
+          1,
+          8
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:sender:A",
+        "position_ids": [
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:sender:A",
+        "cache_position": [
+          7
+        ],
+        "position_ids": [
+          [
+            7
+          ]
+        ],
+        "past_length": 7,
+        "attention_mask_shape": null
+      }
+    ],
+    "node": "A",
+    "condition": "sender",
+    "route": "native",
+    "input_prefix_tokens": 0,
+    "local_prompt_ids": [
+      [
+        1,
+        3,
+        5,
+        7,
+        9
+      ]
+    ],
+    "input_history_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d",
+    "global_history_ids": [
+      [
+        1,
+        3,
+        5,
+        7,
+        9,
+        35,
+        32,
+        6,
+        63
+      ]
+    ],
+    "global_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+    "segments": [
+      {
+        "id": "native_cache_control_cpu:sender:A:prompt",
+        "node": "A",
+        "kind": "prompt",
+        "start": 0,
+        "end": 5,
+        "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+      },
+      {
+        "id": "native_cache_control_cpu:sender:A:output",
+        "node": "A",
+        "kind": "output",
+        "start": 5,
+        "end": 9,
+        "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+      }
+    ],
+    "sender_cache_hash_before_and_after": null,
+    "cache_lengths_before_completion": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "cache_completion": {
+      "length_before": 8,
+      "expected_length": 9,
+      "missing_tokens": 1,
+      "filled_ids": [
+        [
+          63
+        ]
+      ],
+      "forward": {
+        "kind": "cache_tail_forward",
+        "tag": "native_cache_control_cpu:sender:A:complete",
+        "status": "ok",
+        "diagnostic_instrumented_seconds": 0.0014768539695069194,
+        "backend_forward_trace": [
+          {
+            "level": "native_model_forward_input",
+            "tag": "native_cache_control_cpu:sender:A:complete",
+            "input_ids": [
+              [
+                63
+              ]
+            ],
+            "past_length": 8,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "native_cache_control_cpu:sender:A:complete",
+            "position_ids": [
+              [
+                8
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "native_cache_control_cpu:sender:A:complete",
+            "cache_position": [
+              8
+            ],
+            "position_ids": [
+              [
+                8
+              ]
+            ],
+            "past_length": 8,
+            "attention_mask_shape": null
+          }
+        ]
+      }
+    },
+    "output_ids": [
+      35,
+      32,
+      6,
+      63
+    ],
+    "generated_tokens": 4,
+    "response": "35 32 6",
+    "eos_stopped": true,
+    "actually_truncated": false,
+    "checked_effective_positions": true
+  },
+  "native_cached": {
+    "kind": "generate",
+    "tag": "cpu:native_cached:B",
+    "status": "ok",
+    "diagnostic_instrumented_seconds": 0.011863981955684721,
+    "backend_forward_trace": [
+      {
+        "level": "native_model_forward_input",
+        "tag": "cpu:native_cached:B",
+        "input_ids": [
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "past_length": 9,
+        "position_ids": [
+          [
+            9,
+            10,
+            11
+          ]
+        ],
+        "cache_position": [
+          9,
+          10,
+          11
+        ],
+        "attention_mask_shape": [
+          1,
+          12
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "cpu:native_cached:B",
+        "position_ids": [
+          [
+            9,
+            10,
+            11
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "cpu:native_cached:B",
+        "cache_position": [
+          9,
+          10,
+          11
+        ],
+        "position_ids": [
+          [
+            9,
+            10,
+            11
+          ]
+        ],
+        "past_length": 9,
+        "attention_mask_shape": [
+          1,
+          1,
+          3,
+          12
+        ]
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "cpu:native_cached:B",
+        "input_ids": [
+          [
+            15
+          ]
+        ],
+        "past_length": 12,
+        "position_ids": [
+          [
+            12
+          ]
+        ],
+        "cache_position": [
+          12
+        ],
+        "attention_mask_shape": [
+          1,
+          13
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "cpu:native_cached:B",
+        "position_ids": [
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "cpu:native_cached:B",
+        "cache_position": [
+          12
+        ],
+        "position_ids": [
+          [
+            12
+          ]
+        ],
+        "past_length": 12,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "cpu:native_cached:B",
+        "input_ids": [
+          [
+            48
+          ]
+        ],
+        "past_length": 13,
+        "position_ids": [
+          [
+            13
+          ]
+        ],
+        "cache_position": [
+          13
+        ],
+        "attention_mask_shape": [
+          1,
+          14
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "cpu:native_cached:B",
+        "position_ids": [
+          [
+            13
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "cpu:native_cached:B",
+        "cache_position": [
+          13
+        ],
+        "position_ids": [
+          [
+            13
+          ]
+        ],
+        "past_length": 13,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "cpu:native_cached:B",
+        "input_ids": [
+          [
+            18
+          ]
+        ],
+        "past_length": 14,
+        "position_ids": [
+          [
+            14
+          ]
+        ],
+        "cache_position": [
+          14
+        ],
+        "attention_mask_shape": [
+          1,
+          15
+        ]
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "cpu:native_cached:B",
+        "position_ids": [
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "cpu:native_cached:B",
+        "cache_position": [
+          14
+        ],
+        "position_ids": [
+          [
+            14
+          ]
+        ],
+        "past_length": 14,
+        "attention_mask_shape": null
+      }
+    ],
+    "route": "native_cached",
+    "input_prefix_tokens": 9,
+    "local_prompt_ids": [
+      [
+        1,
+        4,
+        6
+      ]
+    ],
+    "input_tokens": 12,
+    "input_history_sha256": "6192b36b3f14e1bc2f399c89fdeee6ca7da97f0fb7c2a54310a3f0ed28d62682",
+    "global_history_ids": [
+      [
+        1,
+        3,
+        5,
+        7,
+        9,
+        35,
+        32,
+        6,
+        63,
+        1,
+        4,
+        6,
+        15,
+        48,
+        18,
+        63
+      ]
+    ],
+    "global_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+    "sender_cache_hash_before": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+    "sender_cache_hash_after": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+    "sender_cache_hash_before_and_after": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+    "sender_cache_unchanged": true,
+    "cache_lengths_before_generation": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "cache_lengths_before_completion": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "cache_completion": null,
+    "output_ids": [
+      15,
+      48,
+      18,
+      63
+    ],
+    "generated_tokens": 4,
+    "response": "15 48 18",
+    "eos_stopped": true,
+    "actually_truncated": false,
+    "reached_token_budget": true,
+    "max_new_tokens": 4,
+    "checked_effective_positions": true,
+    "checked_suffix_only_forward": true,
+    "expected_effective_positions": [
+      [
+        9,
+        10,
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14
+      ]
+    ],
+    "sequences_include_global_prefix": true,
+    "attention_mask_scope": "full_global_history"
+  },
+  "official_cv": {
+    "kind": "generate",
+    "tag": "native_cache_control_cpu:official_cv:B",
+    "status": "ok",
+    "diagnostic_instrumented_seconds": 0.009168790013063699,
+    "backend_forward_trace": [
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "input_ids": [
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "past_length": 9,
+        "position_ids": null,
+        "cache_position": null,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "position_ids": [
+          [
+            9,
+            10,
+            11
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "cache_position": [
+          9,
+          10,
+          11
+        ],
+        "position_ids": [
+          [
+            9,
+            10,
+            11
+          ]
+        ],
+        "past_length": 9,
+        "attention_mask_shape": [
+          1,
+          1,
+          3,
+          12
+        ]
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "input_ids": [
+          [
+            15
+          ]
+        ],
+        "past_length": 12,
+        "position_ids": null,
+        "cache_position": null,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "position_ids": [
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "cache_position": [
+          12
+        ],
+        "position_ids": [
+          [
+            12
+          ]
+        ],
+        "past_length": 12,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "input_ids": [
+          [
+            48
+          ]
+        ],
+        "past_length": 13,
+        "position_ids": null,
+        "cache_position": null,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "position_ids": [
+          [
+            13
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "cache_position": [
+          13
+        ],
+        "position_ids": [
+          [
+            13
+          ]
+        ],
+        "past_length": 13,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "native_model_forward_input",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "input_ids": [
+          [
+            18
+          ]
+        ],
+        "past_length": 14,
+        "position_ids": null,
+        "cache_position": null,
+        "attention_mask_shape": null
+      },
+      {
+        "level": "effective_rotary_position_ids",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "position_ids": [
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "level": "effective_first_layer_attention",
+        "tag": "native_cache_control_cpu:official_cv:B",
+        "cache_position": [
+          14
+        ],
+        "position_ids": [
+          [
+            14
+          ]
+        ],
+        "past_length": 14,
+        "attention_mask_shape": null
+      }
+    ],
+    "node": "B",
+    "condition": "official_cv",
+    "route": "kv",
+    "input_prefix_tokens": 9,
+    "local_prompt_ids": [
+      [
+        1,
+        4,
+        6
+      ]
+    ],
+    "input_history_sha256": "6192b36b3f14e1bc2f399c89fdeee6ca7da97f0fb7c2a54310a3f0ed28d62682",
+    "global_history_ids": [
+      [
+        1,
+        3,
+        5,
+        7,
+        9,
+        35,
+        32,
+        6,
+        63,
+        1,
+        4,
+        6,
+        15,
+        48,
+        18,
+        63
+      ]
+    ],
+    "global_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+    "segments": [
+      {
+        "id": "native_cache_control_cpu:sender:A:prompt",
+        "node": "A",
+        "kind": "prompt",
+        "start": 0,
+        "end": 5,
+        "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+      },
+      {
+        "id": "native_cache_control_cpu:sender:A:output",
+        "node": "A",
+        "kind": "output",
+        "start": 5,
+        "end": 9,
+        "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+      },
+      {
+        "id": "native_cache_control_cpu:official_cv:B:prompt",
+        "node": "B",
+        "kind": "prompt",
+        "start": 9,
+        "end": 12,
+        "tokens_sha256": "e0aa12aaf3afe7934743a22bbacc2c04f578262694599abb4adbb6fb0bacb240"
+      },
+      {
+        "id": "native_cache_control_cpu:official_cv:B:output",
+        "node": "B",
+        "kind": "output",
+        "start": 12,
+        "end": 16,
+        "tokens_sha256": "3dbd1ea3ccd6d52c6b93b634d68f95393b52db457aeafa763813577f5439fc24"
+      }
+    ],
+    "sender_cache_hash_before_and_after": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+    "cache_lengths_before_completion": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "cache_completion": null,
+    "output_ids": [
+      15,
+      48,
+      18,
+      63
+    ],
+    "generated_tokens": 4,
+    "response": "15 48 18",
+    "eos_stopped": true,
+    "actually_truncated": false,
+    "checked_effective_positions": true
+  },
+  "comparison": {
+    "generated_tokens_identical": true,
+    "global_histories_identical": true,
+    "effective_positions_identical": true,
+    "raw_logits_max_abs": 3.5390257835388184e-08,
+    "processed_scores_finite_max_abs": 3.5390257835388184e-08,
+    "atol": 1e-05,
+    "rtol": 1e-05,
+    "sender_cache_sha256_before_and_after": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+    "sender_cache_unchanged": true
+  },
+  "audit_events": [
+    {
+      "kind": "generate",
+      "tag": "native_cache_control_cpu:sender:A",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.01132888998836279
+    },
+    {
+      "kind": "cache_tail_forward",
+      "tag": "native_cache_control_cpu:sender:A:complete",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.0014768539695069194
+    },
+    {
+      "kind": "generate",
+      "tag": "cpu:native_cached:B",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.011863981955684721
+    },
+    {
+      "kind": "generate",
+      "tag": "native_cache_control_cpu:official_cv:B",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.009168790013063699
+    }
+  ],
+  "utc_completed": "2026-10-01T12:33:14Z"
+}

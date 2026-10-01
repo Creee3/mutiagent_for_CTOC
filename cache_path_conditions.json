@@ -1,0 +1,42 @@
+{
+  "purpose": "same sender-cache native receiver/CV control; not an accuracy experiment",
+  "reference_run": "chain3_20261001_122157",
+  "reference_manifest_sha256": "76303e896b210f5cfbd67fceec434f71920af5829af2bae5f0aa55c4aeac963c",
+  "case_id": "5add1d575542992c1e3a2540",
+  "cases_sha256": "fdcdb13437b4e78758bcdc28fbd1c3b1332b6239999c8a50a4f24791f4162c7f",
+  "model_path": "/home/liuxin/models/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "roles": {
+    "A": "You are Agent A, an evidence reader. Using only your supplied material, extract the entities and facts relevant to the question. State what the evidence supports in at most three short sentences. Do not invent missing facts.",
+    "B": "You are Agent B, an evidence integrator. The preceding history contains Agent A's evidence. Combine it with your own material to identify the link needed to answer the question. Give a concise evidence chain and a candidate answer in at most three short sentences. Do not invent missing facts.",
+    "C": "You are Agent C, an answer verifier. Check the evidence and analyses in the preceding history. Directly answer the question, with no explanation. Do not invent unsupported facts."
+  },
+  "budgets": {
+    "A": 256,
+    "B": 256,
+    "C": 48
+  },
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "greedy": true,
+  "repetition_penalty": 1.0,
+  "shift_back": false,
+  "all_layers": true,
+  "generate_calls": 4,
+  "cache_tail_forward_max": 1,
+  "warmup_calls": 0,
+  "order": [
+    "A_native_with_EOS_completion",
+    "B_joint_recomputation",
+    "B_native_same_sender_cache",
+    "B_CV_same_sender_cache"
+  ],
+  "selection": "first frozen calibration case; audit the recorded divergence, no answer-based selection",
+  "source_hashes": {
+    "cache_path_probe.py": "9c876e86d300ce54a3f1ee0fda529462a9c2bd1bd98e93b1e4e6dfb5b2d35afe",
+    "native_cache_control.py": "eb12212cb996c09d824ae73070c5d41041a1280b29a6d7c2752f3af8afc2cef8",
+    "chain_core.py": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb"
+  },
+  "evaluation_and_confirmation_used": false,
+  "network_transfer_measured": false
+}

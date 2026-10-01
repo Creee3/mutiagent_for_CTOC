@@ -1,0 +1,54 @@
+{
+  "run_name": "chain3_20261001_122157",
+  "main_questions": 3,
+  "warmup_questions": 1,
+  "gate_passed": false,
+  "counts": {
+    "generate": 20,
+    "cache_tail_forward": 8
+  },
+  "replay_matches": {
+    "B": 2,
+    "C": 3
+  },
+  "free_kv_chains": 0,
+  "free_chain_passed": false,
+  "free_chain_no_truncation": false,
+  "free_node_matches": null,
+  "not_a_benchmark_accuracy_claim": true,
+  "message_and_repetition": [
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "reference_repeated": {
+        "repeated_source_event_bytes": 796,
+        "total_content_bytes": 2556,
+        "repeated_fraction_across_edges": 0.3114241001564945,
+        "A_history_bytes_in_B_to_C": 796,
+        "A_fraction_of_B_to_C_content": 0.45227272727272727,
+        "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+      }
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "reference_repeated": {
+        "repeated_source_event_bytes": 648,
+        "total_content_bytes": 2104,
+        "repeated_fraction_across_edges": 0.30798479087452474,
+        "A_history_bytes_in_B_to_C": 648,
+        "A_fraction_of_B_to_C_content": 0.44505494505494503,
+        "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+      }
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "reference_repeated": {
+        "repeated_source_event_bytes": 932,
+        "total_content_bytes": 2860,
+        "repeated_fraction_across_edges": 0.3258741258741259,
+        "A_history_bytes_in_B_to_C": 932,
+        "A_fraction_of_B_to_C_content": 0.483402489626556,
+        "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+      }
+    }
+  ]
+}

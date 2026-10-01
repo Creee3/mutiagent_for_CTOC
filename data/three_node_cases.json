@@ -1,0 +1,243 @@
+[
+  {
+    "item": {
+      "id": "5add1d575542992c1e3a2540",
+      "question_hash": "cefad28de6ca33a3c308933f4195f993b131e769a36b87283d57cfd5cedf8821",
+      "answer": "Prussian",
+      "prompt_A": "Royal Flash is a 1975 film based on George MacDonald Fraser's second Flashman novel, \"Royal Flash\".\n Additionally, Oliver Reed appeared in the role of Otto von Bismarck, Alan Bates as Rudi von Sternberg, and Florinda Bolkan played Lola Montez.\nOtto Eduard Leopold, Prince of Bismarck, Duke of Lauenburg (1 April 1815 – 30 July 1898), known as Otto von Bismarck (] ), was a conservative Prussian statesman who dominated German and European affairs from the 1860s until 1890.",
+      "prompt_B": "What nationality was Oliver Reed's character in the film Royal Flash?",
+      "support": [
+        "Royal Flash is a 1975 film based on George MacDonald Fraser's second Flashman novel, \"Royal Flash\".",
+        " Additionally, Oliver Reed appeared in the role of Otto von Bismarck, Alan Bates as Rudi von Sternberg, and Florinda Bolkan played Lola Montez.",
+        "Otto Eduard Leopold, Prince of Bismarck, Duke of Lauenburg (1 April 1815 – 30 July 1898), known as Otto von Bismarck (] ), was a conservative Prussian statesman who dominated German and European affairs from the 1860s until 1890."
+      ],
+      "supporting_facts": {
+        "title": [
+          "Royal Flash (film)",
+          "Royal Flash (film)",
+          "Otto von Bismarck"
+        ],
+        "sent_id": [
+          0,
+          2,
+          0
+        ]
+      },
+      "type": "bridge",
+      "level": "hard"
+    },
+    "materials": {
+      "A": "[Royal Flash (film)]\nRoyal Flash is a 1975 film based on George MacDonald Fraser's second Flashman novel, \"Royal Flash\".\n Additionally, Oliver Reed appeared in the role of Otto von Bismarck, Alan Bates as Rudi von Sternberg, and Florinda Bolkan played Lola Montez.",
+      "B": "[Otto von Bismarck]\nOtto Eduard Leopold, Prince of Bismarck, Duke of Lauenburg (1 April 1815 – 30 July 1898), known as Otto von Bismarck (] ), was a conservative Prussian statesman who dominated German and European affairs from the 1860s until 1890.",
+      "titles": [
+        "Royal Flash (film)",
+        "Otto von Bismarck"
+      ],
+      "groups": {
+        "Royal Flash (film)": [
+          {
+            "sent_id": 0,
+            "sentence": "Royal Flash is a 1975 film based on George MacDonald Fraser's second Flashman novel, \"Royal Flash\"."
+          },
+          {
+            "sent_id": 2,
+            "sentence": " Additionally, Oliver Reed appeared in the role of Otto von Bismarck, Alan Bates as Rudi von Sternberg, and Florinda Bolkan played Lola Montez."
+          }
+        ],
+        "Otto von Bismarck": [
+          {
+            "sent_id": 0,
+            "sentence": "Otto Eduard Leopold, Prince of Bismarck, Duke of Lauenburg (1 April 1815 – 30 July 1898), known as Otto von Bismarck (] ), was a conservative Prussian statesman who dominated German and European affairs from the 1860s until 1890."
+          }
+        ]
+      },
+      "policy": "first supporting-fact title to A; remaining titles to B"
+    }
+  },
+  {
+    "item": {
+      "id": "5ac55ea55542993e66e82377",
+      "question_hash": "e9dc24c7d74186f138da274d2cb7af4924242e54d077a336c99d1b7d735bad8b",
+      "answer": "Kurt Julian Weill",
+      "prompt_A": " A particular highlight came in 2002 when the chorus performed Kurt Weill’s Der Lindberghflug alongside works by Philip Glass, Meredith Monk and David Lang.\nKurt Julian Weill (March 2, 1900April 3, 1950) was a German composer, active from the 1920s in his native country, and in his later years in the United States.",
+      "prompt_B": "Pacific Mozart Ensemble performed which German composer's Der Lindberghflug in 2002?",
+      "support": [
+        " A particular highlight came in 2002 when the chorus performed Kurt Weill’s Der Lindberghflug alongside works by Philip Glass, Meredith Monk and David Lang.",
+        "Kurt Julian Weill (March 2, 1900April 3, 1950) was a German composer, active from the 1920s in his native country, and in his later years in the United States."
+      ],
+      "supporting_facts": {
+        "title": [
+          "Pacific Mozart Ensemble",
+          "Kurt Weill"
+        ],
+        "sent_id": [
+          8,
+          0
+        ]
+      },
+      "type": "bridge",
+      "level": "hard"
+    },
+    "materials": {
+      "A": "[Pacific Mozart Ensemble]\n A particular highlight came in 2002 when the chorus performed Kurt Weill’s Der Lindberghflug alongside works by Philip Glass, Meredith Monk and David Lang.",
+      "B": "[Kurt Weill]\nKurt Julian Weill (March 2, 1900April 3, 1950) was a German composer, active from the 1920s in his native country, and in his later years in the United States.",
+      "titles": [
+        "Pacific Mozart Ensemble",
+        "Kurt Weill"
+      ],
+      "groups": {
+        "Pacific Mozart Ensemble": [
+          {
+            "sent_id": 8,
+            "sentence": " A particular highlight came in 2002 when the chorus performed Kurt Weill’s Der Lindberghflug alongside works by Philip Glass, Meredith Monk and David Lang."
+          }
+        ],
+        "Kurt Weill": [
+          {
+            "sent_id": 0,
+            "sentence": "Kurt Julian Weill (March 2, 1900April 3, 1950) was a German composer, active from the 1920s in his native country, and in his later years in the United States."
+          }
+        ]
+      },
+      "policy": "first supporting-fact title to A; remaining titles to B"
+    }
+  },
+  {
+    "item": {
+      "id": "5ac3a76e554299741d48a2be",
+      "question_hash": "f0e18e5fdb67c25d8a7367f2ed49576d5e497b2aa2af745c2b3cdfbd4278686e",
+      "answer": "U2",
+      "prompt_A": "Believe is the debut studio album by Scottish singer and \"Britain's Got Talent\" winner Jai McDowall.\n The album was released on 9 December 2011 via Sony Music and Syco Music.\n A promotional single, \"With or Without You\" was released and performed on various UK shows such as \"Daybreak\".\n\"With or Without You\" is a song by Irish rock band U2.\n It is the third track from their fifth studio album, \"The Joshua Tree\" (1987), and was released as the album's lead single on 16 March 1987.",
+      "prompt_B": "Who released the song \"With or Without You\" first, Jai McDowall or U2?",
+      "support": [
+        "Believe is the debut studio album by Scottish singer and \"Britain's Got Talent\" winner Jai McDowall.",
+        " The album was released on 9 December 2011 via Sony Music and Syco Music.",
+        " A promotional single, \"With or Without You\" was released and performed on various UK shows such as \"Daybreak\".",
+        "\"With or Without You\" is a song by Irish rock band U2.",
+        " It is the third track from their fifth studio album, \"The Joshua Tree\" (1987), and was released as the album's lead single on 16 March 1987."
+      ],
+      "supporting_facts": {
+        "title": [
+          "Believe (Jai McDowall album)",
+          "Believe (Jai McDowall album)",
+          "Believe (Jai McDowall album)",
+          "With or Without You",
+          "With or Without You"
+        ],
+        "sent_id": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "type": "bridge",
+      "level": "hard"
+    },
+    "materials": {
+      "A": "[Believe (Jai McDowall album)]\nBelieve is the debut studio album by Scottish singer and \"Britain's Got Talent\" winner Jai McDowall.\n The album was released on 9 December 2011 via Sony Music and Syco Music.\n A promotional single, \"With or Without You\" was released and performed on various UK shows such as \"Daybreak\".",
+      "B": "[With or Without You]\n\"With or Without You\" is a song by Irish rock band U2.\n It is the third track from their fifth studio album, \"The Joshua Tree\" (1987), and was released as the album's lead single on 16 March 1987.",
+      "titles": [
+        "Believe (Jai McDowall album)",
+        "With or Without You"
+      ],
+      "groups": {
+        "Believe (Jai McDowall album)": [
+          {
+            "sent_id": 0,
+            "sentence": "Believe is the debut studio album by Scottish singer and \"Britain's Got Talent\" winner Jai McDowall."
+          },
+          {
+            "sent_id": 1,
+            "sentence": " The album was released on 9 December 2011 via Sony Music and Syco Music."
+          },
+          {
+            "sent_id": 2,
+            "sentence": " A promotional single, \"With or Without You\" was released and performed on various UK shows such as \"Daybreak\"."
+          }
+        ],
+        "With or Without You": [
+          {
+            "sent_id": 0,
+            "sentence": "\"With or Without You\" is a song by Irish rock band U2."
+          },
+          {
+            "sent_id": 1,
+            "sentence": " It is the third track from their fifth studio album, \"The Joshua Tree\" (1987), and was released as the album's lead single on 16 March 1987."
+          }
+        ]
+      },
+      "policy": "first supporting-fact title to A; remaining titles to B"
+    }
+  },
+  {
+    "item": {
+      "id": "5a7133565542994082a3e65c",
+      "question_hash": "8ed554bc9518835792c816823c9b04ce0b652f314be12e1257d7b99e3b847427",
+      "answer": "Oldham County",
+      "prompt_A": "Lake Louisvilla is a neighborhood partially located in Louisville, Kentucky.\n It is located between Westport Road in Louisville and KY 22 in Oldham County.\nOldham County is a county located in the commonwealth of Kentucky.\n As of the 2010 census, the population was 60,316.\n Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food.",
+      "prompt_B": "What Kentucky county has a population of 60,316 and features the Lake Louisvilla neighborhood?",
+      "support": [
+        "Lake Louisvilla is a neighborhood partially located in Louisville, Kentucky.",
+        " It is located between Westport Road in Louisville and KY 22 in Oldham County.",
+        "Oldham County is a county located in the commonwealth of Kentucky.",
+        " As of the 2010 census, the population was 60,316.",
+        " Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food."
+      ],
+      "supporting_facts": {
+        "title": [
+          "Lake Louisvilla, Louisville",
+          "Lake Louisvilla, Louisville",
+          "Oldham County, Kentucky",
+          "Oldham County, Kentucky",
+          "Oldham County, Kentucky"
+        ],
+        "sent_id": [
+          0,
+          1,
+          0,
+          1,
+          4
+        ]
+      },
+      "type": "bridge",
+      "level": "hard"
+    },
+    "materials": {
+      "A": "[Lake Louisvilla, Louisville]\nLake Louisvilla is a neighborhood partially located in Louisville, Kentucky.\n It is located between Westport Road in Louisville and KY 22 in Oldham County.",
+      "B": "[Oldham County, Kentucky]\nOldham County is a county located in the commonwealth of Kentucky.\n As of the 2010 census, the population was 60,316.\n Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food.",
+      "titles": [
+        "Lake Louisvilla, Louisville",
+        "Oldham County, Kentucky"
+      ],
+      "groups": {
+        "Lake Louisvilla, Louisville": [
+          {
+            "sent_id": 0,
+            "sentence": "Lake Louisvilla is a neighborhood partially located in Louisville, Kentucky."
+          },
+          {
+            "sent_id": 1,
+            "sentence": " It is located between Westport Road in Louisville and KY 22 in Oldham County."
+          }
+        ],
+        "Oldham County, Kentucky": [
+          {
+            "sent_id": 0,
+            "sentence": "Oldham County is a county located in the commonwealth of Kentucky."
+          },
+          {
+            "sent_id": 1,
+            "sentence": " As of the 2010 census, the population was 60,316."
+          },
+          {
+            "sent_id": 4,
+            "sentence": " Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food."
+          }
+        ]
+      },
+      "policy": "first supporting-fact title to A; remaining titles to B"
+    }
+  }
+]

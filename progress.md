@@ -45,3 +45,11 @@ alignment7b_20261001_054917已完成，worker PID3359577退出；10题70诊断�
 用户授权Git提交与30分钟自动推进。工作区及本实验目录目前没有Git仓库，将只为独立实验目录建仓库，保留代码、固定数据、汇总和报告；完整原始items/vectors/账目仍保存在本地与云端。复用同线程已暂停的automation-2，已更新为“KV多智能体实验推进”、每30分钟ACTIVE，避免另建重复定时器。自动化先审计再准备三节点，不未经授权使用500题，不推送Git。
 
 Git已在本实验目录初始化并提交c84e2d0，包含代码、805KB固定公开数据和经审计报告，不含模型、下载源码副本、原始向量、日志或瞬时进程状态。自动化本地配置再次核对ACTIVE、间隔30分钟、目标当前线程。补充.gitattributes禁止换行转换，防止Windows checkout改变冻结源码和数据的SHA；提交后核对Git存储字节与原运行manifest。现阶段下一步见next_steps.md：三节点角色/材料分工、完整历史文本与KV公平对照、cache末token补齐及逐边继承/新增字节。
+
+三节点适配器chain_core.py、three_node_probe.py、three_node_cpu.py已构建，复用官方CVCommunicator，不改旧工程。三角色按支持文档分工，使用校准前3题与第4预热，完整历史每段有唯一来源账本。区分CV局部sequences与全局cache，缺0/1token才允许补尾，其余拒绝；检查源cache不被接收方修改。最多29次generate和14次补尾，接入门禁失败则20次并跳过自由链。先保存并把参考向量移到CPU释放cache，避免累积显存；门禁和自由链结果分别记。此刻尚未运行本轮CPU/7B检查；服务器新鲜查询0–4卡均0%和24081MiB空闲，未有本测试进程。
+
+学校服务器已有conda的CPU随机FP32 Qwen检查通过：8次生成、5次EOS尾补，参考/重放/自由链均相同，缺2token被拒绝且未前向，已完成缓存再次补全不触发前向；源缓存不变，历史与两条边来源账本正确。不是7B实验结论。GPU条件已在对话先告知，启动独立chain3_20261001_122157，PID3553892，GPU0（0%/24081MiB空闲），最多29次生成/14补尾，只用3校准+1预热。新run源代码与配置快照保存，不安装环境、不改旧实验、不用500题。
+
+chain3_20261001_122157完成并回传，进程退出/GPU0释放。20次generate+8次EOS尾补、20节点712生成forward均对账；B重放2/3、C3/3相同，所有EOS正常无触顶，门禁失败所以自由链0次。首题B第47token的means/corresponds排序翻转，末句释义同为German，尚未定位具体数值来源。原门禁未改。analyze_three_node.py独立重算历史、来源、位置、字节及向量hash；首次把CV可省略的原生cache_position入参误当实际位置，改为检查attention实际cache_position/RoPE，原始数据和GPU结果不变。另有独立只读审查得出相同结论。报告已写；后续同缓存原生接收控制正在准备。
+
+新增独立native_cache_control.py/cache_path_probe.py，不修改原三节点脚本/条件/结果。CPU原生cached与CV检查通过，条件在对话先告知（同一首题4次生成/至多1补尾）；启动cachepath_20261001_123341，PID3560168，GPU4 UUID GPU-89523765-dcd4-46ea-1f2d-4ff7d509138c，fresh 0%/24081MiB。4次生成+1EOS尾补完成，197生成forward核对正确，A复现旧记录；原生cached与CV52token相同、logits最大差0.0625，joint与原生cached同样第47token分岔。所有EOS正常。实际A缓存内容11,411,456 bytes，text int32内容796 bytes；未测网络。不能精确归因为BF16/SDPA，也不能说已完成自由链。原始结果回传，审计脚本和独立只读审查一致；首次Windows本地freeze默认GBK读UTF-8失败，显式UTF-8修复，发生在GPU启动前。工程说明_简单版.md供用户阅读，下一步单独冻结自由链/原生缓存实现控制，不倒改原门禁。

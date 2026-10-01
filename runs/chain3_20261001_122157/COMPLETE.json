@@ -1,0 +1,10 @@
+{
+  "phase": "chain3_protocol_check",
+  "utc_completed": "2026-10-01T12:22:35Z",
+  "gate_passed": false,
+  "free_chain_passed": false,
+  "counts": {
+    "generate": 20,
+    "cache_tail_forward": 8
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "purpose": "three-node calibration-only protocol check",
+  "main_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac55ea55542993e66e82377",
+    "5ac3a76e554299741d48a2be"
+  ],
+  "warmup_id": "5a7133565542994082a3e65c",
+  "calibration_sha256": "2e52f4e0fa4ce644088e51ee72b9d9301b398db3860e3ac3ef2c0c5a6058b328",
+  "cases_sha256": "fdcdb13437b4e78758bcdc28fbd1c3b1332b6239999c8a50a4f24791f4162c7f",
+  "roles": {
+    "A": "You are Agent A, an evidence reader. Using only your supplied material, extract the entities and facts relevant to the question. State what the evidence supports in at most three short sentences. Do not invent missing facts.",
+    "B": "You are Agent B, an evidence integrator. The preceding history contains Agent A's evidence. Combine it with your own material to identify the link needed to answer the question. Give a concise evidence chain and a candidate answer in at most three short sentences. Do not invent missing facts.",
+    "C": "You are Agent C, an answer verifier. Check the evidence and analyses in the preceding history. Directly answer the question, with no explanation. Do not invent unsupported facts."
+  },
+  "material_policy": "first supporting-fact title to A; remaining titles to B",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_path": "/home/liuxin/models/Qwen2.5-7B-Instruct",
+  "source_commit": "1fa086edb17d6e00d80953cb06f391bc0a85268c",
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "seed": 42,
+  "repetition_penalty": 1.0,
+  "budgets": {
+    "A": 256,
+    "B": 256,
+    "C": 48
+  },
+  "shift_back": false,
+  "expected_generate_max": 29,
+  "expected_generate_if_gate_stops": 20,
+  "cache_tail_forward_max": 14,
+  "expected_reference_generate": 12,
+  "expected_replay_generate": 8,
+  "expected_free_kv_generate_if_gate_passes": 9,
+  "gate": "all six main replay outputs match reference token-for-token; no truncation in reference/replay",
+  "exact_text_transport": "int32 token-history packet; readable UTF-8 size also reported",
+  "network_transfer_measured": false,
+  "source_hashes": {
+    "chain_core.py": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb",
+    "three_node_probe.py": "5c5652467d8ed0a0d901a1018a0d7190be01f984bf13cc293727c19c0e4406f3",
+    "three_node_cpu.py": "1fb2a5e9cc01f8ee6fafc0a7d7fa40b36023ede1c4a7b70fe58745cb7bfc8e4d"
+  },
+  "evaluation_and_confirmation_used": false
+}
