@@ -1,0 +1,22 @@
+# Downloaded source copies and model/archive caches stay outside this Git history.
+upstream/
+work/
+models/
+exports/
+logs/
+__pycache__/
+*.py[cod]
+*.lock
+
+# Full raw outputs remain local and on the school server; track summaries/hashes.
+runs/*/items/
+runs/*/vectors/
+runs/*/warmup/
+runs/*/calls.jsonl
+
+# Transient process and tunnel state.
+worker.json
+alignment_worker.json
+pipeline_status.json
+checks/*worker.json
+checks/proxy_tunnel.json

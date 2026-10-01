@@ -1,0 +1,67 @@
+{
+  "run_name": "alignment7b_20261001_054917",
+  "questions": 10,
+  "diagnostic_answers": 70,
+  "warmup_answers": 2,
+  "counts": {
+    "generate": 72,
+    "sender_prefill": 31,
+    "raw_concat_forward": 10,
+    "raw_cv_receiver_forward": 10
+  },
+  "status_ok": true,
+  "score_is_not_a_new_benchmark_result": true,
+  "pairs": {
+    "concat_p1__vs__kv_p1": {
+      "exact_token_matches": 10,
+      "questions": 10,
+      "max_raw_error_on_same_history": 1.015625,
+      "max_processed_error_on_same_history": 1.015625,
+      "different_ids": []
+    },
+    "concat_bscope_p105__vs__kv_p105": {
+      "exact_token_matches": 10,
+      "questions": 10,
+      "max_raw_error_on_same_history": 1.015625,
+      "max_processed_error_on_same_history": 0.9672620296478271,
+      "different_ids": []
+    },
+    "concat_p105__vs__concat_bscope_p105": {
+      "exact_token_matches": 10,
+      "questions": 10,
+      "max_raw_error_on_same_history": 0.0,
+      "max_processed_error_on_same_history": 2.4999961853027344,
+      "different_ids": []
+    },
+    "skyline_p1__vs__concat_p1": {
+      "exact_token_matches": 5,
+      "questions": 10,
+      "max_raw_error_on_same_history": 12.3125,
+      "max_processed_error_on_same_history": 12.3125,
+      "different_ids": [
+        "5ac1a4745542991316484b82",
+        "5ac55e835542993e66e82375",
+        "5a8d9e0f554299441c6ba015",
+        "5ae70ed7554299572ea546a1",
+        "5a74a8fa55429929fddd8497"
+      ]
+    },
+    "skyline_p105__vs__concat_p105": {
+      "exact_token_matches": 5,
+      "questions": 10,
+      "max_raw_error_on_same_history": 12.3125,
+      "max_processed_error_on_same_history": 12.3125,
+      "different_ids": [
+        "5ac1a4745542991316484b82",
+        "5ac55e835542993e66e82375",
+        "5a8d9e0f554299441c6ba015",
+        "5ae70ed7554299572ea546a1",
+        "5a74a8fa55429929fddd8497"
+      ]
+    }
+  },
+  "raw_forward": {
+    "worst_absolute_error": 3.265625,
+    "min_top1_agreement": 0.9756097197532654
+  }
+}

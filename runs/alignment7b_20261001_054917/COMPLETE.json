@@ -1,0 +1,10 @@
+{
+  "phase": "alignment7b",
+  "utc_completed": "2026-10-01T05:50:16Z",
+  "counts": {
+    "generate": 72,
+    "sender_prefill": 31,
+    "raw_concat_forward": 10,
+    "raw_cv_receiver_forward": 10
+  }
+}

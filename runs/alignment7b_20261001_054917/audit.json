@@ -1,0 +1,79 @@
+{
+  "run_name": "alignment7b_20261001_054917",
+  "passed": true,
+  "question_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac55ea55542993e66e82377",
+    "5ac3a76e554299741d48a2be",
+    "5a7133565542994082a3e65c",
+    "5ac1a4745542991316484b82",
+    "5adc597d55429947ff17392f",
+    "5ac55e835542993e66e82375",
+    "5a8d9e0f554299441c6ba015",
+    "5ae70ed7554299572ea546a1",
+    "5a74a8fa55429929fddd8497"
+  ],
+  "counts": {
+    "generate": 72,
+    "sender_prefill": 31,
+    "raw_concat_forward": 10,
+    "raw_cv_receiver_forward": 10
+  },
+  "answers": 70,
+  "warmup_answers": 2,
+  "actual_kv_rope_sequences_checked": 20,
+  "first_step_b_scope_formula_checks": 20,
+  "first_step_formula_max_absolute_error": 1.9073486328125e-06,
+  "first_step_formula_tolerance": "2 FP32 ULP, NumPy CPU versus CUDA arithmetic",
+  "pair_token_matches": {
+    "concat_p1__vs__kv_p1": 10,
+    "concat_bscope_p105__vs__kv_p105": 10,
+    "concat_p105__vs__concat_bscope_p105": 10,
+    "skyline_p1__vs__concat_p1": 5,
+    "skyline_p105__vs__concat_p105": 5
+  },
+  "format_different_examples": [
+    {
+      "id": "5ac1a4745542991316484b82",
+      "question": "Para Hills West, South Australia lies within a city with what estimated population?",
+      "gold": "138,535",
+      "skyline": "The context does not provide the estimated population of the City of Salisbury. Therefore, based on the given information, it is not possible to determine the estimated population of the City of Salisbury.",
+      "same_input_text": "The context does not provide the estimated population of the City of Salisbury. Therefore, I cannot answer the question based on the given information.",
+      "kv": "The context does not provide the estimated population of the City of Salisbury. Therefore, I cannot answer the question based on the given information."
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "question": "Thomas Fitch defended John Henry Holliday when he was accused of killing men during the gunfight at the o.k. corral, when was that?",
+      "gold": "October 25, 1881",
+      "skyline": "No, Thomas Fitch did not defend John Henry \"Doc\" Holliday. The passage states that Doc Holliday was defended, along with others, by an unnamed individual when they were accused of murdering during the Gunfight at the O.K",
+      "same_input_text": "October 25, 1881.",
+      "kv": "October 25, 1881."
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "question": "The actor that played Gutthi on Comedy nights with Kapil Show also starred in what 2016 Punjabi film directed by Smeep Kang?",
+      "gold": "Vaisakhi List",
+      "skyline": "Sunil Grover starred in the 2016 Punjabi film Vaisakhi List directed by Smeep Kang.",
+      "same_input_text": "Sunil Grover",
+      "kv": "Sunil Grover"
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "question": "Victor Varnada directed Twisted Fortune, which starred which brother of Eddie Murphy?",
+      "gold": "Charlie Murphy",
+      "skyline": "Victor Varnado directed Twisted Fortune, which starred his brother, Eddie Murphy.",
+      "same_input_text": "Charlie Murphy",
+      "kv": "Charlie Murphy"
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "question": "After his curacy at the village that is a suburb of Scunthorpe, who was Industrial Chaplain to the Bishop of Lincoln?",
+      "gold": "Dudman",
+      "skyline": "Dudman was the Industrial Chaplain to the Bishop of Lincoln from 1957 to 1971.",
+      "same_input_text": "Dudman",
+      "kv": "Dudman"
+    }
+  ],
+  "summary_sha256": "5e66837af1b18a67bda42a26e8590639906db362e833c19f14d666808953afbd",
+  "audit_script_sha256": "3fa1e92e3726fe91fdba4612ca912006f5f1dc688a85c5ef1db7419417c18066"
+}

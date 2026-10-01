@@ -1,0 +1,23 @@
+{
+  "run": "main7b_20261001_045806",
+  "source_summary_sha256": "72b5b6dfda91c1e6c28126bc3f7e1d7f842023f3b3794b5c73f67341f10e96ed",
+  "scope": "Independent read-only recomputation from response/gold, excluding timing repeats",
+  "unique_first_pass_questions": 100,
+  "first_pass_answers": 700,
+  "timing_repeat_answers": 140,
+  "all_standard_em_and_f1_match_summary": true,
+  "all_row_scores_match": true,
+  "paired_exact_em_mcnemar": {
+    "kv_full_vs_raw_context": {
+      "wins": 10,
+      "losses": 5,
+      "two_sided_exact_p": 0.3017578125
+    },
+    "kv_full_vs_sampled_context": {
+      "wins": 9,
+      "losses": 6,
+      "two_sided_exact_p": 0.60723876953125
+    }
+  },
+  "interpretation": "Exploratory numerical advantage, not established superiority; current selected layers lose quality; sampled text has no substantial deletion in 99/100 cases."
+}

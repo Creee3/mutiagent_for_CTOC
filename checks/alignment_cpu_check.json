@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "script_sha256": "dc5e0bb2a0db1c16cd2e066a8fb36967a66b870a4c1fb402a21beaeb7f4c8b4f",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.53.3",
+  "processor_exact_tests": 9,
+  "tiny_cpu_generation_pairs": [
+    {
+      "source_len": 5,
+      "receiver_len": 3,
+      "penalty": 1.0,
+      "generated_tokens_identical": true,
+      "first_raw_logits_max_abs": 4.470348358154297e-08
+    },
+    {
+      "source_len": 5,
+      "receiver_len": 3,
+      "penalty": 1.05,
+      "generated_tokens_identical": true,
+      "first_raw_logits_max_abs": 4.470348358154297e-08
+    },
+    {
+      "source_len": 10,
+      "receiver_len": 7,
+      "penalty": 1.0,
+      "generated_tokens_identical": true,
+      "first_raw_logits_max_abs": 4.470348358154297e-08
+    },
+    {
+      "source_len": 10,
+      "receiver_len": 7,
+      "penalty": 1.05,
+      "generated_tokens_identical": true,
+      "first_raw_logits_max_abs": 4.470348358154297e-08
+    },
+    {
+      "source_len": 7,
+      "receiver_len": 4,
+      "penalty": 1.0,
+      "generated_tokens_identical": true,
+      "first_raw_logits_max_abs": 4.470348358154297e-08
+    },
+    {
+      "source_len": 7,
+      "receiver_len": 4,
+      "penalty": 1.05,
+      "generated_tokens_identical": true,
+      "first_raw_logits_max_abs": 4.470348358154297e-08
+    }
+  ],
+  "real_7b_claim": false
+}

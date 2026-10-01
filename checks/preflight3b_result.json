@@ -1,0 +1,447 @@
+{
+  "passed": true,
+  "comparison_count": 70,
+  "comparisons": [
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a7133565542994082a3e65c",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a7133565542994082a3e65c",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a7133565542994082a3e65c",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a7133565542994082a3e65c",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a7133565542994082a3e65c",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a7133565542994082a3e65c",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a7133565542994082a3e65c",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac1a4745542991316484b82",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac1a4745542991316484b82",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac1a4745542991316484b82",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac1a4745542991316484b82",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac1a4745542991316484b82",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac1a4745542991316484b82",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac1a4745542991316484b82",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5adc597d55429947ff17392f",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5adc597d55429947ff17392f",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5adc597d55429947ff17392f",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5adc597d55429947ff17392f",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5adc597d55429947ff17392f",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5adc597d55429947ff17392f",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5adc597d55429947ff17392f",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ac55e835542993e66e82375",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a8d9e0f554299441c6ba015",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5ae70ed7554299572ea546a1",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "method": "receiver_only",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "method": "raw_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "method": "nld_original",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "method": "summary_oneway",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "method": "sampled_context",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "method": "kv_full",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    },
+    {
+      "id": "5a74a8fa55429929fddd8497",
+      "method": "kv_top50",
+      "all_generate_tokens_identical": true,
+      "final_text_identical": true
+    }
+  ],
+  "fixed_layers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "warning": "3B engineering check; not paper model scores"
+}

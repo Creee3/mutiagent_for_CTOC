@@ -1,0 +1,9 @@
+{
+  "verified_against": "../manifest.json",
+  "files_sha256": {
+    "run.py": "0721d48cead0fc87d0aaa3ee706b377de903bc3917d6efadaa2dcd59ec93130f",
+    "config.json": "38d207fa4704ac58b15f1028054f2fdb5b3042640b86e1591ec4890e2d2d82af",
+    "assets.json": "814a9f5f0c515e0f004c86e2fe7b9f16ceacf192d92a549d8fb94c4b00405a3f"
+  },
+  "scope": "Exact executed runner, configuration and frozen assets; official source commit is in assets and manifest."
+}

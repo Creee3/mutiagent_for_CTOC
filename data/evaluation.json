@@ -1,0 +1,2449 @@
+[
+  {
+    "id": "5ab5ecd75542992aa134a3e6",
+    "question_hash": "fd1fd8911be59fd7f2ef961e85032974b5d6aa415a4f4e69cc59e96d1cc26408",
+    "answer": "John de Mol Jr.",
+    "prompt_A": "Talpa Holding is the company in which John de Mol Jr. has transferred all of its media activities.\nJohannes Hendrikus Hubert \"John\" de Mol Jr. (born 24 April 1955 in The Hague) is a Dutch media tycoon.",
+    "prompt_B": "Which Dutch media tycoon transferred all of its media activities to Talpa Holding?",
+    "support": [
+      "Talpa Holding is the company in which John de Mol Jr. has transferred all of its media activities.",
+      "Johannes Hendrikus Hubert \"John\" de Mol Jr. (born 24 April 1955 in The Hague) is a Dutch media tycoon."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Talpa Holding",
+        "John de Mol Jr."
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a84c5545542991dd0999dee",
+    "question_hash": "df2a95557053ebd19821f7c9a50a58e74277d35209e3e67a1d8f498f0492fce3",
+    "answer": "1974",
+    "prompt_A": "Pentastar: In the Style of Demons is the third full-length studio album by the drone doom band Earth.\n The car depicted on the cover is a \"Sassy Grass Green\" Plymouth Barracuda with the car's iconic hockey-stick decal saying \"Earth.\"\nThe Plymouth Barracuda is a two-door car that was manufactured by Plymouth from the 1964 to 1974 model years.",
+    "prompt_B": "When did the car depicted on the cover of Pentastar: In the Style of Demons cease production?",
+    "support": [
+      "Pentastar: In the Style of Demons is the third full-length studio album by the drone doom band Earth.",
+      " The car depicted on the cover is a \"Sassy Grass Green\" Plymouth Barracuda with the car's iconic hockey-stick decal saying \"Earth.\"",
+      "The Plymouth Barracuda is a two-door car that was manufactured by Plymouth from the 1964 to 1974 model years."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Pentastar: In the Style of Demons",
+        "Pentastar: In the Style of Demons",
+        "Plymouth Barracuda"
+      ],
+      "sent_id": [
+        0,
+        4,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5adeacf955429975fa854f66",
+    "question_hash": "0855befe2e98b652a34744c3b593ffc8fa1ba0f5033ebb73f87057ec4d53324b",
+    "answer": "Rachel Anne Maddow",
+    "prompt_A": "The Center for Organizational Research and Education (CORE), formerly the Center for Consumer Freedom (CCF) and prior to that the Guest Choice Network, is an American non-profit entity founded by Richard Berman that lobbies on behalf of the fast food, meat, alcohol and tobacco industries.\n Experts on non-profit law have questioned the validity of the group's non-profit status in \"The Chronicle of Philanthropy\" and other publications, while commentators from Rachel Maddow to Michael Pollan have treated the group as an entity that specializes in astroturfing.\nRachel Anne Maddow ( , ; born April 1, 1973) is an American television host, political commentator, and author.",
+    "prompt_B": "What commentator and author questioned the validity of CORE's non-profit status?",
+    "support": [
+      "The Center for Organizational Research and Education (CORE), formerly the Center for Consumer Freedom (CCF) and prior to that the Guest Choice Network, is an American non-profit entity founded by Richard Berman that lobbies on behalf of the fast food, meat, alcohol and tobacco industries.",
+      " Experts on non-profit law have questioned the validity of the group's non-profit status in \"The Chronicle of Philanthropy\" and other publications, while commentators from Rachel Maddow to Michael Pollan have treated the group as an entity that specializes in astroturfing.",
+      "Rachel Anne Maddow ( , ; born April 1, 1973) is an American television host, political commentator, and author."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Center for Organizational Research and Education",
+        "Center for Organizational Research and Education",
+        "Rachel Maddow"
+      ],
+      "sent_id": [
+        0,
+        2,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8ce15d554299653c1aa12f",
+    "question_hash": "6c9cb615066271ee7ddeefb0c20217f7b6184f93cf985f71c6dcfad48bf20c2f",
+    "answer": "yes",
+    "prompt_A": " They both moved to the United States in 1940 to Hollywood and the American film industry.\n He won Academy Awards for Best Director and Best Picture for both \"West Side Story\" (1961) and \"The Sound of Music\" (1965).\n He was also nominated for Best Film Editing for \"Citizen Kane\" (1941) and directed and produced \"The Sand Pebbles\" (1966), which was nominated for Best Picture.",
+    "prompt_B": "did Robert Wise have more award nominations than Zoltan Korda?",
+    "support": [
+      " They both moved to the United States in 1940 to Hollywood and the American film industry.",
+      " He won Academy Awards for Best Director and Best Picture for both \"West Side Story\" (1961) and \"The Sound of Music\" (1965).",
+      " He was also nominated for Best Film Editing for \"Citizen Kane\" (1941) and directed and produced \"The Sand Pebbles\" (1966), which was nominated for Best Picture."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Zoltan Korda",
+        "Robert Wise",
+        "Robert Wise"
+      ],
+      "sent_id": [
+        2,
+        1,
+        2
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ade4da055429939a52fe878",
+    "question_hash": "d8d4d2527fad14dda366d330f8aa308e39bae09f4977101863bfc418dd517f8f",
+    "answer": "1985",
+    "prompt_A": "My Neighbor Totoro (Japanese: となりのトトロ , Hepburn: Tonari no Totoro ) is a 1988 Japanese animated fantasy film written and directed by Hayao Miyazaki and produced by Studio Ghibli.\n It was founded on 15 June 1985, after the success of \"Nausicaä of the Valley of the Wind\" (1984), with funding by Tokuma Shoten.",
+    "prompt_B": "My Neighbor Totoro was produced by a Japanese animation film studio founded in what year?",
+    "support": [
+      "My Neighbor Totoro (Japanese: となりのトトロ , Hepburn: Tonari no Totoro ) is a 1988 Japanese animated fantasy film written and directed by Hayao Miyazaki and produced by Studio Ghibli.",
+      " It was founded on 15 June 1985, after the success of \"Nausicaä of the Valley of the Wind\" (1984), with funding by Tokuma Shoten."
+    ],
+    "supporting_facts": {
+      "title": [
+        "My Neighbor Totoro",
+        "Studio Ghibli"
+      ],
+      "sent_id": [
+        0,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab2a186554299295394677b",
+    "question_hash": "a1e75bde93d5a9cf940c49fb0b8f66b8c06561c622ddf08157f24f9a712564dd",
+    "answer": "2009",
+    "prompt_A": "The Reading Post (until 2009, the Reading Evening Post), was an English local newspaper covering Reading, Berkshire and surrounding areas.\nThe Maiwand Lion is a sculpture and war memorial in the Forbury Gardens, a public park in the town of Reading, in the English county of Berkshire.",
+    "prompt_B": "When did the English local newspaper, featuring the sculpture and war memorial in the Forbury gardens, change names?",
+    "support": [
+      "The Reading Post (until 2009, the Reading Evening Post), was an English local newspaper covering Reading, Berkshire and surrounding areas.",
+      "The Maiwand Lion is a sculpture and war memorial in the Forbury Gardens, a public park in the town of Reading, in the English county of Berkshire."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Reading Post",
+        "Maiwand Lion"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ade66e1554299728e26c713",
+    "question_hash": "df8bbe7703fa6b7f5fa7b6ea0f1caa9a6f022dad8315a1157dfa6534100b3b77",
+    "answer": "1970s and 1980s",
+    "prompt_A": "The Medellín Cartel was a ruthless, highly organized and much-feared Colombian drug cartel originating in the city of Medellín, Colombia.\n The drug cartel operated throughout the 1970s and 1980s in Bolivia, Colombia, Central America, Peru, and the United States, as well as in Canada and Europe.\nJosé Gonzalo Rodríguez Gacha (May 14, 1947 – December 15, 1989), also known by the nickname \"El Mexicano\", was a Colombian drug lord who was one of the leaders of the notorious Medellín Cartel along with the Ochoa Brothers and Pablo Escobar.",
+    "prompt_B": "What years did Jose Gonzalo Rodriguez Gacha and other leaders of fthe Medallin Cartel operate in Boliva, Colombia, Central America, Peru, the United States, Canada, and Europe?",
+    "support": [
+      "The Medellín Cartel was a ruthless, highly organized and much-feared Colombian drug cartel originating in the city of Medellín, Colombia.",
+      " The drug cartel operated throughout the 1970s and 1980s in Bolivia, Colombia, Central America, Peru, and the United States, as well as in Canada and Europe.",
+      "José Gonzalo Rodríguez Gacha (May 14, 1947 – December 15, 1989), also known by the nickname \"El Mexicano\", was a Colombian drug lord who was one of the leaders of the notorious Medellín Cartel along with the Ochoa Brothers and Pablo Escobar."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Medellín Cartel",
+        "Medellín Cartel",
+        "José Gonzalo Rodríguez Gacha"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7c634c55429907fabeef79",
+    "question_hash": "ef64286871da72e61d1ec4c206f5da8129efe91c7866250a2bddf3d7070b6e82",
+    "answer": "Clement Greenberg",
+    "prompt_A": "Clement Greenberg ( ), occasionally writing under the pseudonym K. Hardesh (January 16, 1909 – May 7, 1994), was an American essayist known mainly as an influential visual art critic closely associated with American Modern art of the mid-20th century.\nDame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (\"née\" Miller; 15 September 1890 – 12 January 1976) was an English crime novelist, short story writer and playwright.",
+    "prompt_B": "Which writer died later, Agatha Christie or Clement Greenberg?",
+    "support": [
+      "Clement Greenberg ( ), occasionally writing under the pseudonym K. Hardesh (January 16, 1909 – May 7, 1994), was an American essayist known mainly as an influential visual art critic closely associated with American Modern art of the mid-20th century.",
+      "Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (\"née\" Miller; 15 September 1890 – 12 January 1976) was an English crime novelist, short story writer and playwright."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Clement Greenberg",
+        "Agatha Christie"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ae13f3c5542997b2ef7d168",
+    "question_hash": "ceb7c882f5edfbd4c4719d94013feeff4eac5c603ea51ca92dac25a22fe5a50b",
+    "answer": "Battle of Britain and the Battle of Malta",
+    "prompt_A": " He won a Military Cross as Keith Park's gunner, and was killed in a flying accident shortly thereafter.\n He was in operational command during two of the most significant air battles in the European theatre in the Second World War, helping to win the Battle of Britain and the Battle of Malta.",
+    "prompt_B": "Arthur Noss was a gunner for the commader during which two European theatre battles in WWII?",
+    "support": [
+      " He won a Military Cross as Keith Park's gunner, and was killed in a flying accident shortly thereafter.",
+      " He was in operational command during two of the most significant air battles in the European theatre in the Second World War, helping to win the Battle of Britain and the Battle of Malta."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Arthur Noss",
+        "Keith Park"
+      ],
+      "sent_id": [
+        1,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae17cd055429901ffe4aea3",
+    "question_hash": "3bf8ada4d1c3ef4b2087535d5362de9ebb3b490711bc2cc049524498c7c7bce5",
+    "answer": "Alopecurus",
+    "prompt_A": "Pinanga is a genus of flowering plant in the Arecaceae family, native to New Guinea and to eastern and southern Asia (India, China, Indonesia, Philippines, Indonesia, etc.).\nAlopecurus, or foxtail grass, is a common and widespread genus of plants in the grass family.\n It is common across temperate and subtropical parts of Eurasia, northern Africa, and the Americas, as well as naturalized in Australia and on various islands.",
+    "prompt_B": "Between Pinanga and Alopecurus which genus is more common in temperate regions?",
+    "support": [
+      "Pinanga is a genus of flowering plant in the Arecaceae family, native to New Guinea and to eastern and southern Asia (India, China, Indonesia, Philippines, Indonesia, etc.).",
+      "Alopecurus, or foxtail grass, is a common and widespread genus of plants in the grass family.",
+      " It is common across temperate and subtropical parts of Eurasia, northern Africa, and the Americas, as well as naturalized in Australia and on various islands."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Pinanga",
+        "Alopecurus",
+        "Alopecurus"
+      ],
+      "sent_id": [
+        0,
+        0,
+        1
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ae7940c55429952e35ea984",
+    "question_hash": "144a97622810c4f31735e5b1c4eb16ae700ca746652a2a51e0271470265227ee",
+    "answer": "A.P. Møller",
+    "prompt_A": " Its full title is The Maersk Mc-Kinney Møller Centre for Continuing Education, named after Mærsk Mc-Kinney Møller, the son and successor of A.P. Møller.\n He was a longtime figure at A.P. Moller – Maersk Group, which was founded by his father.",
+    "prompt_B": "What is the name of shipping magnate Mærsk Mc-Kinney Møller' father?",
+    "support": [
+      " Its full title is The Maersk Mc-Kinney Møller Centre for Continuing Education, named after Mærsk Mc-Kinney Møller, the son and successor of A.P. Møller.",
+      " He was a longtime figure at A.P. Moller – Maersk Group, which was founded by his father."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Møller Centre",
+        "Mærsk Mc-Kinney Møller"
+      ],
+      "sent_id": [
+        3,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7296815542991f9a20c515",
+    "question_hash": "a56df90498298e75d12f57737b97dc8a569532bfe8b8876c377f1868a30773b6",
+    "answer": "Samantha Cristoforetti",
+    "prompt_A": "Patrick Pierre Roger Baudry (born March 6, 1946 in Cameroon), is a retired Lieutenant Colonel in the French Air Force and a former CNES astronaut.\n In 1985, he became the second French citizen in space, after Jean-Loup Chrétien, when he flew aboard NASA's Space Shuttle mission STS-51-G.\nSamantha Cristoforetti (] ; born 26 April 1977 in Milan) is an Italian European Space Agency astronaut, Italian Air Force pilot and engineer.\n Samantha Cristoforetti is also known as the first person who brewed an espresso coffee in space.",
+    "prompt_B": "Who brewed the first espresso coffee in space, Patrick Baudry or Samantha Cristoforetti?",
+    "support": [
+      "Patrick Pierre Roger Baudry (born March 6, 1946 in Cameroon), is a retired Lieutenant Colonel in the French Air Force and a former CNES astronaut.",
+      " In 1985, he became the second French citizen in space, after Jean-Loup Chrétien, when he flew aboard NASA's Space Shuttle mission STS-51-G.",
+      "Samantha Cristoforetti (] ; born 26 April 1977 in Milan) is an Italian European Space Agency astronaut, Italian Air Force pilot and engineer.",
+      " Samantha Cristoforetti is also known as the first person who brewed an espresso coffee in space."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Patrick Baudry",
+        "Patrick Baudry",
+        "Samantha Cristoforetti",
+        "Samantha Cristoforetti"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0,
+        3
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ab2e8ad554299340b525562",
+    "question_hash": "7a2c7465615c737c97aae2ad70c3e3dc303ee8794b0a34bd139e29ff7ed21694",
+    "answer": "Park Ye-jin",
+    "prompt_A": "I Love Lee Tae-ri () is a 2012 South Korean romantic comedy series about a 14-year-old boy who makes a wish and suddenly grows up into a 25-year-old man.\n It starred Super Junior's Kim Ki-bum and Park Ye-jin.\nKim Ki-bum (born August 21, 1987) is a South Korean actor and singer.",
+    "prompt_B": "Who starred alongside South Korean actor and singer Kim Ki-bum in the 2012 romantic comedy series I Love Lee Tae-ri?",
+    "support": [
+      "I Love Lee Tae-ri () is a 2012 South Korean romantic comedy series about a 14-year-old boy who makes a wish and suddenly grows up into a 25-year-old man.",
+      " It starred Super Junior's Kim Ki-bum and Park Ye-jin.",
+      "Kim Ki-bum (born August 21, 1987) is a South Korean actor and singer."
+    ],
+    "supporting_facts": {
+      "title": [
+        "I Love Lee Tae-ri",
+        "I Love Lee Tae-ri",
+        "Kim Ki-bum"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a89b1de5542992e4fca8378",
+    "question_hash": "13a4391e452a0958806901625463711d3c34d9848a1bba195182d02777d67e5e",
+    "answer": "Keelung",
+    "prompt_A": "The Lingnan Fine Arts Museum () of the Academia Sinica is a museum in Nangang District, Taipei, Taiwan.\n It is about 25 km southwest of the northern port city Keelung.",
+    "prompt_B": "Which port city lies approximately 25 km north of the Lingnan Fine Arts Museum?",
+    "support": [
+      "The Lingnan Fine Arts Museum () of the Academia Sinica is a museum in Nangang District, Taipei, Taiwan.",
+      " It is about 25 km southwest of the northern port city Keelung."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Lingnan Fine Arts Museum",
+        "Taipei"
+      ],
+      "sent_id": [
+        0,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab78edc5542995dae37e95c",
+    "question_hash": "c84b9a9639ef08f35926380b12d84d24c1ce7096b30f4769b4de6843c1c2c1fa",
+    "answer": "located in Olathe, Kansas",
+    "prompt_A": " Kalinoski was a McDonald’s All-American nominee as a senior at Olathe East High School in Kansas and completed his college career for the Davidson Wildcats.\nOlathe East High School is a public high school located in Olathe, Kansas, United States, serving students in grades 9-12.",
+    "prompt_B": "Where is the school that Tyler Kalinoski went to located?",
+    "support": [
+      " Kalinoski was a McDonald’s All-American nominee as a senior at Olathe East High School in Kansas and completed his college career for the Davidson Wildcats.",
+      "Olathe East High School is a public high school located in Olathe, Kansas, United States, serving students in grades 9-12."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Tyler Kalinoski",
+        "Olathe East High School"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae73acb5542991e8301cc07",
+    "question_hash": "2518e972efe64bf176ec48a2d18e535d2d05bd828794db2f647264062554a843",
+    "answer": "Drifting",
+    "prompt_A": "D1NZ is a production car drifting series in New Zealand.\nDrifting is a driving technique where the driver intentionally oversteers, with loss of traction in the rear wheels or all tires, while maintaining control and driving the car through the entirety of a corner.",
+    "prompt_B": "D1NZ is a series based on what oversteering technique?",
+    "support": [
+      "D1NZ is a production car drifting series in New Zealand.",
+      "Drifting is a driving technique where the driver intentionally oversteers, with loss of traction in the rear wheels or all tires, while maintaining control and driving the car through the entirety of a corner."
+    ],
+    "supporting_facts": {
+      "title": [
+        "D1NZ",
+        "Drifting (motorsport)"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8257fa55429940e5e1a866",
+    "question_hash": "1445d0c26a8f0c5d5c2ebe018fb609908096c7e84a349278ca42093eca84729f",
+    "answer": "Aloha ʻOe",
+    "prompt_A": "Liliʻuokalani (] ; born Lydia Liliʻu Loloku Walania Wewehi Kamakaʻeha; September 2, 1838 – November 11, 1917), was the last monarch of the Kingdom of Hawaii, ruling from January 29, 1891 until the overthrow of the Kingdom of Hawaii on January 17, 1893.\n\"Aloha ʻOe\" (\"Farewell to Thee\") is Liliʻuokalani's most famous song and a common cultural symbol for Hawaii.",
+    "prompt_B": "The most famous song of the last monarch of Hawaii was what?",
+    "support": [
+      "Liliʻuokalani (] ; born Lydia Liliʻu Loloku Walania Wewehi Kamakaʻeha; September 2, 1838 – November 11, 1917), was the last monarch of the Kingdom of Hawaii, ruling from January 29, 1891 until the overthrow of the Kingdom of Hawaii on January 17, 1893.",
+      "\"Aloha ʻOe\" (\"Farewell to Thee\") is Liliʻuokalani's most famous song and a common cultural symbol for Hawaii."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Liliuokalani",
+        "Aloha ʻOe"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8d8e4f5542994ba4e3dca7",
+    "question_hash": "2e600dbf1606791c4ed21e732c0feb95fa8e1e6e88058b660246ac210025f55c",
+    "answer": "approximately 3 mi",
+    "prompt_A": " It is situated approximately 3 mi south-east of Nottingham and is part of the West Bridgford postcode of NG2.\nThe NG postcode area, also known as the Nottingham postcode area, is a group of postcode districts around Nottingham that covers Nottinghamshire (except for the Bassetlaw district and the far southwest of Rushcliffe borough), south east Derbyshire, south west Lincolnshire and part of north east Leicestershire.",
+    "prompt_B": "The NG postcode area is situated approximately how many miles from Gamston, Rushcliffe?",
+    "support": [
+      " It is situated approximately 3 mi south-east of Nottingham and is part of the West Bridgford postcode of NG2.",
+      "The NG postcode area, also known as the Nottingham postcode area, is a group of postcode districts around Nottingham that covers Nottinghamshire (except for the Bassetlaw district and the far southwest of Rushcliffe borough), south east Derbyshire, south west Lincolnshire and part of north east Leicestershire."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Gamston, Rushcliffe",
+        "NG postcode area"
+      ],
+      "sent_id": [
+        2,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8a07725542992d82986e5b",
+    "question_hash": "079a8c4d7621f9610993a87245e8a958d3630eeeffd9ce2c62c1cf2140810ca8",
+    "answer": "Steve Martin",
+    "prompt_A": "The Boarding House was a music and comedy nightclub located at 960 Bush Street in San Francisco, California, opened by David Allen in 1971.\n Robin Williams launched his career there and Steve Martin's first three albums, \"Let's Get Small\", \"A Wild and Crazy Guy\", and \"Comedy Is Not Pretty\" were recorded there, in whole or in part.\n The club was also host to a multitude of musical acts, such as Dolly Parton, Patti Smith, Neil Young, Bette Midler, Billy Joel, Bob Marley, Mason Williams, The Tubes, Talking Heads, Old and in the Way, Randy Newman, Dan Hicks & His Hot Licks, Jim Croce, Harry Chapin and Tom Waits.\nThomas Alan \"Tom\" Waits (born December 7, 1949) is an American singer-songwriter, composer, and actor.",
+    "prompt_B": "Along side Thomas Alan, which singer's first three albums were recorded at The Boarding House?",
+    "support": [
+      "The Boarding House was a music and comedy nightclub located at 960 Bush Street in San Francisco, California, opened by David Allen in 1971.",
+      " Robin Williams launched his career there and Steve Martin's first three albums, \"Let's Get Small\", \"A Wild and Crazy Guy\", and \"Comedy Is Not Pretty\" were recorded there, in whole or in part.",
+      " The club was also host to a multitude of musical acts, such as Dolly Parton, Patti Smith, Neil Young, Bette Midler, Billy Joel, Bob Marley, Mason Williams, The Tubes, Talking Heads, Old and in the Way, Randy Newman, Dan Hicks & His Hot Licks, Jim Croce, Harry Chapin and Tom Waits.",
+      "Thomas Alan \"Tom\" Waits (born December 7, 1949) is an American singer-songwriter, composer, and actor."
+    ],
+    "supporting_facts": {
+      "title": [
+        "The Boarding House (nightclub)",
+        "The Boarding House (nightclub)",
+        "The Boarding House (nightclub)",
+        "Tom Waits"
+      ],
+      "sent_id": [
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a79fac85542996c55b2dcc1",
+    "question_hash": "7561f97ebfda99fb5de88fd5015440f8c2cb505830e0514a292bd5f0d4889676",
+    "answer": "10 October 2010",
+    "prompt_A": " At the Dissolution of the Netherlands Antilles on 10 October 2010 the prison changed its name once more and became the Sentro di Detenshon i Korekshon Kòrsou.\nThe Netherlands Antilles was an autonomous Caribbean country within the Kingdom of the Netherlands.\n It was dissolved on 10 October 2010.",
+    "prompt_B": "The Curaçao Centre for Correction and Detention changed its name to Sentro di Detenshon i Korekshon Kòrsou at this event which saw the dissolution of a Caribbean country on what date?",
+    "support": [
+      " At the Dissolution of the Netherlands Antilles on 10 October 2010 the prison changed its name once more and became the Sentro di Detenshon i Korekshon Kòrsou.",
+      "The Netherlands Antilles was an autonomous Caribbean country within the Kingdom of the Netherlands.",
+      " It was dissolved on 10 October 2010."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Curaçao Centre for Correction and Detention",
+        "Dissolution of the Netherlands Antilles",
+        "Dissolution of the Netherlands Antilles"
+      ],
+      "sent_id": [
+        3,
+        0,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a81537355429926c1cdad20",
+    "question_hash": "145bf41ce26921fece61fc57083b8b19fdeeeb76d88cef775832851338002bfc",
+    "answer": "Eastern Conference champion Orlando Magic against the Western Conference champion Houston Rockets.",
+    "prompt_A": "The Orlando Magic are an American professional basketball team based in Orlando, Florida.\n s of 2017 , the franchise has played in the NBA playoffs for exactly half of its existence (14 playoff appearances in 28 years), and twice went to the NBA Finals, in 1995 and 2009.\nThe 1995 NBA Finals was the championship round of the 1994–95 National Basketball Association (NBA) season.\n The series pitted the Eastern Conference champion Orlando Magic against the Western Conference champion Houston Rockets.",
+    "prompt_B": "What conference champions were putted against each other in the first NBA Finals in which the Orlando Magic's played?",
+    "support": [
+      "The Orlando Magic are an American professional basketball team based in Orlando, Florida.",
+      " s of 2017 , the franchise has played in the NBA playoffs for exactly half of its existence (14 playoff appearances in 28 years), and twice went to the NBA Finals, in 1995 and 2009.",
+      "The 1995 NBA Finals was the championship round of the 1994–95 National Basketball Association (NBA) season.",
+      " The series pitted the Eastern Conference champion Orlando Magic against the Western Conference champion Houston Rockets."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Orlando Magic",
+        "Orlando Magic",
+        "1995 NBA Finals",
+        "1995 NBA Finals"
+      ],
+      "sent_id": [
+        0,
+        3,
+        0,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a721d5a55429971e9dc9283",
+    "question_hash": "8e812f27cc05ddbb10d935fea201d9efc2fe692889685354cdf8b17049670ad2",
+    "answer": "Ballarat Bitter is a 4.9% (abv) Australian beer",
+    "prompt_A": "Ballarat Bitter is a 4.9% (abv) Australian beer, originally brewed in Ballarat, Australia by the Ballarat Brewing Company.\n The beer is of the bitter top fermented ale variety, and was traditionally sold in 750ml longnecked bottles, with the label featuring the character \"Ballarat Bertie\", who was conceived in 1926 on a train journey between Melbourne and Sydney by a Ballarat Brewing Company director and an advertising agency.\nBitter is a British style of pale ale that varies in colour from gold to dark amber, and in strength from 3% to 7% alcohol by volume.",
+    "prompt_B": "What Australian beer is a British style pale ale whose label features a character conceived in 1926? ",
+    "support": [
+      "Ballarat Bitter is a 4.9% (abv) Australian beer, originally brewed in Ballarat, Australia by the Ballarat Brewing Company.",
+      " The beer is of the bitter top fermented ale variety, and was traditionally sold in 750ml longnecked bottles, with the label featuring the character \"Ballarat Bertie\", who was conceived in 1926 on a train journey between Melbourne and Sydney by a Ballarat Brewing Company director and an advertising agency.",
+      "Bitter is a British style of pale ale that varies in colour from gold to dark amber, and in strength from 3% to 7% alcohol by volume."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Ballarat Bitter",
+        "Ballarat Bitter",
+        "Bitter (beer)"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7aa2a255429941d65f270e",
+    "question_hash": "870bb10acc2cfe8e2048a98c82022314c7abbaf5cd9083ccde49ff76d61befef",
+    "answer": "Bengt Mikael Stanne",
+    "prompt_A": "Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer and songwriter.\nBengt Mikael Stanne (born 20 May 1974) is the vocalist & one of the lyricists (also previously rhythm guitarist) for the Swedish melodic death metal band, Dark Tranquillity and the ex-vocalist for Swedish power metal band HammerFall.",
+    "prompt_B": "Who was born first, Chester Bennington or Mikael Stanne?",
+    "support": [
+      "Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer and songwriter.",
+      "Bengt Mikael Stanne (born 20 May 1974) is the vocalist & one of the lyricists (also previously rhythm guitarist) for the Swedish melodic death metal band, Dark Tranquillity and the ex-vocalist for Swedish power metal band HammerFall."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Chester Bennington",
+        "Mikael Stanne"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5abe6f8455429965af743f03",
+    "question_hash": "2e14d7e8ffbabbcdacdc7e44dc91eed0bbb7b2643c8f4016fdd6fdfb2baa4b57",
+    "answer": "French",
+    "prompt_A": "Les Frères Robert were two French brothers.\nJacques Alexandre César Charles (November 12, 1746 – April 7, 1823) was a French inventor, scientist, mathematician, and balloonist.",
+    "prompt_B": "What country of origin does Robert brothers and Jacques Charles have in common?",
+    "support": [
+      "Les Frères Robert were two French brothers.",
+      "Jacques Alexandre César Charles (November 12, 1746 – April 7, 1823) was a French inventor, scientist, mathematician, and balloonist."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Robert brothers",
+        "Jacques Charles"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae7257a554299572ea54731",
+    "question_hash": "f322d61b937de1edb61d428141d527a2f90b6815db8f2b8e977557c4fb417602",
+    "answer": "Evey's mother",
+    "prompt_A": " She is best known for playing Valerie Stowe in \"Until Death\" with Jean-Claude Van Damme and Stephen Rea and Evey's mother in the Wachowskis \"V for Vendetta (film)\"\nV for Vendetta is a 2005 dystopian political thriller film directed by James McTeigue and written by The Wachowskis, based on the 1988 DC/Vertigo Comics limited series of the same name by Alan Moore and David Lloyd.",
+    "prompt_B": "What character did Selina Giles play in the 2005 dystopian political thriller named \"V for Vendetta\"?",
+    "support": [
+      " She is best known for playing Valerie Stowe in \"Until Death\" with Jean-Claude Van Damme and Stephen Rea and Evey's mother in the Wachowskis \"V for Vendetta (film)\"",
+      "V for Vendetta is a 2005 dystopian political thriller film directed by James McTeigue and written by The Wachowskis, based on the 1988 DC/Vertigo Comics limited series of the same name by Alan Moore and David Lloyd."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Selina Giles",
+        "V for Vendetta (film)"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac0e0e25542997d64295a6f",
+    "question_hash": "d412c5ed03de492eca867d9d21607613e922ae10535e9f5b6ad84afe267e72a0",
+    "answer": "The Hindu Group",
+    "prompt_A": " She worked most recently for \"Frontline\" magazine.\nFrontline is a fortnightly English language magazine published by The Hindu Group of publications from Chennai, India.",
+    "prompt_B": "Dionne Bunsha worked most recently for the magazine published by what company?",
+    "support": [
+      " She worked most recently for \"Frontline\" magazine.",
+      "Frontline is a fortnightly English language magazine published by The Hindu Group of publications from Chennai, India."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Dionne Bunsha",
+        "Frontline (magazine)"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a72688c5542997f827839b2",
+    "question_hash": "606278df79e661a5a230a423ba4e4ee762e51254bd8a008eff127eefc69f20e9",
+    "answer": "Turkey",
+    "prompt_A": "The Atik Valide Mosque (Turkish: \"Atik Valide Camii, Eski Valide Camii\" ) is an Ottoman mosque located on the hill above a large and densely populated district of Üsküdar, in Istanbul, Turkey.\nThe Valens Aqueduct (Turkish: \"Valens Su Kemeri\" or Turkish: \"Bozdoğan Kemeri\" , meaning \"Aqueduct of the Grey Falcon\"; Ancient Greek: Ἀγωγὸς τοῦ ὕδατος , \"Agōgós tou hýdatos\", meaning simply \"aqueduct\") is a Roman aqueduct which was the major water-providing system of the Eastern Roman capital of Constantinople (modern Istanbul, Turkey).",
+    "prompt_B": "The Atik Valide Mosque and Valens Aqueduct are found in what country?",
+    "support": [
+      "The Atik Valide Mosque (Turkish: \"Atik Valide Camii, Eski Valide Camii\" ) is an Ottoman mosque located on the hill above a large and densely populated district of Üsküdar, in Istanbul, Turkey.",
+      "The Valens Aqueduct (Turkish: \"Valens Su Kemeri\" or Turkish: \"Bozdoğan Kemeri\" , meaning \"Aqueduct of the Grey Falcon\"; Ancient Greek: Ἀγωγὸς τοῦ ὕδατος , \"Agōgós tou hýdatos\", meaning simply \"aqueduct\") is a Roman aqueduct which was the major water-providing system of the Eastern Roman capital of Constantinople (modern Istanbul, Turkey)."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Atik Valide Mosque",
+        "Valens Aqueduct"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5adea0c5554299728e26c776",
+    "question_hash": "9486950d0a3281c8a083cf4c307c1355072e6c0128397cabe658863518485ecf",
+    "answer": "no",
+    "prompt_A": "Helen Dunmore FRSL (12 December 1952 – 5 June 2017) was a British poet, novelist and children's writer.\nMatthew Phipps Shiell (21 July 1865 – 17 February 1947) – known as M. P. Shiel – was a prolific British writer of West Indian descent.",
+    "prompt_B": "Are both Helen Dunmore and M. P. Shiel of West Indian descent?",
+    "support": [
+      "Helen Dunmore FRSL (12 December 1952 – 5 June 2017) was a British poet, novelist and children's writer.",
+      "Matthew Phipps Shiell (21 July 1865 – 17 February 1947) – known as M. P. Shiel – was a prolific British writer of West Indian descent."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Helen Dunmore",
+        "M. P. Shiel"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ab8372255429919ba4e226b",
+    "question_hash": "8dba64120f6290d9d50ed9fc2e2083a15e287094ebe81d61a710e2270b95761d",
+    "answer": "Fleetwood Mac",
+    "prompt_A": "\"Blue Letter\" is a song written by Michael Curtis and Richard Curtis that was first released by Fleetwood Mac on their 1975 album \"Fleetwood Mac\".\n In 1998, selected members of Fleetwood Mac were inducted into the Rock and Roll Hall of Fame, and received the Brit Award for Outstanding Contribution to Music.",
+    "prompt_B": "What band wrote the song \"Blue Letter\" and was inducted into the Rock and Roll Hall of Fame in 1998?",
+    "support": [
+      "\"Blue Letter\" is a song written by Michael Curtis and Richard Curtis that was first released by Fleetwood Mac on their 1975 album \"Fleetwood Mac\".",
+      " In 1998, selected members of Fleetwood Mac were inducted into the Rock and Roll Hall of Fame, and received the Brit Award for Outstanding Contribution to Music."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Blue Letter",
+        "Fleetwood Mac"
+      ],
+      "sent_id": [
+        0,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac0e064554299012d1db64e",
+    "question_hash": "2f32d7c6d920e51c3192aee3b4cb212858124b6ccc2d20c151b4c519d423aae9",
+    "answer": "almost 3 million",
+    "prompt_A": " It is located in Rrëshen, in the municipality of Mirditë, Albania.\n The country spans 28,748 km2 and had a total population of almost 3 million people as of 2016 .",
+    "prompt_B": "the municipality of Mirditë is in a country that had how many inhabitants in 2016 ?",
+    "support": [
+      " It is located in Rrëshen, in the municipality of Mirditë, Albania.",
+      " The country spans 28,748 km2 and had a total population of almost 3 million people as of 2016 ."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Cathedral of Jesus Saviour of the World, Rrëshen",
+        "Albania"
+      ],
+      "sent_id": [
+        1,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8574945542997b5ce3fffb",
+    "question_hash": "a2a59126217b2ceb109db9ae53665f99608a370463ae2b57b48ae20590b42181",
+    "answer": "LaLee's Kin: The Legacy of Cotton",
+    "prompt_A": "LaLee's Kin: The Legacy of Cotton is a 2001 American documentary film directed by Deborah Dickson, Susan Frömke and Albert Maysles.\n It was nominated for Best Documentary Feature at the 74th Academy Awards.\n The film was screened at the 1971 Cannes Film Festival, but was not entered into the main competition.",
+    "prompt_B": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+    "support": [
+      "LaLee's Kin: The Legacy of Cotton is a 2001 American documentary film directed by Deborah Dickson, Susan Frömke and Albert Maysles.",
+      " It was nominated for Best Documentary Feature at the 74th Academy Awards.",
+      " The film was screened at the 1971 Cannes Film Festival, but was not entered into the main competition."
+    ],
+    "supporting_facts": {
+      "title": [
+        "LaLee's Kin: The Legacy of Cotton",
+        "LaLee's Kin: The Legacy of Cotton",
+        "Gimme Shelter (1970 film)"
+      ],
+      "sent_id": [
+        0,
+        1,
+        2
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5a8704f8554299211dda2ba4",
+    "question_hash": "ad01821463226234a6c37eae84b039577b8f8155aa1b5241da61e029ffaba5af",
+    "answer": "Kingdom of the Isles",
+    "prompt_A": "Aonghus Mór mac Domhnaill (died c.1293) was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland.\nThe Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.\n The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south.",
+    "prompt_B": "What is the name of the Isles who were led by Aonghus Mór and covered a total land area of over 8300 km2?",
+    "support": [
+      "Aonghus Mór mac Domhnaill (died c.1293) was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland.",
+      "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.",
+      " The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Aonghus Mór",
+        "Kingdom of the Isles",
+        "Kingdom of the Isles"
+      ],
+      "sent_id": [
+        0,
+        0,
+        6
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a81d1f0554299676cceb0ee",
+    "question_hash": "d20a5f9192d1c799c88f2bf4fec51987c3dc02befd976ee7ad32d8951d0c1d86",
+    "answer": "Part I",
+    "prompt_A": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.\n This listing covers Part II in a table and comments on individual movements, reflecting the relation of the musical setting to the text.\n Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.\nThe nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.\n The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.",
+    "prompt_B": "Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?",
+    "support": [
+      "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+      " This listing covers Part II in a table and comments on individual movements, reflecting the relation of the musical setting to the text.",
+      " Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+      "The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.",
+      " The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Messiah Part II",
+        "Messiah Part II",
+        "Messiah Part II",
+        "Nativity of Jesus",
+        "Nativity of Jesus"
+      ],
+      "sent_id": [
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7bf84b5542996dd594b875",
+    "question_hash": "98a758c314d91c6b459a29228a11a4d54f20a9c80a0db262d28da3388473ef1f",
+    "answer": "In a Better World",
+    "prompt_A": " Films she has produced include '”Hævnen” “Jagten” and “Dear Wendy”.\nIn a Better World (Danish: \"Hævnen\" , \"the revenge\") is a 2010 Danish drama thriller film written by Anders Thomas Jensen and directed by Susanne Bier.",
+    "prompt_B": "What Danish drama thriller which takes place in both Denmark and Africa was produced by Sisse Graum Jørgensen?",
+    "support": [
+      " Films she has produced include '”Hævnen” “Jagten” and “Dear Wendy”.",
+      "In a Better World (Danish: \"Hævnen\" , \"the revenge\") is a 2010 Danish drama thriller film written by Anders Thomas Jensen and directed by Susanne Bier."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Sisse Graum Jørgensen",
+        "In a Better World"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab69e4f554299710c8d1eee",
+    "question_hash": "6f3a17ce190a9903d6272d343d852b80726c4c58da452c557902c33fd8244dac",
+    "answer": "child actor",
+    "prompt_A": "Katie Sagona (born November 26, 1989) is an American child actress.\nThe term child actor or child actress is generally applied to a child acting on stage or in motion pictures or television, but also to an adult who began his or her acting career as a child; to avoid confusion, the latter is also called a \"former child actor\".",
+    "prompt_B": "Katie sagona is known as what kind of actor because she was a child acting on stage or in motion pictures or television?",
+    "support": [
+      "Katie Sagona (born November 26, 1989) is an American child actress.",
+      "The term child actor or child actress is generally applied to a child acting on stage or in motion pictures or television, but also to an adult who began his or her acting career as a child; to avoid confusion, the latter is also called a \"former child actor\"."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Katie Sagona",
+        "Child actor"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae64ad25542995703ce8b4f",
+    "question_hash": "eacbf15c7d7db24b5d42f3469a6c158d1780df526115709fc54c26d559513bd2",
+    "answer": "Joshua Rowley",
+    "prompt_A": "The Battle of Guadeloupe or the Action of 21–22 December 1779 was a naval engagement that took place off the French island of Guadeloupe in the Caribbean during the Anglo-French War between three Royal Navy ships and three French Navy frigates.\n The Royal Navy under Joshua Rowley sighted and promptly chased the French frigates, all of which were captured after a brief fight.\nA frigate is any of several types of warship, the term having been used for ships of various sizes and roles over the last few centuries.",
+    "prompt_B": "What was the name of the commander who captured all of the French ships that varied in size?",
+    "support": [
+      "The Battle of Guadeloupe or the Action of 21–22 December 1779 was a naval engagement that took place off the French island of Guadeloupe in the Caribbean during the Anglo-French War between three Royal Navy ships and three French Navy frigates.",
+      " The Royal Navy under Joshua Rowley sighted and promptly chased the French frigates, all of which were captured after a brief fight.",
+      "A frigate is any of several types of warship, the term having been used for ships of various sizes and roles over the last few centuries."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Battle of Guadeloupe (1779)",
+        "Battle of Guadeloupe (1779)",
+        "Frigate"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7571135542992d0ec05f98",
+    "question_hash": "d81ba346c2550b02b541487dc0c0c93416c9e6181f8e7965caa28e53a5e0b1b5",
+    "answer": "New York City",
+    "prompt_A": "Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana – 16 March 1974) was a psychology professor at Columbia University.\nColumbia University (Columbia; officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City, often cited as one of the world's most prestigious universities.",
+    "prompt_B": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "support": [
+      "Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana – 16 March 1974) was a psychology professor at Columbia University.",
+      "Columbia University (Columbia; officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City, often cited as one of the world's most prestigious universities."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Ralph Hefferline",
+        "Columbia University"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8f2fed55429918e830d1c7",
+    "question_hash": "f3cc6666cef9684148cf395809421f48509e6075498d5425bae0c4f43c00dc39",
+    "answer": "rock and roll",
+    "prompt_A": "Ellas McDaniel (born Ellas Otha Bates, December 30, 1928 – June 2, 2008), known as Bo Diddley, was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll, and influenced artists including Elvis Presley, Buddy Holly, the Beatles, the Rolling Stones, the Yardbirds, Eric Clapton, the Who, Jimi Hendrix, George Thorogood, Parliament-Funkadelic, and The Clash.\nThe Yardbirds are an English rock band, formed in London in 1963.",
+    "prompt_B": "Both Bo Diddley and The Yardbirds played which common genre of music during their careers?",
+    "support": [
+      "Ellas McDaniel (born Ellas Otha Bates, December 30, 1928 – June 2, 2008), known as Bo Diddley, was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll, and influenced artists including Elvis Presley, Buddy Holly, the Beatles, the Rolling Stones, the Yardbirds, Eric Clapton, the Who, Jimi Hendrix, George Thorogood, Parliament-Funkadelic, and The Clash.",
+      "The Yardbirds are an English rock band, formed in London in 1963."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Bo Diddley",
+        "The Yardbirds"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab596d95542992aa134a371",
+    "question_hash": "76fa546741d4ab9a64a074b5a691eb55f3fba2f255d1a8b340a4212e1ecae480",
+    "answer": "China",
+    "prompt_A": "Sanming (; Foochow Romanized: Săng-mìng)) is a prefecture-level city in western Fujian province, China.\nJiutai () is a district under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China.",
+    "prompt_B": "WHere are both Sanming and Jiutai District located?",
+    "support": [
+      "Sanming (; Foochow Romanized: Săng-mìng)) is a prefecture-level city in western Fujian province, China.",
+      "Jiutai () is a district under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Sanming",
+        "Jiutai District"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5a71214d5542994082a3e5b9",
+    "question_hash": "707c4ebbe196430060d0c68f7bebeb723b3b4d7983dcb7cc85038a816a6c65f5",
+    "answer": "The Los Angeles Dance Theater",
+    "prompt_A": "The Los Angeles Dance Theater is a dance-oriented production company founded in 2003 by George Balanchine protege John Clifford.\nCasablanca is a 1942 American romantic drama film directed by Michael Curtiz and based on Murray Burnett and Joan Alison's unproduced stage play \"Everybody Comes to Rick's\".",
+    "prompt_B": "What production company was founded by George Balanchine to create a live stage version of the 1942 film Casablanca?",
+    "support": [
+      "The Los Angeles Dance Theater is a dance-oriented production company founded in 2003 by George Balanchine protege John Clifford.",
+      "Casablanca is a 1942 American romantic drama film directed by Michael Curtiz and based on Murray Burnett and Joan Alison's unproduced stage play \"Everybody Comes to Rick's\"."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Los Angeles Dance Theater",
+        "Casablanca (film)"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac298f9554299657fa28fc9",
+    "question_hash": "241d0a6788d84df63f94ab6e45354308ed4c52ab4b8f8dc5f7d26dfa90472b55",
+    "answer": "Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012.",
+    "prompt_A": "Josey Scott (born Joseph Scott Sappington; May 3, 1972) is the former lead vocalist of the rock band Saliva.\n Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012.",
+    "prompt_B": "Josey Scott and Ian Watkins were both promising musicians. Which of these talented men was incarcerated, impacting his career with a rock band?",
+    "support": [
+      "Josey Scott (born Joseph Scott Sappington; May 3, 1972) is the former lead vocalist of the rock band Saliva.",
+      " Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Josey Scott",
+        "Ian Watkins (Lostprophets)"
+      ],
+      "sent_id": [
+        0,
+        2
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ae35e8c5542990afbd1e120",
+    "question_hash": "8ed5dc7d7aed43b3bf6e02ae7313f25bc2b66dac2f5caafaa4e20bed3fa17050",
+    "answer": "Don Jeffrey \"Jeff\" Meldrum (born May 24, 1958) is a Professor of Anatomy and Anthropology",
+    "prompt_A": " The plaster casts Freeman subsequently made were convincing enough to be considered critical pieces of evidence by anthropologists Jeff Meldrum of Idaho State University and Grover Krantz of Washington State University, who put considerable time and resources into studying them.\nDon Jeffrey \"Jeff\" Meldrum (born May 24, 1958) is a Professor of Anatomy and Anthropology and a Professor of the Department of Anthropology at Idaho State University.",
+    "prompt_B": "who was the anthropologist who thought that the plaster casts that were discovered by Paul Freeman were a critical piece of evidence?",
+    "support": [
+      " The plaster casts Freeman subsequently made were convincing enough to be considered critical pieces of evidence by anthropologists Jeff Meldrum of Idaho State University and Grover Krantz of Washington State University, who put considerable time and resources into studying them.",
+      "Don Jeffrey \"Jeff\" Meldrum (born May 24, 1958) is a Professor of Anatomy and Anthropology and a Professor of the Department of Anthropology at Idaho State University."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Paul Freeman (cryptozoologist)",
+        "Jeffrey Meldrum"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae616ce5542992663a4f259",
+    "question_hash": "54f87b37b89ca9bbfef5760cccebc869b1a79b910bd616b5f090f5670767405b",
+    "answer": "Charles and Thomas Guard",
+    "prompt_A": "The Guard Brothers are Charles and Thomas Guard, the British born sons of Howard Guard.\nThe Uninvited is a 2009 American psychological horror film directed by the Guard Brothers, and starring Emily Browning, Elizabeth Banks, Arielle Kebbel and David Strathairn.",
+    "prompt_B": "What are the names of the co-directors of the psychological horror film starring Emily Browning and Elizabeth Banks?",
+    "support": [
+      "The Guard Brothers are Charles and Thomas Guard, the British born sons of Howard Guard.",
+      "The Uninvited is a 2009 American psychological horror film directed by the Guard Brothers, and starring Emily Browning, Elizabeth Banks, Arielle Kebbel and David Strathairn."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Guard Brothers",
+        "The Uninvited (2009 film)"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5abbc3a955429931dba144f9",
+    "question_hash": "30eab3e295fba69eee26367e9314e982518d30976293a037c05548aab09102bd",
+    "answer": "Wheeling, West Virginia",
+    "prompt_A": "Mount Echo is an unincorporated community in Ohio County, West Virginia, United States.\n It is part of the Wheeling, West Virginia Metropolitan Statistical Area.\nThe National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "prompt_B": "Where is the first major improved highway located?",
+    "support": [
+      "Mount Echo is an unincorporated community in Ohio County, West Virginia, United States.",
+      " It is part of the Wheeling, West Virginia Metropolitan Statistical Area.",
+      "The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Mount Echo, West Virginia",
+        "Mount Echo, West Virginia",
+        "National Road"
+      ],
+      "sent_id": [
+        0,
+        2,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5adfe6c455429906c02daa85",
+    "question_hash": "65dcf4238892b9de67c068dc8ea5a7497d8653d6a99f7ceb36b3c684d98cf0e1",
+    "answer": "Godiva",
+    "prompt_A": " The shopping mall also carries 1st luxury brands shops in Penang like Victoria's Secret, Michael Kors, H&M, Sephora, Fred Perry, Canali and Godiva.\n Godiva, founded in Belgium in 1926, was purchased by the Turkish Yıldız Holding, owner of the Ülker Group, on November 20, 2007.",
+    "prompt_B": "Which store in Gurney Paragon was founded in Belgium in 1926?",
+    "support": [
+      " The shopping mall also carries 1st luxury brands shops in Penang like Victoria's Secret, Michael Kors, H&M, Sephora, Fred Perry, Canali and Godiva.",
+      " Godiva, founded in Belgium in 1926, was purchased by the Turkish Yıldız Holding, owner of the Ülker Group, on November 20, 2007."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Gurney Paragon",
+        "Godiva Chocolatier"
+      ],
+      "sent_id": [
+        1,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7f924c55429969796c1aba",
+    "question_hash": "d977958d1369142df0416a6211598f29766da4d3a1d82b1ca27399f0a1110aa7",
+    "answer": "Eric Banadinović",
+    "prompt_A": "Special Correspondents is a 2016 British-Canadian-American satirical comedy film written, directed by and starring Ricky Gervais.\nEric Banadinović (born 9 August 1968), known professionally as Eric Bana, is an Australian actor and comedian.",
+    "prompt_B": "Which Star of British-Canadian-American satirical comedy, co starting with Ricky Gervais, began his career in sketch comedy series\"Full Frontal\" ?",
+    "support": [
+      "Special Correspondents is a 2016 British-Canadian-American satirical comedy film written, directed by and starring Ricky Gervais.",
+      "Eric Banadinović (born 9 August 1968), known professionally as Eric Bana, is an Australian actor and comedian."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Special Correspondents",
+        "Eric Bana"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab938fb554299131ca422ce",
+    "question_hash": "fdfbd1c78ad10753da68ae3f85754432aea4eb5ee5c74540c44ef3402cd188da",
+    "answer": "Germany",
+    "prompt_A": "The Bürgerbräukeller was a large beer hall located in Munich, Germany.\nLöwenbräu ( ; ] ) is a brewery in Munich owned by Anheuser-Busch InBev.",
+    "prompt_B": "Löwenbräu and Bürgerbräukeller are both located where?",
+    "support": [
+      "The Bürgerbräukeller was a large beer hall located in Munich, Germany.",
+      "Löwenbräu ( ; ] ) is a brewery in Munich owned by Anheuser-Busch InBev."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Bürgerbräukeller",
+        "Löwenbräu"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae1e80b5542997f29b3c197",
+    "question_hash": "320384fb6f28ad706ecccdd681b3babfdd9d16d6fb2196c0d8b67a7c02293012",
+    "answer": "1998",
+    "prompt_A": "Progress MS-09 (Russian: \"Прогресс МC-09\" ), identified by NASA as Progress 70 or 70P, is a Progress spacecraft to be used by Roscosmos to resupply the International Space Station (ISS).\n Its first component launched into orbit in 1998, and the ISS is now the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth.",
+    "prompt_B": "Progress MS-09 was used to resupply the satellite that first launched into orbit in what year?",
+    "support": [
+      "Progress MS-09 (Russian: \"Прогресс МC-09\" ), identified by NASA as Progress 70 or 70P, is a Progress spacecraft to be used by Roscosmos to resupply the International Space Station (ISS).",
+      " Its first component launched into orbit in 1998, and the ISS is now the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Progress MS-09",
+        "International Space Station"
+      ],
+      "sent_id": [
+        0,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a89e3995542992e4fca844d",
+    "question_hash": "846dfd238e53361074444316e6fdfea4e9ac47f9f5a9c9d73fb86cfaf2f64331",
+    "answer": "Chippewa County",
+    "prompt_A": " The highway parallels the Interstate 75 (I-75) corridor between St. Ignace and Sault Ste. Marie.\nSault Ste. Marie is a city in, and the county seat of, Chippewa County in the U.S. state of Michigan.",
+    "prompt_B": "H-63 is a highway that runs near the county seat of what Michigan county?",
+    "support": [
+      " The highway parallels the Interstate 75 (I-75) corridor between St. Ignace and Sault Ste. Marie.",
+      "Sault Ste. Marie is a city in, and the county seat of, Chippewa County in the U.S. state of Michigan."
+    ],
+    "supporting_facts": {
+      "title": [
+        "H-63 (Michigan county highway)",
+        "Sault Ste. Marie, Michigan"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab8919655429934fafe6e13",
+    "question_hash": "8ebebfd14feccdab6661ad56852d10a9cf4e665054ad74ebeda4a33d608ef1cd",
+    "answer": "IRA",
+    "prompt_A": "On 20 March 1994, a British Army Lynx helicopter was shot down by the Provisional Irish Republican Army (IRA) in Northern Ireland.\nBarrack buster is the colloquial name given to several improvised mortars, developed in the 1990s by the engineering group of the Provisional Irish Republican Army (IRA).",
+    "prompt_B": "Who used a Barrack buster to shoot down a British Army Lynx helicopter",
+    "support": [
+      "On 20 March 1994, a British Army Lynx helicopter was shot down by the Provisional Irish Republican Army (IRA) in Northern Ireland.",
+      "Barrack buster is the colloquial name given to several improvised mortars, developed in the 1990s by the engineering group of the Provisional Irish Republican Army (IRA)."
+    ],
+    "supporting_facts": {
+      "title": [
+        "1994 British Army Lynx shootdown",
+        "Barrack buster"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5add18345542994ed6169c7e",
+    "question_hash": "bfb9be51d97617199163c94b43883bf91c1a0318961169c57fd3cec09c07b9a1",
+    "answer": "Lincoln Memorial University",
+    "prompt_A": "The Lincoln Memorial Railsplitters are the athletic teams that represent the Lincoln Memorial University, located in Harrogate, Tennessee, in NCAA Division II intercollegiate sports.\nLincoln Memorial University (LMU) is a private four-year co-educational liberal arts college located in Harrogate, Tennessee, United States.",
+    "prompt_B": "What liberal arts college has their athletic teams named the Lincoln Memorial Railsplitters?",
+    "support": [
+      "The Lincoln Memorial Railsplitters are the athletic teams that represent the Lincoln Memorial University, located in Harrogate, Tennessee, in NCAA Division II intercollegiate sports.",
+      "Lincoln Memorial University (LMU) is a private four-year co-educational liberal arts college located in Harrogate, Tennessee, United States."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Lincoln Memorial Railsplitters",
+        "Lincoln Memorial University"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a825b0e55429954d2e2eb0c",
+    "question_hash": "caa462b558fd167a56921c76804876ae7319d07b0147a9bd90a1d1439e7aef53",
+    "answer": "Hanako Muraoka",
+    "prompt_A": " It is based on the novel \"An no Yurikago Muraoka Hanako no Shogai\" by Eri Muraoka, which is the story of her grandmother Hanako Muraoka (1893–1968, maiden name Annaka), the first to translate \"Anne of Green Gables\" into Japanese.\n It recounts the adventures of Anne Shirley, an 11-year-old orphan girl who is mistakenly sent to Matthew and Marilla Cuthbert, a middle-aged brother and sister who had intended to adopt a boy to help them on their farm in the fictional town of Avonlea on Prince Edward Island.",
+    "prompt_B": "The Lucy Maud Montgomery novel about the character Anne Shirley was first translated into Japanese by what woman?",
+    "support": [
+      " It is based on the novel \"An no Yurikago Muraoka Hanako no Shogai\" by Eri Muraoka, which is the story of her grandmother Hanako Muraoka (1893–1968, maiden name Annaka), the first to translate \"Anne of Green Gables\" into Japanese.",
+      " It recounts the adventures of Anne Shirley, an 11-year-old orphan girl who is mistakenly sent to Matthew and Marilla Cuthbert, a middle-aged brother and sister who had intended to adopt a boy to help them on their farm in the fictional town of Avonlea on Prince Edward Island."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Hanako to Anne",
+        "Anne of Green Gables"
+      ],
+      "sent_id": [
+        2,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab54056554299488d4d9923",
+    "question_hash": "e4585aaf9290b7f7fce0d443d9851629ceee7acb8c66a67b938ee1d65e14bea6",
+    "answer": "no",
+    "prompt_A": "Yasuzo Masumura (増村 保造 , Masumura Yasuzō , August 25, 1924 – November 23, 1986) was a Japanese film director.\nJean-Christophe \"Pitof\" Comar (born 4 July 1957) is a French visual effects supervisor and director notable for \"Vidocq\" and \"Catwoman\".",
+    "prompt_B": "Did Yasuzo Masumura and Pitof hail from the same country and professional career?",
+    "support": [
+      "Yasuzo Masumura (増村 保造 , Masumura Yasuzō , August 25, 1924 – November 23, 1986) was a Japanese film director.",
+      "Jean-Christophe \"Pitof\" Comar (born 4 July 1957) is a French visual effects supervisor and director notable for \"Vidocq\" and \"Catwoman\"."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Yasuzo Masumura",
+        "Pitof"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5a8a416955429930ff3c0d2b",
+    "question_hash": "2bdea5acc7e06c8282776ee5058b8fd38f9181b1363c8a8abf0556c952de7456",
+    "answer": "Avengers Assemble",
+    "prompt_A": "\", \"Ultimate Spider-Man\", \"Avengers Assemble\", \"Hulk and the Agents of S.M.A.S.H.\" and \"Guardians of the Galaxy\".\n Designed to capitalize on the success of the 2012 film, \"The Avengers\", the series premiered on Disney XD on May 26, 2013, as the successor to \"\".",
+    "prompt_B": "What did Eric Radomski produce that premiered on Disney XD on May 26, 2013?",
+    "support": [
+      "\", \"Ultimate Spider-Man\", \"Avengers Assemble\", \"Hulk and the Agents of S.M.A.S.H.\" and \"Guardians of the Galaxy\".",
+      " Designed to capitalize on the success of the 2012 film, \"The Avengers\", the series premiered on Disney XD on May 26, 2013, as the successor to \"\"."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Eric Radomski",
+        "Avengers Assemble (TV series)"
+      ],
+      "sent_id": [
+        5,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a729fe55542991f9a20c53b",
+    "question_hash": "6461221f9f564c71e5cc2c45bf73cf1232a719fbe535475a5a4469fa78519a13",
+    "answer": "Pieter van Musschenbroek",
+    "prompt_A": " It was invented by the 18th century Dutch scientist Musschenbroek\nPieter van Musschenbroek (14 March 1692 – 19 September 1761) was a Dutch scientist.\n He is credited with the invention of the first capacitor in 1746: the Leyden jar.",
+    "prompt_B": "What man is credited eith inventing both the Leyden jar and the Tribometer?",
+    "support": [
+      " It was invented by the 18th century Dutch scientist Musschenbroek",
+      "Pieter van Musschenbroek (14 March 1692 – 19 September 1761) was a Dutch scientist.",
+      " He is credited with the invention of the first capacitor in 1746: the Leyden jar."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Tribometer",
+        "Pieter van Musschenbroek",
+        "Pieter van Musschenbroek"
+      ],
+      "sent_id": [
+        1,
+        0,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5abee41a5542993fe9a41d79",
+    "question_hash": "5d0f5b06ba52df8e42d7eb91a6e806b3ed012470c882d63837d14dc63570c27a",
+    "answer": "Dirt track racing",
+    "prompt_A": "The Australian Street Stock Championship is a Dirt track racing championship held each year to determine the Australian national champion.\nDirt track racing is a type of auto racing performed on clay or dirt surfaced oval tracks.",
+    "prompt_B": "What type of auto racing, performed on clay or dirt surfaced oval tracks, is run for the Australian Street Stock Championship? ",
+    "support": [
+      "The Australian Street Stock Championship is a Dirt track racing championship held each year to determine the Australian national champion.",
+      "Dirt track racing is a type of auto racing performed on clay or dirt surfaced oval tracks."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Australian Street Stock Championship",
+        "Dirt track racing"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8327fd5542990548d0b1a3",
+    "question_hash": "58c5bd38e1fd87a07dd004a865e84990d863e40771edefad670df1cc880756c3",
+    "answer": "Fort Worth",
+    "prompt_A": "Forest Hill is a suburb of Fort Worth in Tarrant County, Texas, United States.\nFort Worth is the 16th-largest city in the United States and the fifth-largest city in the state of Texas.",
+    "prompt_B": "Forest Hill, Texas is a suburb of which fifth-largest city in the state?",
+    "support": [
+      "Forest Hill is a suburb of Fort Worth in Tarrant County, Texas, United States.",
+      "Fort Worth is the 16th-largest city in the United States and the fifth-largest city in the state of Texas."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Forest Hill, Texas",
+        "Fort Worth, Texas"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7264ed5542990c210a411a",
+    "question_hash": "82655e4a4eaa204fc54e0bbbdcc0eb9d03cb4ea88f44c50d6c13a5194d8cb61f",
+    "answer": "Blood and soil",
+    "prompt_A": "Blood and soil (German: \"Blut und Boden\" ) is a slogan expressing the nineteenth-century German idealization of a racially defined national body (\"blood\") united with a settlement area (\"soil\").\n The contemporary German concept Lebensraum, the belief that the German people needed to reclaim historically German areas of Eastern Europe into which they could expand, is tied to it.\n<ref name=\"E/N301\"> </ref> The most extreme form of this ideology was supported by the Nazi Party (NSDAP) and Nazi Germany until the end of World War II.",
+    "prompt_B": "What was the slogan  that came about from the idea of Lebensraum which had its most extreme form supported by the Nazi Party until the end of World War II?",
+    "support": [
+      "Blood and soil (German: \"Blut und Boden\" ) is a slogan expressing the nineteenth-century German idealization of a racially defined national body (\"blood\") united with a settlement area (\"soil\").",
+      " The contemporary German concept Lebensraum, the belief that the German people needed to reclaim historically German areas of Eastern Europe into which they could expand, is tied to it.",
+      "<ref name=\"E/N301\"> </ref> The most extreme form of this ideology was supported by the Nazi Party (NSDAP) and Nazi Germany until the end of World War II."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Blood and Soil",
+        "Blood and Soil",
+        "Lebensraum"
+      ],
+      "sent_id": [
+        0,
+        2,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a74cfc75542996c70cfadfe",
+    "question_hash": "e3f96862462fa6a4d72ade8e4ad5de47feeb32042dc0320369acea2dca9217f1",
+    "answer": "2016 Oklahoma Sooners football team",
+    "prompt_A": "The 2016 Auburn Tigers football team represented Auburn University in the 2016 NCAA Division I FBS football season.\n They were invited to the Sugar Bowl where they lost to Oklahoma.\nThe 2016 Oklahoma Sooners football team represented the University of Oklahoma in the 2016 NCAA Division I FBS football season, the 122nd season of Sooner football.\n The team was led by two-time Walter Camp Coach of the Year Award winner, Bob Stoops, in his 18th season as head coach.",
+    "prompt_B": "Which Bob Stoops coached team beat the 2016 Auburn Tigers football team?",
+    "support": [
+      "The 2016 Auburn Tigers football team represented Auburn University in the 2016 NCAA Division I FBS football season.",
+      " They were invited to the Sugar Bowl where they lost to Oklahoma.",
+      "The 2016 Oklahoma Sooners football team represented the University of Oklahoma in the 2016 NCAA Division I FBS football season, the 122nd season of Sooner football.",
+      " The team was led by two-time Walter Camp Coach of the Year Award winner, Bob Stoops, in his 18th season as head coach."
+    ],
+    "supporting_facts": {
+      "title": [
+        "2016 Auburn Tigers football team",
+        "2016 Auburn Tigers football team",
+        "2016 Oklahoma Sooners football team",
+        "2016 Oklahoma Sooners football team"
+      ],
+      "sent_id": [
+        0,
+        4,
+        0,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5abe3c7555429965af743ea5",
+    "question_hash": "87823c7f427a959529b062bec7e7fe0d0cb870c0472cd734b48d967595a96ce1",
+    "answer": "5,922",
+    "prompt_A": " The population was 5,922 at the 2010 census.\n The town is named after Elbridge Gerry, the fifth Vice President of the United States, and one of the signers of the Declaration of Independence.\n As a Democratic-Republican he served as the fifth Vice President of the United States from March 1813 until his death in November 1814.",
+    "prompt_B": "According to the 2010 census, what was the population of the city after which the vice president, in April 1813, was named?",
+    "support": [
+      " The population was 5,922 at the 2010 census.",
+      " The town is named after Elbridge Gerry, the fifth Vice President of the United States, and one of the signers of the Declaration of Independence.",
+      " As a Democratic-Republican he served as the fifth Vice President of the United States from March 1813 until his death in November 1814."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Elbridge, New York",
+        "Elbridge, New York",
+        "Elbridge Gerry"
+      ],
+      "sent_id": [
+        1,
+        2,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a88a5645542997e5c09a679",
+    "question_hash": "69d304b51fb8a03bcefec3c8c30f5b071dfdae5dc1d59447335c8fe32c1e3df8",
+    "answer": "Take It Easy",
+    "prompt_A": "Take It Easy is an abstract strategy board game created by Peter Burley.\n It can be characterized as a spatial bingo-like game, and has been published by Ravensburger and subsequently by several other publishers since 1983.\nPersonal Preference is a 1987 board game created by Donal Carlston that involves guessing the order in which a player prefers foods, activities, people, and other items compared to one another.",
+    "prompt_B": "Which was published first, Take It Easy or Personal Preference?",
+    "support": [
+      "Take It Easy is an abstract strategy board game created by Peter Burley.",
+      " It can be characterized as a spatial bingo-like game, and has been published by Ravensburger and subsequently by several other publishers since 1983.",
+      "Personal Preference is a 1987 board game created by Donal Carlston that involves guessing the order in which a player prefers foods, activities, people, and other items compared to one another."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Take It Easy (game)",
+        "Take It Easy (game)",
+        "Personal Preference"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5a8756aa5542994846c1cd69",
+    "question_hash": "7bdce2dabc03efc0d3255d63b0a873407a391cf0a33c8ef8eaf7929f790fb85d",
+    "answer": "from around 1520",
+    "prompt_A": " Wapping's proximity to the river has given it a strong maritime character, which it retains through its riverside public houses and steps, such as the Prospect of Whitby and Wapping Stairs.\n It lays claim to being the site of the oldest riverside tavern, dating from around 1520.",
+    "prompt_B": "Wapping has the oldest riverside tavern, dating back from when?",
+    "support": [
+      " Wapping's proximity to the river has given it a strong maritime character, which it retains through its riverside public houses and steps, such as the Prospect of Whitby and Wapping Stairs.",
+      " It lays claim to being the site of the oldest riverside tavern, dating from around 1520."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Wapping",
+        "Prospect of Whitby"
+      ],
+      "sent_id": [
+        2,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a83ab355542990548d0b218",
+    "question_hash": "720acac3c2e54353ed2b30fad44f97b7d18b490836b03ed3e776a315e768a943",
+    "answer": "Paola Suárez",
+    "prompt_A": "Paola Suárez (born 23 June 1976) is a retired professional tennis player from Argentina.\n She was one of the most prominent women's doubles players throughout the early and mid-2000s, winning eight Grand Slam titles, all of them with Virginia Ruano Pascual, and holding the No. 1 doubles ranking for 87 non-consecutive weeks.\n He reached a career high singles ranking of 274 in July 2011, but is much better known as a leading doubles player with a huge serve.",
+    "prompt_B": "Who was a higher ranked tennis player: Paola Suárez or Michael Venus?",
+    "support": [
+      "Paola Suárez (born 23 June 1976) is a retired professional tennis player from Argentina.",
+      " She was one of the most prominent women's doubles players throughout the early and mid-2000s, winning eight Grand Slam titles, all of them with Virginia Ruano Pascual, and holding the No. 1 doubles ranking for 87 non-consecutive weeks.",
+      " He reached a career high singles ranking of 274 in July 2011, but is much better known as a leading doubles player with a huge serve."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Paola Suárez",
+        "Paola Suárez",
+        "Michael Venus (tennis)"
+      ],
+      "sent_id": [
+        0,
+        1,
+        1
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5abe407155429976d4830ab4",
+    "question_hash": "7968c41af459d6b31934562fdd05845fa2dc846c5795a01ba543d17aa6877bf5",
+    "answer": "yes",
+    "prompt_A": "John Kingsley \"Joe\" Orton (1 January 1933 – 9 August 1967) was an English playwright and author.\nBernard-Marie Koltès (] ; 9 April 1948 – 15 April 1989) was a French playwright and theatre director best known for his plays \"La Nuit juste avant les Forêts\" (\"The Night Just Before the Forests\", 1976), \"Sallinger\" (1977) and \"Dans la Solitude des Champs de Coton\" (\"In the Solitude of Cotton Fields\", 1986).",
+    "prompt_B": "Are Joe Orton and Bernard-Marie Koltès both playwrights ?",
+    "support": [
+      "John Kingsley \"Joe\" Orton (1 January 1933 – 9 August 1967) was an English playwright and author.",
+      "Bernard-Marie Koltès (] ; 9 April 1948 – 15 April 1989) was a French playwright and theatre director best known for his plays \"La Nuit juste avant les Forêts\" (\"The Night Just Before the Forests\", 1976), \"Sallinger\" (1977) and \"Dans la Solitude des Champs de Coton\" (\"In the Solitude of Cotton Fields\", 1986)."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Joe Orton",
+        "Bernard-Marie Koltès"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5a769b115542993569682c51",
+    "question_hash": "d584be4fd6d1a87a0af5cad393d1ba6632de8f43a1762490ed34edaff75fce97",
+    "answer": "Mark O'Connor",
+    "prompt_A": " The song became a major hit again in 1991 in a new all-star recording by Mark O'Connor and The New Nashville Cats.\nMark O'Connor (born August 5, 1961, Seattle) is an American bluegrass, jazz and country violinist, fiddler, composer and music teacher.",
+    "prompt_B": "What American bluegrass singer performed the song Restless with The New Nashville Cats?",
+    "support": [
+      " The song became a major hit again in 1991 in a new all-star recording by Mark O'Connor and The New Nashville Cats.",
+      "Mark O'Connor (born August 5, 1961, Seattle) is an American bluegrass, jazz and country violinist, fiddler, composer and music teacher."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Restless (Carl Perkins song)",
+        "Mark O'Connor"
+      ],
+      "sent_id": [
+        4,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5abb8a9b5542996cc5e4a016",
+    "question_hash": "abb21b792ab6e17b03e5bb0b8a2d8ee5a92fb5a5f8d3f70985f19940050119b3",
+    "answer": "Philip José Farmer",
+    "prompt_A": "Bernard-Marie Koltès (] ; 9 April 1948 – 15 April 1989) was a French playwright and theatre director best known for his plays \"La Nuit juste avant les Forêts\" (\"The Night Just Before the Forests\", 1976), \"Sallinger\" (1977) and \"Dans la Solitude des Champs de Coton\" (\"In the Solitude of Cotton Fields\", 1986).\nPhilip José Farmer (January 26, 1918 – February 25, 2009) was an American author known for his science fiction and fantasy novels and short stories.",
+    "prompt_B": "Who lived longer- Bernard-Marie Koltès or Philip José Farmer?",
+    "support": [
+      "Bernard-Marie Koltès (] ; 9 April 1948 – 15 April 1989) was a French playwright and theatre director best known for his plays \"La Nuit juste avant les Forêts\" (\"The Night Just Before the Forests\", 1976), \"Sallinger\" (1977) and \"Dans la Solitude des Champs de Coton\" (\"In the Solitude of Cotton Fields\", 1986).",
+      "Philip José Farmer (January 26, 1918 – February 25, 2009) was an American author known for his science fiction and fantasy novels and short stories."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Bernard-Marie Koltès",
+        "Philip José Farmer"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5adf4b335542993a75d264a5",
+    "question_hash": "55c6a42df719f692b828c18ca539652686bfbd020cc535577fb222f1a9c5b377",
+    "answer": "Rockstar San Diego",
+    "prompt_A": " He is best known for appearances in \"A Dirty Shame\" as Wendell Doggett, \"Red Dead Redemption\" as Jimmy Saint, \"Haber\" as Bernhard Moritz and for episodes of \"Law & Order\" and \"Law & Order Trial by Jury\".\nRed Dead Redemption is a Western action-adventure video game developed by Rockstar San Diego and published by Rockstar Games.",
+    "prompt_B": "Paul DeBoy is known for an appearance in the Western action-adventure game developed by which company?",
+    "support": [
+      " He is best known for appearances in \"A Dirty Shame\" as Wendell Doggett, \"Red Dead Redemption\" as Jimmy Saint, \"Haber\" as Bernhard Moritz and for episodes of \"Law & Order\" and \"Law & Order Trial by Jury\".",
+      "Red Dead Redemption is a Western action-adventure video game developed by Rockstar San Diego and published by Rockstar Games."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Paul DeBoy",
+        "Red Dead Redemption"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8a19c45542992e4fca8501",
+    "question_hash": "49a1a3146e84b5fadac9ec8388465be9c73c911136d4a2786e9565d526a88159",
+    "answer": "no",
+    "prompt_A": "The Pogues were an Irish punk band formed in 1982 and fronted by Shane MacGowan.\nPillar is a Christian rock band currently located in Tulsa, Oklahoma.",
+    "prompt_B": "Are either The Pogues or Pillar an electronic dance music group?",
+    "support": [
+      "The Pogues were an Irish punk band formed in 1982 and fronted by Shane MacGowan.",
+      "Pillar is a Christian rock band currently located in Tulsa, Oklahoma."
+    ],
+    "supporting_facts": {
+      "title": [
+        "The Pogues",
+        "Pillar (band)"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ac2f34455429921a00ab0b6",
+    "question_hash": "9a0c705563f9dc64487bda518e895d06099164072139f246973563258fecd488",
+    "answer": "New York University School of Law",
+    "prompt_A": " He received his bachelor's degree from Dartmouth College and his law degree from New York University School of Law.\n Bettman is a graduate of Cornell University and New York University School of Law.",
+    "prompt_B": "What university did Bill Daly graduate that Gary Bettman also graduated from?",
+    "support": [
+      " He received his bachelor's degree from Dartmouth College and his law degree from New York University School of Law.",
+      " Bettman is a graduate of Cornell University and New York University School of Law."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Bill Daly",
+        "Gary Bettman"
+      ],
+      "sent_id": [
+        3,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7e040f5542990b8f503b13",
+    "question_hash": "46d2d991da13309d07469a1e3af8b95057bf401258f4ef1f29dfa66b2cc65e76",
+    "answer": "Bruce Conner",
+    "prompt_A": "Bruce Conner (November 18, 1933 – July 7, 2008) was an American artist renowned for his work in assemblage, film, drawing, sculpture, painting, collage, and photography, among other disciplines.\nNils Gaup (born April 12, 1955) is a Sámi film director from Norway.",
+    "prompt_B": "Who was born first, Bruce Conner or Nils Gaup?",
+    "support": [
+      "Bruce Conner (November 18, 1933 – July 7, 2008) was an American artist renowned for his work in assemblage, film, drawing, sculpture, painting, collage, and photography, among other disciplines.",
+      "Nils Gaup (born April 12, 1955) is a Sámi film director from Norway."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Bruce Conner",
+        "Nils Gaup"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5a8f186055429918e830d186",
+    "question_hash": "df807ee21cbec6d42ca493d86f5b23238233c9061289392b74b1ec54c527b26d",
+    "answer": "Old School Reference and Index Compilation",
+    "prompt_A": "OSRIC, short for Old School Reference and Index Compilation, is a fantasy role-playing game system.\n \"OSRIC\" is a recreation of the first edition of \"Advanced Dungeons & Dragons\", and one of the most successful retro-clones.\n\"Dungeons & Dragons\" retro-clones are fantasy role-playing games that seek to emulate editions of \"Dungeons & Dragons\" (\"D&D\") no longer supported by Wizards of the Coast.",
+    "prompt_B": "What is one of the most successful retro-clones that is no longer supported by Wizards of the Coast?",
+    "support": [
+      "OSRIC, short for Old School Reference and Index Compilation, is a fantasy role-playing game system.",
+      " \"OSRIC\" is a recreation of the first edition of \"Advanced Dungeons & Dragons\", and one of the most successful retro-clones.",
+      "\"Dungeons & Dragons\" retro-clones are fantasy role-playing games that seek to emulate editions of \"Dungeons & Dragons\" (\"D&D\") no longer supported by Wizards of the Coast."
+    ],
+    "supporting_facts": {
+      "title": [
+        "OSRIC",
+        "OSRIC",
+        "Dungeons &amp; Dragons retro-clones"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac4fbe255429924173fb53b",
+    "question_hash": "d8bc838d36a539dd1b4f447f3079bcd86e96eef75e4f33e273565579768010b7",
+    "answer": "Jeffrey Adam \"Duff\" Goldman",
+    "prompt_A": " It was originally presented by chef Bobby Deen; with fellow Food Network chefs Nancy Fuller, Duff Goldman and Lorraine Pascale serving as judges. All four chefs also appeared in the same roles on \"Holiday Baking Championship\"; and similar to that competition, the grand prize for the winner of this competition is also $50,000.\nJeffrey Adam \"Duff\" Goldman (born December 17, 1974) is a pastry chef and television personality.",
+    "prompt_B": "Name one of the Judges of Spring Baking Championship television series who was born on December 17, 1974 ?",
+    "support": [
+      " It was originally presented by chef Bobby Deen; with fellow Food Network chefs Nancy Fuller, Duff Goldman and Lorraine Pascale serving as judges. All four chefs also appeared in the same roles on \"Holiday Baking Championship\"; and similar to that competition, the grand prize for the winner of this competition is also $50,000.",
+      "Jeffrey Adam \"Duff\" Goldman (born December 17, 1974) is a pastry chef and television personality."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Spring Baking Championship",
+        "Duff Goldman"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8591715542994c784ddb27",
+    "question_hash": "a71300b51dd15896d1f341c0db72b16edc15566d813ac9a11a4f5d7cf160e73d",
+    "answer": "Tai Frasier in \"Clueless\"",
+    "prompt_A": "Good Boy!\n The film stars Liam Aiken as Owen Baker, as well as the voices of Matthew Broderick, Delta Burke, Donald Faison, Brittany Murphy, Carl Reiner, Vanessa Redgrave, and Cheech Marin as the abundant dog characters in the movie.\nBrittany Murphy-Monjack (born Brittany Anne Bertolotti; November 10, 1977 – December 20, 2009), known professionally as Brittany Murphy, was an American actress and singer.\n A native of Atlanta, Murphy moved to Los Angeles as a teenager and pursued a career in acting.\n Her breakthrough role was as Tai Frasier in \"Clueless\" (1995), followed by supporting roles in independent films such as \"Freeway\" (1996) and \"Bongwater\" (1998).",
+    "prompt_B": "What was the breakthrough role of the actor starring in Good Boy! and was a native of Atlanta?",
+    "support": [
+      "Good Boy!",
+      " The film stars Liam Aiken as Owen Baker, as well as the voices of Matthew Broderick, Delta Burke, Donald Faison, Brittany Murphy, Carl Reiner, Vanessa Redgrave, and Cheech Marin as the abundant dog characters in the movie.",
+      "Brittany Murphy-Monjack (born Brittany Anne Bertolotti; November 10, 1977 – December 20, 2009), known professionally as Brittany Murphy, was an American actress and singer.",
+      " A native of Atlanta, Murphy moved to Los Angeles as a teenager and pursued a career in acting.",
+      " Her breakthrough role was as Tai Frasier in \"Clueless\" (1995), followed by supporting roles in independent films such as \"Freeway\" (1996) and \"Bongwater\" (1998)."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Good Boy!",
+        "Good Boy!",
+        "Brittany Murphy",
+        "Brittany Murphy",
+        "Brittany Murphy"
+      ],
+      "sent_id": [
+        0,
+        2,
+        0,
+        1,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8ee3a755429917b4a5be02",
+    "question_hash": "e9ae5658cd022987d8b295b49949e3a086bb387da929175a94c01167cbb9c732",
+    "answer": "Harry Lillis \"Bing\" Crosby Jr.",
+    "prompt_A": "College Humor is a 1933 American pre-Code musical comedy film, directed by Wesley Ruggles, and starring Bing Crosby, Jack Oakie, Richard Arlen, Mary Kornman and Mary Carlisle.\nHarry Lillis \"Bing\" Crosby Jr. ( ; May 3, 1903 – October 14, 1977) was an American singer and actor.\n Crosby's trademark warm bass-baritone voice made him the best-selling recording artist of the 20th century, having sold over one billion records, tapes, compact discs and digital downloads around the world.",
+    "prompt_B": "College Humor is a 1933 American pre-Code musical comedy film that starred what American singer and actor who has a trademark warm bass-baritone voice?",
+    "support": [
+      "College Humor is a 1933 American pre-Code musical comedy film, directed by Wesley Ruggles, and starring Bing Crosby, Jack Oakie, Richard Arlen, Mary Kornman and Mary Carlisle.",
+      "Harry Lillis \"Bing\" Crosby Jr. ( ; May 3, 1903 – October 14, 1977) was an American singer and actor.",
+      " Crosby's trademark warm bass-baritone voice made him the best-selling recording artist of the 20th century, having sold over one billion records, tapes, compact discs and digital downloads around the world."
+    ],
+    "supporting_facts": {
+      "title": [
+        "College Humor (film)",
+        "Bing Crosby",
+        "Bing Crosby"
+      ],
+      "sent_id": [
+        0,
+        0,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab985eb554299131ca42360",
+    "question_hash": "a4836f32f1bfa7f00252336cedad0fe28654a2174079d941830d9545f58f5aee",
+    "answer": "Greyia",
+    "prompt_A": "Greyia is a genus of plant in family Melianthaceae.\n It contains three species:\nCalibanus is a genus of two species of flowering plants, both evergreen succulents from dry areas of northeastern Mexico.",
+    "prompt_B": "Between Greyia and Calibanus, which genus contains more species?",
+    "support": [
+      "Greyia is a genus of plant in family Melianthaceae.",
+      " It contains three species:",
+      "Calibanus is a genus of two species of flowering plants, both evergreen succulents from dry areas of northeastern Mexico."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Greyia",
+        "Greyia",
+        "Calibanus"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5ab431d855429942dd415ed2",
+    "question_hash": "f886d2edb0e33bf205c66730d1fc5319a85560757eb3bb67b1fa07d980343309",
+    "answer": "Jaguar Land Rover",
+    "prompt_A": "The Land Rover Defender (initially called the Land Rover Ninety and Land Rover One Ten) is a British four-wheel drive off-road vehicle developed from the original Land Rover Series launched in June 1948.\n Jaguar Land Rover announced their intention to launch a completely new Defender.\nJaguar Land Rover Automotive PLC is the holding company of Jaguar Land Rover Limited, a British multinational automotive company with its headquarters in Whitley, Coventry, United Kingdom, and a subsidiary of Indian automaker Tata Motors.",
+    "prompt_B": "What company has a headquarters in Whitley, Convernty, United Kingdom?",
+    "support": [
+      "The Land Rover Defender (initially called the Land Rover Ninety and Land Rover One Ten) is a British four-wheel drive off-road vehicle developed from the original Land Rover Series launched in June 1948.",
+      " Jaguar Land Rover announced their intention to launch a completely new Defender.",
+      "Jaguar Land Rover Automotive PLC is the holding company of Jaguar Land Rover Limited, a British multinational automotive company with its headquarters in Whitley, Coventry, United Kingdom, and a subsidiary of Indian automaker Tata Motors."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Land Rover Defender",
+        "Land Rover Defender",
+        "Jaguar Land Rover"
+      ],
+      "sent_id": [
+        0,
+        2,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a771ead55429966f1a36c7c",
+    "question_hash": "3546f7d75be8ace791e5744c84e73306ab8a9793e7b62d73faeccdadca528c82",
+    "answer": "Ken Howard",
+    "prompt_A": "Grey Gardens is an HBO film about the lives of Edith Bouvier Beale/\"Little Edie\", played by Drew Barrymore, and her mother Edith Ewing Bouvier/\"Big Edie\", played by Jessica Lange.\n Co-stars include Jeanne Tripplehorn as Jacqueline Kennedy (Little Edie's cousin) and Ken Howard as Phelan Beale (Little Edie's father).\nPhelan Beale (May 23, 1881 – June 12, 1956) was an American attorney and sportsman in New York City who was married to Edith Ewing Bouvier, an aunt of Jacqueline Kennedy Onassis.",
+    "prompt_B": "Who starred as an American attorney in Grey Gardens?",
+    "support": [
+      "Grey Gardens is an HBO film about the lives of Edith Bouvier Beale/\"Little Edie\", played by Drew Barrymore, and her mother Edith Ewing Bouvier/\"Big Edie\", played by Jessica Lange.",
+      " Co-stars include Jeanne Tripplehorn as Jacqueline Kennedy (Little Edie's cousin) and Ken Howard as Phelan Beale (Little Edie's father).",
+      "Phelan Beale (May 23, 1881 – June 12, 1956) was an American attorney and sportsman in New York City who was married to Edith Ewing Bouvier, an aunt of Jacqueline Kennedy Onassis."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Grey Gardens (2009 film)",
+        "Grey Gardens (2009 film)",
+        "Phelan Beale"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac46a8b5542991943173980",
+    "question_hash": "7064d8af50729f559f063972d2b793ee45f3fe0eda7800c815667bad6ef6057f",
+    "answer": "after",
+    "prompt_A": " It was repealed on 26 March 2015 as a result of the 2011 Perth Agreement.\nPrincess Charlotte of Cambridge (Charlotte Elizabeth Diana; born 2 May 2015) is the younger child and only daughter of Prince William, Duke of Cambridge, and Catherine, Duchess of Cambridge.\n She is fourth in line of succession to the British throne, after her paternal grandfather, her father, and her elder brother.",
+    "prompt_B": "Was Princess Charlotte of Cambridge born before or after the repealing of the Royal Marriages Act 1772?",
+    "support": [
+      " It was repealed on 26 March 2015 as a result of the 2011 Perth Agreement.",
+      "Princess Charlotte of Cambridge (Charlotte Elizabeth Diana; born 2 May 2015) is the younger child and only daughter of Prince William, Duke of Cambridge, and Catherine, Duchess of Cambridge.",
+      " She is fourth in line of succession to the British throne, after her paternal grandfather, her father, and her elder brother."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Royal Marriages Act 1772",
+        "Princess Charlotte of Cambridge",
+        "Princess Charlotte of Cambridge"
+      ],
+      "sent_id": [
+        2,
+        0,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5abda2b755429933744ab80f",
+    "question_hash": "ceed89b38e029ddb78b42b8d7fdb9989c6dbcc4edae639cc3bf7cf5c1c66f89d",
+    "answer": "1918",
+    "prompt_A": " A veteran World War I fighter pilot ace, he was a recipient of the \"Pour le Mérite\".\nWorld War I (WWI or WW1), also known as the First World War, the Great War, or the War to End All Wars, was a global war originating in Europe that lasted from 28 July 1914 to 11 November 1918.",
+    "prompt_B": "Hermann Wilhelm Göring was a veteran fighter pilot in a war that ended in what year?",
+    "support": [
+      " A veteran World War I fighter pilot ace, he was a recipient of the \"Pour le Mérite\".",
+      "World War I (WWI or WW1), also known as the First World War, the Great War, or the War to End All Wars, was a global war originating in Europe that lasted from 28 July 1914 to 11 November 1918."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Hermann Göring",
+        "World War I"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5adc02445542994650320c4e",
+    "question_hash": "bfb5c376908590004e6e85f90c8e4e6f747b6c33c9a4b7a09aedb05ac7d72ead",
+    "answer": "Jean Erdman",
+    "prompt_A": " Winter was an early ballet dancer with the Martha Graham Dance Company from the 1940s to the 1960s, working with other notable early members of the company, including Martha Graham, Yuriko, Yuriko, Ethel Butler, Jean Erdman, and Patricia Birch.\nJean Erdman (born February 20, 1916) is an American dancer and choreographer of modern dance as well as an avant-garde theater director.",
+    "prompt_B": "Ethel Winter worked with which avant-garde theater director?",
+    "support": [
+      " Winter was an early ballet dancer with the Martha Graham Dance Company from the 1940s to the 1960s, working with other notable early members of the company, including Martha Graham, Yuriko, Yuriko, Ethel Butler, Jean Erdman, and Patricia Birch.",
+      "Jean Erdman (born February 20, 1916) is an American dancer and choreographer of modern dance as well as an avant-garde theater director."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Ethel Winter",
+        "Jean Erdman"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8b128455429971feec463b",
+    "question_hash": "45e69acc7753ca995475a05fb1702c46680d7b08e9422f7873f64b81da3b2b6a",
+    "answer": "City and County of Honolulu",
+    "prompt_A": " The women's events are the Vans Hawaiian Pro at Haleiwa Ali'i Beach Park; the Roxy Pro at Sunset Beach; and the Billabong Pro Maui at Honolua Bay, Maui.\nHaleʻ iwa is a North Shore community and census-designated place (CDP) in the Waialua District of the island of Oʻ ahu, City and County of Honolulu.",
+    "prompt_B": "What city is the women's Vans Triple Crown of Surfing event hosted at?",
+    "support": [
+      " The women's events are the Vans Hawaiian Pro at Haleiwa Ali'i Beach Park; the Roxy Pro at Sunset Beach; and the Billabong Pro Maui at Honolua Bay, Maui.",
+      "Haleʻ iwa is a North Shore community and census-designated place (CDP) in the Waialua District of the island of Oʻ ahu, City and County of Honolulu."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Triple Crown of Surfing",
+        "Haleiwa, Hawaii"
+      ],
+      "sent_id": [
+        2,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a803ed45542996402f6a496",
+    "question_hash": "15cf06d2edcf588a02a4539fa8fad5dde4cb743ffaa51aabc188271e78b8f0f5",
+    "answer": "White Horse",
+    "prompt_A": " She has co-written twenty of Swift's officially-released songs and singles, including \"White Horse,\" \"Teardrops on My Guitar,\" and \"You Belong with Me,\" which won her and Swift a Grammy Award in 2010.\n The song was released on December 7, 2008 by Big Machine Records, as the second single from Swift's second studio album \"Fearless\" (2008).",
+    "prompt_B": "Which song, released on December 7, 2008 was co-written by Liz Rose?",
+    "support": [
+      " She has co-written twenty of Swift's officially-released songs and singles, including \"White Horse,\" \"Teardrops on My Guitar,\" and \"You Belong with Me,\" which won her and Swift a Grammy Award in 2010.",
+      " The song was released on December 7, 2008 by Big Machine Records, as the second single from Swift's second studio album \"Fearless\" (2008)."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Liz Rose",
+        "White Horse (Taylor Swift song)"
+      ],
+      "sent_id": [
+        1,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a74c85055429916b0164218",
+    "question_hash": "1690b4056fa4e5ab4f2265cd844db5db0c4063e86b19dc4f882f392b28f89829",
+    "answer": "Alistair Grant",
+    "prompt_A": "Sir Matthew Alistair Grant {'1': \", '2': \", '3': \", '4': \"} (6 March 1937 – 21 January 2001) was a British businessman.\nBritish people, or Britons, are the citizens of the United Kingdom, British Overseas Territories, and Crown dependencies.",
+    "prompt_B": "Born on 6 March 1937, this man was also a citizen of the United Kingdom.",
+    "support": [
+      "Sir Matthew Alistair Grant {'1': \", '2': \", '3': \", '4': \"} (6 March 1937 – 21 January 2001) was a British businessman.",
+      "British people, or Britons, are the citizens of the United Kingdom, British Overseas Territories, and Crown dependencies."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Alistair Grant",
+        "British people"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac288a95542990b17b153e5",
+    "question_hash": "c68b2aafde63c264a2a509236a438b447f2543624327db10fbc54cd0e4f25294",
+    "answer": "United Arab Emirates",
+    "prompt_A": "Aly Zein Mohamed (born 14 December 1990) is an Egyptian handball player for Al Jazira Club and the Egyptian national team.\nAl-Jazira Sports & Cultural Club (also spelled \"Al Jazira Club\", Arabic: نادي الجزيرة الرياضي الثقافي meaning: the island) is primarily a football club from Abu Dhabi, United Arab Emirates.",
+    "prompt_B": "where is a  football club which Aly Mohamed play for from ",
+    "support": [
+      "Aly Zein Mohamed (born 14 December 1990) is an Egyptian handball player for Al Jazira Club and the Egyptian national team.",
+      "Al-Jazira Sports & Cultural Club (also spelled \"Al Jazira Club\", Arabic: نادي الجزيرة الرياضي الثقافي meaning: the island) is primarily a football club from Abu Dhabi, United Arab Emirates."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Aly Mohamed",
+        "Al Jazira Club"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab2123155429970612095b9",
+    "question_hash": "177f1cddb16d3930899be8085349fa4ef06f355859dcecc9f2e51bcc9a013d8b",
+    "answer": "museum",
+    "prompt_A": "Atatürk Museum Mansion (Turkish: \"Atatürk Müze Köşkü\" ) is a historic house museum in Ankara, Turkey.\n It was the residence of President Mustafa Kemal Atatürk between 1921 and 1932, during the early years of the Republic.\nMustafa Kemal Atatürk (] ; 19 May 1881  – 10 November 1938) was a Turkish army officer, revolutionary, and founder of the Republic of Turkey, serving as its first President from 1923 until his death in 1938.",
+    "prompt_B": "What did Mustafa Kemal Atatürk's residence become once it became Atatürk Museum Mansion?  ",
+    "support": [
+      "Atatürk Museum Mansion (Turkish: \"Atatürk Müze Köşkü\" ) is a historic house museum in Ankara, Turkey.",
+      " It was the residence of President Mustafa Kemal Atatürk between 1921 and 1932, during the early years of the Republic.",
+      "Mustafa Kemal Atatürk (] ; 19 May 1881  – 10 November 1938) was a Turkish army officer, revolutionary, and founder of the Republic of Turkey, serving as its first President from 1923 until his death in 1938."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Atatürk Museum Mansion",
+        "Atatürk Museum Mansion",
+        "Mustafa Kemal Atatürk"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a82edae55429966c78a6a9f",
+    "question_hash": "56b86da072bc26c6210922ad3b624362ab618518f575a0aa4833c69c8e05f1f3",
+    "answer": "1986",
+    "prompt_A": " In addition to containing updated versions of two of the band's earlier singles (\"Woman of the World\" and \"Rangoon Moon\"), the album included the international smash hit, \"The Captain of Her Heart\", a plaintive, atmospheric, piano-led ballad which was an immediate success throughout Europe upon its 1986 single release.\nDouble (pronounced \"doo-blay\") was a Swiss music duo best known for their hit single \"The Captain of Her Heart\".",
+    "prompt_B": "Swiss music duo Double released their best known single \"The Captain of Her Heart\" in what year?",
+    "support": [
+      " In addition to containing updated versions of two of the band's earlier singles (\"Woman of the World\" and \"Rangoon Moon\"), the album included the international smash hit, \"The Captain of Her Heart\", a plaintive, atmospheric, piano-led ballad which was an immediate success throughout Europe upon its 1986 single release.",
+      "Double (pronounced \"doo-blay\") was a Swiss music duo best known for their hit single \"The Captain of Her Heart\"."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Blue (Double album)",
+        "Double (band)"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae22b8d554299234fd0440f",
+    "question_hash": "3ef80e3d38e79e78265bf52fd853da1cdbaff1554004130a4efc176ae34eed1c",
+    "answer": "World's Best Goalkeeper",
+    "prompt_A": "Kasper Peter Schmeichel (] ; born 5 November 1986) is a Danish professional footballer who plays as a goalkeeper for Premier League club Leicester City and the Denmark national team.\n He is the son of former Manchester United and Danish international goalkeeper Peter Schmeichel.\nPeter Bolesław Schmeichel MBE (] ; born 18 November 1963) is a Danish former professional footballer who played as a goalkeeper, and was voted the IFFHS World's Best Goalkeeper in 1992 and 1993.",
+    "prompt_B": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "support": [
+      "Kasper Peter Schmeichel (] ; born 5 November 1986) is a Danish professional footballer who plays as a goalkeeper for Premier League club Leicester City and the Denmark national team.",
+      " He is the son of former Manchester United and Danish international goalkeeper Peter Schmeichel.",
+      "Peter Bolesław Schmeichel MBE (] ; born 18 November 1963) is a Danish former professional footballer who played as a goalkeeper, and was voted the IFFHS World's Best Goalkeeper in 1992 and 1993."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Kasper Schmeichel",
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5adbda2755429944faac2385",
+    "question_hash": "8594a5bb12af7e2b0a425092ee69410df1f51faafeee6030f6aceb4a7dc3a9c3",
+    "answer": "Philip K. Dick",
+    "prompt_A": "The Ganymede Takeover is a 1967 science fiction novel by American writers Philip K. Dick and Ray Nelson.\nThe Man in the High Castle (1962) is an alternative history novel by American writer Philip K. Dick.",
+    "prompt_B": "Which American writer wrote both The Ganymede Takeover (1967) and The Man in the High Castle (1962)?",
+    "support": [
+      "The Ganymede Takeover is a 1967 science fiction novel by American writers Philip K. Dick and Ray Nelson.",
+      "The Man in the High Castle (1962) is an alternative history novel by American writer Philip K. Dick."
+    ],
+    "supporting_facts": {
+      "title": [
+        "The Ganymede Takeover",
+        "The Man in the High Castle"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae1d1a55542997f29b3c138",
+    "question_hash": "ceae8d38b76b1ebab8dc90631f15428393745e40d2776a1e334806f65c90fb4a",
+    "answer": "Army of the Holy Roman",
+    "prompt_A": " It was fought on 3 August 1530 between the city of Florence and the army of the Holy Roman Empire.\nThe Army of the Holy Roman Empire (German \"Reichsarmee\", \"Reichsheer\" or \"Reichsarmatur\"; Latin \"exercitus imperii\") was created in 1422, and came to an end when the Holy Roman Empire was wound up in 1806, as the result of the Napoleonic Wars.",
+    "prompt_B": "Which of the fighter in Battle of Gavinana was created in 1422, and came to an end when the Holy Roman Empire was wound up in 1806, as the result of the Napoleonic Wars?",
+    "support": [
+      " It was fought on 3 August 1530 between the city of Florence and the army of the Holy Roman Empire.",
+      "The Army of the Holy Roman Empire (German \"Reichsarmee\", \"Reichsheer\" or \"Reichsarmatur\"; Latin \"exercitus imperii\") was created in 1422, and came to an end when the Holy Roman Empire was wound up in 1806, as the result of the Napoleonic Wars."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Battle of Gavinana",
+        "Army of the Holy Roman Empire"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac3a2f35542993915413856",
+    "question_hash": "7704fd86b2416b23cef60d4631351d5da95d31fac659e74522cef0f2de091102",
+    "answer": "Croatan, Nantahala, and Uwharrie",
+    "prompt_A": "The Art Loeb Trail is a 30.1 mi trail located in Pisgah National Forest in Western North Carolina.\n The northern terminus is at the Daniel Boone Boy Scout Camp in Haywood County, while the trail's southern terminus is located near the Davidson River Campground, near Brevard, in Transylvania County.\n Along the way, the trail traverses several significant peaks, including Black Balsam Knob (6,214 ft), Tennent Mountain (6040 ft) and Pilot Mountain (5095 ft).\n The trail also passes the base of Cold Mountain, made famous by the novel and film.\nPisgah National Forest is a National Forest in the Appalachian Mountains of western North Carolina.\n It is administered by the United States Forest Service, part of the United States Department of Agriculture.\n The forest is managed together with the other three North Carolina National Forests (Croatan, Nantahala, and Uwharrie) from common headquarters in Asheville, North Carolina.",
+    "prompt_B": "What three other National forests are administered by the same people who administer the park in which the Art Loeb trail runs through?",
+    "support": [
+      "The Art Loeb Trail is a 30.1 mi trail located in Pisgah National Forest in Western North Carolina.",
+      " The northern terminus is at the Daniel Boone Boy Scout Camp in Haywood County, while the trail's southern terminus is located near the Davidson River Campground, near Brevard, in Transylvania County.",
+      " Along the way, the trail traverses several significant peaks, including Black Balsam Knob (6,214 ft), Tennent Mountain (6040 ft) and Pilot Mountain (5095 ft).",
+      " The trail also passes the base of Cold Mountain, made famous by the novel and film.",
+      "Pisgah National Forest is a National Forest in the Appalachian Mountains of western North Carolina.",
+      " It is administered by the United States Forest Service, part of the United States Department of Agriculture.",
+      " The forest is managed together with the other three North Carolina National Forests (Croatan, Nantahala, and Uwharrie) from common headquarters in Asheville, North Carolina."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Art Loeb Trail",
+        "Art Loeb Trail",
+        "Art Loeb Trail",
+        "Art Loeb Trail",
+        "Pisgah National Forest",
+        "Pisgah National Forest",
+        "Pisgah National Forest"
+      ],
+      "sent_id": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        3
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a7647b85542992d0ec0608a",
+    "question_hash": "100cce2094fe65aebfe1cf87aa7be814656b69695e4c47d8989fb0a4ca43ca00",
+    "answer": "Washington Street",
+    "prompt_A": " They are clustered around the corner of Washington and Essex Streets, on the edge of the area known in the 20th century has Boston's Combat Zone, or adult entertainment district.\n Centered on Washington Street between Boylston Street and Kneeland Street, the area was once the site of many strip clubs, peep shows, X-rated movie theaters, and adult bookstores.",
+    "prompt_B": "What street was the adult entertainment district of the Liberty Tree District centered on?",
+    "support": [
+      " They are clustered around the corner of Washington and Essex Streets, on the edge of the area known in the 20th century has Boston's Combat Zone, or adult entertainment district.",
+      " Centered on Washington Street between Boylston Street and Kneeland Street, the area was once the site of many strip clubs, peep shows, X-rated movie theaters, and adult bookstores."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Liberty Tree District",
+        "Combat Zone, Boston"
+      ],
+      "sent_id": [
+        1,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac49a1c5542996feb3fe905",
+    "question_hash": "5acab26d7c1c6f358bbbaf9bebb2c407325fb9633c3ab30c9ad33ebdf894d264",
+    "answer": "Chuck Noll",
+    "prompt_A": " After the hiring of head coach Chuck Noll in 1969, Noll signed Defensive Tackle #75 Joe Greene.\n He played college football at Alabama A&M, and was the Steelers' fourth-round draft pick in 1974.",
+    "prompt_B": "Who was the head coach for the team whose fourth round draft pick in 1974 played college football at Alabama A&M?",
+    "support": [
+      " After the hiring of head coach Chuck Noll in 1969, Noll signed Defensive Tackle #75 Joe Greene.",
+      " He played college football at Alabama A&M, and was the Steelers' fourth-round draft pick in 1974."
+    ],
+    "supporting_facts": {
+      "title": [
+        "1974 Pittsburgh Steelers season",
+        "John Stallworth"
+      ],
+      "sent_id": [
+        2,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae60484554299546bf8301a",
+    "question_hash": "39058f189596b785eb777923b8f4b0a3755d1a2c68fcfb5e4b029c0df0259397",
+    "answer": "George Lawrence Mikan, Jr.",
+    "prompt_A": " He was the first player in NBA history to score 2,000 points in one season, breaking the 1,932-point record held by George Mikan.\nGeorge Lawrence Mikan, Jr. (June 18, 1924 – June 1, 2005), nicknamed Mr. Basketball, was an American professional basketball player for the Chicago American Gears of the National Basketball League (NBL) and the Minneapolis Lakers of the NBL, the Basketball Association of America (BAA) and the National Basketball Association (NBA).",
+    "prompt_B": "Which player for the Chicago American Gears held the record which George Harry Yardley III broke ",
+    "support": [
+      " He was the first player in NBA history to score 2,000 points in one season, breaking the 1,932-point record held by George Mikan.",
+      "George Lawrence Mikan, Jr. (June 18, 1924 – June 1, 2005), nicknamed Mr. Basketball, was an American professional basketball player for the Chicago American Gears of the National Basketball League (NBL) and the Minneapolis Lakers of the NBL, the Basketball Association of America (BAA) and the National Basketball Association (NBA)."
+    ],
+    "supporting_facts": {
+      "title": [
+        "George Yardley",
+        "George Mikan"
+      ],
+      "sent_id": [
+        1,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a84cf175542992a431d1aa2",
+    "question_hash": "6828233840197f40d6331672831e69505f60106af149840c22b86ba523482ecb",
+    "answer": "Ratatat",
+    "prompt_A": "Lilys are an American indie rock band formed in Washington, D.C in 1988.\n The only constant member is Kurt Heasley, with the line-up changing regularly.\nRatatat ( ) is a Brooklyn-based electronic rock duo consisting of Mike Stroud (guitar, melodica, synthesizers, percussion) and producer Evan Mast (bass, synthesizers, percussion).",
+    "prompt_B": "Which band has more constant members, Lilys or Ratatat?",
+    "support": [
+      "Lilys are an American indie rock band formed in Washington, D.C in 1988.",
+      " The only constant member is Kurt Heasley, with the line-up changing regularly.",
+      "Ratatat ( ) is a Brooklyn-based electronic rock duo consisting of Mike Stroud (guitar, melodica, synthesizers, percussion) and producer Evan Mast (bass, synthesizers, percussion)."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Lilys",
+        "Lilys",
+        "Ratatat"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  },
+  {
+    "id": "5a81b2505542995ce29dcc32",
+    "question_hash": "16c2744c6e5d5c55297cdd6f0e225eec8c050b0608e6ce42da0c9d83c1ef4857",
+    "answer": "Riviera",
+    "prompt_A": "Kaye Stevens (July 21, 1932 – December 28, 2011) was an American singer and actress, her big break in show business came at the Riviera Hotel in Las Vegas, when the headliner for the night, Debbie Reynolds, became ill and Stevens filled in for the night.\nRiviera (colloquially, \"the Riv\") was a hotel and casino on the Las Vegas Strip in Winchester, Nevada, which operated from April 1955 to May 2015.",
+    "prompt_B": "Kaye Stevens was an American singer and actress whose big break came at what hotel on the Las Vegas Strip that operated from April 1955 to May 2015?",
+    "support": [
+      "Kaye Stevens (July 21, 1932 – December 28, 2011) was an American singer and actress, her big break in show business came at the Riviera Hotel in Las Vegas, when the headliner for the night, Debbie Reynolds, became ill and Stevens filled in for the night.",
+      "Riviera (colloquially, \"the Riv\") was a hotel and casino on the Las Vegas Strip in Winchester, Nevada, which operated from April 1955 to May 2015."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Kaye Stevens",
+        "Riviera (hotel and casino)"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab568af554299494045efaf",
+    "question_hash": "f6817093cf31e384dc05962dc2f235062e023cd21c702c2e07c57b1634397d31",
+    "answer": "Anthony Callea",
+    "prompt_A": "\"Rain\" is the second song released by \"Australian Idol\" series two runner-up Anthony Callea, and features on his self-titled debut album \"Anthony Callea\" (2005).\n It was released as a double A-side set features the song plus his recording of Simon & Garfunkel's song \"Bridge over Troubled Water\", which he performed on \"Australian Idol\".\n Produced by the duo and Roy Halee, the song was released as the follow-up single to \"The Boxer\" in January 1970.",
+    "prompt_B": "Who performed the Simon & Garfunkel song that was a follow-up single to \"The Boxer\" on Australian Idol? ",
+    "support": [
+      "\"Rain\" is the second song released by \"Australian Idol\" series two runner-up Anthony Callea, and features on his self-titled debut album \"Anthony Callea\" (2005).",
+      " It was released as a double A-side set features the song plus his recording of Simon & Garfunkel's song \"Bridge over Troubled Water\", which he performed on \"Australian Idol\".",
+      " Produced by the duo and Roy Halee, the song was released as the follow-up single to \"The Boxer\" in January 1970."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Rain (Anthony Callea song)",
+        "Rain (Anthony Callea song)",
+        "Bridge over Troubled Water (song)"
+      ],
+      "sent_id": [
+        0,
+        1,
+        1
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5a8f7a135542992414482adc",
+    "question_hash": "3a5e68de1b10cea5aa255d3c396a13cdd33b6faf67ff774a86e787fc0a952ff6",
+    "answer": "12 mi southeast of Rome",
+    "prompt_A": "In Greek and Roman mythology, Ocnus or Bianor was a son of Manto and Tiberinus, king of Alba Longa.\nAlba Longa (occasionally written Albalonga in Italian sources) was an ancient city of Latium in central Italy, 12 mi southeast of Rome, in the Alban Hills.",
+    "prompt_B": "In relation to Rome, where was the city whose king was the father of Ocnus?  ",
+    "support": [
+      "In Greek and Roman mythology, Ocnus or Bianor was a son of Manto and Tiberinus, king of Alba Longa.",
+      "Alba Longa (occasionally written Albalonga in Italian sources) was an ancient city of Latium in central Italy, 12 mi southeast of Rome, in the Alban Hills."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Ocnus",
+        "Alba Longa"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ab2be71554299166977408c",
+    "question_hash": "3208add304a80f57e580b10569d9d1193996fe456b2fe09626946f85573f907b",
+    "answer": "University Farm",
+    "prompt_A": "The Brewer Fieldhouse was a multi-purpose arena located in Columbia, Missouri, and home to the University of Missouri Tigers basketball team prior to the Hearnes Center opening in 1972.\n Named after Chester Brewer, the building opened in 1929 to expand on the existing 500 seat Rothwell Gymnasium.\n He served as the head football coach at Albion College (1899–1902), Michigan Agricultural College, now Michigan State University, (1903–1910, 1917, 1919), the University of Missouri (1911–1913), and the University Farm, now the University of California, Davis, (1922), compiling a career record of 97–51–4.\n Brewer was also the head basketball coach at Michigan Agricultural (1903–1910), Missouri (1910–1911) and the University Farm (1922–1923), tallying a mark of 84–36, and the head baseball coach at Michigan Agricultural (1904–1910, 1918–1920) and Missouri (1911, 1914–1917, 1933–1934), amassing a record of 148–93–4.",
+    "prompt_B": "Seven years before the opening of the Brewer Fieldhouse in Columbia, Missouri, where was Chester Brewer working as head football coach and head basketball coach?",
+    "support": [
+      "The Brewer Fieldhouse was a multi-purpose arena located in Columbia, Missouri, and home to the University of Missouri Tigers basketball team prior to the Hearnes Center opening in 1972.",
+      " Named after Chester Brewer, the building opened in 1929 to expand on the existing 500 seat Rothwell Gymnasium.",
+      " He served as the head football coach at Albion College (1899–1902), Michigan Agricultural College, now Michigan State University, (1903–1910, 1917, 1919), the University of Missouri (1911–1913), and the University Farm, now the University of California, Davis, (1922), compiling a career record of 97–51–4.",
+      " Brewer was also the head basketball coach at Michigan Agricultural (1903–1910), Missouri (1910–1911) and the University Farm (1922–1923), tallying a mark of 84–36, and the head baseball coach at Michigan Agricultural (1904–1910, 1918–1920) and Missouri (1911, 1914–1917, 1933–1934), amassing a record of 148–93–4."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Brewer Fieldhouse",
+        "Brewer Fieldhouse",
+        "Chester Brewer",
+        "Chester Brewer"
+      ],
+      "sent_id": [
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ae537e45542990ba0bbb235",
+    "question_hash": "cf22789e182550855c43d93ff9903423f87b5896864ff2588149ee0aff694be9",
+    "answer": "October 13, 1980",
+    "prompt_A": "Chapter II is the second studio album by American R&B singer Ashanti, released by Murder Inc. and Island Def Jam on July 1, 2003 in the United States.\nAshanti Shequoiya Douglas (born October 13, 1980), known simply as Ashanti, is an American singer, songwriter, record producer, dancer and actress.",
+    "prompt_B": "When was the American singer, songwriter, record producer, dancer and actress born who's second studio album is Chapter II?",
+    "support": [
+      "Chapter II is the second studio album by American R&B singer Ashanti, released by Murder Inc. and Island Def Jam on July 1, 2003 in the United States.",
+      "Ashanti Shequoiya Douglas (born October 13, 1980), known simply as Ashanti, is an American singer, songwriter, record producer, dancer and actress."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Chapter II (Ashanti album)",
+        "Ashanti (singer)"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "type": "bridge",
+    "level": "hard"
+  },
+  {
+    "id": "5ac2546a554299636651997b",
+    "question_hash": "aa1d12d479611d1b60e6f730e4b2c2ef9522631ab31f9678d3e31843ebc8ade5",
+    "answer": "Motion City Soundtrack",
+    "prompt_A": " They have produced two studio albums and an EP.\nMotion City Soundtrack was an American rock band that formed in Minneapolis, Minnesota in 1997.\n Over the course of their nearly twenty-year career, the group toured heavily and released six studio albums, the majority on independent label Epitaph Records.",
+    "prompt_B": "Who has released more studio albums, Candlelight Red or Motion City Soundtrack?",
+    "support": [
+      " They have produced two studio albums and an EP.",
+      "Motion City Soundtrack was an American rock band that formed in Minneapolis, Minnesota in 1997.",
+      " Over the course of their nearly twenty-year career, the group toured heavily and released six studio albums, the majority on independent label Epitaph Records."
+    ],
+    "supporting_facts": {
+      "title": [
+        "Candlelight Red",
+        "Motion City Soundtrack",
+        "Motion City Soundtrack"
+      ],
+      "sent_id": [
+        1,
+        0,
+        2
+      ]
+    },
+    "type": "comparison",
+    "level": "hard"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "cache_and_generation": [
+    {
+      "layers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "lengths": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "shared_dual_identical": true
+    },
+    {
+      "layers": [
+        1,
+        2
+      ],
+      "lengths": [
+        5,
+        5,
+        5,
+        1
+      ],
+      "shared_dual_identical": true
+    }
+  ],
+  "metric_checks": 3,
+  "shared_calibration_tracer_and_restore": true,
+  "calibration_layers": [
+    1,
+    2
+  ],
+  "full_cache_vs_same_token_concat": {
+    "tiny_random_cpu_only": true,
+    "repetition_penalty": 1.0,
+    "max_logit_absolute_difference": 2.9802322387695312e-08,
+    "generated_tokens_identical": true,
+    "cv_supports_cache_class": false
+  }
+}

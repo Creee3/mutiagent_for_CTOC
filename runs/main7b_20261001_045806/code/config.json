@@ -1,0 +1,22 @@
+{
+  "source_commit": "1fa086edb17d6e00d80953cb06f391bc0a85268c",
+  "model_3b_path": "/home/liuxin/ICML2027/experiments/latent_kv_reproduction_20260929/kvcomm_cache/hf/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "model_3b_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "model_7b_path": "/home/liuxin/models/Qwen2.5-7B-Instruct",
+  "model_7b_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_7b_revision_source": "https://huggingface.co/api/models/Qwen/Qwen2.5-7B-Instruct",
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "seed": 42,
+  "answer_max_new_tokens": 48,
+  "message_max_new_tokens": 256,
+  "top_layers": 0.5,
+  "alpha": 0.8,
+  "mu": 0.5,
+  "sigma": 10,
+  "shift_back": false,
+  "methods": ["receiver_only", "raw_context", "nld_original", "summary_oneway", "sampled_context", "kv_full", "kv_top50"],
+  "timing_repeat_questions": 10,
+  "timing_extra_passes": 2,
+  "reserved_confirmation_authorized": false
+}
