@@ -1,0 +1,564 @@
+{
+  "passed": true,
+  "script_sha256": "6a7b33154973204bdfda8cc723c41492f38e4a0c14ef5c40a09d34a0fa836a52",
+  "chain_core_sha256": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb",
+  "utc_started": "2026-10-01T13:41:05Z",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.53.3",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "device": "cpu",
+  "model_inference_performed": false,
+  "cases": [
+    {
+      "dtype": "torch.bfloat16",
+      "kv_full_delta_restored_packet_bytes_identical": true,
+      "text_full_delta_restored_packet_bytes_identical": true,
+      "owner_cache_unchanged": true,
+      "zero_suffix_delta_restored_bytes_identical": true,
+      "zero_suffix_owner_storage_not_aliased": true,
+      "target_chain_cache_sha256": "d788fe385ae2d3de30b93419a0552a548c070b834df948ffdf451bc2dd236964",
+      "byte_accounting": {
+        "kv_full_A": {
+          "packet_bytes": 1618,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1506,
+          "payload_bytes": 108,
+          "token_payload_bytes": 12
+        },
+        "kv_full": {
+          "packet_bytes": 1857,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1673,
+          "payload_bytes": 180,
+          "token_payload_bytes": 20
+        },
+        "kv_delta": {
+          "packet_bytes": 2384,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2308,
+          "payload_bytes": 72,
+          "token_payload_bytes": 8
+        },
+        "text_full_A": {
+          "packet_bytes": 695,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 679,
+          "payload_bytes": 12,
+          "token_payload_bytes": 12
+        },
+        "text_full": {
+          "packet_bytes": 868,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 844,
+          "payload_bytes": 20,
+          "token_payload_bytes": 20
+        },
+        "text_delta": {
+          "packet_bytes": 1144,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1132,
+          "payload_bytes": 8,
+          "token_payload_bytes": 8
+        },
+        "kv_zero_suffix_delta": {
+          "packet_bytes": 2139,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2135,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        },
+        "text_zero_suffix_delta": {
+          "packet_bytes": 971,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 967,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        }
+      }
+    },
+    {
+      "dtype": "torch.float32",
+      "kv_full_delta_restored_packet_bytes_identical": true,
+      "text_full_delta_restored_packet_bytes_identical": true,
+      "owner_cache_unchanged": true,
+      "zero_suffix_delta_restored_bytes_identical": true,
+      "zero_suffix_owner_storage_not_aliased": true,
+      "target_chain_cache_sha256": "1181a7d8cec0fae53ad79dea9d377ef40972f621fe467297529f832ac8e16b78",
+      "byte_accounting": {
+        "kv_full_A": {
+          "packet_bytes": 1712,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1504,
+          "payload_bytes": 204,
+          "token_payload_bytes": 12
+        },
+        "kv_full": {
+          "packet_bytes": 2014,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1670,
+          "payload_bytes": 340,
+          "token_payload_bytes": 20
+        },
+        "kv_delta": {
+          "packet_bytes": 2446,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2306,
+          "payload_bytes": 136,
+          "token_payload_bytes": 8
+        },
+        "text_full_A": {
+          "packet_bytes": 695,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 679,
+          "payload_bytes": 12,
+          "token_payload_bytes": 12
+        },
+        "text_full": {
+          "packet_bytes": 868,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 844,
+          "payload_bytes": 20,
+          "token_payload_bytes": 20
+        },
+        "text_delta": {
+          "packet_bytes": 1144,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1132,
+          "payload_bytes": 8,
+          "token_payload_bytes": 8
+        },
+        "kv_zero_suffix_delta": {
+          "packet_bytes": 2135,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2131,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        },
+        "text_zero_suffix_delta": {
+          "packet_bytes": 971,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 967,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        }
+      }
+    }
+  ],
+  "rejection_cases": [
+    {
+      "dtype": "torch.bfloat16",
+      "case": "missing_owner",
+      "rejected": true,
+      "error": "missing owner state"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "wrong_owner_cache",
+      "rejected": true,
+      "error": "owner hash/identity mismatch"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "changed_prefix_encoder",
+      "rejected": true,
+      "error": "owned KV prefix byte mismatch"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "wrong_owner_origin",
+      "rejected": true,
+      "error": "owner hash/identity mismatch"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "wrong_revision",
+      "rejected": true,
+      "error": "wrong revision/qid"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "wrong_qid",
+      "rejected": true,
+      "error": "wrong revision/qid"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "trailing_byte",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "truncated_payload",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "bad_token_boundary",
+      "rejected": true,
+      "error": "bad token payload boundaries"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "bad_cache_boundary",
+      "rejected": true,
+      "error": "bad cache payload boundaries"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "target_hash",
+      "rejected": true,
+      "error": "target history/cache hash mismatch"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "shape_overflow",
+      "rejected": true,
+      "error": "invalid/overflow cache dimension"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "int32_token_overflow",
+      "rejected": true,
+      "error": "int32 token overflow"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "text_missing_owner",
+      "rejected": true,
+      "error": "missing owner state"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "text_wrong_origin",
+      "rejected": true,
+      "error": "owner hash/identity mismatch"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "text_trailing_byte",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "zero_suffix_trailing_byte",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "case": "wrong_position_base",
+      "rejected": true,
+      "error": "invalid/overflow position_base (only zero supported)"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "missing_owner",
+      "rejected": true,
+      "error": "missing owner state"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "wrong_owner_cache",
+      "rejected": true,
+      "error": "owner hash/identity mismatch"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "changed_prefix_encoder",
+      "rejected": true,
+      "error": "owned KV prefix byte mismatch"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "wrong_owner_origin",
+      "rejected": true,
+      "error": "owner hash/identity mismatch"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "wrong_revision",
+      "rejected": true,
+      "error": "wrong revision/qid"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "wrong_qid",
+      "rejected": true,
+      "error": "wrong revision/qid"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "trailing_byte",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "truncated_payload",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "bad_token_boundary",
+      "rejected": true,
+      "error": "bad token payload boundaries"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "bad_cache_boundary",
+      "rejected": true,
+      "error": "bad cache payload boundaries"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "target_hash",
+      "rejected": true,
+      "error": "target history/cache hash mismatch"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "shape_overflow",
+      "rejected": true,
+      "error": "invalid/overflow cache dimension"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "int32_token_overflow",
+      "rejected": true,
+      "error": "int32 token overflow"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "text_missing_owner",
+      "rejected": true,
+      "error": "missing owner state"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "text_wrong_origin",
+      "rejected": true,
+      "error": "owner hash/identity mismatch"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "text_trailing_byte",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "zero_suffix_trailing_byte",
+      "rejected": true,
+      "error": "truncated payload or trailing bytes"
+    },
+    {
+      "dtype": "torch.float32",
+      "case": "wrong_position_base",
+      "rejected": true,
+      "error": "invalid/overflow position_base (only zero supported)"
+    }
+  ],
+  "byte_accounting": {
+    "torch.bfloat16": {
+      "packets": {
+        "kv_full_A": {
+          "packet_bytes": 1618,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1506,
+          "payload_bytes": 108,
+          "token_payload_bytes": 12
+        },
+        "kv_full": {
+          "packet_bytes": 1857,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1673,
+          "payload_bytes": 180,
+          "token_payload_bytes": 20
+        },
+        "kv_delta": {
+          "packet_bytes": 2384,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2308,
+          "payload_bytes": 72,
+          "token_payload_bytes": 8
+        },
+        "text_full_A": {
+          "packet_bytes": 695,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 679,
+          "payload_bytes": 12,
+          "token_payload_bytes": 12
+        },
+        "text_full": {
+          "packet_bytes": 868,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 844,
+          "payload_bytes": 20,
+          "token_payload_bytes": 20
+        },
+        "text_delta": {
+          "packet_bytes": 1144,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1132,
+          "payload_bytes": 8,
+          "token_payload_bytes": 8
+        },
+        "kv_zero_suffix_delta": {
+          "packet_bytes": 2139,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2135,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        },
+        "text_zero_suffix_delta": {
+          "packet_bytes": 971,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 967,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        }
+      },
+      "topology_totals": {
+        "kv": {
+          "A_full_packet_bytes": 1618,
+          "AB_full_packet_bytes": 1857,
+          "AB_delta_packet_bytes": 2384,
+          "linear_full_packet_bytes": 3475,
+          "triangle_full_packet_bytes": 5093,
+          "triangle_delta_packet_bytes": 5620,
+          "triangle_delta_minus_triangle_full_bytes": 527,
+          "triangle_delta_minus_linear_full_bytes": 2145,
+          "net_savings_vs_triangle_full_bytes": -527,
+          "net_savings_vs_linear_full_bytes": -2145,
+          "includes_all_header_reference_bytes": true
+        },
+        "text": {
+          "A_full_packet_bytes": 695,
+          "AB_full_packet_bytes": 868,
+          "AB_delta_packet_bytes": 1144,
+          "linear_full_packet_bytes": 1563,
+          "triangle_full_packet_bytes": 2258,
+          "triangle_delta_packet_bytes": 2534,
+          "triangle_delta_minus_triangle_full_bytes": 276,
+          "triangle_delta_minus_linear_full_bytes": 971,
+          "net_savings_vs_triangle_full_bytes": -276,
+          "net_savings_vs_linear_full_bytes": -971,
+          "includes_all_header_reference_bytes": true
+        }
+      },
+      "owner_raw_resident_tensor_bytes": {
+        "int64_history": 24,
+        "kv": 96,
+        "total": 120,
+        "is_total_process_or_allocator_memory": false
+      }
+    },
+    "torch.float32": {
+      "packets": {
+        "kv_full_A": {
+          "packet_bytes": 1712,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1504,
+          "payload_bytes": 204,
+          "token_payload_bytes": 12
+        },
+        "kv_full": {
+          "packet_bytes": 2014,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1670,
+          "payload_bytes": 340,
+          "token_payload_bytes": 20
+        },
+        "kv_delta": {
+          "packet_bytes": 2446,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2306,
+          "payload_bytes": 136,
+          "token_payload_bytes": 8
+        },
+        "text_full_A": {
+          "packet_bytes": 695,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 679,
+          "payload_bytes": 12,
+          "token_payload_bytes": 12
+        },
+        "text_full": {
+          "packet_bytes": 868,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 844,
+          "payload_bytes": 20,
+          "token_payload_bytes": 20
+        },
+        "text_delta": {
+          "packet_bytes": 1144,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 1132,
+          "payload_bytes": 8,
+          "token_payload_bytes": 8
+        },
+        "kv_zero_suffix_delta": {
+          "packet_bytes": 2135,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 2131,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        },
+        "text_zero_suffix_delta": {
+          "packet_bytes": 971,
+          "header_prefix_bytes": 4,
+          "utf8_json_header_bytes": 967,
+          "payload_bytes": 0,
+          "token_payload_bytes": 0
+        }
+      },
+      "topology_totals": {
+        "kv": {
+          "A_full_packet_bytes": 1712,
+          "AB_full_packet_bytes": 2014,
+          "AB_delta_packet_bytes": 2446,
+          "linear_full_packet_bytes": 3726,
+          "triangle_full_packet_bytes": 5438,
+          "triangle_delta_packet_bytes": 5870,
+          "triangle_delta_minus_triangle_full_bytes": 432,
+          "triangle_delta_minus_linear_full_bytes": 2144,
+          "net_savings_vs_triangle_full_bytes": -432,
+          "net_savings_vs_linear_full_bytes": -2144,
+          "includes_all_header_reference_bytes": true
+        },
+        "text": {
+          "A_full_packet_bytes": 695,
+          "AB_full_packet_bytes": 868,
+          "AB_delta_packet_bytes": 1144,
+          "linear_full_packet_bytes": 1563,
+          "triangle_full_packet_bytes": 2258,
+          "triangle_delta_packet_bytes": 2534,
+          "triangle_delta_minus_triangle_full_bytes": 276,
+          "triangle_delta_minus_linear_full_bytes": 971,
+          "net_savings_vs_triangle_full_bytes": -276,
+          "net_savings_vs_linear_full_bytes": -971,
+          "includes_all_header_reference_bytes": true
+        }
+      },
+      "owner_raw_resident_tensor_bytes": {
+        "int64_history": 24,
+        "kv": 192,
+        "total": 216,
+        "is_total_process_or_allocator_memory": false
+      }
+    }
+  },
+  "topology_formulas": {
+    "linear_full": "len(A_full)+len(AB_full)",
+    "triangle_full": "2*len(A_full)+len(AB_full)",
+    "triangle_delta": "2*len(A_full)+len(AB_delta)"
+  },
+  "metadata_is_in_packet": true,
+  "synthetic_cache_only": true,
+  "real_7b_claim": false,
+  "utc_completed": "2026-10-01T13:41:07Z"
+}

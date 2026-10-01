@@ -1,0 +1,174 @@
+{
+  "cases": [
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "kv": {
+        "A_content_bytes": 11411456,
+        "B_added_content_bytes": 13934592,
+        "observed_linear_full_content_bytes": 36757504,
+        "fixed_triangle_full_edges": {
+          "A_to_B": 11411456,
+          "A_to_C": 11411456,
+          "B_to_C": 25346048
+        },
+        "fixed_triangle_delta_edges": {
+          "A_to_B": 11411456,
+          "A_to_C": 11411456,
+          "B_to_C": 13934592
+        },
+        "fixed_triangle_full_content_bytes": 48168960,
+        "fixed_triangle_delta_content_bytes": 36757504,
+        "saved_content_bytes_on_same_triangle": 11411456,
+        "saved_fraction_on_same_triangle": 0.2369047619047619,
+        "saved_fraction_on_B_to_C_only": 0.4502262443438914,
+        "saved_content_bytes_vs_observed_linear": 0
+      },
+      "text": {
+        "A_content_bytes": 796,
+        "B_added_content_bytes": 972,
+        "observed_linear_full_content_bytes": 2564,
+        "fixed_triangle_full_edges": {
+          "A_to_B": 796,
+          "A_to_C": 796,
+          "B_to_C": 1768
+        },
+        "fixed_triangle_delta_edges": {
+          "A_to_B": 796,
+          "A_to_C": 796,
+          "B_to_C": 972
+        },
+        "fixed_triangle_full_content_bytes": 3360,
+        "fixed_triangle_delta_content_bytes": 2564,
+        "saved_content_bytes_on_same_triangle": 796,
+        "saved_fraction_on_same_triangle": 0.2369047619047619,
+        "saved_fraction_on_B_to_C_only": 0.4502262443438914,
+        "saved_content_bytes_vs_observed_linear": 0
+      }
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "kv": {
+        "A_content_bytes": 9289728,
+        "B_added_content_bytes": 11583488,
+        "observed_linear_full_content_bytes": 30162944,
+        "fixed_triangle_full_edges": {
+          "A_to_B": 9289728,
+          "A_to_C": 9289728,
+          "B_to_C": 20873216
+        },
+        "fixed_triangle_delta_edges": {
+          "A_to_B": 9289728,
+          "A_to_C": 9289728,
+          "B_to_C": 11583488
+        },
+        "fixed_triangle_full_content_bytes": 39452672,
+        "fixed_triangle_delta_content_bytes": 30162944,
+        "saved_content_bytes_on_same_triangle": 9289728,
+        "saved_fraction_on_same_triangle": 0.23546511627906977,
+        "saved_fraction_on_B_to_C_only": 0.44505494505494503,
+        "saved_content_bytes_vs_observed_linear": 0
+      },
+      "text": {
+        "A_content_bytes": 648,
+        "B_added_content_bytes": 808,
+        "observed_linear_full_content_bytes": 2104,
+        "fixed_triangle_full_edges": {
+          "A_to_B": 648,
+          "A_to_C": 648,
+          "B_to_C": 1456
+        },
+        "fixed_triangle_delta_edges": {
+          "A_to_B": 648,
+          "A_to_C": 648,
+          "B_to_C": 808
+        },
+        "fixed_triangle_full_content_bytes": 2752,
+        "fixed_triangle_delta_content_bytes": 2104,
+        "saved_content_bytes_on_same_triangle": 648,
+        "saved_fraction_on_same_triangle": 0.23546511627906977,
+        "saved_fraction_on_B_to_C_only": 0.44505494505494503,
+        "saved_content_bytes_vs_observed_linear": 0
+      }
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "kv": {
+        "A_content_bytes": 13361152,
+        "B_added_content_bytes": 14278656,
+        "observed_linear_full_content_bytes": 41000960,
+        "fixed_triangle_full_edges": {
+          "A_to_B": 13361152,
+          "A_to_C": 13361152,
+          "B_to_C": 27639808
+        },
+        "fixed_triangle_delta_edges": {
+          "A_to_B": 13361152,
+          "A_to_C": 13361152,
+          "B_to_C": 14278656
+        },
+        "fixed_triangle_full_content_bytes": 54362112,
+        "fixed_triangle_delta_content_bytes": 41000960,
+        "saved_content_bytes_on_same_triangle": 13361152,
+        "saved_fraction_on_same_triangle": 0.24578059071729957,
+        "saved_fraction_on_B_to_C_only": 0.483402489626556,
+        "saved_content_bytes_vs_observed_linear": 0
+      },
+      "text": {
+        "A_content_bytes": 932,
+        "B_added_content_bytes": 996,
+        "observed_linear_full_content_bytes": 2860,
+        "fixed_triangle_full_edges": {
+          "A_to_B": 932,
+          "A_to_C": 932,
+          "B_to_C": 1928
+        },
+        "fixed_triangle_delta_edges": {
+          "A_to_B": 932,
+          "A_to_C": 932,
+          "B_to_C": 996
+        },
+        "fixed_triangle_full_content_bytes": 3792,
+        "fixed_triangle_delta_content_bytes": 2860,
+        "saved_content_bytes_on_same_triangle": 932,
+        "saved_fraction_on_same_triangle": 0.24578059071729957,
+        "saved_fraction_on_B_to_C_only": 0.483402489626556,
+        "saved_content_bytes_vs_observed_linear": 0
+      }
+    }
+  ],
+  "totals": {
+    "kv": {
+      "fixed_triangle_full_content_bytes": 141983744,
+      "fixed_triangle_delta_content_bytes": 107921408,
+      "observed_linear_full_content_bytes": 107921408,
+      "saved_fraction_on_same_triangle": 0.23990306946688206,
+      "saved_content_bytes_vs_observed_linear": 0
+    },
+    "text": {
+      "fixed_triangle_full_content_bytes": 9904,
+      "fixed_triangle_delta_content_bytes": 7528,
+      "observed_linear_full_content_bytes": 7528,
+      "saved_fraction_on_same_triangle": 0.23990306946688206,
+      "saved_content_bytes_vs_observed_linear": 0
+    }
+  },
+  "scope": "Counterfactual content-only arithmetic; no new transmission or model execution.",
+  "representations": {
+    "kv": "Raw KV tensor bytes only; excludes wire history tokens.",
+    "text": "Exact history int32 token bytes, not UTF-8 text bytes."
+  },
+  "excludes": [
+    "packet headers",
+    "references",
+    "metadata",
+    "receiver storage and restore work",
+    "network and serialization latency"
+  ],
+  "new_model_calls": 0,
+  "important_boundary": "Adding A_to_C just to create reuse does not save content over the observed linear chain.",
+  "source": {
+    "path": "/home/liuxin/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/freechain_20261001_125456/summary.json",
+    "sha256": "72d62ef11220736ca61091da3770c01717d4d4b37406fc5366de857e4f8ee431"
+  },
+  "script_sha256": "8da4bded8f07332bbef52a96e65249318bf46c39e92414b2b286c85097abbf8e"
+}

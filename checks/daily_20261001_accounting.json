@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-01",
+  "scope": "Recorded successful school-server real-model runs in this experiment directory; excludes small random CPU models and other projects. Generate counts include warmup, calibration, repeated timing and controls, not unique question count.",
+  "sources": [
+    {
+      "path": "checks/preflight3b_summary.json",
+      "sha256": "bbf810c0bd2694af74cf871a56774eea2694239fef3004d8fd0ed37b8c5b2357",
+      "counts": {
+        "generate": 202,
+        "sender_prefill": 42
+      }
+    },
+    {
+      "path": "runs/main7b_20261001_045806/summary.json",
+      "sha256": "72b5b6dfda91c1e6c28126bc3f7e1d7f842023f3b3794b5c73f67341f10e96ed",
+      "counts": {
+        "generate": 1230,
+        "sender_prefill": 262
+      }
+    },
+    {
+      "path": "runs/alignment7b_20261001_054917/summary.json",
+      "sha256": "5e66837af1b18a67bda42a26e8590639906db362e833c19f14d666808953afbd",
+      "counts": {
+        "generate": 72,
+        "sender_prefill": 31,
+        "raw_concat_forward": 10,
+        "raw_cv_receiver_forward": 10
+      }
+    },
+    {
+      "path": "runs/chain3_20261001_122157/summary.json",
+      "sha256": "0baec38097d7b2154a0cf4347f43febb3fdd79f80e61e5e5d79cce5b88777b1f",
+      "counts": {
+        "generate": 20,
+        "cache_tail_forward": 8
+      }
+    },
+    {
+      "path": "runs/cachepath_20261001_123341/summary.json",
+      "sha256": "3d0c9554986993cdabb0c33c1ea9d8ecfe5f40a18d09c604f2edec62f1301018",
+      "counts": {
+        "generate": 4,
+        "cache_tail_forward": 1
+      }
+    },
+    {
+      "path": "runs/freechain_20261001_125456/summary.json",
+      "sha256": "72d62ef11220736ca61091da3770c01717d4d4b37406fc5366de857e4f8ee431",
+      "counts": {
+        "generate": 20,
+        "cache_tail_forward": 8
+      }
+    }
+  ],
+  "totals": {
+    "generate": 1548,
+    "sender_prefill": 335,
+    "cache_tail_forward": 17,
+    "raw_concat_forward": 10,
+    "raw_cv_receiver_forward": 10
+  },
+  "owned_wire_cpu": {
+    "passed": true,
+    "model_generate_calls": 0,
+    "rejections": 36,
+    "script_sha256": "6a7b33154973204bdfda8cc723c41492f38e4a0c14ef5c40a09d34a0fa836a52",
+    "report_sha256": "05b894ddd5941a4bc06cd3233f192e8b492db273fe6917540c1e1f7c77d94cdc"
+  },
+  "content_accounting_local_cloud_match": true,
+  "gpu_new_calls_this_round": 0
+}
