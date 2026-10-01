@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-01T19:46:22.247616+00:00",
+  "status": "prepared_artifacts_passed_not_a_protocol_or_quality_result",
+  "unique_questions": 20,
+  "receiver_input_rows": 72,
+  "partial_eligible_questions": 6,
+  "exact_complete_prompt_length_pairs": 26,
+  "original_heading_only_controls": 12,
+  "corrected_nonempty_body_controls": 20,
+  "corrected_controls_omitting_heading": 1,
+  "selector_payload_whitelist": [
+    "question",
+    "receiver_visible_text",
+    "sender_material"
+  ],
+  "offline_tokenizer_rows_checked": 112,
+  "manifest_files_sha256": {
+    "data/receiver_evidence_20261002/manifest.json": "7d2fd9c786da03012a3d4703e80184c41bcaa2fbd522b4f9835cacf12871d5f6",
+    "data/receiver_runtime_views_20261002/manifest.json": "b3a8c3eebf4038654ff92882e2f3759ddcc0ec872ebd3543c5261b2e89f96a4d"
+  },
+  "audit_code_sha256": "b6c1e644fdd82ad9af61c34b30515c240d1f6df15f5bf9a4c3e0bddb32f4490d",
+  "model_calls": 0,
+  "model_weights_loaded": false,
+  "limits": [
+    "semantic irrelevance of length controls is not proved",
+    "body sampling is a random control, not a strong semantic selector",
+    "sender outputs/cache, receiver query and legal KV ingestion are not ready",
+    "only the nested payload is passed to selectors, never lookup IDs or scheduler metadata"
+  ]
+}

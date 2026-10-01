@@ -1,0 +1,90 @@
+{
+  "created_at_utc": "2026-10-01T19:32:55.633524+00:00",
+  "stage": "input preparation only; no inference protocol or GPU conditions frozen",
+  "dataset": "frozen HotpotQA distractor validation calibration support sentences",
+  "dataset_revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+  "calibration_sha256": "2e52f4e0fa4ce644088e51ee72b9d9301b398db3860e3ac3ef2c0c5a6058b328",
+  "ordered_question_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac55ea55542993e66e82377",
+    "5ac3a76e554299741d48a2be",
+    "5a7133565542994082a3e65c",
+    "5ac1a4745542991316484b82",
+    "5adc597d55429947ff17392f",
+    "5ac55e835542993e66e82375",
+    "5a8d9e0f554299441c6ba015",
+    "5ae70ed7554299572ea546a1",
+    "5a74a8fa55429929fddd8497",
+    "5a7cb94f554299683c1c6353",
+    "5ab874ba5542990e739ec904",
+    "5ae3a8985542992f92d82329",
+    "5ac39f7b554299218029dbe7",
+    "5ae27b535542996483e649b6",
+    "5a7331de5542994cef4bc4a8",
+    "5ac15de55542991316484afb",
+    "5a7c6c9d554299683c1c6302",
+    "5ae6363b55429929b0807af0",
+    "5a8cea40554299441c6b9f76"
+  ],
+  "model_revision_for_tokenizer_only": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "tokenizer_files_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  "transformers_version": "4.53.3",
+  "config_sha256": "38d207fa4704ac58b15f1028054f2fdb5b3042640b86e1591ec4890e2d2d82af",
+  "code_sha256": {
+    "prepare_receiver_evidence.py": "b65fbd18fd3ceceecf820ed3219cdf4a24b8f54302befc2e157ca776031a9c4d",
+    "chain_core.py": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb",
+    "run.py": "0721d48cead0fc87d0aaa3ee706b377de903bc3917d6efadaa2dcd59ec93130f",
+    "alignment_probe.py": "dc5e0bb2a0db1c16cd2e066a8fb36967a66b870a4c1fb402a21beaeb7f4c8b4f"
+  },
+  "unique_questions": 20,
+  "receiver_input_rows": 72,
+  "condition_counts": {
+    "full": 20,
+    "full_other_document_control": 20,
+    "missing": 20,
+    "partial": 6,
+    "partial_other_document_control": 6
+  },
+  "partial_undefined_single_sentence_ids": [
+    "5ac55ea55542993e66e82377",
+    "5ac1a4745542991316484b82",
+    "5adc597d55429947ff17392f",
+    "5ac55e835542993e66e82375",
+    "5a8d9e0f554299441c6ba015",
+    "5a7cb94f554299683c1c6353",
+    "5ab874ba5542990e739ec904",
+    "5ae3a8985542992f92d82329",
+    "5ac39f7b554299218029dbe7",
+    "5a7331de5542994cef4bc4a8",
+    "5ac15de55542991316484afb",
+    "5a7c6c9d554299683c1c6302",
+    "5ae6363b55429929b0807af0",
+    "5a8cea40554299441c6b9f76"
+  ],
+  "partial_eligible_questions": 6,
+  "three_state_comparison_unique_questions": 6,
+  "exact_full_prompt_length_control_pairs": 26,
+  "total_full_prompt_length_control_pairs": 26,
+  "material_sampling_really_shortened": 20,
+  "no_model_or_generate_calls": true,
+  "model_calls": 0,
+  "future_generation_budget_and_call_count": "not_frozen",
+  "limits": [
+    "support-sentence oracle input, not retrieval or long-context benchmark",
+    "held means explicitly visible, not understood or absent from model weights",
+    "partial comparison must use the same six questions in all three states",
+    "other-document control is exactly token matched if flagged, not proved semantically irrelevant",
+    "control may truncate a donor sentence; separate intervention, not public benchmark score",
+    "oracle metadata and scoring labels must never be supplied to deployed selectors",
+    "full-history route would reveal all sender material and bypass message selection",
+    "sampling scope is source material; generated node-output text still required as a baseline"
+  ],
+  "outputs_sha256": {
+    "selector_input_views.json": "8648103bed04bc08027bf1aa237fafe4f66c80bb4b4f8e7af22ddfc9de7a71a4",
+    "diagnostic_annotations.json": "0264b2b98b76af34fbfe9cd1c7d7df3ea51dcd0c321acf171a9434b187303af9",
+    "scoring_labels.json": "fb4b346d5e121062665559e3cf2a4257dfdfde1e7806fa39ab5372d33b06ef67"
+  }
+}

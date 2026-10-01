@@ -73,3 +73,11 @@ owned_prefix_accounting.py从旧三题只读计算：固定triangle纯KV内容14
 重新读G-Designer关键源码与旧消息：原版只发送前驱本次输出；自然三角存在，但完整祖先A的KV重复来自本whole-history适配。精确来源引用是工程基线，不等于不同分析的语义冗余。后续先固定接收方持有/缺失事实的语义增量条件和合法多源接入，保留原版只传节点输出的强文本流程，不扩图/训练/500题。
 
 用户改定时为每小时一次，明确授权随实际进度更新任务提示。已用app更新原automation-2并回读toml：ACTIVE、小时周期、同一thread，主线与授权边界保持。用户要求本轮结束给今日完整记录，已写《今日工作记录_20261001.md》。checks/daily_20261001_accounting.json核对本目录成功学校真实模型run合计1548 generate、335额外sender prefill、17补尾、20raw诊断forward；含预热/校准/重复计时/控制和中间消息，不是1548题，正式质量仍100题700主答案。独立复查24个查阅链接和六份来源SHA通过，本轮代码/结果/记录一起纳入Git与云端保存，不推送。
+
+2026-10-02本轮准备：读取实际计划、Git与自己服务器进程；开始时HEAD623f1a6、工作树干净、无本任务模型进程。新增prepare_receiver_evidence.py，仅使用学校既有conda与离线tokenizer，保存原20道校准题的72份输入：missing20/partial6/full20及26份等长其他题材料。14道单句题partial不可定义；三状态只在同组6题比较。26对均按完整chat输入的实际token长度匹配；sender输入hash在各条件一致。金标、支持句oracle与输入分文件，输出/cache尚未生成。没有使用100/500题，没有加载模型或使用GPU。
+
+只读审查发现两个实质问题：whole-history会泄露sender全部材料，绕过消息删减；现有sample_text在新50%预算上12/20只剩标题。旧输入、run.py和原实验保留。新增prepare_receiver_runtime_views.py，分离72份白名单payload和调度标签，正文采样20/20非空、完整payload预算内；1条标题过长时省略标题，仅随机控制。首次CPU准备因标题预算不足断言退出，输出目录未创建；调整标题可选后成功。不是模型失败/重跑。audit_receiver_preparation.py在学校CPU独立核对112份实际编码/hash及数据来源/标签隔离；通过，报告0模型调用，回传后独立只读复核相同。
+
+官方接口准备：CacheBack main浅克隆固定6e961127，包src/rclc、硬限制Qwen3、Transformers>=4.57.1；不能直接用当前Qwen2.5/4.53.3。另只读paper与paper-v1快照15bc3f7a，注册Qwen仍为Qwen3且依赖栈不同，未安装/切分支。RelayCaching固定6b0e9d37克隆连接重置失败，未重复下载；改读官方固定源码网页，确认Qwen2路由存在但版本4.52.4及自定义forward/hidden/位置接口尚未迁移。更正证据附件的pre-RoPE表述为响应相对位置post-RoPE K＋V/hidden。不是任何路线复现通过。
+
+CacheBack main官方源码用git archive放到学校新upstream目录，123个普通文件hash和2个仓库内部hook链接均对照tar一致；未安装hook或执行源码。首次安全解包拒绝这两个内部链接，目标目录尚未创建；核对仅指向同目录pre-commit后允许并记录，无覆盖旧仓库。保存接口、分支、数据CPU与源码备份记录；前台简稿《接收方证据条件_准备结果_20261002.md》。本轮模型调用始终0，不修改旧1548次generate账目；sender输出/cache、动态query、合法删减接入和新调用数仍待冻结。

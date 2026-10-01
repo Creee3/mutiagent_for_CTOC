@@ -1,0 +1,1009 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "audit_date_local": "2026-10-02",
+    "timezone": "Asia/Shanghai",
+    "created_utc": "2026-10-01 19:28:51 UTC",
+    "project_root": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001",
+    "purpose": "只读核查官方接口、冻结可取得源码版本及列出当前工程适配缺口；不是复现或兼容性通过报告。",
+    "owner": "official_interface_preparation",
+    "model_calls_performed": 0,
+    "new_gpu_model_calls": 0,
+    "new_cpu_model_calls": 0,
+    "model_weights_loaded": false,
+    "packages_imported_for_runtime_validation": false,
+    "dependencies_installed": false,
+    "system_cuda_changed": false,
+    "old_repository_files_modified": false,
+    "claude_settings_modified": false,
+    "paper_fulltexts_embedded": false,
+    "git_commit_performed": false,
+    "methods": [
+      "文件与源码文本阅读",
+      "git ls-remote HEAD",
+      "一次官方浅克隆/仓库",
+      "固定commit官方web源码阅读",
+      "已有工程环境记录读取",
+      "JSON结构与证据路径静态核查"
+    ],
+    "limits": [
+      "仅审计冻结commit，未执行CacheBack或RelayCaching模型接口。",
+      "未声明GPU/CPU兼容性、质量、TTFT或网络字节改善。",
+      "未审计CacheBack paper分支；main公共接口与论文实验栈分开。"
+    ]
+  },
+  "current_environment": {
+    "source": "既有工程报告；未启动服务器或重新查询运行环境",
+    "torch": "2.6.0+cu124",
+    "transformers": "4.53.3",
+    "python": "3.10.21",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "decoding": "greedy/num_beams=1",
+    "answer_max_new_tokens": 48,
+    "message_max_new_tokens_existing": 256,
+    "evidence": [
+      {
+        "file": "checks/owned_prefix_wire_cpu.json",
+        "start_line": 6,
+        "end_line": 10,
+        "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/owned_prefix_wire_cpu.json"
+      },
+      {
+        "file": "config.json",
+        "start_line": 5,
+        "end_line": 12,
+        "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/config.json"
+      },
+      {
+        "file": "chain_core.py",
+        "start_line": 114,
+        "end_line": 117,
+        "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py"
+      },
+      {
+        "file": "run.py",
+        "start_line": 204,
+        "end_line": 208,
+        "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/run.py"
+      },
+      {
+        "file": "Qwen/Qwen2.5-7B-Instruct/config.json",
+        "start_line": 2,
+        "end_line": 17,
+        "fixed_commit_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/blob/a09a35458c702b33eeacc393d103063234e8bc28/config.json"
+      }
+    ],
+    "model_architecture": "Qwen2ForCausalLM",
+    "model_type": "qwen2",
+    "num_hidden_layers": 28,
+    "hidden_size": 3584,
+    "model_config_verified_by": "只读HTTP读取冻结revision config.json，未加载权重或模型。"
+  },
+  "sources": {
+    "upstream_preexisting": false,
+    "upstream_ignored": true,
+    "ignore_evidence": {
+      "file": ".gitignore",
+      "start_line": 1,
+      "end_line": 3,
+      "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/.gitignore"
+    },
+    "cacheback": {
+      "requested_official_url": "https://github.com/maxr0ssi/rclc",
+      "canonical_repository_from_snapshot_metadata": "https://github.com/agentcacheback/cacheback",
+      "branch": "main",
+      "commit": "6e96112706cca70d4b766fde51c065f224992f4d",
+      "commit_time": "2026-10-01 13:23:34 -0400",
+      "acquisition": "git clone --depth 1; no existing checkout overwritten",
+      "status": "downloaded_source_only",
+      "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002",
+      "local_git_origin": "https://github.com/maxr0ssi/rclc",
+      "source_file_hashes": [
+        {
+          "path": "D:\\liuxin_workspace\\ICML2027\\experiments\\kvcomm_text_kv_baseline_20261001\\upstream\\rclc-official_20261002\\src\\rclc\\transport.py",
+          "sha256": "74da58c8dfb4c7ca5fc2bd5805ccca02f1d1bafc9d18eb86448a982815b5a700"
+        },
+        {
+          "path": "D:\\liuxin_workspace\\ICML2027\\experiments\\kvcomm_text_kv_baseline_20261001\\upstream\\rclc-official_20261002\\src\\rclc\\message.py",
+          "sha256": "05ec9e77ac005813c57e930e3d642e268e296d14a4a3f150b5d474fd069e4158"
+        },
+        {
+          "path": "D:\\liuxin_workspace\\ICML2027\\experiments\\kvcomm_text_kv_baseline_20261001\\upstream\\rclc-official_20261002\\src\\rclc\\selectors\\cacheback.py",
+          "sha256": "33d4a56f2f838c90a865af699dc92b1f422cbb84d752e822b4f5b52d9a493cc4"
+        },
+        {
+          "path": "D:\\liuxin_workspace\\ICML2027\\experiments\\kvcomm_text_kv_baseline_20261001\\upstream\\rclc-official_20261002\\src\\rclc\\hf.py",
+          "sha256": "e70eb3f1c7bd36691c638bc9b10b48f0c035167d8f9de928f803484bc739102e"
+        },
+        {
+          "path": "D:\\liuxin_workspace\\ICML2027\\experiments\\kvcomm_text_kv_baseline_20261001\\upstream\\rclc-official_20261002\\pyproject.toml",
+          "sha256": "71da6917a8bd0689ce0b121f31fba6ac769cd2e651b023aed3577e306ca77026"
+        }
+      ],
+      "api_import_name": "rclc",
+      "api_source_directory": "src/rclc",
+      "old_notes_difference": "旧文献附件的main/src/rcc链接不是本次冻结版本路径；旧网页main阅读并未冻结commit。",
+      "paper_branch_reviewed": false,
+      "paper_branch_scope_evidence": {
+        "file": "docs/replication.md",
+        "start_line": 3,
+        "end_line": 19,
+        "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/replication.md",
+        "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/replication.md#L3"
+      }
+    },
+    "relaycaching": {
+      "requested_official_url": "https://github.com/YingshengGeng/RelayCaching",
+      "branch": "main",
+      "commit": "6b0e9d37b74d89cfb0fbad276790150a0d9c0b49",
+      "commit_verified_by": "successful git ls-remote HEAD",
+      "acquisition": "一次git clone失败后，改为固定commit官方HTTP/web源码只读；无反复下载重试",
+      "status": "web_source_only",
+      "local_path": null,
+      "attempted_new_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/RelayCaching-official_20261002",
+      "clone_error": "fatal: unable to access official repository: Recv failure: Connection was reset",
+      "local_checkout_created": false,
+      "download_attempts": 1
+    }
+  },
+  "cacheback": {
+    "audit_status": "interface_read_only_target_blocked_not_adapted",
+    "existing_sender_rows": {
+      "status": "supported_for_official_Qwen3_api_target_Qwen2.5_blocked",
+      "interface": "SenderState(model, past_key_values, input_embeds, tokenizer, token_ids, latent_steps=0, inherited_positions=I)",
+      "constraints": [
+        "input_embeds为构建该cache的精确输入行[positions, hidden]，不是最终hidden states。",
+        "行数必须等于cache.get_seq_length；unpadded batch=1，dtype/device与embedding table相同。",
+        "模型必须eval且model_type==qwen3。",
+        "离散源位置提供对齐int64 token_ids；连续位置为-1；本轮无latent时latent_steps=0。",
+        "已有原生generate结果可走sender_from_hf(generation=...)；必须native非beam输出且sequences含完整prompt。",
+        "sender_from_hf可补齐未入cache的末尾生成token，补齐是模型forward且未来须计成本；本次未执行。"
+      ],
+      "project_state_mapping": [
+        "既有State保存history、segments、cache，未保存input rows。纯token历史在未来获授权后可由同冻结embedding table按history获得精确输入行。",
+        "既有完整cache包含prompt/输出；必须固定sender snapshot及source region，不能误把最终hidden-state行当作input rows，也不能默默变成只选材料。"
+      ],
+      "evidence": [
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 30,
+          "end_line": 109,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L30"
+        },
+        {
+          "file": "src/rclc/hf.py",
+          "start_line": 56,
+          "end_line": 97,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/hf.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/hf.py#L56"
+        },
+        {
+          "file": "docs/api.md",
+          "start_line": 211,
+          "end_line": 219,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/api.md",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/api.md#L211"
+        },
+        {
+          "file": "docs/api.md",
+          "start_line": 492,
+          "end_line": 503,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/api.md",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/api.md#L492"
+        },
+        {
+          "file": "chain_core.py",
+          "start_line": 39,
+          "end_line": 42,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py"
+        },
+        {
+          "file": "chain_core.py",
+          "start_line": 155,
+          "end_line": 164,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py"
+        }
+      ]
+    },
+    "request_budget": {
+      "status": "supported_interface_not_executed",
+      "call_shape": "transfer(sender, receiver_callback, request, budget=B, reasoning=None, representation=..., record_selection=True)",
+      "request": [
+        "request为非空string或int64[1,tokens]，string按sender tokenizer加特殊token=False编码。",
+        "CacheBack在private sender cache后以位置T..T+R-1 forward请求，读取各层request attention；T+R必须在context limit内。",
+        "不会自动读取receiver私有cache；接收方持有的证据只能由应用显式编码进request，再公平提供给文本和其他选择器。",
+        "低层Delivery.request是元数据；for_hf只返回选中行，应用须追加相同receiver指令/请求。HFReceiver会准备history+request与assistant prefix。",
+        "同一request的selection在所有receiver间复用；不同receiver持有证据干预须用不同request/独立transfer，不能误用广播。"
+      ],
+      "budget": [
+        "默认ratio=4；显式budget与ratio互斥。",
+        "bound=min(B,T)，relative=I+ceil((T-I)/r)，均以position计，非字节。",
+        "HFReceiver减去其history+request+output allowance，可能把预算进一步缩小；必须记录拟合后的实际budget。",
+        "默认CacheBack span_size=16，以均分span score排序、保首位置及当前latent tail，恰好填预算；预算>=T会直接返回全部位置并跳过选择forward。",
+        "预先核对sender与receiver各自context limit，不允许靠静默截断达预算。"
+      ],
+      "evidence": [
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 38,
+          "end_line": 52,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L38"
+        },
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 76,
+          "end_line": 80,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L76"
+        },
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 239,
+          "end_line": 258,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L239"
+        },
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 280,
+          "end_line": 298,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L280"
+        },
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 348,
+          "end_line": 360,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L348"
+        },
+        {
+          "file": "src/rclc/selectors/cacheback.py",
+          "start_line": 16,
+          "end_line": 20,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/selectors/cacheback.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/selectors/cacheback.py#L16"
+        },
+        {
+          "file": "src/rclc/selectors/cacheback.py",
+          "start_line": 40,
+          "end_line": 55,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/selectors/cacheback.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/selectors/cacheback.py#L40"
+        },
+        {
+          "file": "src/rclc/selectors/_capture.py",
+          "start_line": 188,
+          "end_line": 208,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/selectors/_capture.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/selectors/_capture.py#L188"
+        },
+        {
+          "file": "src/rclc/selectors/fixed_spans.py",
+          "start_line": 25,
+          "end_line": 76,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/selectors/fixed_spans.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/selectors/fixed_spans.py#L25"
+        },
+        {
+          "file": "docs/api.md",
+          "start_line": 239,
+          "end_line": 262,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/api.md",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/api.md#L239"
+        },
+        {
+          "file": "docs/api.md",
+          "start_line": 515,
+          "end_line": 518,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/api.md",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/api.md#L515"
+        }
+      ]
+    },
+    "source_token_ids_vs_continuous_rows": {
+      "status": "both_official_interfaces_exist_mixed_experimental",
+      "observed": [
+        "embeddings为默认，选sender.input_embeds行，而非截取原始sender KV。",
+        "token_ids+continuous已在本冻结官方main实现：已知源ID用int64发送，-1位置只发送连续向量，再按原选中顺序materialize。",
+        "sender会验证选中离散ID经embedding table能逐元素重建其input rows；没有aligned token_ids时mixed模式被拒绝。",
+        "纯离散且无latent的同indices ID消息可重建同样输入行，因此可做精确表示对照；连续latent行没有源token ID。",
+        "官方mixed模式标为experimental，GPU验证限dense Qwen3，不能升级为本工程Qwen2.5可用。",
+        "接收方重新prefill选中输入行；其HFReceiver pop没有传foreign past_key_values，也不直接拼sender原始KV。",
+        "Message.nbytes只含tensor payload，int64 ID每个8字节；不含selection调试记录、request反馈、Python对象、元数据与wire framing。"
+      ],
+      "evidence": [
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 145,
+          "end_line": 160,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L145"
+        },
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 186,
+          "end_line": 192,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L186"
+        },
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 504,
+          "end_line": 509,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L504"
+        },
+        {
+          "file": "src/rclc/message.py",
+          "start_line": 14,
+          "end_line": 37,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/message.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/message.py#L14"
+        },
+        {
+          "file": "src/rclc/message.py",
+          "start_line": 45,
+          "end_line": 84,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/message.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/message.py#L45"
+        },
+        {
+          "file": "src/rclc/hf.py",
+          "start_line": 228,
+          "end_line": 242,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/hf.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/hf.py#L228"
+        },
+        {
+          "file": "docs/api.md",
+          "start_line": 525,
+          "end_line": 538,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/api.md",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/api.md#L525"
+        }
+      ]
+    },
+    "fair_text_selection": {
+      "status": "protocol_preparation_only_no_selector_added",
+      "required_controls": [
+        "关闭reasoning，sender.latent_steps=0，固定同一sender snapshot、source范围、request、可见证据和拟合后position预算。",
+        "CacheBack所选source indices按原顺序传source IDs，作为相同信息的离散消息对照；不要先decode再encode而改变token、特殊token或位置集合。",
+        "另准备真正有删减的完整句/证据块文本选择，给予相同request与已持有材料，严格计算message token上限并记录实际删除比例；不由支持事实/答案金标决定可部署selector。",
+        "source ID对照与完整句文本选择是不同控制；若receiver不同持有条件导致context fitting不同，记录并固定或匹配实际position预算。",
+        "同时绘制质量—总字节/总计算曲线；position等预算不是byte等预算。官方ID int64与本项目int32 wire编码分别计数，不把二者nbytes直接混同。",
+        "请求反馈、sender请求attention forward、selection、receiver fresh prefill与decode全部计成本；无真正网络测量时不声称网络加速。"
+      ],
+      "source_indices_interface": "transfer(..., record_selection=True)记录Message.selection.indices；Selection.inspect提供可序列化source_positions/budget/indices/spans。",
+      "evidence": [
+        {
+          "file": "src/rclc/selection.py",
+          "start_line": 29,
+          "end_line": 41,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/selection.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/selection.py#L29"
+        },
+        {
+          "file": "src/rclc/selection.py",
+          "start_line": 63,
+          "end_line": 83,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/selection.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/selection.py#L63"
+        },
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 150,
+          "end_line": 160,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L150"
+        },
+        {
+          "file": "src/rclc/message.py",
+          "start_line": 45,
+          "end_line": 50,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/message.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/message.py#L45"
+        },
+        {
+          "file": "chain_core.py",
+          "start_line": 179,
+          "end_line": 187,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py"
+        }
+      ]
+    },
+    "greedy_no_latent": {
+      "status": "supported_interface_not_executed",
+      "settings": [
+        "transfer默认reasoning=None，不追加latent。",
+        "现有sender_state.latent_steps须为0；仅把reasoning关掉不能抹掉已有continuous inherited rows。",
+        "native HF generate(..., do_sample=False, num_beams=1)，保持工程原生EOS、repetition_penalty=1.0及48-token answer budget。",
+        "transfer只做selection/request forward及delivery，不生成receiver答案；但这些forward仍是成本。"
+      ],
+      "evidence": [
+        {
+          "file": "src/rclc/transport.py",
+          "start_line": 348,
+          "end_line": 360,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L348"
+        },
+        {
+          "file": "docs/api.md",
+          "start_line": 182,
+          "end_line": 190,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/api.md",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/api.md#L182"
+        },
+        {
+          "file": "docs/api.md",
+          "start_line": 300,
+          "end_line": 303,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/docs/api.md",
+          "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/api.md#L300"
+        },
+        {
+          "file": "chain_core.py",
+          "start_line": 114,
+          "end_line": 117,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py"
+        }
+      ]
+    },
+    "compatibility_blockers": [
+      {
+        "id": "CB_MODEL_FAMILY",
+        "severity": "blocking",
+        "status": "explicit_rejection_in_official_main",
+        "detail": "target Qwen2.5-7B-Instruct不属于main硬限制的dense Qwen3；SenderState.validate和sender_from_hf都会调用validate_model，不可以只用低层SenderState绕过。",
+        "evidence": [
+          {
+            "file": "src/rclc/transport.py",
+            "start_line": 30,
+            "end_line": 35,
+            "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+            "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L30"
+          },
+          {
+            "file": "src/rclc/transport.py",
+            "start_line": 67,
+            "end_line": 85,
+            "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/transport.py",
+            "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/transport.py#L67"
+          },
+          {
+            "file": "src/rclc/hf.py",
+            "start_line": 75,
+            "end_line": 77,
+            "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/hf.py",
+            "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/hf.py#L75"
+          }
+        ]
+      },
+      {
+        "id": "CB_TRANSFORMERS_VERSION",
+        "severity": "blocking",
+        "status": "declared_requirement_not_met",
+        "detail": "官方main要求transformers>=4.57.1,<6；工程4.53.3低于要求。capture还使用masking/attention registry私有兼容接口，不能自行降pin后称成功。",
+        "evidence": [
+          {
+            "file": "pyproject.toml",
+            "start_line": 31,
+            "end_line": 35,
+            "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/pyproject.toml",
+            "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/pyproject.toml#L31"
+          },
+          {
+            "file": "src/rclc/selectors/_capture.py",
+            "start_line": 47,
+            "end_line": 60,
+            "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/src/rclc/selectors/_capture.py",
+            "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/src/rclc/selectors/_capture.py#L47"
+          }
+        ]
+      },
+      {
+        "id": "CB_RUNTIME_UNVERIFIED",
+        "severity": "unverified",
+        "status": "not_run",
+        "detail": "torch2.6满足声明torch>=2.4，Python3.10满足>=3.10；这仅为版本范围静态比较，非完整依赖或GPU兼容性通过。",
+        "evidence": [
+          {
+            "file": "pyproject.toml",
+            "start_line": 10,
+            "end_line": 10,
+            "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/pyproject.toml",
+            "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/pyproject.toml#L10"
+          },
+          {
+            "file": "pyproject.toml",
+            "start_line": 31,
+            "end_line": 35,
+            "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002/pyproject.toml",
+            "fixed_commit_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/pyproject.toml#L31"
+          }
+        ]
+      }
+    ]
+  },
+  "relaycaching": {
+    "audit_status": "read_only_static_model_class_supported_runtime_not_adapted",
+    "model_support": {
+      "status": "Qwen2_class_route_covers_target_not_runtime_validation",
+      "detail": "profiler_utils按名称含qwen2路由Qwen2 hijack。目标冻结config为Qwen2ForCausalLM/model_type=qwen2/28层；所以目标Qwen2.5-7B-Instruct有官方模型类入口。README主例只给Qwen2.5-Coder-7B，不能认定non-Coder目标在HotpotQA被作者验证。",
+      "other_routes": "官方路由含Mistral、Llama、qwen2、指定DeepSeek-R1-Distill-Qwen-32B及dense Qwen3；Qwen3 A3B MoE明确拒绝。",
+      "evidence_ids": [
+        "RC-E1",
+        "RC-E2",
+        "RC-E4"
+      ]
+    },
+    "dependencies": {
+      "status": "declared_versions_diff_runtime_not_checked",
+      "official_transformers": "4.52.4",
+      "official_torch": "2.6.0",
+      "python_example": "3.12",
+      "comparison": [
+        "工程transformers4.53.3与精确pin不一致；需要迁移审计。",
+        "torch2.6.0主版本匹配；requirements未指定cu124，不能只据pin证明该CUDA构建兼容。",
+        "README Python3.12是环境创建示例，不是Python3.10不可用证明；py3.10及其余依赖均未做运行检查。"
+      ],
+      "evidence_ids": [
+        "RC-E3",
+        "RC-E4"
+      ]
+    },
+    "cache_and_hidden_interface": {
+      "status": "custom_RelayCache_and_hijacked_forward_required",
+      "cache_representation": "响应相对位置post-RoPE K + V + start-layer hidden states及位置/层元数据",
+      "observed": [
+        "Qwen2 attention先apply_rotary_pos_emb(Q,K)，随后调用RelayCache.update_decode/update_prefill。",
+        "gpt_chat切片输出KV后仅按-prefix_token_length旋转K；这是转为输出相对位置post-RoPE，不是对每个token把K完全去RoPE。V不参与RoPE。",
+        "下游按新上下文目标offset再旋转K，同时管理后续prefix位置；不可直接拼任意来源K或重复旋转。",
+        "特殊forward在decoder_layer执行前保存start_layer hidden state；单token decode累积response_hidden_states_list；下游须有hidden tensor及其层索引并在reuse_hidden_layer恢复。",
+        "普通DynamicCache或者仅output_hidden_states=True不足以替代官方完整接入。",
+        "response_tokens采用seq[:, prefix_token_length:-1]；缓存span与tokenization及最后未入cache生成token必须对齐。"
+      ],
+      "evidence_ids": [
+        "RC-E5",
+        "RC-E6",
+        "RC-E7",
+        "RC-E8",
+        "RC-E9",
+        "RC-E10",
+        "RC-E11",
+        "RC-E12"
+      ]
+    },
+    "special_forward_and_context": {
+      "status": "requires_project_integration_not_implemented",
+      "observed": [
+        "官方全局替换Qwen2 attention.forward、Model.forward、prepare_inputs_for_generation，并安装旧_update_causal_mask。",
+        "调用链依赖RelayCache自定义字段、hidden capture/load、absolute与relative recompute span、position_embeddings、position_ids、cache_position及past_key_value。",
+        "工程既有State只保history/segments/cache；当前既有cache不含官方所需start-layer hidden relay与influence统计；下载源码不会补齐这些信息。",
+        "官方decode在BF16/SDPA下另外计算influence scores；output_attentions=True不使SDPA返回原生attention权重。",
+        "当前transformers4.53.3的Qwen2原生forward采用causal_mask_mapping与attention_type选择，官方替换恢复旧式mask方法。需审计替换后的整个生成契约；不能仅凭差异断言必定报错。"
+      ],
+      "evidence_ids": [
+        "RC-E5",
+        "RC-E8",
+        "RC-E10",
+        "RC-E12",
+        "RC-E13",
+        "RC-E14",
+        "RC-E15",
+        "RC-E16",
+        "RC-E17"
+      ],
+      "project_evidence": [
+        {
+          "file": "chain_core.py",
+          "start_line": 39,
+          "end_line": 42,
+          "local_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py"
+        }
+      ]
+    },
+    "compatibility_blockers": [
+      {
+        "id": "RC_TRANSFORMERS_PIN_AND_PATCH",
+        "severity": "migration_audit_required",
+        "status": "未适配/未运行",
+        "detail": "4.53.3不同于官方4.52.4；审计全局monkey patch、generation输入切片、mask/position/cache契约及与工程既有attention hooks的组合。不得在旧环境直接降级/覆盖。",
+        "evidence_ids": [
+          "RC-E3",
+          "RC-E15",
+          "RC-E16"
+        ]
+      },
+      {
+        "id": "RC_HIDDEN_AND_CACHE_METADATA",
+        "severity": "integration_required",
+        "status": "未接入/未运行",
+        "detail": "现有普通sender输出/cache不能完整提供hidden relay；需要官方自定义cache字段和位置/层元数据采集。不得用历史普通KV冒充含hidden relay的cache。",
+        "evidence_ids": [
+          "RC-E8",
+          "RC-E9",
+          "RC-E10",
+          "RC-E12",
+          "RC-E17"
+        ]
+      },
+      {
+        "id": "RC_ROPE_REPRESENTATION",
+        "severity": "representation_audit_required",
+        "status": "未转换/未运行",
+        "detail": "不得按pre-RoPE KV假设接入；需明确sender原位置、发布cache响应相对位置和receiver目标位置，避免遗漏或重复旋转。",
+        "evidence_ids": [
+          "RC-E5",
+          "RC-E6",
+          "RC-E7"
+        ]
+      },
+      {
+        "id": "RC_TARGET_CALIBRATION",
+        "severity": "unverified",
+        "status": "未校准/未验证",
+        "detail": "README层参数start=3/det=4/end=22属于Qwen2.5-Coder-7B HumanEval例；不能升级为Qwen2.5-7B-Instruct/HotpotQA有效配置。start/det/end、tau_dev/tau_inf/suffix_tokens均未验证。",
+        "evidence_ids": [
+          "RC-E4",
+          "RC-E18"
+        ]
+      },
+      {
+        "id": "RC_COST_AND_PYTHON",
+        "severity": "unverified",
+        "status": "未计量/未运行",
+        "detail": "Python3.10与其余依赖运行兼容未验证；未来需计hidden capture、旋转、influence统计、selector、局部重算和所有实际payload字段成本。",
+        "evidence_ids": [
+          "RC-E4",
+          "RC-E5",
+          "RC-E14"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "RC-E1",
+        "file": "RelayCaching/utils/profiler_utils.py",
+        "line_ranges": [
+          [
+            333,
+            348
+          ],
+          [
+            405,
+            426
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/utils/profiler_utils.py#L333",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E2",
+        "file": "Qwen/Qwen2.5-7B-Instruct/config.json",
+        "line_ranges": [
+          [
+            2,
+            4
+          ],
+          [
+            14,
+            17
+          ],
+          [
+            25,
+            25
+          ]
+        ],
+        "fixed_commit_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/blob/a09a35458c702b33eeacc393d103063234e8bc28/config.json",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E3",
+        "file": "requirements.txt",
+        "line_ranges": [
+          [
+            40,
+            43
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/requirements.txt#L40",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E4",
+        "file": "README.md",
+        "line_ranges": [
+          [
+            36,
+            36
+          ],
+          [
+            94,
+            100
+          ],
+          [
+            375,
+            380
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/README.md#L36",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E5",
+        "file": "RelayCaching/utils/fixed_qwen2_hijack.py",
+        "line_ranges": [
+          [
+            62,
+            99
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/utils/fixed_qwen2_hijack.py#L62",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E6",
+        "file": "RelayCaching/llm/gpt_chat.py",
+        "line_ranges": [
+          [
+            1764,
+            1764
+          ],
+          [
+            1840,
+            1845
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/llm/gpt_chat.py#L1764",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E7",
+        "file": "RelayCaching/llm/anchor_engine.py",
+        "line_ranges": [
+          [
+            806,
+            818
+          ],
+          [
+            1290,
+            1327
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/llm/anchor_engine.py#L806",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E8",
+        "file": "RelayCaching/utils/fixed_qwen2_hijack.py",
+        "line_ranges": [
+          [
+            217,
+            245
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/utils/fixed_qwen2_hijack.py#L217",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E9",
+        "file": "RelayCaching/utils/relay_utils.py",
+        "line_ranges": [
+          [
+            584,
+            760
+          ],
+          [
+            762,
+            772
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/utils/relay_utils.py#L584",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E10",
+        "file": "RelayCaching/llm/gpt_chat.py",
+        "line_ranges": [
+          [
+            1627,
+            1679
+          ],
+          [
+            1774,
+            1782
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/llm/gpt_chat.py#L1627",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E11",
+        "file": "RelayCaching/llm/gpt_chat.py",
+        "line_ranges": [
+          [
+            1197,
+            1233
+          ],
+          [
+            1555,
+            1558
+          ],
+          [
+            1593,
+            1620
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/llm/gpt_chat.py#L1197",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E12",
+        "file": "RelayCaching/utils/fixed_qwen2_hijack.py",
+        "line_ranges": [
+          [
+            396,
+            468
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/utils/fixed_qwen2_hijack.py#L396",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E13",
+        "file": "RelayCaching/llm/gpt_chat.py",
+        "line_ranges": [
+          [
+            1160,
+            1167
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/llm/gpt_chat.py#L1160",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E14",
+        "file": "RelayCaching/utils/relay_utils.py",
+        "line_ranges": [
+          [
+            897,
+            958
+          ],
+          [
+            968,
+            997
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/utils/relay_utils.py#L897",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E15",
+        "file": "RelayCaching/utils/fixed_qwen2_hijack.py",
+        "line_ranges": [
+          [
+            37,
+            46
+          ],
+          [
+            192,
+            210
+          ],
+          [
+            293,
+            330
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/utils/fixed_qwen2_hijack.py#L37",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E16",
+        "file": "transformers/v4.53.3/src/transformers/models/qwen2/modeling_qwen2.py",
+        "line_ranges": [
+          [
+            401,
+            417
+          ],
+          [
+            434,
+            434
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/huggingface/transformers/blob/v4.53.3/src/transformers/models/qwen2/modeling_qwen2.py#L401",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E17",
+        "file": "RelayCaching/llm/anchor_engine.py",
+        "line_ranges": [
+          [
+            513,
+            542
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/RelayCaching/llm/anchor_engine.py#L513",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      },
+      {
+        "id": "RC-E18",
+        "file": "experiments/main/experiment_utils.py",
+        "line_ranges": [
+          [
+            204,
+            214
+          ],
+          [
+            279,
+            287
+          ]
+        ],
+        "fixed_commit_url": "https://github.com/YingshengGeng/RelayCaching/blob/6b0e9d37b74d89cfb0fbad276790150a0d9c0b49/experiments/main/experiment_utils.py#L204",
+        "local_path": null,
+        "line_numbering": "原始HTTP文本的1-based行号；非GitHub网页抽取行号。"
+      }
+    ],
+    "documentation_corrections": [
+      {
+        "file": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_文献证据_20261001.md",
+        "existing_claim": "保存上游输出段的pre-RoPE KV与中间隐藏状态",
+        "supported_replacement": "保存输出段相对位置的post-RoPE K/V及start-layer hidden states，按目标上下文位置再旋转并局部重算。",
+        "status": "Root corrected the evidence annex after static code review; not runtime validation.",
+        "evidence_ids": [
+          "RC-E5",
+          "RC-E6",
+          "RC-E7"
+        ]
+      }
+    ],
+    "bottom_line": "官方Qwen2模型类入口存在；当前checkpoint/transformers4.53.3/py3.10环境与项目接口尚未适配或验证。"
+  },
+  "next_step_gate": {
+    "allowed_preparation_complete_or_pending": [
+      "冻结sender/source区域、request格式、position与byte记账标准。",
+      "官方源码读完后明确模型类覆盖与版本迁移清单。"
+    ],
+    "before_any_future_model_test": [
+      "Freeze data, model, representation, legal ingestion, generation budget and call count; announce GPU conditions in the current chat before launch. No model calls in this preparation turn.",
+      "不要更改现有torch/transformers/conda/CUDA；任何必要适配另开明确授权范围。",
+      "冻结20题公开校准条件、方法、预算与调用数，再决定是否开始小实验。"
+    ],
+    "no_success_claim": "official_interfaces_read_and_gaps_recorded_only",
+    "model_execution_authorized_in_this_read_only_subtask": false,
+    "project_authorization_scope": "Small experiments are already authorized within the established scope; actual conditions are not frozen. Do not request repeat approval for CPU preparation."
+  },
+  "validation": {
+    "json_parse": true,
+    "evidence_local_paths_checked": true,
+    "source_lines_checked": "CacheBack local源文件逐行阅读；Relay官方原始HTTP文本由只读子代理逐行定位，关键RoPE/cache和目标config由本代理复核。",
+    "model_execution": false,
+    "local_evidence_entries_checked": 47,
+    "local_evidence_errors": [],
+    "cacheback_downloaded_source_clean": true,
+    "relay_local_source_absence_recorded": true
+  }
+}

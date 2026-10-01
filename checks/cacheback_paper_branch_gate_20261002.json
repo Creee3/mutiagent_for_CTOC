@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "audit_date_local": "2026-10-02",
+    "checked_utc": "2026-10-01 19:49:59 UTC",
+    "timezone": "Asia/Shanghai",
+    "project_root": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001",
+    "scope": "限定只读核对CacheBack官方论文复现分支的固定commit、模型路线和依赖；不重复阅读论文，不验证运行。",
+    "model_calls": 0,
+    "model_weights_loaded": false,
+    "model_interfaces_imported": false,
+    "dependencies_installed": false,
+    "gpu_used": false,
+    "system_cuda_changed": false,
+    "git_commit_performed": false,
+    "branch_checkout_created": false,
+    "main_checkout_overwritten": false,
+    "original_interface_audit_modified": false,
+    "original_interface_audit_sha256_before": "aa10f8d198da4e368590ae2f05df6e8b9a48ee33c0b2e0fe87a1a61202c6ec3f",
+    "original_interface_audit_sha256_after": "aa10f8d198da4e368590ae2f05df6e8b9a48ee33c0b2e0fe87a1a61202c6ec3f",
+    "main_checkout_path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/upstream/rclc-official_20261002",
+    "main_commit_before": "6e96112706cca70d4b766fde51c065f224992f4d",
+    "main_commit_after": "6e96112706cca70d4b766fde51c065f224992f4d",
+    "methods": [
+      "一次git ls-remote查询paper与paper-v1 refs",
+      "官方固定commit网页/HTTP源文件只读",
+      "官方Git tree只读查关键路径",
+      "依赖与注册模型配置静态比较",
+      "独立JSON解析检查"
+    ],
+    "no_full_paper_text_saved": true
+  },
+  "official_branch": {
+    "requested_repository": "https://github.com/maxr0ssi/rclc",
+    "canonical_repository_verified_by_web_redirect": "https://github.com/agentcacheback/cacheback",
+    "readme_declares_paper_branch": true,
+    "readme_declares_paper_v1_snapshot": true,
+    "readme_evidence_ids": [
+      "PB-E1",
+      "PB-E2"
+    ],
+    "branch": "paper",
+    "branch_commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+    "tag": "paper-v1",
+    "tag_object_sha": "8842e01a927dfa73f330388a3a4385daf0ef3856",
+    "tag_peeled_commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+    "branch_equals_tag_snapshot": true,
+    "ref_lookup_attempts": 1,
+    "ls_remote_rows": [
+      {
+        "ref": "refs/heads/paper",
+        "sha": "15bc3f7a2f93229b11ea982a534ce21528552fbc"
+      },
+      {
+        "ref": "refs/tags/paper-v1",
+        "sha": "8842e01a927dfa73f330388a3a4385daf0ef3856"
+      },
+      {
+        "ref": "refs/tags/paper-v1^{}",
+        "sha": "15bc3f7a2f93229b11ea982a534ce21528552fbc"
+      }
+    ],
+    "snapshot_usage": "本文只阅读上述固定commit的关键文件，没有fetch/checkout paper分支。",
+    "snapshot_import_name": "rcc",
+    "snapshot_source_directory": "src/rcc"
+  },
+  "model_gate": {
+    "current_model": "Qwen/Qwen2.5-7B-Instruct",
+    "current_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "current_model_class": "Qwen2ForCausalLM",
+    "current_model_type": "qwen2",
+    "current_config_evidence": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/blob/a09a35458c702b33eeacc393d103063234e8bc28/config.json",
+    "paper_readme_measured_families": [
+      "Qwen 3",
+      "Gemma 4",
+      "Ministral 3",
+      "Nemotron Nano 2"
+    ],
+    "registered_qwen_checkpoint": "Qwen/Qwen3-8B",
+    "registered_qwen_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "registered_qwen_auxiliary_checkpoints": [
+      "Qwen/Qwen3-4B",
+      "Qwen/Qwen3-1.7B"
+    ],
+    "registered_model_id": "qwen3-8b",
+    "registered_hf_architecture": "Qwen3ForCausalLM",
+    "model_profiles_tree_directories_observed": [
+      "src/rcc/models/qwen",
+      "src/rcc/models/gemma",
+      "src/rcc/models/ministral",
+      "src/rcc/models/nemotron"
+    ],
+    "example_config_model": "qwen3-8b",
+    "status": "当前Qwen2.5不在所核查的论文注册Qwen路线中，不能直接切分支后称官方覆盖。",
+    "evidence_ids": [
+      "PB-E3",
+      "PB-E4",
+      "PB-E5",
+      "PB-E6",
+      "PB-E4-RUNTIME",
+      "PB-E4-ARCHITECTURE"
+    ],
+    "limitation": "此为论文发布的注册路线审计；未断言通用core完全无法经过另行开发支持Qwen2，也未完成这种开发或验证。"
+  },
+  "dependency_gate": {
+    "current_environment": {
+      "python": "3.10.21",
+      "torch": "2.6.0+cu124",
+      "transformers": "4.53.3",
+      "vllm": "本次未查询；不能假定存在或满足任何pin"
+    },
+    "core_package": {
+      "python": ">=3.10",
+      "torch": ">=2.2",
+      "transformers": ">=5.13,<5.14",
+      "other_declared": [
+        "accelerate>=1.14,<1.15",
+        "huggingface_hub>=0.35",
+        "mistral-common>=1.5",
+        "tomli>=2.0 for Python<3.11"
+      ],
+      "comparison": "Python3.10和Torch2.6符合core下限；Transformers4.53.3不符合core声明范围。其余依赖未检查。",
+      "evidence_ids": [
+        "PB-E7"
+      ]
+    },
+    "qwen3_paper_serving": {
+      "python_recorded": "3.10.12",
+      "torch": "2.9.0+cu128",
+      "cuda_recorded": "12.8",
+      "transformers": "4.57.1",
+      "vllm": "0.11.1",
+      "tokenizers": "0.22.0",
+      "comparison": "工程Torch2.6.0+cu124与Transformers4.53.3均不同于论文Qwen栈；Python3.10主版本相符不能替代完整栈验证。",
+      "enforced_version": "engine._require_vllm_pin拒绝不是0.11.1的vLLM。",
+      "evidence_ids": [
+        "PB-E4",
+        "PB-E8",
+        "PB-E9",
+        "PB-E4-RUNTIME"
+      ]
+    },
+    "gemma4_ministral3_nemotron2_paper_serving": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.13.0",
+      "vllm": "0.26.0",
+      "tokenizers": "0.22.2",
+      "readme_system_requirements": [
+        "C++ toolchain",
+        "CUDA13 toolkit",
+        "NVIDIA driver>=580"
+      ],
+      "comparison": "另一栈同样不匹配现Torch2.6.0+cu124/Transformers4.53.3，而且不是当前Qwen2.5路线。",
+      "server_requirements_verified": false,
+      "evidence_ids": [
+        "PB-E10",
+        "PB-E11"
+      ]
+    },
+    "install_semantics": {
+      "observed": "README明确论文两个serving栈分别建环境、先装对应requirements、再以--no-deps安装package。core的Transformers5.13声明与Qwen-serving的4.57.1不可混成一个版本要求。",
+      "executed": false,
+      "evidence_ids": [
+        "PB-E11",
+        "PB-E8",
+        "PB-E10"
+      ]
+    },
+    "status": "所有已读路径都未给出可直接使用当前Qwen2.5/Transformers4.53.3的冻结论文运行栈。"
+  },
+  "conclusion": {
+    "directly_covers_current_qwen25_and_transformers4533": false,
+    "decision": "NO_DROP_IN_OFFICIAL_PAPER_ROUTE",
+    "blockers": [
+      {
+        "id": "PAPER_MODEL_PROFILE",
+        "detail": "官方Qwen注册checkpoint/architecture为Qwen3，当前checkpoint为Qwen2.5/Qwen2；没有核实到当前target的现成论文注册路线。",
+        "evidence_ids": [
+          "PB-E3",
+          "PB-E4",
+          "PB-E5",
+          "PB-E4-ARCHITECTURE"
+        ]
+      },
+      {
+        "id": "PAPER_TRANSFORMERS_CORE",
+        "detail": "工程4.53.3低于core声明>=5.13,<5.14；不能把core默认安装当现环境可用。",
+        "evidence_ids": [
+          "PB-E7"
+        ]
+      },
+      {
+        "id": "PAPER_QWEN_SERVING_STACK",
+        "detail": "官方Qwen论文栈要求Torch2.9.0+cu128/Transformers4.57.1/vLLM0.11.1，与当前冻结环境不同。",
+        "evidence_ids": [
+          "PB-E4",
+          "PB-E8",
+          "PB-E9",
+          "PB-E4-RUNTIME"
+        ]
+      }
+    ],
+    "permitted_claim": "找到了官方论文复现专用分支与固定标签；只读核查显示它也不能直接覆盖当前模型/依赖组合。",
+    "prohibited_claims": [
+      "paper分支已适配当前Qwen2.5",
+      "当前Torch/Transformers/CUDA已经验证兼容",
+      "通用core不可能支持任何Qwen2模型",
+      "已完成官方复现"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "PB-E1",
+      "file": "README.md",
+      "start_line": 150,
+      "end_line": 158,
+      "commit": "6e96112706cca70d4b766fde51c065f224992f4d",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/README.md#L150",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E2",
+      "file": "docs/replication.md",
+      "start_line": 3,
+      "end_line": 19,
+      "commit": "6e96112706cca70d4b766fde51c065f224992f4d",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/6e96112706cca70d4b766fde51c065f224992f4d/docs/replication.md#L3",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E3",
+      "file": "README.md",
+      "start_line": 20,
+      "end_line": 23,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/README.md#L20",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E4",
+      "file": "src/rcc/models/qwen/__init__.py",
+      "start_line": 14,
+      "end_line": 16,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/src/rcc/models/qwen/__init__.py#L14",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E4-RUNTIME",
+      "file": "src/rcc/models/qwen/__init__.py",
+      "start_line": 82,
+      "end_line": 89,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/src/rcc/models/qwen/__init__.py#L82",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E4-ARCHITECTURE",
+      "file": "src/rcc/models/qwen/__init__.py",
+      "start_line": 114,
+      "end_line": 141,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/src/rcc/models/qwen/__init__.py#L114",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E5",
+      "file": "configs/qwen-fanoutqa-natural-dev50.toml",
+      "start_line": 1,
+      "end_line": 7,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/configs/qwen-fanoutqa-natural-dev50.toml#L1",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E6",
+      "file": "src/rcc/models/qwen/engine.py",
+      "start_line": 130,
+      "end_line": 137,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/src/rcc/models/qwen/engine.py#L130",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E7",
+      "file": "pyproject.toml",
+      "start_line": 10,
+      "end_line": 18,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/pyproject.toml#L10",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E8",
+      "file": "requirements/qwen3.txt",
+      "start_line": 1,
+      "end_line": 12,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/requirements/qwen3.txt#L1",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E9",
+      "file": "src/rcc/models/qwen/engine.py",
+      "start_line": 46,
+      "end_line": 53,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/src/rcc/models/qwen/engine.py#L46",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E10",
+      "file": "requirements/gemma4-ministral3-nemotron2.txt",
+      "start_line": 1,
+      "end_line": 15,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/requirements/gemma4-ministral3-nemotron2.txt#L1",
+      "line_numbering": "原始源文件1-based行号"
+    },
+    {
+      "id": "PB-E11",
+      "file": "README.md",
+      "start_line": 34,
+      "end_line": 59,
+      "commit": "15bc3f7a2f93229b11ea982a534ce21528552fbc",
+      "fixed_url": "https://github.com/agentcacheback/cacheback/blob/15bc3f7a2f93229b11ea982a534ce21528552fbc/README.md#L34",
+      "line_numbering": "原始源文件1-based行号"
+    }
+  ],
+  "validation": {
+    "json_parsed": true,
+    "model_execution": false,
+    "main_commit_unchanged": true,
+    "original_interface_audit_hash_unchanged": true
+  }
+}

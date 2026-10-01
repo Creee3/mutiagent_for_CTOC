@@ -1,0 +1,1688 @@
+{
+  "records": [
+    {
+      "key": "5add1d575542992c1e3a2540:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5add1d575542992c1e3a2540:Royal Flash (film):0",
+        "5add1d575542992c1e3a2540:Royal Flash (film):2"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5add1d575542992c1e3a2540:partial",
+      "held_sentence_ids": [
+        "5add1d575542992c1e3a2540:Royal Flash (film):0"
+      ],
+      "sender_sentence_ids": [
+        "5add1d575542992c1e3a2540:Royal Flash (film):0",
+        "5add1d575542992c1e3a2540:Royal Flash (film):2"
+      ],
+      "held_sentence_fraction": 0.5,
+      "held_material_tokens": 31,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5add1d575542992c1e3a2540:partial:other_document_control",
+      "paired_key": "5add1d575542992c1e3a2540:partial",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5add1d575542992c1e3a2540:Royal Flash (film):0",
+        "5add1d575542992c1e3a2540:Royal Flash (film):2"
+      ],
+      "donor_order": [
+        "5ac55ea55542993e66e82377",
+        "5a7cb94f554299683c1c6353",
+        "5ae3a8985542992f92d82329",
+        "5a7133565542994082a3e65c",
+        "5a74a8fa55429929fddd8497",
+        "5ae27b535542996483e649b6",
+        "5a8d9e0f554299441c6ba015",
+        "5a7c6c9d554299683c1c6302",
+        "5a7331de5542994cef4bc4a8",
+        "5ac15de55542991316484afb",
+        "5ab874ba5542990e739ec904",
+        "5ac3a76e554299741d48a2be",
+        "5ae70ed7554299572ea546a1",
+        "5ac39f7b554299218029dbe7",
+        "5ae6363b55429929b0807af0",
+        "5a8cea40554299441c6b9f76",
+        "5ac1a4745542991316484b82",
+        "5ac55e835542993e66e82375",
+        "5adc597d55429947ff17392f"
+      ],
+      "donor_pool_text_sha256": "2539fd290bed409ff59575f2204a3c1af5d919db37997a7300929fa9bec573cf",
+      "donor_prefix_tokens": 31,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5add1d575542992c1e3a2540:full",
+      "held_sentence_ids": [
+        "5add1d575542992c1e3a2540:Royal Flash (film):0",
+        "5add1d575542992c1e3a2540:Royal Flash (film):2"
+      ],
+      "sender_sentence_ids": [
+        "5add1d575542992c1e3a2540:Royal Flash (film):0",
+        "5add1d575542992c1e3a2540:Royal Flash (film):2"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 66,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5add1d575542992c1e3a2540:full:other_document_control",
+      "paired_key": "5add1d575542992c1e3a2540:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5add1d575542992c1e3a2540:Royal Flash (film):0",
+        "5add1d575542992c1e3a2540:Royal Flash (film):2"
+      ],
+      "donor_order": [
+        "5ac55ea55542993e66e82377",
+        "5a7cb94f554299683c1c6353",
+        "5ae3a8985542992f92d82329",
+        "5a7133565542994082a3e65c",
+        "5a74a8fa55429929fddd8497",
+        "5ae27b535542996483e649b6",
+        "5a8d9e0f554299441c6ba015",
+        "5a7c6c9d554299683c1c6302",
+        "5a7331de5542994cef4bc4a8",
+        "5ac15de55542991316484afb",
+        "5ab874ba5542990e739ec904",
+        "5ac3a76e554299741d48a2be",
+        "5ae70ed7554299572ea546a1",
+        "5ac39f7b554299218029dbe7",
+        "5ae6363b55429929b0807af0",
+        "5a8cea40554299441c6b9f76",
+        "5ac1a4745542991316484b82",
+        "5ac55e835542993e66e82375",
+        "5adc597d55429947ff17392f"
+      ],
+      "donor_pool_text_sha256": "2539fd290bed409ff59575f2204a3c1af5d919db37997a7300929fa9bec573cf",
+      "donor_prefix_tokens": 66,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac55ea55542993e66e82377:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac55ea55542993e66e82377:Pacific Mozart Ensemble:8"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac55ea55542993e66e82377:full",
+      "held_sentence_ids": [
+        "5ac55ea55542993e66e82377:Pacific Mozart Ensemble:8"
+      ],
+      "sender_sentence_ids": [
+        "5ac55ea55542993e66e82377:Pacific Mozart Ensemble:8"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 41,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac55ea55542993e66e82377:full:other_document_control",
+      "paired_key": "5ac55ea55542993e66e82377:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac55ea55542993e66e82377:Pacific Mozart Ensemble:8"
+      ],
+      "donor_order": [
+        "5a74a8fa55429929fddd8497",
+        "5adc597d55429947ff17392f",
+        "5a7c6c9d554299683c1c6302",
+        "5ae27b535542996483e649b6",
+        "5a7133565542994082a3e65c",
+        "5ac15de55542991316484afb",
+        "5ac3a76e554299741d48a2be",
+        "5ac55e835542993e66e82375",
+        "5ae3a8985542992f92d82329",
+        "5ab874ba5542990e739ec904",
+        "5ac1a4745542991316484b82",
+        "5ae70ed7554299572ea546a1",
+        "5a7331de5542994cef4bc4a8",
+        "5a8d9e0f554299441c6ba015",
+        "5ae6363b55429929b0807af0",
+        "5ac39f7b554299218029dbe7",
+        "5add1d575542992c1e3a2540",
+        "5a7cb94f554299683c1c6353",
+        "5a8cea40554299441c6b9f76"
+      ],
+      "donor_pool_text_sha256": "e6490920f788abd1173160b532697eb8974c1f3c9ce0adfff3b550646392e66e",
+      "donor_prefix_tokens": 41,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):0",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):1",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):2"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:partial",
+      "held_sentence_ids": [
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):0"
+      ],
+      "sender_sentence_ids": [
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):0",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):1",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):2"
+      ],
+      "held_sentence_fraction": 0.3333333333333333,
+      "held_material_tokens": 35,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:partial:other_document_control",
+      "paired_key": "5ac3a76e554299741d48a2be:partial",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):0",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):1",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):2"
+      ],
+      "donor_order": [
+        "5ab874ba5542990e739ec904",
+        "5ae70ed7554299572ea546a1",
+        "5a7133565542994082a3e65c",
+        "5add1d575542992c1e3a2540",
+        "5a74a8fa55429929fddd8497",
+        "5a8d9e0f554299441c6ba015",
+        "5a7331de5542994cef4bc4a8",
+        "5ac39f7b554299218029dbe7",
+        "5a7cb94f554299683c1c6353",
+        "5a8cea40554299441c6b9f76",
+        "5ac55e835542993e66e82375",
+        "5ac55ea55542993e66e82377",
+        "5a7c6c9d554299683c1c6302",
+        "5ac1a4745542991316484b82",
+        "5ae27b535542996483e649b6",
+        "5ae3a8985542992f92d82329",
+        "5ae6363b55429929b0807af0",
+        "5ac15de55542991316484afb",
+        "5adc597d55429947ff17392f"
+      ],
+      "donor_pool_text_sha256": "6495cd9d1ac8325f29a57331a99cd4c194d6c5dac1f6fe8d820a22b53f7582ee",
+      "donor_prefix_tokens": 35,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:full",
+      "held_sentence_ids": [
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):0",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):1",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):2"
+      ],
+      "sender_sentence_ids": [
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):0",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):1",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):2"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 80,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:full:other_document_control",
+      "paired_key": "5ac3a76e554299741d48a2be:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):0",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):1",
+        "5ac3a76e554299741d48a2be:Believe (Jai McDowall album):2"
+      ],
+      "donor_order": [
+        "5ab874ba5542990e739ec904",
+        "5ae70ed7554299572ea546a1",
+        "5a7133565542994082a3e65c",
+        "5add1d575542992c1e3a2540",
+        "5a74a8fa55429929fddd8497",
+        "5a8d9e0f554299441c6ba015",
+        "5a7331de5542994cef4bc4a8",
+        "5ac39f7b554299218029dbe7",
+        "5a7cb94f554299683c1c6353",
+        "5a8cea40554299441c6b9f76",
+        "5ac55e835542993e66e82375",
+        "5ac55ea55542993e66e82377",
+        "5a7c6c9d554299683c1c6302",
+        "5ac1a4745542991316484b82",
+        "5ae27b535542996483e649b6",
+        "5ae3a8985542992f92d82329",
+        "5ae6363b55429929b0807af0",
+        "5ac15de55542991316484afb",
+        "5adc597d55429947ff17392f"
+      ],
+      "donor_pool_text_sha256": "6495cd9d1ac8325f29a57331a99cd4c194d6c5dac1f6fe8d820a22b53f7582ee",
+      "donor_prefix_tokens": 80,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7133565542994082a3e65c:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:0",
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:1"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7133565542994082a3e65c:partial",
+      "held_sentence_ids": [
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:0"
+      ],
+      "sender_sentence_ids": [
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:0",
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:1"
+      ],
+      "held_sentence_fraction": 0.5,
+      "held_material_tokens": 20,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7133565542994082a3e65c:partial:other_document_control",
+      "paired_key": "5a7133565542994082a3e65c:partial",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:0",
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:1"
+      ],
+      "donor_order": [
+        "5ac3a76e554299741d48a2be",
+        "5ab874ba5542990e739ec904",
+        "5a8cea40554299441c6b9f76",
+        "5adc597d55429947ff17392f",
+        "5ae27b535542996483e649b6",
+        "5ac15de55542991316484afb",
+        "5ac39f7b554299218029dbe7",
+        "5a7c6c9d554299683c1c6302",
+        "5ac55e835542993e66e82375",
+        "5a7331de5542994cef4bc4a8",
+        "5a74a8fa55429929fddd8497",
+        "5a7cb94f554299683c1c6353",
+        "5ae6363b55429929b0807af0",
+        "5ac55ea55542993e66e82377",
+        "5ac1a4745542991316484b82",
+        "5ae3a8985542992f92d82329",
+        "5a8d9e0f554299441c6ba015",
+        "5ae70ed7554299572ea546a1",
+        "5add1d575542992c1e3a2540"
+      ],
+      "donor_pool_text_sha256": "d62da911b21716d655b19dca7b288081752830fcdd2544b88cd8c49e5a16f531",
+      "donor_prefix_tokens": 20,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7133565542994082a3e65c:full",
+      "held_sentence_ids": [
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:0",
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:1"
+      ],
+      "sender_sentence_ids": [
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:0",
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:1"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 39,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7133565542994082a3e65c:full:other_document_control",
+      "paired_key": "5a7133565542994082a3e65c:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:0",
+        "5a7133565542994082a3e65c:Lake Louisvilla, Louisville:1"
+      ],
+      "donor_order": [
+        "5ac3a76e554299741d48a2be",
+        "5ab874ba5542990e739ec904",
+        "5a8cea40554299441c6b9f76",
+        "5adc597d55429947ff17392f",
+        "5ae27b535542996483e649b6",
+        "5ac15de55542991316484afb",
+        "5ac39f7b554299218029dbe7",
+        "5a7c6c9d554299683c1c6302",
+        "5ac55e835542993e66e82375",
+        "5a7331de5542994cef4bc4a8",
+        "5a74a8fa55429929fddd8497",
+        "5a7cb94f554299683c1c6353",
+        "5ae6363b55429929b0807af0",
+        "5ac55ea55542993e66e82377",
+        "5ac1a4745542991316484b82",
+        "5ae3a8985542992f92d82329",
+        "5a8d9e0f554299441c6ba015",
+        "5ae70ed7554299572ea546a1",
+        "5add1d575542992c1e3a2540"
+      ],
+      "donor_pool_text_sha256": "d62da911b21716d655b19dca7b288081752830fcdd2544b88cd8c49e5a16f531",
+      "donor_prefix_tokens": 39,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac1a4745542991316484b82:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac1a4745542991316484b82:Para Hills West, South Australia:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac1a4745542991316484b82:full",
+      "held_sentence_ids": [
+        "5ac1a4745542991316484b82:Para Hills West, South Australia:0"
+      ],
+      "sender_sentence_ids": [
+        "5ac1a4745542991316484b82:Para Hills West, South Australia:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 28,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac1a4745542991316484b82:full:other_document_control",
+      "paired_key": "5ac1a4745542991316484b82:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac1a4745542991316484b82:Para Hills West, South Australia:0"
+      ],
+      "donor_order": [
+        "5add1d575542992c1e3a2540",
+        "5ac15de55542991316484afb",
+        "5ae6363b55429929b0807af0",
+        "5ac3a76e554299741d48a2be",
+        "5ab874ba5542990e739ec904",
+        "5ae27b535542996483e649b6",
+        "5ac55ea55542993e66e82377",
+        "5a7c6c9d554299683c1c6302",
+        "5a8cea40554299441c6b9f76",
+        "5ac55e835542993e66e82375",
+        "5a8d9e0f554299441c6ba015",
+        "5a7cb94f554299683c1c6353",
+        "5ae70ed7554299572ea546a1",
+        "5a7331de5542994cef4bc4a8",
+        "5a74a8fa55429929fddd8497",
+        "5ac39f7b554299218029dbe7",
+        "5ae3a8985542992f92d82329",
+        "5a7133565542994082a3e65c",
+        "5adc597d55429947ff17392f"
+      ],
+      "donor_pool_text_sha256": "835a3e49a357598918b0553b86ce894b49e5f159acfefdb5b4f5f6c77727dd6d",
+      "donor_prefix_tokens": 28,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5adc597d55429947ff17392f:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5adc597d55429947ff17392f:Blackadder's Christmas Carol:1"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5adc597d55429947ff17392f:full",
+      "held_sentence_ids": [
+        "5adc597d55429947ff17392f:Blackadder's Christmas Carol:1"
+      ],
+      "sender_sentence_ids": [
+        "5adc597d55429947ff17392f:Blackadder's Christmas Carol:1"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 45,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5adc597d55429947ff17392f:full:other_document_control",
+      "paired_key": "5adc597d55429947ff17392f:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5adc597d55429947ff17392f:Blackadder's Christmas Carol:1"
+      ],
+      "donor_order": [
+        "5a7c6c9d554299683c1c6302",
+        "5ac55e835542993e66e82375",
+        "5a7cb94f554299683c1c6353",
+        "5ac15de55542991316484afb",
+        "5ae3a8985542992f92d82329",
+        "5a8cea40554299441c6b9f76",
+        "5ae27b535542996483e649b6",
+        "5ab874ba5542990e739ec904",
+        "5ac1a4745542991316484b82",
+        "5a7133565542994082a3e65c",
+        "5ac39f7b554299218029dbe7",
+        "5add1d575542992c1e3a2540",
+        "5ac3a76e554299741d48a2be",
+        "5a7331de5542994cef4bc4a8",
+        "5ac55ea55542993e66e82377",
+        "5ae70ed7554299572ea546a1",
+        "5a74a8fa55429929fddd8497",
+        "5a8d9e0f554299441c6ba015",
+        "5ae6363b55429929b0807af0"
+      ],
+      "donor_pool_text_sha256": "3459dc0f7744668c3f599b2f63c389a7aa1e35d98f81b6669ae6cda32aba9423",
+      "donor_prefix_tokens": 45,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac55e835542993e66e82375:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac55e835542993e66e82375:Thomas Fitch (politician):2"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac55e835542993e66e82375:full",
+      "held_sentence_ids": [
+        "5ac55e835542993e66e82375:Thomas Fitch (politician):2"
+      ],
+      "sender_sentence_ids": [
+        "5ac55e835542993e66e82375:Thomas Fitch (politician):2"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 65,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac55e835542993e66e82375:full:other_document_control",
+      "paired_key": "5ac55e835542993e66e82375:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac55e835542993e66e82375:Thomas Fitch (politician):2"
+      ],
+      "donor_order": [
+        "5adc597d55429947ff17392f",
+        "5a8d9e0f554299441c6ba015",
+        "5ae70ed7554299572ea546a1",
+        "5ac39f7b554299218029dbe7",
+        "5ae3a8985542992f92d82329",
+        "5ac3a76e554299741d48a2be",
+        "5ab874ba5542990e739ec904",
+        "5a74a8fa55429929fddd8497",
+        "5a7331de5542994cef4bc4a8",
+        "5add1d575542992c1e3a2540",
+        "5a7c6c9d554299683c1c6302",
+        "5a7133565542994082a3e65c",
+        "5ae27b535542996483e649b6",
+        "5a7cb94f554299683c1c6353",
+        "5ac15de55542991316484afb",
+        "5ac55ea55542993e66e82377",
+        "5ac1a4745542991316484b82",
+        "5ae6363b55429929b0807af0",
+        "5a8cea40554299441c6b9f76"
+      ],
+      "donor_pool_text_sha256": "735bc28d1e3611fd183cceac6d26aa8ba10a4f2f87bd2d8992614093234f4ad4",
+      "donor_prefix_tokens": 65,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a8d9e0f554299441c6ba015:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a8d9e0f554299441c6ba015:Vaisakhi List:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a8d9e0f554299441c6ba015:full",
+      "held_sentence_ids": [
+        "5a8d9e0f554299441c6ba015:Vaisakhi List:0"
+      ],
+      "sender_sentence_ids": [
+        "5a8d9e0f554299441c6ba015:Vaisakhi List:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 88,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a8d9e0f554299441c6ba015:full:other_document_control",
+      "paired_key": "5a8d9e0f554299441c6ba015:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a8d9e0f554299441c6ba015:Vaisakhi List:0"
+      ],
+      "donor_order": [
+        "5ac1a4745542991316484b82",
+        "5ac39f7b554299218029dbe7",
+        "5a8cea40554299441c6b9f76",
+        "5add1d575542992c1e3a2540",
+        "5a7c6c9d554299683c1c6302",
+        "5a7331de5542994cef4bc4a8",
+        "5a7133565542994082a3e65c",
+        "5a7cb94f554299683c1c6353",
+        "5ae3a8985542992f92d82329",
+        "5a74a8fa55429929fddd8497",
+        "5ae27b535542996483e649b6",
+        "5adc597d55429947ff17392f",
+        "5ae70ed7554299572ea546a1",
+        "5ac55ea55542993e66e82377",
+        "5ac15de55542991316484afb",
+        "5ae6363b55429929b0807af0",
+        "5ac55e835542993e66e82375",
+        "5ab874ba5542990e739ec904",
+        "5ac3a76e554299741d48a2be"
+      ],
+      "donor_pool_text_sha256": "f546be58f01da58c1722cf9e4432770a7d5246153974076fed976d94654a01dd",
+      "donor_prefix_tokens": 88,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae70ed7554299572ea546a1:Twisted Fortune:0",
+        "5ae70ed7554299572ea546a1:Twisted Fortune:2"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:partial",
+      "held_sentence_ids": [
+        "5ae70ed7554299572ea546a1:Twisted Fortune:0"
+      ],
+      "sender_sentence_ids": [
+        "5ae70ed7554299572ea546a1:Twisted Fortune:0",
+        "5ae70ed7554299572ea546a1:Twisted Fortune:2"
+      ],
+      "held_sentence_fraction": 0.5,
+      "held_material_tokens": 49,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:partial:other_document_control",
+      "paired_key": "5ae70ed7554299572ea546a1:partial",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae70ed7554299572ea546a1:Twisted Fortune:0",
+        "5ae70ed7554299572ea546a1:Twisted Fortune:2"
+      ],
+      "donor_order": [
+        "5ac55e835542993e66e82375",
+        "5ac1a4745542991316484b82",
+        "5ac3a76e554299741d48a2be",
+        "5a8d9e0f554299441c6ba015",
+        "5ac55ea55542993e66e82377",
+        "5ae27b535542996483e649b6",
+        "5ab874ba5542990e739ec904",
+        "5ac39f7b554299218029dbe7",
+        "5ae6363b55429929b0807af0",
+        "5a7133565542994082a3e65c",
+        "5ac15de55542991316484afb",
+        "5adc597d55429947ff17392f",
+        "5a74a8fa55429929fddd8497",
+        "5a7331de5542994cef4bc4a8",
+        "5ae3a8985542992f92d82329",
+        "5a8cea40554299441c6b9f76",
+        "5a7cb94f554299683c1c6353",
+        "5add1d575542992c1e3a2540",
+        "5a7c6c9d554299683c1c6302"
+      ],
+      "donor_pool_text_sha256": "26dc0b85798da466875181b59ac8521c82a58b6471a5e14f935958fe2e2b42dd",
+      "donor_prefix_tokens": 49,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:full",
+      "held_sentence_ids": [
+        "5ae70ed7554299572ea546a1:Twisted Fortune:0",
+        "5ae70ed7554299572ea546a1:Twisted Fortune:2"
+      ],
+      "sender_sentence_ids": [
+        "5ae70ed7554299572ea546a1:Twisted Fortune:0",
+        "5ae70ed7554299572ea546a1:Twisted Fortune:2"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 70,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:full:other_document_control",
+      "paired_key": "5ae70ed7554299572ea546a1:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae70ed7554299572ea546a1:Twisted Fortune:0",
+        "5ae70ed7554299572ea546a1:Twisted Fortune:2"
+      ],
+      "donor_order": [
+        "5ac55e835542993e66e82375",
+        "5ac1a4745542991316484b82",
+        "5ac3a76e554299741d48a2be",
+        "5a8d9e0f554299441c6ba015",
+        "5ac55ea55542993e66e82377",
+        "5ae27b535542996483e649b6",
+        "5ab874ba5542990e739ec904",
+        "5ac39f7b554299218029dbe7",
+        "5ae6363b55429929b0807af0",
+        "5a7133565542994082a3e65c",
+        "5ac15de55542991316484afb",
+        "5adc597d55429947ff17392f",
+        "5a74a8fa55429929fddd8497",
+        "5a7331de5542994cef4bc4a8",
+        "5ae3a8985542992f92d82329",
+        "5a8cea40554299441c6b9f76",
+        "5a7cb94f554299683c1c6353",
+        "5add1d575542992c1e3a2540",
+        "5a7c6c9d554299683c1c6302"
+      ],
+      "donor_pool_text_sha256": "26dc0b85798da466875181b59ac8521c82a58b6471a5e14f935958fe2e2b42dd",
+      "donor_prefix_tokens": 70,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a74a8fa55429929fddd8497:Bill Dudman:0",
+        "5a74a8fa55429929fddd8497:Bill Dudman:2"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:partial",
+      "held_sentence_ids": [
+        "5a74a8fa55429929fddd8497:Bill Dudman:0"
+      ],
+      "sender_sentence_ids": [
+        "5a74a8fa55429929fddd8497:Bill Dudman:0",
+        "5a74a8fa55429929fddd8497:Bill Dudman:2"
+      ],
+      "held_sentence_fraction": 0.5,
+      "held_material_tokens": 29,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:partial:other_document_control",
+      "paired_key": "5a74a8fa55429929fddd8497:partial",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a74a8fa55429929fddd8497:Bill Dudman:0",
+        "5a74a8fa55429929fddd8497:Bill Dudman:2"
+      ],
+      "donor_order": [
+        "5ae3a8985542992f92d82329",
+        "5adc597d55429947ff17392f",
+        "5ac3a76e554299741d48a2be",
+        "5ae6363b55429929b0807af0",
+        "5ac39f7b554299218029dbe7",
+        "5ac15de55542991316484afb",
+        "5a7331de5542994cef4bc4a8",
+        "5ac55ea55542993e66e82377",
+        "5a7cb94f554299683c1c6353",
+        "5ae27b535542996483e649b6",
+        "5ac1a4745542991316484b82",
+        "5a7c6c9d554299683c1c6302",
+        "5a8cea40554299441c6b9f76",
+        "5ab874ba5542990e739ec904",
+        "5a8d9e0f554299441c6ba015",
+        "5add1d575542992c1e3a2540",
+        "5a7133565542994082a3e65c",
+        "5ac55e835542993e66e82375",
+        "5ae70ed7554299572ea546a1"
+      ],
+      "donor_pool_text_sha256": "451ef6c1e75c2611180076024bb0234a9e167c8df20ef973f4739bff7daf87e9",
+      "donor_prefix_tokens": 29,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:full",
+      "held_sentence_ids": [
+        "5a74a8fa55429929fddd8497:Bill Dudman:0",
+        "5a74a8fa55429929fddd8497:Bill Dudman:2"
+      ],
+      "sender_sentence_ids": [
+        "5a74a8fa55429929fddd8497:Bill Dudman:0",
+        "5a74a8fa55429929fddd8497:Bill Dudman:2"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 66,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:full:other_document_control",
+      "paired_key": "5a74a8fa55429929fddd8497:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a74a8fa55429929fddd8497:Bill Dudman:0",
+        "5a74a8fa55429929fddd8497:Bill Dudman:2"
+      ],
+      "donor_order": [
+        "5ae3a8985542992f92d82329",
+        "5adc597d55429947ff17392f",
+        "5ac3a76e554299741d48a2be",
+        "5ae6363b55429929b0807af0",
+        "5ac39f7b554299218029dbe7",
+        "5ac15de55542991316484afb",
+        "5a7331de5542994cef4bc4a8",
+        "5ac55ea55542993e66e82377",
+        "5a7cb94f554299683c1c6353",
+        "5ae27b535542996483e649b6",
+        "5ac1a4745542991316484b82",
+        "5a7c6c9d554299683c1c6302",
+        "5a8cea40554299441c6b9f76",
+        "5ab874ba5542990e739ec904",
+        "5a8d9e0f554299441c6ba015",
+        "5add1d575542992c1e3a2540",
+        "5a7133565542994082a3e65c",
+        "5ac55e835542993e66e82375",
+        "5ae70ed7554299572ea546a1"
+      ],
+      "donor_pool_text_sha256": "451ef6c1e75c2611180076024bb0234a9e167c8df20ef973f4739bff7daf87e9",
+      "donor_prefix_tokens": 66,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7cb94f554299683c1c6353:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7cb94f554299683c1c6353:The Hungry Hustlerz: Starvation Is Motivation:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7cb94f554299683c1c6353:full",
+      "held_sentence_ids": [
+        "5a7cb94f554299683c1c6353:The Hungry Hustlerz: Starvation Is Motivation:0"
+      ],
+      "sender_sentence_ids": [
+        "5a7cb94f554299683c1c6353:The Hungry Hustlerz: Starvation Is Motivation:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 36,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7cb94f554299683c1c6353:full:other_document_control",
+      "paired_key": "5a7cb94f554299683c1c6353:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7cb94f554299683c1c6353:The Hungry Hustlerz: Starvation Is Motivation:0"
+      ],
+      "donor_order": [
+        "5ac55e835542993e66e82375",
+        "5ae6363b55429929b0807af0",
+        "5a8d9e0f554299441c6ba015",
+        "5ae70ed7554299572ea546a1",
+        "5ae3a8985542992f92d82329",
+        "5ac39f7b554299218029dbe7",
+        "5ab874ba5542990e739ec904",
+        "5a7331de5542994cef4bc4a8",
+        "5a7c6c9d554299683c1c6302",
+        "5add1d575542992c1e3a2540",
+        "5a8cea40554299441c6b9f76",
+        "5a7133565542994082a3e65c",
+        "5adc597d55429947ff17392f",
+        "5ac15de55542991316484afb",
+        "5ac3a76e554299741d48a2be",
+        "5ae27b535542996483e649b6",
+        "5ac55ea55542993e66e82377",
+        "5ac1a4745542991316484b82",
+        "5a74a8fa55429929fddd8497"
+      ],
+      "donor_pool_text_sha256": "9633d7cf4aaf2d1dee50a9f9abe59b004ed61abced92ae9702ccf43b7c3d9879",
+      "donor_prefix_tokens": 36,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ab874ba5542990e739ec904:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ab874ba5542990e739ec904:Twelfth United States Army Group:2"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ab874ba5542990e739ec904:full",
+      "held_sentence_ids": [
+        "5ab874ba5542990e739ec904:Twelfth United States Army Group:2"
+      ],
+      "sender_sentence_ids": [
+        "5ab874ba5542990e739ec904:Twelfth United States Army Group:2"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 32,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ab874ba5542990e739ec904:full:other_document_control",
+      "paired_key": "5ab874ba5542990e739ec904:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ab874ba5542990e739ec904:Twelfth United States Army Group:2"
+      ],
+      "donor_order": [
+        "5ae27b535542996483e649b6",
+        "5a7133565542994082a3e65c",
+        "5a7cb94f554299683c1c6353",
+        "5a7331de5542994cef4bc4a8",
+        "5a7c6c9d554299683c1c6302",
+        "5ae70ed7554299572ea546a1",
+        "5ac55e835542993e66e82375",
+        "5a74a8fa55429929fddd8497",
+        "5a8cea40554299441c6b9f76",
+        "5ac1a4745542991316484b82",
+        "5ac15de55542991316484afb",
+        "5adc597d55429947ff17392f",
+        "5ae3a8985542992f92d82329",
+        "5a8d9e0f554299441c6ba015",
+        "5add1d575542992c1e3a2540",
+        "5ac39f7b554299218029dbe7",
+        "5ae6363b55429929b0807af0",
+        "5ac55ea55542993e66e82377",
+        "5ac3a76e554299741d48a2be"
+      ],
+      "donor_pool_text_sha256": "0a66f89f95f63a6f241f2b30bfc4f9b35abba19ce8e01ab62b2702a0e34c8d05",
+      "donor_prefix_tokens": 32,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae3a8985542992f92d82329:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae3a8985542992f92d82329:Lyman Sherwood:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae3a8985542992f92d82329:full",
+      "held_sentence_ids": [
+        "5ae3a8985542992f92d82329:Lyman Sherwood:0"
+      ],
+      "sender_sentence_ids": [
+        "5ae3a8985542992f92d82329:Lyman Sherwood:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 61,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae3a8985542992f92d82329:full:other_document_control",
+      "paired_key": "5ae3a8985542992f92d82329:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae3a8985542992f92d82329:Lyman Sherwood:0"
+      ],
+      "donor_order": [
+        "5a8d9e0f554299441c6ba015",
+        "5ac55ea55542993e66e82377",
+        "5ae27b535542996483e649b6",
+        "5adc597d55429947ff17392f",
+        "5ac1a4745542991316484b82",
+        "5a8cea40554299441c6b9f76",
+        "5a7133565542994082a3e65c",
+        "5ae70ed7554299572ea546a1",
+        "5ac15de55542991316484afb",
+        "5a7cb94f554299683c1c6353",
+        "5add1d575542992c1e3a2540",
+        "5ab874ba5542990e739ec904",
+        "5a7331de5542994cef4bc4a8",
+        "5ac39f7b554299218029dbe7",
+        "5ac3a76e554299741d48a2be",
+        "5a7c6c9d554299683c1c6302",
+        "5ac55e835542993e66e82375",
+        "5a74a8fa55429929fddd8497",
+        "5ae6363b55429929b0807af0"
+      ],
+      "donor_pool_text_sha256": "9c8cc089627a3a1ac4c9d6a10d7be4c5a93e63eebc10a700c3d808ec96c6c480",
+      "donor_prefix_tokens": 61,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac39f7b554299218029dbe7:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac39f7b554299218029dbe7:Robert Holding:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac39f7b554299218029dbe7:full",
+      "held_sentence_ids": [
+        "5ac39f7b554299218029dbe7:Robert Holding:0"
+      ],
+      "sender_sentence_ids": [
+        "5ac39f7b554299218029dbe7:Robert Holding:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 102,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac39f7b554299218029dbe7:full:other_document_control",
+      "paired_key": "5ac39f7b554299218029dbe7:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac39f7b554299218029dbe7:Robert Holding:0"
+      ],
+      "donor_order": [
+        "5a74a8fa55429929fddd8497",
+        "5a7133565542994082a3e65c",
+        "5a7cb94f554299683c1c6353",
+        "5ab874ba5542990e739ec904",
+        "5adc597d55429947ff17392f",
+        "5add1d575542992c1e3a2540",
+        "5ac3a76e554299741d48a2be",
+        "5ac1a4745542991316484b82",
+        "5ac55e835542993e66e82375",
+        "5ae6363b55429929b0807af0",
+        "5ac15de55542991316484afb",
+        "5a7331de5542994cef4bc4a8",
+        "5a8cea40554299441c6b9f76",
+        "5ac55ea55542993e66e82377",
+        "5ae70ed7554299572ea546a1",
+        "5a8d9e0f554299441c6ba015",
+        "5ae27b535542996483e649b6",
+        "5a7c6c9d554299683c1c6302",
+        "5ae3a8985542992f92d82329"
+      ],
+      "donor_pool_text_sha256": "4ea84c9f5259901ae51bec73f7ac8321dcaba23bc412261d366b705fc47af023",
+      "donor_prefix_tokens": 102,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae27b535542996483e649b6:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):0",
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):1"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae27b535542996483e649b6:partial",
+      "held_sentence_ids": [
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):0"
+      ],
+      "sender_sentence_ids": [
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):0",
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):1"
+      ],
+      "held_sentence_fraction": 0.5,
+      "held_material_tokens": 32,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae27b535542996483e649b6:partial:other_document_control",
+      "paired_key": "5ae27b535542996483e649b6:partial",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):0",
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):1"
+      ],
+      "donor_order": [
+        "5ae3a8985542992f92d82329",
+        "5a7c6c9d554299683c1c6302",
+        "5a7cb94f554299683c1c6353",
+        "5add1d575542992c1e3a2540",
+        "5ac15de55542991316484afb",
+        "5a7331de5542994cef4bc4a8",
+        "5ae6363b55429929b0807af0",
+        "5a8cea40554299441c6b9f76",
+        "5ac39f7b554299218029dbe7",
+        "5ab874ba5542990e739ec904",
+        "5a7133565542994082a3e65c",
+        "5a8d9e0f554299441c6ba015",
+        "5ac55e835542993e66e82375",
+        "5adc597d55429947ff17392f",
+        "5ac1a4745542991316484b82",
+        "5ac55ea55542993e66e82377",
+        "5ae70ed7554299572ea546a1",
+        "5a74a8fa55429929fddd8497",
+        "5ac3a76e554299741d48a2be"
+      ],
+      "donor_pool_text_sha256": "8113cf933c1e43e133e1cf92d3ca5c644a8c3ad804b756846aac45de7beca93d",
+      "donor_prefix_tokens": 32,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae27b535542996483e649b6:full",
+      "held_sentence_ids": [
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):0",
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):1"
+      ],
+      "sender_sentence_ids": [
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):0",
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):1"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 49,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae27b535542996483e649b6:full:other_document_control",
+      "paired_key": "5ae27b535542996483e649b6:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):0",
+        "5ae27b535542996483e649b6:On the Radio (Regina Spektor song):1"
+      ],
+      "donor_order": [
+        "5ae3a8985542992f92d82329",
+        "5a7c6c9d554299683c1c6302",
+        "5a7cb94f554299683c1c6353",
+        "5add1d575542992c1e3a2540",
+        "5ac15de55542991316484afb",
+        "5a7331de5542994cef4bc4a8",
+        "5ae6363b55429929b0807af0",
+        "5a8cea40554299441c6b9f76",
+        "5ac39f7b554299218029dbe7",
+        "5ab874ba5542990e739ec904",
+        "5a7133565542994082a3e65c",
+        "5a8d9e0f554299441c6ba015",
+        "5ac55e835542993e66e82375",
+        "5adc597d55429947ff17392f",
+        "5ac1a4745542991316484b82",
+        "5ac55ea55542993e66e82377",
+        "5ae70ed7554299572ea546a1",
+        "5a74a8fa55429929fddd8497",
+        "5ac3a76e554299741d48a2be"
+      ],
+      "donor_pool_text_sha256": "8113cf933c1e43e133e1cf92d3ca5c644a8c3ad804b756846aac45de7beca93d",
+      "donor_prefix_tokens": 49,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7331de5542994cef4bc4a8:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7331de5542994cef4bc4a8:Charkhi Dadri mid-air collision:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7331de5542994cef4bc4a8:full",
+      "held_sentence_ids": [
+        "5a7331de5542994cef4bc4a8:Charkhi Dadri mid-air collision:0"
+      ],
+      "sender_sentence_ids": [
+        "5a7331de5542994cef4bc4a8:Charkhi Dadri mid-air collision:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 49,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7331de5542994cef4bc4a8:full:other_document_control",
+      "paired_key": "5a7331de5542994cef4bc4a8:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7331de5542994cef4bc4a8:Charkhi Dadri mid-air collision:0"
+      ],
+      "donor_order": [
+        "5ae3a8985542992f92d82329",
+        "5a7cb94f554299683c1c6353",
+        "5ac1a4745542991316484b82",
+        "5add1d575542992c1e3a2540",
+        "5ac15de55542991316484afb",
+        "5ac3a76e554299741d48a2be",
+        "5ac39f7b554299218029dbe7",
+        "5a8d9e0f554299441c6ba015",
+        "5ae27b535542996483e649b6",
+        "5ae6363b55429929b0807af0",
+        "5a7133565542994082a3e65c",
+        "5a8cea40554299441c6b9f76",
+        "5a74a8fa55429929fddd8497",
+        "5ab874ba5542990e739ec904",
+        "5adc597d55429947ff17392f",
+        "5ae70ed7554299572ea546a1",
+        "5ac55e835542993e66e82375",
+        "5a7c6c9d554299683c1c6302",
+        "5ac55ea55542993e66e82377"
+      ],
+      "donor_pool_text_sha256": "b2d0c84b3d72931390c9f9e39c669db001c9f21362a9c43da9ccfa843ab94cd7",
+      "donor_prefix_tokens": 49,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac15de55542991316484afb:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac15de55542991316484afb:Crazy Love (2007 film):0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac15de55542991316484afb:full",
+      "held_sentence_ids": [
+        "5ac15de55542991316484afb:Crazy Love (2007 film):0"
+      ],
+      "sender_sentence_ids": [
+        "5ac15de55542991316484afb:Crazy Love (2007 film):0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 32,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ac15de55542991316484afb:full:other_document_control",
+      "paired_key": "5ac15de55542991316484afb:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ac15de55542991316484afb:Crazy Love (2007 film):0"
+      ],
+      "donor_order": [
+        "5adc597d55429947ff17392f",
+        "5a7cb94f554299683c1c6353",
+        "5a7331de5542994cef4bc4a8",
+        "5ae6363b55429929b0807af0",
+        "5a74a8fa55429929fddd8497",
+        "5add1d575542992c1e3a2540",
+        "5ac39f7b554299218029dbe7",
+        "5a7133565542994082a3e65c",
+        "5ac55ea55542993e66e82377",
+        "5ac55e835542993e66e82375",
+        "5a8cea40554299441c6b9f76",
+        "5ae27b535542996483e649b6",
+        "5a7c6c9d554299683c1c6302",
+        "5ae3a8985542992f92d82329",
+        "5a8d9e0f554299441c6ba015",
+        "5ab874ba5542990e739ec904",
+        "5ac3a76e554299741d48a2be",
+        "5ae70ed7554299572ea546a1",
+        "5ac1a4745542991316484b82"
+      ],
+      "donor_pool_text_sha256": "a515d2d7397c06fc5ec5f3df3f66f5ee9c5f9ccd18863cb0e3706f5aff58c0e9",
+      "donor_prefix_tokens": 32,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7c6c9d554299683c1c6302:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7c6c9d554299683c1c6302:Duffy Jackson:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7c6c9d554299683c1c6302:full",
+      "held_sentence_ids": [
+        "5a7c6c9d554299683c1c6302:Duffy Jackson:0"
+      ],
+      "sender_sentence_ids": [
+        "5a7c6c9d554299683c1c6302:Duffy Jackson:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 36,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a7c6c9d554299683c1c6302:full:other_document_control",
+      "paired_key": "5a7c6c9d554299683c1c6302:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a7c6c9d554299683c1c6302:Duffy Jackson:0"
+      ],
+      "donor_order": [
+        "5add1d575542992c1e3a2540",
+        "5ac15de55542991316484afb",
+        "5ac1a4745542991316484b82",
+        "5a7331de5542994cef4bc4a8",
+        "5a7133565542994082a3e65c",
+        "5ae70ed7554299572ea546a1",
+        "5a7cb94f554299683c1c6353",
+        "5ac3a76e554299741d48a2be",
+        "5ae6363b55429929b0807af0",
+        "5ae27b535542996483e649b6",
+        "5ae3a8985542992f92d82329",
+        "5ab874ba5542990e739ec904",
+        "5a8d9e0f554299441c6ba015",
+        "5adc597d55429947ff17392f",
+        "5ac55ea55542993e66e82377",
+        "5a74a8fa55429929fddd8497",
+        "5ac55e835542993e66e82375",
+        "5a8cea40554299441c6b9f76",
+        "5ac39f7b554299218029dbe7"
+      ],
+      "donor_pool_text_sha256": "95097659e70433d6f28dbceaeae4a8b83cafc945b8bb7e82476aebd03d05fe52",
+      "donor_prefix_tokens": 36,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae6363b55429929b0807af0:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae6363b55429929b0807af0:2009–10 Biathlon World Cup – Pursuit Men:1"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae6363b55429929b0807af0:full",
+      "held_sentence_ids": [
+        "5ae6363b55429929b0807af0:2009–10 Biathlon World Cup – Pursuit Men:1"
+      ],
+      "sender_sentence_ids": [
+        "5ae6363b55429929b0807af0:2009–10 Biathlon World Cup – Pursuit Men:1"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 32,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5ae6363b55429929b0807af0:full:other_document_control",
+      "paired_key": "5ae6363b55429929b0807af0:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5ae6363b55429929b0807af0:2009–10 Biathlon World Cup – Pursuit Men:1"
+      ],
+      "donor_order": [
+        "5add1d575542992c1e3a2540",
+        "5a7c6c9d554299683c1c6302",
+        "5ac3a76e554299741d48a2be",
+        "5ac15de55542991316484afb",
+        "5ae70ed7554299572ea546a1",
+        "5a74a8fa55429929fddd8497",
+        "5ae27b535542996483e649b6",
+        "5ac55e835542993e66e82375",
+        "5a8d9e0f554299441c6ba015",
+        "5adc597d55429947ff17392f",
+        "5a8cea40554299441c6b9f76",
+        "5ae3a8985542992f92d82329",
+        "5ab874ba5542990e739ec904",
+        "5ac39f7b554299218029dbe7",
+        "5a7331de5542994cef4bc4a8",
+        "5ac1a4745542991316484b82",
+        "5a7cb94f554299683c1c6353",
+        "5ac55ea55542993e66e82377",
+        "5a7133565542994082a3e65c"
+      ],
+      "donor_pool_text_sha256": "5a7cffde962cea904de23e2e0edfbe128608ffd905a4485a3a569900438e1b74",
+      "donor_prefix_tokens": 32,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a8cea40554299441c6b9f76:missing",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a8cea40554299441c6b9f76:Gasherbrum II:0"
+      ],
+      "held_sentence_fraction": 0.0,
+      "held_material_tokens": 0,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a8cea40554299441c6b9f76:full",
+      "held_sentence_ids": [
+        "5a8cea40554299441c6b9f76:Gasherbrum II:0"
+      ],
+      "sender_sentence_ids": [
+        "5a8cea40554299441c6b9f76:Gasherbrum II:0"
+      ],
+      "held_sentence_fraction": 1.0,
+      "held_material_tokens": 44,
+      "oracle_annotation": true,
+      "selector_input": false
+    },
+    {
+      "key": "5a8cea40554299441c6b9f76:full:other_document_control",
+      "paired_key": "5a8cea40554299441c6b9f76:full",
+      "held_sentence_ids": [],
+      "sender_sentence_ids": [
+        "5a8cea40554299441c6b9f76:Gasherbrum II:0"
+      ],
+      "donor_order": [
+        "5ac15de55542991316484afb",
+        "5ae70ed7554299572ea546a1",
+        "5a74a8fa55429929fddd8497",
+        "5a8d9e0f554299441c6ba015",
+        "5ac55ea55542993e66e82377",
+        "5adc597d55429947ff17392f",
+        "5a7133565542994082a3e65c",
+        "5ac39f7b554299218029dbe7",
+        "5ae3a8985542992f92d82329",
+        "5a7331de5542994cef4bc4a8",
+        "5ab874ba5542990e739ec904",
+        "5ae27b535542996483e649b6",
+        "5a7cb94f554299683c1c6353",
+        "5ac1a4745542991316484b82",
+        "5a7c6c9d554299683c1c6302",
+        "5add1d575542992c1e3a2540",
+        "5ac55e835542993e66e82375",
+        "5ae6363b55429929b0807af0",
+        "5ac3a76e554299741d48a2be"
+      ],
+      "donor_pool_text_sha256": "0f85c17e87ef2397809d41f0fccc0ccd9fe0cb260407cde19b5cffbd46aa7b73",
+      "donor_prefix_tokens": 44,
+      "complete_receiver_prompt_token_difference": 0,
+      "exact_length_match": true,
+      "semantic_irrelevance_verified": false,
+      "can_end_inside_sentence": true,
+      "oracle_annotation": true,
+      "selector_input": false
+    }
+  ],
+  "paired_control_keys": [
+    [
+      "5add1d575542992c1e3a2540:partial",
+      "5add1d575542992c1e3a2540:partial:other_document_control"
+    ],
+    [
+      "5add1d575542992c1e3a2540:full",
+      "5add1d575542992c1e3a2540:full:other_document_control"
+    ],
+    [
+      "5ac55ea55542993e66e82377:full",
+      "5ac55ea55542993e66e82377:full:other_document_control"
+    ],
+    [
+      "5ac3a76e554299741d48a2be:partial",
+      "5ac3a76e554299741d48a2be:partial:other_document_control"
+    ],
+    [
+      "5ac3a76e554299741d48a2be:full",
+      "5ac3a76e554299741d48a2be:full:other_document_control"
+    ],
+    [
+      "5a7133565542994082a3e65c:partial",
+      "5a7133565542994082a3e65c:partial:other_document_control"
+    ],
+    [
+      "5a7133565542994082a3e65c:full",
+      "5a7133565542994082a3e65c:full:other_document_control"
+    ],
+    [
+      "5ac1a4745542991316484b82:full",
+      "5ac1a4745542991316484b82:full:other_document_control"
+    ],
+    [
+      "5adc597d55429947ff17392f:full",
+      "5adc597d55429947ff17392f:full:other_document_control"
+    ],
+    [
+      "5ac55e835542993e66e82375:full",
+      "5ac55e835542993e66e82375:full:other_document_control"
+    ],
+    [
+      "5a8d9e0f554299441c6ba015:full",
+      "5a8d9e0f554299441c6ba015:full:other_document_control"
+    ],
+    [
+      "5ae70ed7554299572ea546a1:partial",
+      "5ae70ed7554299572ea546a1:partial:other_document_control"
+    ],
+    [
+      "5ae70ed7554299572ea546a1:full",
+      "5ae70ed7554299572ea546a1:full:other_document_control"
+    ],
+    [
+      "5a74a8fa55429929fddd8497:partial",
+      "5a74a8fa55429929fddd8497:partial:other_document_control"
+    ],
+    [
+      "5a74a8fa55429929fddd8497:full",
+      "5a74a8fa55429929fddd8497:full:other_document_control"
+    ],
+    [
+      "5a7cb94f554299683c1c6353:full",
+      "5a7cb94f554299683c1c6353:full:other_document_control"
+    ],
+    [
+      "5ab874ba5542990e739ec904:full",
+      "5ab874ba5542990e739ec904:full:other_document_control"
+    ],
+    [
+      "5ae3a8985542992f92d82329:full",
+      "5ae3a8985542992f92d82329:full:other_document_control"
+    ],
+    [
+      "5ac39f7b554299218029dbe7:full",
+      "5ac39f7b554299218029dbe7:full:other_document_control"
+    ],
+    [
+      "5ae27b535542996483e649b6:partial",
+      "5ae27b535542996483e649b6:partial:other_document_control"
+    ],
+    [
+      "5ae27b535542996483e649b6:full",
+      "5ae27b535542996483e649b6:full:other_document_control"
+    ],
+    [
+      "5a7331de5542994cef4bc4a8:full",
+      "5a7331de5542994cef4bc4a8:full:other_document_control"
+    ],
+    [
+      "5ac15de55542991316484afb:full",
+      "5ac15de55542991316484afb:full:other_document_control"
+    ],
+    [
+      "5a7c6c9d554299683c1c6302:full",
+      "5a7c6c9d554299683c1c6302:full:other_document_control"
+    ],
+    [
+      "5ae6363b55429929b0807af0:full",
+      "5ae6363b55429929b0807af0:full:other_document_control"
+    ],
+    [
+      "5a8cea40554299441c6b9f76:full",
+      "5a8cea40554299441c6b9f76:full:other_document_control"
+    ]
+  ],
+  "partial_undefined": [
+    "5ac55ea55542993e66e82377",
+    "5ac1a4745542991316484b82",
+    "5adc597d55429947ff17392f",
+    "5ac55e835542993e66e82375",
+    "5a8d9e0f554299441c6ba015",
+    "5a7cb94f554299683c1c6353",
+    "5ab874ba5542990e739ec904",
+    "5ae3a8985542992f92d82329",
+    "5ac39f7b554299218029dbe7",
+    "5a7331de5542994cef4bc4a8",
+    "5ac15de55542991316484afb",
+    "5a7c6c9d554299683c1c6302",
+    "5ae6363b55429929b0807af0",
+    "5a8cea40554299441c6b9f76"
+  ]
+}

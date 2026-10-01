@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-10-01T19:44:10.372554+00:00",
+  "source_sha256": "8648103bed04bc08027bf1aa237fafe4f66c80bb4b4f8e7af22ddfc9de7a71a4",
+  "code_sha256": "d2dea8d3bbe46cc6745edf154a4c44817b645ec94d57029ff733cf419b17c010",
+  "existing_sampler_sha256": "0721d48cead0fc87d0aaa3ee706b377de903bc3917d6efadaa2dcd59ec93130f",
+  "runtime_payload_count": 72,
+  "unique_questions": 20,
+  "original_heading_only_count": 12,
+  "nonempty_body_and_within_budget_count": 20,
+  "model_calls": 0,
+  "gpu_used": false,
+  "selector_whitelist": [
+    "question",
+    "sender_material",
+    "receiver_visible_text"
+  ],
+  "limits": [
+    "only payload fields are selector inputs; lookup IDs and scheduler metadata are not",
+    "no sender output/cache or legal receiver KV ingestion has been prepared",
+    "sampling may cut sentences and does not prove preserved useful information",
+    "full text and original node-output text baselines are still required"
+  ],
+  "outputs_sha256": {
+    "runtime_payloads.json": "03ca3855de721953c3ffa4f9d531903bd220e67b5a9ebf50eb442b60bcd0a538",
+    "scheduler_metadata.json": "92201cf1dc4a7da1fb76e62a0e092df72d39da52ca0551c80a81c0b9622e1f8c",
+    "text_sampling_body_controls.json": "7257e3364ccfcc18a2f5024010a493df2d00b774629d9a2484c79e7c3d2fa446"
+  }
+}

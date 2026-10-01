@@ -42,3 +42,10 @@
 - 候选问题仅收窄为同题/同sender状态/不同receiver显式可见证据的边际通信价值，含互补与纠错和全成本。尚未证明研究空白或可保质量压缩；只把known facts加入请求先视为扩展基线。
 - RelayCaching官方代码在新前文下局部修复输出KV，另一篇FastMAS/KVCOMM用anchor偏移校正。二者是合法接入的候选载体，未适配当前工程，不是语义已知去重算法；与本工程Zephyroam/KVComm身份严格区分。
 - 本轮只读文献/代码与写稿，0模型调用。短讨论稿及全文证据附件已写，独立审查通过。三篇最接近参考的静态检查机器原文：PASS: 0/3 verified, 0 errors, 0 warnings (0 checks skipped)。offline，仅PARSED_ONLY；自动在线核验待真实CONTACT_EMAIL，不称引文已验证。
+
+- 2026-10-02输入准备实际只支持6题三状态：14/20 sender只有一句，截半句不算partial。missing/full各20题仍可另列，不能与partial6题均值当配对比较。72是输入行、模型调用0；26对完整prompt长度控制匹配，语义无关未证明，部分控制截句，仍是短支持句机制检查。
+- whole-history包含sender全部原prompt，会让任何输出消息删减被绕过。后续receiver只能读自身材料、明确持有材料与实际通信payload；不能用“整段历史稳定”证明选择有效。完整消息故意包含全部A时可作价值端点，不能用于宣称删减协议。
+- 原sample_text这批50%预算12/20仅保留title，属于无正文弱随机控制。保留旧记录后另对body采样，20/20正文非空、实际完整payload在预算内；1条省略标题。真实删减不等于质量保全，也不是强文本选择器。
+- 实验condition/key可暴露oracle持有状态，不能将原整条record传给选择器。新runtime白名单只有question/sender_material/receiver_visible_text，调度lookup/状态、诊断标注与评分标签独立；后续仅嵌套payload入模型。
+- CacheBack官方main6e961127只支持Qwen3且Transformers>=4.57.1；paper-v1/15bc3f7a的Qwen注册同为Qwen3，运行栈另锁Torch2.9.0+cu128/Transformers4.57.1/vLLM0.11.1，不能在当前4.53.3/Qwen2.5直接使用。源码已放学校、123文件hash相同，未安装/运行。
+- RelayCaching静态Qwen2路由覆盖目标模型类，但官方4.52.4与当前4.53.3不同，hidden relay、forward与cache/位置记录未迁移。代码仅将输出K旋转-prefix长度，发布响应相对位置post-RoPE K；此前pre-RoPE表述已撤回。源码网页核查不能称当前checkpoint兼容。
