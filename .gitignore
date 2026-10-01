@@ -19,6 +19,8 @@ worker.json
 alignment_worker.json
 three_node_worker.json
 cache_path_worker.json
+free_chain_worker.json
 pipeline_status.json
 checks/*worker.json
 checks/proxy_tunnel.json
+checks/free_chain_cpu_*/

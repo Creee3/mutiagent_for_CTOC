@@ -1,0 +1,62 @@
+{
+  "purpose": "actual three-node relay with same-cache native implementation controls",
+  "reference_run": "chain3_20261001_122157",
+  "reference_manifest_sha256": "76303e896b210f5cfbd67fceec434f71920af5829af2bae5f0aa55c4aeac963c",
+  "reference_summary_sha256": "0baec38097d7b2154a0cf4347f43febb3fdd79f80e61e5e5d79cce5b88777b1f",
+  "old_reference_gate_passed": false,
+  "reference_rows_sha256": {
+    "5add1d575542992c1e3a2540": "c7d503567c1d99b074daaeaffb063a566894cb932d12abc8e7c1f8754a2cdc8d",
+    "5ac55ea55542993e66e82377": "a1e45fad0727f520e86f2743beacf44178b4f330f3b3b00b0b6056ab97546baf",
+    "5ac3a76e554299741d48a2be": "968b2299c91f317ea9dc5c7923ea402cd17459b861a3064575294c539f9979ae",
+    "5a7133565542994082a3e65c": "87d6b21af80bad99fd24fb8058f49539ca835196987119fed3587521501eaa73"
+  },
+  "reference_gate_result_preserved": "all six main replay outputs match reference token-for-token; no truncation in reference/replay",
+  "main_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac55ea55542993e66e82377",
+    "5ac3a76e554299741d48a2be"
+  ],
+  "warmup_id": "5a7133565542994082a3e65c",
+  "roles": {
+    "A": "You are Agent A, an evidence reader. Using only your supplied material, extract the entities and facts relevant to the question. State what the evidence supports in at most three short sentences. Do not invent missing facts.",
+    "B": "You are Agent B, an evidence integrator. The preceding history contains Agent A's evidence. Combine it with your own material to identify the link needed to answer the question. Give a concise evidence chain and a candidate answer in at most three short sentences. Do not invent missing facts.",
+    "C": "You are Agent C, an answer verifier. Check the evidence and analyses in the preceding history. Directly answer the question, with no explanation. Do not invent unsupported facts."
+  },
+  "cases_sha256": "fdcdb13437b4e78758bcdc28fbd1c3b1332b6239999c8a50a4f24791f4162c7f",
+  "calibration_sha256": "2e52f4e0fa4ce644088e51ee72b9d9301b398db3860e3ac3ef2c0c5a6058b328",
+  "model_path": "/home/liuxin/models/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "material_policy": "first supporting-fact title to A; remaining titles to B",
+  "budgets": {
+    "A": 256,
+    "B": 256,
+    "C": 48
+  },
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "greedy": true,
+  "repetition_penalty": 1.0,
+  "shift_back": false,
+  "all_layers": true,
+  "generate_calls": 20,
+  "cache_tail_forward_max": 8,
+  "warmup_generate": 5,
+  "main_generate": 15,
+  "controls_do_not_enter_main_chain": true,
+  "stop_conditions": "structural/history/cache-position/source-mutation assertions stop execution",
+  "implementation_control": "native cached B/C reuse actual incoming CV-chain sender cache; exact output match and no truncation reported separately",
+  "reference_comparison": "reuse frozen joint reference outputs; history and output differences reported, not a timing comparison",
+  "source_hashes": {
+    "free_chain_probe.py": "54809edf076d82dfa4d0d6f65c60ad3e79544dd38567c0abbded3e309d5874ce",
+    "free_chain_core.py": "76c23e7350dc079ef43a3a7a12cc01a648b31b1216ecbcdfdf3a3dbfcad81799",
+    "chain_core.py": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb",
+    "native_cache_control.py": "eb12212cb996c09d824ae73070c5d41041a1280b29a6d7c2752f3af8afc2cef8",
+    "run.py": "0721d48cead0fc87d0aaa3ee706b377de903bc3917d6efadaa2dcd59ec93130f",
+    "alignment_probe.py": "dc5e0bb2a0db1c16cd2e066a8fb36967a66b870a4c1fb402a21beaeb7f4c8b4f",
+    "score_repro_outputs.py": "23578521106d04bfe1d5dedee9ead2f470dd1740c3cc58fe95ed9dfe6788f922"
+  },
+  "assets_sha256": "814a9f5f0c515e0f004c86e2fe7b9f16ceacf192d92a549d8fb94c4b00405a3f",
+  "master_config_sha256": "38d207fa4704ac58b15f1028054f2fdb5b3042640b86e1591ec4890e2d2d82af",
+  "evaluation_and_confirmation_used": false,
+  "network_transfer_measured": false
+}

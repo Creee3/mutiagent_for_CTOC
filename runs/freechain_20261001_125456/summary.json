@@ -1,0 +1,185 @@
+{
+  "run_name": "freechain_20261001_125456",
+  "main_questions": 3,
+  "warmup_questions": 1,
+  "counts": {
+    "generate": 20,
+    "cache_tail_forward": 8
+  },
+  "structural_assertions_passed": true,
+  "same_cache_control_matches": {
+    "B": 3,
+    "C": 3
+  },
+  "all_main_free_nodes_EOS": true,
+  "no_main_truncation": true,
+  "implementation_control_passed": true,
+  "old_strict_gate_result_unchanged": true,
+  "old_reference_gate_passed": false,
+  "not_a_benchmark_accuracy_claim": true,
+  "network_transfer_measured": false,
+  "cases": [
+    {
+      "id": "5add1d575542992c1e3a2540",
+      "A_matches_reference": {
+        "same_input_history": true,
+        "same_output_tokens": true,
+        "reference_response": "The evidence supports that Oliver Reed's character in the film Royal Flash was Otto von Bismarck, who was German. Therefore, Otto von Bismarck, played by Oliver Reed, was German."
+      },
+      "final_free_kv_response": "German.",
+      "vs_joint_reference": {
+        "A": {
+          "same_input_history": true,
+          "same_output_tokens": true,
+          "reference_response": "The evidence supports that Oliver Reed's character in the film Royal Flash was Otto von Bismarck, who was German. Therefore, Otto von Bismarck, played by Oliver Reed, was German."
+        },
+        "B": {
+          "same_input_history": true,
+          "same_output_tokens": false,
+          "reference_response": "Evidence chain: Oliver Reed played Otto von Bismarck in Royal Flash. Otto von Bismarck was a Prussian statesman.\nCandidate answer: Oliver Reed's character in the film Royal Flash was Prussian, which means German."
+        },
+        "C": {
+          "same_input_history": false,
+          "same_output_tokens": true,
+          "reference_response": "German."
+        }
+      },
+      "final_scores": {
+        "free_kv": {
+          "exact_match": false,
+          "standard_token_f1": 0.0
+        },
+        "joint_reference": {
+          "exact_match": false,
+          "standard_token_f1": 0.0
+        }
+      },
+      "repeated": {
+        "kv": {
+          "repeated_source_event_bytes": 11411456,
+          "total_content_bytes": 36757504,
+          "repeated_fraction_across_edges": 0.31045241809672386,
+          "A_history_bytes_in_B_to_C": 11411456,
+          "A_fraction_of_B_to_C_content": 0.4502262443438914,
+          "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+        },
+        "text": {
+          "repeated_source_event_bytes": 796,
+          "total_content_bytes": 2564,
+          "repeated_fraction_across_edges": 0.31045241809672386,
+          "A_history_bytes_in_B_to_C": 796,
+          "A_fraction_of_B_to_C_content": 0.4502262443438914,
+          "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+        }
+      }
+    },
+    {
+      "id": "5ac55ea55542993e66e82377",
+      "A_matches_reference": {
+        "same_input_history": true,
+        "same_output_tokens": true,
+        "reference_response": "The Pacific Mozart Ensemble performed Kurt Weill's Der Lindberghflug in 2002."
+      },
+      "final_free_kv_response": "Kurt Weill",
+      "vs_joint_reference": {
+        "A": {
+          "same_input_history": true,
+          "same_output_tokens": true,
+          "reference_response": "The Pacific Mozart Ensemble performed Kurt Weill's Der Lindberghflug in 2002."
+        },
+        "B": {
+          "same_input_history": true,
+          "same_output_tokens": true,
+          "reference_response": "The Pacific Mozart Ensemble performed Kurt Weill's Der Lindberghflug in 2002. Kurt Weill was a German composer."
+        },
+        "C": {
+          "same_input_history": true,
+          "same_output_tokens": true,
+          "reference_response": "Kurt Weill"
+        }
+      },
+      "final_scores": {
+        "free_kv": {
+          "exact_match": false,
+          "standard_token_f1": 0.8
+        },
+        "joint_reference": {
+          "exact_match": false,
+          "standard_token_f1": 0.8
+        }
+      },
+      "repeated": {
+        "kv": {
+          "repeated_source_event_bytes": 9289728,
+          "total_content_bytes": 30162944,
+          "repeated_fraction_across_edges": 0.30798479087452474,
+          "A_history_bytes_in_B_to_C": 9289728,
+          "A_fraction_of_B_to_C_content": 0.44505494505494503,
+          "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+        },
+        "text": {
+          "repeated_source_event_bytes": 648,
+          "total_content_bytes": 2104,
+          "repeated_fraction_across_edges": 0.30798479087452474,
+          "A_history_bytes_in_B_to_C": 648,
+          "A_fraction_of_B_to_C_content": 0.44505494505494503,
+          "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+        }
+      }
+    },
+    {
+      "id": "5ac3a76e554299741d48a2be",
+      "A_matches_reference": {
+        "same_input_history": true,
+        "same_output_tokens": true,
+        "reference_response": "The evidence supports that Jai McDowall released the song \"With or Without You\" as a promotional single for his debut album \"Believe\" in 2011. However, the evidence does not provide information about when U2 released the same song."
+      },
+      "final_free_kv_response": "U2 released \"With or Without You\" first in 1987.",
+      "vs_joint_reference": {
+        "A": {
+          "same_input_history": true,
+          "same_output_tokens": true,
+          "reference_response": "The evidence supports that Jai McDowall released the song \"With or Without You\" as a promotional single for his debut album \"Believe\" in 2011. However, the evidence does not provide information about when U2 released the same song."
+        },
+        "B": {
+          "same_input_history": true,
+          "same_output_tokens": true,
+          "reference_response": "Agent A's evidence shows that Jai McDowall released \"With or Without You\" as a promotional single in 2011. \nAgent B's evidence shows that U2 released \"With or Without You\" as a lead single in 1987.\n\nU2 released \"With or Without You\" first in 1987."
+        },
+        "C": {
+          "same_input_history": true,
+          "same_output_tokens": true,
+          "reference_response": "U2 released \"With or Without You\" first in 1987."
+        }
+      },
+      "final_scores": {
+        "free_kv": {
+          "exact_match": false,
+          "standard_token_f1": 0.19999999999999998
+        },
+        "joint_reference": {
+          "exact_match": false,
+          "standard_token_f1": 0.19999999999999998
+        }
+      },
+      "repeated": {
+        "kv": {
+          "repeated_source_event_bytes": 13361152,
+          "total_content_bytes": 41000960,
+          "repeated_fraction_across_edges": 0.3258741258741259,
+          "A_history_bytes_in_B_to_C": 13361152,
+          "A_fraction_of_B_to_C_content": 0.483402489626556,
+          "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+        },
+        "text": {
+          "repeated_source_event_bytes": 932,
+          "total_content_bytes": 2860,
+          "repeated_fraction_across_edges": 0.3258741258741259,
+          "A_history_bytes_in_B_to_C": 932,
+          "A_fraction_of_B_to_C_content": 0.483402489626556,
+          "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+        }
+      }
+    }
+  ]
+}

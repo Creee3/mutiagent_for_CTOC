@@ -1,0 +1,2433 @@
+{
+  "passed": true,
+  "tiny_random_cpu_only": true,
+  "real_7b_claim": false,
+  "script_sha256": "76c23e7350dc079ef43a3a7a12cc01a648b31b1216ecbcdfdf3a3dbfcad81799",
+  "chain_core_sha256": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb",
+  "native_helper_sha256": "eb12212cb996c09d824ae73070c5d41041a1280b29a6d7c2752f3af8afc2cef8",
+  "utc_started": "2026-10-01T12:54:12Z",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.53.3",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "seed": 42,
+  "device": "cpu",
+  "dtype": "float32",
+  "model_config": {
+    "vocab_size": 64,
+    "max_position_embeddings": 128,
+    "hidden_size": 32,
+    "intermediate_size": 64,
+    "num_hidden_layers": 4,
+    "num_attention_heads": 4,
+    "use_sliding_window": false,
+    "sliding_window": null,
+    "max_window_layers": 28,
+    "num_key_value_heads": 2,
+    "hidden_act": "silu",
+    "initializer_range": 0.02,
+    "rms_norm_eps": 1e-06,
+    "use_cache": true,
+    "rope_theta": 10000.0,
+    "rope_scaling": null,
+    "attention_dropout": 0.0,
+    "layer_types": [
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention"
+    ],
+    "return_dict": true,
+    "output_hidden_states": false,
+    "torchscript": false,
+    "torch_dtype": null,
+    "use_bfloat16": false,
+    "tf_legacy_loss": false,
+    "pruned_heads": {},
+    "tie_word_embeddings": false,
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": false,
+    "is_decoder": false,
+    "cross_attention_hidden_size": null,
+    "add_cross_attention": false,
+    "tie_encoder_decoder": false,
+    "max_length": 20,
+    "min_length": 0,
+    "do_sample": false,
+    "early_stopping": false,
+    "num_beams": 1,
+    "num_beam_groups": 1,
+    "diversity_penalty": 0.0,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "typical_p": 1.0,
+    "repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "encoder_no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "num_return_sequences": 1,
+    "output_scores": false,
+    "return_dict_in_generate": false,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "architectures": null,
+    "finetuning_task": null,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "tokenizer_class": null,
+    "prefix": null,
+    "bos_token_id": 1,
+    "pad_token_id": 0,
+    "eos_token_id": 63,
+    "sep_token_id": null,
+    "decoder_start_token_id": null,
+    "task_specific_params": null,
+    "problem_type": null,
+    "_name_or_path": "",
+    "transformers_version": "4.53.3",
+    "model_type": "qwen2",
+    "output_attentions": false
+  },
+  "generation_config": {
+    "max_length": 20,
+    "max_new_tokens": null,
+    "min_length": 0,
+    "min_new_tokens": 3,
+    "early_stopping": false,
+    "max_time": null,
+    "stop_strings": null,
+    "do_sample": false,
+    "num_beams": 1,
+    "num_beam_groups": 1,
+    "penalty_alpha": null,
+    "dola_layers": null,
+    "use_cache": true,
+    "cache_implementation": null,
+    "cache_config": null,
+    "return_legacy_cache": null,
+    "prefill_chunk_size": null,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "min_p": null,
+    "typical_p": 1.0,
+    "epsilon_cutoff": 0.0,
+    "eta_cutoff": 0.0,
+    "diversity_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "encoder_repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "force_words_ids": null,
+    "renormalize_logits": false,
+    "constraints": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": 63,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "sequence_bias": null,
+    "token_healing": false,
+    "guidance_scale": null,
+    "low_memory": null,
+    "watermarking_config": null,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "output_logits": null,
+    "return_dict_in_generate": false,
+    "pad_token_id": 0,
+    "bos_token_id": 1,
+    "eos_token_id": 63,
+    "encoder_no_repeat_ngram_size": 0,
+    "decoder_start_token_id": null,
+    "is_assistant": false,
+    "num_assistant_tokens": 20,
+    "num_assistant_tokens_schedule": "constant",
+    "assistant_confidence_threshold": 0.4,
+    "prompt_lookup_num_tokens": null,
+    "max_matching_ngram_size": null,
+    "assistant_early_exit": null,
+    "assistant_lookbehind": 10,
+    "target_lookbehind": 10,
+    "disable_compile": false,
+    "_from_model_config": true,
+    "transformers_version": "4.53.3"
+  },
+  "audit_run_dir": "/home/liuxin/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/free_chain_cpu_zzcfeucc",
+  "official_models_sha256": "d40a2f4163a3ee1fea2312e96fc928c4c6dd6f8cd77b7dda9fd8b850095518a0",
+  "case": {
+    "id": "tiny_free_chain_cpu",
+    "phase": "cpu",
+    "model_revision": "tiny-random-fp32-qwen",
+    "chain_policy": "A native; B actual CV; C receives completed actual CV-B cache",
+    "nodes": {
+      "A": {
+        "kind": "generate",
+        "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+        "status": "ok",
+        "diagnostic_instrumented_seconds": 0.012057325977366418,
+        "backend_forward_trace": [
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "input_ids": [
+              [
+                1,
+                3,
+                5,
+                7,
+                9
+              ]
+            ],
+            "past_length": 0,
+            "position_ids": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            ],
+            "cache_position": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "attention_mask_shape": [
+              1,
+              5
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "position_ids": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "cache_position": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "position_ids": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            ],
+            "past_length": 0,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "input_ids": [
+              [
+                35
+              ]
+            ],
+            "past_length": 5,
+            "position_ids": [
+              [
+                5
+              ]
+            ],
+            "cache_position": [
+              5
+            ],
+            "attention_mask_shape": [
+              1,
+              6
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "position_ids": [
+              [
+                5
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "cache_position": [
+              5
+            ],
+            "position_ids": [
+              [
+                5
+              ]
+            ],
+            "past_length": 5,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "input_ids": [
+              [
+                32
+              ]
+            ],
+            "past_length": 6,
+            "position_ids": [
+              [
+                6
+              ]
+            ],
+            "cache_position": [
+              6
+            ],
+            "attention_mask_shape": [
+              1,
+              7
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "position_ids": [
+              [
+                6
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "cache_position": [
+              6
+            ],
+            "position_ids": [
+              [
+                6
+              ]
+            ],
+            "past_length": 6,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "input_ids": [
+              [
+                6
+              ]
+            ],
+            "past_length": 7,
+            "position_ids": [
+              [
+                7
+              ]
+            ],
+            "cache_position": [
+              7
+            ],
+            "attention_mask_shape": [
+              1,
+              8
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "position_ids": [
+              [
+                7
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+            "cache_position": [
+              7
+            ],
+            "position_ids": [
+              [
+                7
+              ]
+            ],
+            "past_length": 7,
+            "attention_mask_shape": null
+          }
+        ],
+        "node": "A",
+        "condition": "cpu:free_kv",
+        "route": "native",
+        "input_prefix_tokens": 0,
+        "local_prompt_ids": [
+          [
+            1,
+            3,
+            5,
+            7,
+            9
+          ]
+        ],
+        "input_history_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d",
+        "global_history_ids": [
+          [
+            1,
+            3,
+            5,
+            7,
+            9,
+            35,
+            32,
+            6,
+            63
+          ]
+        ],
+        "global_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+        "segments": [
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+            "node": "A",
+            "kind": "prompt",
+            "start": 0,
+            "end": 5,
+            "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+            "node": "A",
+            "kind": "output",
+            "start": 5,
+            "end": 9,
+            "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+          }
+        ],
+        "sender_cache_hash_before_and_after": null,
+        "cache_lengths_before_completion": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "cache_completion": {
+          "length_before": 8,
+          "expected_length": 9,
+          "missing_tokens": 1,
+          "filled_ids": [
+            [
+              63
+            ]
+          ],
+          "forward": {
+            "kind": "cache_tail_forward",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:A:complete",
+            "status": "ok",
+            "diagnostic_instrumented_seconds": 0.0017756279557943344,
+            "backend_forward_trace": [
+              {
+                "level": "native_model_forward_input",
+                "tag": "tiny_free_chain_cpu:cpu:free_kv:A:complete",
+                "input_ids": [
+                  [
+                    63
+                  ]
+                ],
+                "past_length": 8,
+                "position_ids": null,
+                "cache_position": null,
+                "attention_mask_shape": null
+              },
+              {
+                "level": "effective_rotary_position_ids",
+                "tag": "tiny_free_chain_cpu:cpu:free_kv:A:complete",
+                "position_ids": [
+                  [
+                    8
+                  ]
+                ]
+              },
+              {
+                "level": "effective_first_layer_attention",
+                "tag": "tiny_free_chain_cpu:cpu:free_kv:A:complete",
+                "cache_position": [
+                  8
+                ],
+                "position_ids": [
+                  [
+                    8
+                  ]
+                ],
+                "past_length": 8,
+                "attention_mask_shape": null
+              }
+            ]
+          }
+        },
+        "output_ids": [
+          35,
+          32,
+          6,
+          63
+        ],
+        "generated_tokens": 4,
+        "response": "35 32 6",
+        "eos_stopped": true,
+        "actually_truncated": false,
+        "checked_effective_positions": true,
+        "phase": "cpu",
+        "model_revision": "tiny-random-fp32-qwen",
+        "free_chain": true,
+        "sender_node": null,
+        "sender_history_sha256": null,
+        "sender_cache_sha256": null,
+        "ledger_check": {
+          "event_count": 2,
+          "unique_event_count": 2,
+          "global_history_tokens": 9,
+          "contiguous": true,
+          "token_hashes_match": true
+        },
+        "control_output_used_as_main_chain_input": false,
+        "outgoing_completed_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61"
+      },
+      "B": {
+        "kind": "generate",
+        "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+        "status": "ok",
+        "diagnostic_instrumented_seconds": 0.011473674967419356,
+        "backend_forward_trace": [
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "input_ids": [
+              [
+                1,
+                4,
+                6
+              ]
+            ],
+            "past_length": 9,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "position_ids": [
+              [
+                9,
+                10,
+                11
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "cache_position": [
+              9,
+              10,
+              11
+            ],
+            "position_ids": [
+              [
+                9,
+                10,
+                11
+              ]
+            ],
+            "past_length": 9,
+            "attention_mask_shape": [
+              1,
+              1,
+              3,
+              12
+            ]
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "input_ids": [
+              [
+                15
+              ]
+            ],
+            "past_length": 12,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "position_ids": [
+              [
+                12
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "cache_position": [
+              12
+            ],
+            "position_ids": [
+              [
+                12
+              ]
+            ],
+            "past_length": 12,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "input_ids": [
+              [
+                48
+              ]
+            ],
+            "past_length": 13,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "position_ids": [
+              [
+                13
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "cache_position": [
+              13
+            ],
+            "position_ids": [
+              [
+                13
+              ]
+            ],
+            "past_length": 13,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "input_ids": [
+              [
+                18
+              ]
+            ],
+            "past_length": 14,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "position_ids": [
+              [
+                14
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+            "cache_position": [
+              14
+            ],
+            "position_ids": [
+              [
+                14
+              ]
+            ],
+            "past_length": 14,
+            "attention_mask_shape": null
+          }
+        ],
+        "node": "B",
+        "condition": "cpu:free_kv",
+        "route": "kv",
+        "input_prefix_tokens": 9,
+        "local_prompt_ids": [
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "input_history_sha256": "6192b36b3f14e1bc2f399c89fdeee6ca7da97f0fb7c2a54310a3f0ed28d62682",
+        "global_history_ids": [
+          [
+            1,
+            3,
+            5,
+            7,
+            9,
+            35,
+            32,
+            6,
+            63,
+            1,
+            4,
+            6,
+            15,
+            48,
+            18,
+            63
+          ]
+        ],
+        "global_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+        "segments": [
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+            "node": "A",
+            "kind": "prompt",
+            "start": 0,
+            "end": 5,
+            "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+            "node": "A",
+            "kind": "output",
+            "start": 5,
+            "end": 9,
+            "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:B:prompt",
+            "node": "B",
+            "kind": "prompt",
+            "start": 9,
+            "end": 12,
+            "tokens_sha256": "e0aa12aaf3afe7934743a22bbacc2c04f578262694599abb4adbb6fb0bacb240"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:B:output",
+            "node": "B",
+            "kind": "output",
+            "start": 12,
+            "end": 16,
+            "tokens_sha256": "3dbd1ea3ccd6d52c6b93b634d68f95393b52db457aeafa763813577f5439fc24"
+          }
+        ],
+        "sender_cache_hash_before_and_after": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "cache_lengths_before_completion": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "cache_completion": {
+          "length_before": 15,
+          "expected_length": 16,
+          "missing_tokens": 1,
+          "filled_ids": [
+            [
+              63
+            ]
+          ],
+          "forward": {
+            "kind": "cache_tail_forward",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:B:complete",
+            "status": "ok",
+            "diagnostic_instrumented_seconds": 0.0016742630396038294,
+            "backend_forward_trace": [
+              {
+                "level": "native_model_forward_input",
+                "tag": "tiny_free_chain_cpu:cpu:free_kv:B:complete",
+                "input_ids": [
+                  [
+                    63
+                  ]
+                ],
+                "past_length": 15,
+                "position_ids": null,
+                "cache_position": null,
+                "attention_mask_shape": null
+              },
+              {
+                "level": "effective_rotary_position_ids",
+                "tag": "tiny_free_chain_cpu:cpu:free_kv:B:complete",
+                "position_ids": [
+                  [
+                    15
+                  ]
+                ]
+              },
+              {
+                "level": "effective_first_layer_attention",
+                "tag": "tiny_free_chain_cpu:cpu:free_kv:B:complete",
+                "cache_position": [
+                  15
+                ],
+                "position_ids": [
+                  [
+                    15
+                  ]
+                ],
+                "past_length": 15,
+                "attention_mask_shape": null
+              }
+            ]
+          }
+        },
+        "output_ids": [
+          15,
+          48,
+          18,
+          63
+        ],
+        "generated_tokens": 4,
+        "response": "15 48 18",
+        "eos_stopped": true,
+        "actually_truncated": false,
+        "checked_effective_positions": true,
+        "phase": "cpu",
+        "model_revision": "tiny-random-fp32-qwen",
+        "free_chain": true,
+        "sender_node": "A",
+        "sender_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+        "sender_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "ledger_check": {
+          "event_count": 4,
+          "unique_event_count": 4,
+          "global_history_tokens": 16,
+          "contiguous": true,
+          "token_hashes_match": true
+        },
+        "control_output_used_as_main_chain_input": false,
+        "outgoing_completed_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7"
+      },
+      "C": {
+        "kind": "generate",
+        "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+        "status": "ok",
+        "diagnostic_instrumented_seconds": 0.010268230980727822,
+        "backend_forward_trace": [
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "input_ids": [
+              [
+                1,
+                8,
+                10,
+                12
+              ]
+            ],
+            "past_length": 16,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "position_ids": [
+              [
+                16,
+                17,
+                18,
+                19
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "cache_position": [
+              16,
+              17,
+              18,
+              19
+            ],
+            "position_ids": [
+              [
+                16,
+                17,
+                18,
+                19
+              ]
+            ],
+            "past_length": 16,
+            "attention_mask_shape": [
+              1,
+              1,
+              4,
+              20
+            ]
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "input_ids": [
+              [
+                35
+              ]
+            ],
+            "past_length": 20,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "position_ids": [
+              [
+                20
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "cache_position": [
+              20
+            ],
+            "position_ids": [
+              [
+                20
+              ]
+            ],
+            "past_length": 20,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "input_ids": [
+              [
+                0
+              ]
+            ],
+            "past_length": 21,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "position_ids": [
+              [
+                21
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "cache_position": [
+              21
+            ],
+            "position_ids": [
+              [
+                21
+              ]
+            ],
+            "past_length": 21,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "input_ids": [
+              [
+                35
+              ]
+            ],
+            "past_length": 22,
+            "position_ids": null,
+            "cache_position": null,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "position_ids": [
+              [
+                22
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+            "cache_position": [
+              22
+            ],
+            "position_ids": [
+              [
+                22
+              ]
+            ],
+            "past_length": 22,
+            "attention_mask_shape": null
+          }
+        ],
+        "node": "C",
+        "condition": "cpu:free_kv",
+        "route": "kv",
+        "input_prefix_tokens": 16,
+        "local_prompt_ids": [
+          [
+            1,
+            8,
+            10,
+            12
+          ]
+        ],
+        "input_history_sha256": "af5a09c5020e1088c21ceac09f2b3d4fcc8ba028af9d3a27b31cc02b0315f017",
+        "global_history_ids": [
+          [
+            1,
+            3,
+            5,
+            7,
+            9,
+            35,
+            32,
+            6,
+            63,
+            1,
+            4,
+            6,
+            15,
+            48,
+            18,
+            63,
+            1,
+            8,
+            10,
+            12,
+            35,
+            0,
+            35,
+            63
+          ]
+        ],
+        "global_history_sha256": "7a41aa45e76f817e4c07709f00d6b7abf230fb8ec455f51f304a1c96cb6d10bb",
+        "segments": [
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+            "node": "A",
+            "kind": "prompt",
+            "start": 0,
+            "end": 5,
+            "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+            "node": "A",
+            "kind": "output",
+            "start": 5,
+            "end": 9,
+            "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:B:prompt",
+            "node": "B",
+            "kind": "prompt",
+            "start": 9,
+            "end": 12,
+            "tokens_sha256": "e0aa12aaf3afe7934743a22bbacc2c04f578262694599abb4adbb6fb0bacb240"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:B:output",
+            "node": "B",
+            "kind": "output",
+            "start": 12,
+            "end": 16,
+            "tokens_sha256": "3dbd1ea3ccd6d52c6b93b634d68f95393b52db457aeafa763813577f5439fc24"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:C:prompt",
+            "node": "C",
+            "kind": "prompt",
+            "start": 16,
+            "end": 20,
+            "tokens_sha256": "c82100cbea8dc0b9d548d8ea133c2aeea3658810a643850c1dccb5d870913b67"
+          },
+          {
+            "id": "tiny_free_chain_cpu:cpu:free_kv:C:output",
+            "node": "C",
+            "kind": "output",
+            "start": 20,
+            "end": 24,
+            "tokens_sha256": "ae0d6ded9b5a0d2290cc698b0ef4d0eb5ad785d328b6520cdeae6202c323562d"
+          }
+        ],
+        "sender_cache_hash_before_and_after": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "cache_lengths_before_completion": [
+          23,
+          23,
+          23,
+          23
+        ],
+        "cache_completion": null,
+        "output_ids": [
+          35,
+          0,
+          35,
+          63
+        ],
+        "generated_tokens": 4,
+        "response": "35 35",
+        "eos_stopped": true,
+        "actually_truncated": false,
+        "checked_effective_positions": true,
+        "phase": "cpu",
+        "model_revision": "tiny-random-fp32-qwen",
+        "free_chain": true,
+        "sender_node": "B",
+        "sender_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+        "sender_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "ledger_check": {
+          "event_count": 6,
+          "unique_event_count": 6,
+          "global_history_tokens": 24,
+          "contiguous": true,
+          "token_hashes_match": true
+        },
+        "control_output_used_as_main_chain_input": false
+      }
+    },
+    "controls": {
+      "B": {
+        "kind": "generate",
+        "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+        "status": "ok",
+        "diagnostic_instrumented_seconds": 0.013114101951941848,
+        "backend_forward_trace": [
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "input_ids": [
+              [
+                1,
+                4,
+                6
+              ]
+            ],
+            "past_length": 9,
+            "position_ids": [
+              [
+                9,
+                10,
+                11
+              ]
+            ],
+            "cache_position": [
+              9,
+              10,
+              11
+            ],
+            "attention_mask_shape": [
+              1,
+              12
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "position_ids": [
+              [
+                9,
+                10,
+                11
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "cache_position": [
+              9,
+              10,
+              11
+            ],
+            "position_ids": [
+              [
+                9,
+                10,
+                11
+              ]
+            ],
+            "past_length": 9,
+            "attention_mask_shape": [
+              1,
+              1,
+              3,
+              12
+            ]
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "input_ids": [
+              [
+                15
+              ]
+            ],
+            "past_length": 12,
+            "position_ids": [
+              [
+                12
+              ]
+            ],
+            "cache_position": [
+              12
+            ],
+            "attention_mask_shape": [
+              1,
+              13
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "position_ids": [
+              [
+                12
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "cache_position": [
+              12
+            ],
+            "position_ids": [
+              [
+                12
+              ]
+            ],
+            "past_length": 12,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "input_ids": [
+              [
+                48
+              ]
+            ],
+            "past_length": 13,
+            "position_ids": [
+              [
+                13
+              ]
+            ],
+            "cache_position": [
+              13
+            ],
+            "attention_mask_shape": [
+              1,
+              14
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "position_ids": [
+              [
+                13
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "cache_position": [
+              13
+            ],
+            "position_ids": [
+              [
+                13
+              ]
+            ],
+            "past_length": 13,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "input_ids": [
+              [
+                18
+              ]
+            ],
+            "past_length": 14,
+            "position_ids": [
+              [
+                14
+              ]
+            ],
+            "cache_position": [
+              14
+            ],
+            "attention_mask_shape": [
+              1,
+              15
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "position_ids": [
+              [
+                14
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+            "cache_position": [
+              14
+            ],
+            "position_ids": [
+              [
+                14
+              ]
+            ],
+            "past_length": 14,
+            "attention_mask_shape": null
+          }
+        ],
+        "route": "native_cached",
+        "input_prefix_tokens": 9,
+        "local_prompt_ids": [
+          [
+            1,
+            4,
+            6
+          ]
+        ],
+        "input_tokens": 12,
+        "input_history_sha256": "6192b36b3f14e1bc2f399c89fdeee6ca7da97f0fb7c2a54310a3f0ed28d62682",
+        "global_history_ids": [
+          [
+            1,
+            3,
+            5,
+            7,
+            9,
+            35,
+            32,
+            6,
+            63,
+            1,
+            4,
+            6,
+            15,
+            48,
+            18,
+            63
+          ]
+        ],
+        "global_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+        "sender_cache_hash_before": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "sender_cache_hash_after": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "sender_cache_hash_before_and_after": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "sender_cache_unchanged": true,
+        "cache_lengths_before_generation": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "cache_lengths_before_completion": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "cache_completion": null,
+        "output_ids": [
+          15,
+          48,
+          18,
+          63
+        ],
+        "generated_tokens": 4,
+        "response": "15 48 18",
+        "eos_stopped": true,
+        "actually_truncated": false,
+        "reached_token_budget": true,
+        "max_new_tokens": 4,
+        "checked_effective_positions": true,
+        "checked_suffix_only_forward": true,
+        "expected_effective_positions": [
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            12
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ]
+        ],
+        "sequences_include_global_prefix": true,
+        "attention_mask_scope": "full_global_history",
+        "node": "B",
+        "phase": "cpu",
+        "model_revision": "tiny-random-fp32-qwen",
+        "sender_node": "A",
+        "main_chain_member": false,
+        "outgoing_cache_completed": false,
+        "control_output_used_as_main_chain_input": false
+      },
+      "C": {
+        "kind": "generate",
+        "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+        "status": "ok",
+        "diagnostic_instrumented_seconds": 0.012628346972633153,
+        "backend_forward_trace": [
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "input_ids": [
+              [
+                1,
+                8,
+                10,
+                12
+              ]
+            ],
+            "past_length": 16,
+            "position_ids": [
+              [
+                16,
+                17,
+                18,
+                19
+              ]
+            ],
+            "cache_position": [
+              16,
+              17,
+              18,
+              19
+            ],
+            "attention_mask_shape": [
+              1,
+              20
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "position_ids": [
+              [
+                16,
+                17,
+                18,
+                19
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "cache_position": [
+              16,
+              17,
+              18,
+              19
+            ],
+            "position_ids": [
+              [
+                16,
+                17,
+                18,
+                19
+              ]
+            ],
+            "past_length": 16,
+            "attention_mask_shape": [
+              1,
+              1,
+              4,
+              20
+            ]
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "input_ids": [
+              [
+                35
+              ]
+            ],
+            "past_length": 20,
+            "position_ids": [
+              [
+                20
+              ]
+            ],
+            "cache_position": [
+              20
+            ],
+            "attention_mask_shape": [
+              1,
+              21
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "position_ids": [
+              [
+                20
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "cache_position": [
+              20
+            ],
+            "position_ids": [
+              [
+                20
+              ]
+            ],
+            "past_length": 20,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "input_ids": [
+              [
+                0
+              ]
+            ],
+            "past_length": 21,
+            "position_ids": [
+              [
+                21
+              ]
+            ],
+            "cache_position": [
+              21
+            ],
+            "attention_mask_shape": [
+              1,
+              22
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "position_ids": [
+              [
+                21
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "cache_position": [
+              21
+            ],
+            "position_ids": [
+              [
+                21
+              ]
+            ],
+            "past_length": 21,
+            "attention_mask_shape": null
+          },
+          {
+            "level": "native_model_forward_input",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "input_ids": [
+              [
+                35
+              ]
+            ],
+            "past_length": 22,
+            "position_ids": [
+              [
+                22
+              ]
+            ],
+            "cache_position": [
+              22
+            ],
+            "attention_mask_shape": [
+              1,
+              23
+            ]
+          },
+          {
+            "level": "effective_rotary_position_ids",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "position_ids": [
+              [
+                22
+              ]
+            ]
+          },
+          {
+            "level": "effective_first_layer_attention",
+            "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+            "cache_position": [
+              22
+            ],
+            "position_ids": [
+              [
+                22
+              ]
+            ],
+            "past_length": 22,
+            "attention_mask_shape": null
+          }
+        ],
+        "route": "native_cached",
+        "input_prefix_tokens": 16,
+        "local_prompt_ids": [
+          [
+            1,
+            8,
+            10,
+            12
+          ]
+        ],
+        "input_tokens": 20,
+        "input_history_sha256": "af5a09c5020e1088c21ceac09f2b3d4fcc8ba028af9d3a27b31cc02b0315f017",
+        "global_history_ids": [
+          [
+            1,
+            3,
+            5,
+            7,
+            9,
+            35,
+            32,
+            6,
+            63,
+            1,
+            4,
+            6,
+            15,
+            48,
+            18,
+            63,
+            1,
+            8,
+            10,
+            12,
+            35,
+            0,
+            35,
+            63
+          ]
+        ],
+        "global_history_sha256": "7a41aa45e76f817e4c07709f00d6b7abf230fb8ec455f51f304a1c96cb6d10bb",
+        "sender_cache_hash_before": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "sender_cache_hash_after": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "sender_cache_hash_before_and_after": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "sender_cache_unchanged": true,
+        "cache_lengths_before_generation": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "cache_lengths_before_completion": [
+          23,
+          23,
+          23,
+          23
+        ],
+        "cache_completion": null,
+        "output_ids": [
+          35,
+          0,
+          35,
+          63
+        ],
+        "generated_tokens": 4,
+        "response": "35 35",
+        "eos_stopped": true,
+        "actually_truncated": false,
+        "reached_token_budget": true,
+        "max_new_tokens": 4,
+        "checked_effective_positions": true,
+        "checked_suffix_only_forward": true,
+        "expected_effective_positions": [
+          [
+            16,
+            17,
+            18,
+            19
+          ],
+          [
+            20
+          ],
+          [
+            21
+          ],
+          [
+            22
+          ]
+        ],
+        "sequences_include_global_prefix": true,
+        "attention_mask_scope": "full_global_history",
+        "node": "C",
+        "phase": "cpu",
+        "model_revision": "tiny-random-fp32-qwen",
+        "sender_node": "B",
+        "main_chain_member": false,
+        "outgoing_cache_completed": false,
+        "control_output_used_as_main_chain_input": false
+      }
+    },
+    "comparisons": {
+      "B": {
+        "generated_tokens_identical": true,
+        "first_different_index": null,
+        "left_tokens": 4,
+        "right_tokens": 4,
+        "same_history_steps": [
+          {
+            "step": 0,
+            "raw": {
+              "max_abs": 3.5390257835388184e-08,
+              "mean_abs": 8.949427865445614e-09,
+              "relative_linf": 1.5662296874847497e-07,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 3.5390257835388184e-08,
+              "mean_abs": 9.091482233714032e-09,
+              "relative_linf": 1.5662296874847497e-07,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          },
+          {
+            "step": 1,
+            "raw": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          },
+          {
+            "step": 2,
+            "raw": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          },
+          {
+            "step": 3,
+            "raw": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          }
+        ],
+        "max_raw_error_on_same_history": 3.5390257835388184e-08,
+        "max_processed_error_on_same_history": 3.5390257835388184e-08,
+        "same_input_history_sha256": true,
+        "same_local_prompt_ids": true,
+        "same_sender_cache_sha256": true,
+        "input_history_sha256": "6192b36b3f14e1bc2f399c89fdeee6ca7da97f0fb7c2a54310a3f0ed28d62682",
+        "source_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "source_cache_sha256_after_cv": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "source_cache_sha256_after_native": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "global_histories_identical": true,
+        "effective_positions_on_shared_steps_identical": true,
+        "logit_comparison_scope": "identical generated history through first token divergence",
+        "control_only": true,
+        "control_output_used_as_main_chain_input": false
+      },
+      "C": {
+        "generated_tokens_identical": true,
+        "first_different_index": null,
+        "left_tokens": 4,
+        "right_tokens": 4,
+        "same_history_steps": [
+          {
+            "step": 0,
+            "raw": {
+              "max_abs": 5.960464477539063e-08,
+              "mean_abs": 9.90030457614921e-09,
+              "relative_linf": 1.8621961792017453e-07,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 5.960464477539063e-08,
+              "mean_abs": 9.939189027363682e-09,
+              "relative_linf": 1.8621961792017453e-07,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          },
+          {
+            "step": 1,
+            "raw": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          },
+          {
+            "step": 2,
+            "raw": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          },
+          {
+            "step": 3,
+            "raw": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            },
+            "processed": {
+              "max_abs": 0.0,
+              "mean_abs": 0.0,
+              "relative_linf": 0.0,
+              "nonfinite_values_match": true,
+              "top1_agreement": 1.0
+            }
+          }
+        ],
+        "max_raw_error_on_same_history": 5.960464477539063e-08,
+        "max_processed_error_on_same_history": 5.960464477539063e-08,
+        "same_input_history_sha256": true,
+        "same_local_prompt_ids": true,
+        "same_sender_cache_sha256": true,
+        "input_history_sha256": "af5a09c5020e1088c21ceac09f2b3d4fcc8ba028af9d3a27b31cc02b0315f017",
+        "source_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "source_cache_sha256_after_cv": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "source_cache_sha256_after_native": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "global_histories_identical": true,
+        "effective_positions_on_shared_steps_identical": true,
+        "logit_comparison_scope": "identical generated history through first token divergence",
+        "control_only": true,
+        "control_output_used_as_main_chain_input": false
+      }
+    },
+    "edge_payloads": {
+      "kv": [
+        {
+          "kind": "kv",
+          "content_bytes": 4608,
+          "metadata_bytes": 876,
+          "logical_total_bytes": 5484,
+          "readable_utf8_bytes": 20,
+          "parts": [
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+              "node": "A",
+              "kind": "prompt",
+              "start": 0,
+              "end": 5,
+              "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d",
+              "content_bytes": 2560
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+              "node": "A",
+              "kind": "output",
+              "start": 5,
+              "end": 9,
+              "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4",
+              "content_bytes": 2048
+            }
+          ],
+          "metadata": {
+            "kind": "kv",
+            "length": 9,
+            "segments": [
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+                "node": "A",
+                "kind": "prompt",
+                "start": 0,
+                "end": 5,
+                "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+                "node": "A",
+                "kind": "output",
+                "start": 5,
+                "end": 9,
+                "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+              }
+            ],
+            "revision": "tiny-random-fp32-qwen",
+            "history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+            "position_base": 0,
+            "dtype": "torch.float32",
+            "lengths": [
+              9,
+              9,
+              9,
+              9
+            ],
+            "sender_node": "A",
+            "receiver_node": "B",
+            "source_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+            "source_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+            "source_route": "native",
+            "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:A"
+          },
+          "network_transfer_measured": false,
+          "edge": "A_to_B",
+          "sender_node": "A",
+          "receiver_node": "B",
+          "source_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+          "source_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+          "source_route": "native",
+          "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:A"
+        },
+        {
+          "kind": "kv",
+          "content_bytes": 8192,
+          "metadata_bytes": 1236,
+          "logical_total_bytes": 9428,
+          "readable_utf8_bytes": 38,
+          "parts": [
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+              "node": "A",
+              "kind": "prompt",
+              "start": 0,
+              "end": 5,
+              "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d",
+              "content_bytes": 2560
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+              "node": "A",
+              "kind": "output",
+              "start": 5,
+              "end": 9,
+              "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4",
+              "content_bytes": 2048
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:B:prompt",
+              "node": "B",
+              "kind": "prompt",
+              "start": 9,
+              "end": 12,
+              "tokens_sha256": "e0aa12aaf3afe7934743a22bbacc2c04f578262694599abb4adbb6fb0bacb240",
+              "content_bytes": 1536
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:B:output",
+              "node": "B",
+              "kind": "output",
+              "start": 12,
+              "end": 16,
+              "tokens_sha256": "3dbd1ea3ccd6d52c6b93b634d68f95393b52db457aeafa763813577f5439fc24",
+              "content_bytes": 2048
+            }
+          ],
+          "metadata": {
+            "kind": "kv",
+            "length": 16,
+            "segments": [
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+                "node": "A",
+                "kind": "prompt",
+                "start": 0,
+                "end": 5,
+                "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+                "node": "A",
+                "kind": "output",
+                "start": 5,
+                "end": 9,
+                "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:B:prompt",
+                "node": "B",
+                "kind": "prompt",
+                "start": 9,
+                "end": 12,
+                "tokens_sha256": "e0aa12aaf3afe7934743a22bbacc2c04f578262694599abb4adbb6fb0bacb240"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:B:output",
+                "node": "B",
+                "kind": "output",
+                "start": 12,
+                "end": 16,
+                "tokens_sha256": "3dbd1ea3ccd6d52c6b93b634d68f95393b52db457aeafa763813577f5439fc24"
+              }
+            ],
+            "revision": "tiny-random-fp32-qwen",
+            "history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+            "position_base": 0,
+            "dtype": "torch.float32",
+            "lengths": [
+              16,
+              16,
+              16,
+              16
+            ],
+            "sender_node": "B",
+            "receiver_node": "C",
+            "source_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+            "source_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+            "source_route": "kv",
+            "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:B"
+          },
+          "network_transfer_measured": false,
+          "edge": "B_to_C",
+          "sender_node": "B",
+          "receiver_node": "C",
+          "source_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+          "source_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+          "source_route": "kv",
+          "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:B"
+        }
+      ],
+      "text": [
+        {
+          "kind": "text",
+          "content_bytes": 36,
+          "metadata_bytes": 909,
+          "logical_total_bytes": 945,
+          "readable_utf8_bytes": 20,
+          "parts": [
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+              "node": "A",
+              "kind": "prompt",
+              "start": 0,
+              "end": 5,
+              "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d",
+              "content_bytes": 20
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+              "node": "A",
+              "kind": "output",
+              "start": 5,
+              "end": 9,
+              "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4",
+              "content_bytes": 16
+            }
+          ],
+          "metadata": {
+            "kind": "text",
+            "length": 9,
+            "segments": [
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+                "node": "A",
+                "kind": "prompt",
+                "start": 0,
+                "end": 5,
+                "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+                "node": "A",
+                "kind": "output",
+                "start": 5,
+                "end": 9,
+                "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+              }
+            ],
+            "revision": "tiny-random-fp32-qwen",
+            "history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+            "position_base": 0,
+            "dtype": "int32_little_endian",
+            "tokenizer_revision": "tiny-random-fp32-qwen",
+            "sender_node": "A",
+            "receiver_node": "B",
+            "source_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+            "source_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+            "source_route": "native",
+            "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:A"
+          },
+          "network_transfer_measured": false,
+          "edge": "A_to_B",
+          "sender_node": "A",
+          "receiver_node": "B",
+          "source_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+          "source_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+          "source_route": "native",
+          "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:A"
+        },
+        {
+          "kind": "text",
+          "content_bytes": 64,
+          "metadata_bytes": 1265,
+          "logical_total_bytes": 1329,
+          "readable_utf8_bytes": 38,
+          "parts": [
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+              "node": "A",
+              "kind": "prompt",
+              "start": 0,
+              "end": 5,
+              "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d",
+              "content_bytes": 20
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+              "node": "A",
+              "kind": "output",
+              "start": 5,
+              "end": 9,
+              "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4",
+              "content_bytes": 16
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:B:prompt",
+              "node": "B",
+              "kind": "prompt",
+              "start": 9,
+              "end": 12,
+              "tokens_sha256": "e0aa12aaf3afe7934743a22bbacc2c04f578262694599abb4adbb6fb0bacb240",
+              "content_bytes": 12
+            },
+            {
+              "id": "tiny_free_chain_cpu:cpu:free_kv:B:output",
+              "node": "B",
+              "kind": "output",
+              "start": 12,
+              "end": 16,
+              "tokens_sha256": "3dbd1ea3ccd6d52c6b93b634d68f95393b52db457aeafa763813577f5439fc24",
+              "content_bytes": 16
+            }
+          ],
+          "metadata": {
+            "kind": "text",
+            "length": 16,
+            "segments": [
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:prompt",
+                "node": "A",
+                "kind": "prompt",
+                "start": 0,
+                "end": 5,
+                "tokens_sha256": "c64643e27752cb748a3e5251755c75c620244e3140b06c4a1f2f7d17ba6e489d"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:A:output",
+                "node": "A",
+                "kind": "output",
+                "start": 5,
+                "end": 9,
+                "tokens_sha256": "51473524c405ce36c43c3b4c6c66d2fca51f732f4740a3d970aa57c39b9694d4"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:B:prompt",
+                "node": "B",
+                "kind": "prompt",
+                "start": 9,
+                "end": 12,
+                "tokens_sha256": "e0aa12aaf3afe7934743a22bbacc2c04f578262694599abb4adbb6fb0bacb240"
+              },
+              {
+                "id": "tiny_free_chain_cpu:cpu:free_kv:B:output",
+                "node": "B",
+                "kind": "output",
+                "start": 12,
+                "end": 16,
+                "tokens_sha256": "3dbd1ea3ccd6d52c6b93b634d68f95393b52db457aeafa763813577f5439fc24"
+              }
+            ],
+            "revision": "tiny-random-fp32-qwen",
+            "history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+            "position_base": 0,
+            "dtype": "int32_little_endian",
+            "tokenizer_revision": "tiny-random-fp32-qwen",
+            "sender_node": "B",
+            "receiver_node": "C",
+            "source_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+            "source_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+            "source_route": "kv",
+            "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:B"
+          },
+          "network_transfer_measured": false,
+          "edge": "B_to_C",
+          "sender_node": "B",
+          "receiver_node": "C",
+          "source_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+          "source_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+          "source_route": "kv",
+          "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:B"
+        }
+      ]
+    },
+    "edge_metadata": {
+      "A_to_B": {
+        "sender_node": "A",
+        "receiver_node": "B",
+        "source_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "source_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+        "source_route": "native",
+        "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:A"
+      },
+      "B_to_C": {
+        "sender_node": "B",
+        "receiver_node": "C",
+        "source_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "source_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+        "source_route": "kv",
+        "source_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:B"
+      }
+    },
+    "repeated": {
+      "kv": {
+        "repeated_source_event_bytes": 4608,
+        "total_content_bytes": 12800,
+        "repeated_fraction_across_edges": 0.36,
+        "A_history_bytes_in_B_to_C": 4608,
+        "A_fraction_of_B_to_C_content": 0.5625,
+        "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+      },
+      "text": {
+        "repeated_source_event_bytes": 36,
+        "total_content_bytes": 100,
+        "repeated_fraction_across_edges": 0.36,
+        "A_history_bytes_in_B_to_C": 36,
+        "A_fraction_of_B_to_C_content": 0.5625,
+        "interpretation": "Repeated forwarding across edges; not proven removable semantic redundancy."
+      }
+    },
+    "source_cache_hashes": {
+      "A": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+      "B": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7"
+    },
+    "cache_provenance": {
+      "B": {
+        "sender_node": "A",
+        "sender_route": "native",
+        "sender_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+        "source_cache_sha256": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "source_history_sha256": "b9ceee5b33f4b64bac0fcd43cc9211bae56a2bbf42c95e48222f930fab33fb5c",
+        "source_cache_sha256_after_cv": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61",
+        "main_sender_state_used": true,
+        "control_state_used": false,
+        "source_cache_sha256_after_native": "942295a934fb691eb5d95968c114b4e778672b57e0770e883d8d92eebaea0e61"
+      },
+      "C": {
+        "sender_node": "B",
+        "sender_route": "kv",
+        "sender_generation_tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+        "source_cache_sha256": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "source_history_sha256": "4c9053ade6987da9cc0b6876f78ac912b06329d213842c2a5314809e9c8afb7f",
+        "source_cache_sha256_after_cv": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7",
+        "main_sender_state_used": true,
+        "control_state_used": false,
+        "source_cache_sha256_after_native": "8ea0e5f3e919c463e0da161d6b9f55954eff28a9ee209149e47f9983a1d43ac7"
+      }
+    },
+    "text_payload_reference": "int32 token packets of the actual free-chain histories",
+    "first_step_and_divergence_vectors": {
+      "file": "vectors/cpu_tiny_free_chain_cpu.npz",
+      "sha256": "62408879891f2d40e75fec8751bef0c664d1f37571cb02ad6e6c28e06944448b",
+      "keys": [
+        "B__cv__first__step0__processed",
+        "B__cv__first__step0__raw",
+        "B__native_cached__first__step0__processed",
+        "B__native_cached__first__step0__raw",
+        "C__cv__first__step0__processed",
+        "C__cv__first__step0__raw",
+        "C__native_cached__first__step0__processed",
+        "C__native_cached__first__step0__raw"
+      ],
+      "dtype": "float32",
+      "scope": "B/C first step and any first divergence with identical prior generated tokens"
+    },
+    "counts": {
+      "generate": 5,
+      "cache_tail_forward": 2
+    },
+    "control_outputs_entered_main_chain": false,
+    "network_transfer_measured": false
+  },
+  "fixed_fp32_tolerance": {
+    "atol": 1e-05,
+    "rtol": 1e-05,
+    "same_history_step_max_abs_limit": 1e-05
+  },
+  "payload_checks": {
+    "kv": {
+      "passed": true,
+      "bytes_per_token": 512,
+      "source_history_included_once_per_edge": true,
+      "repeated_bytes_equal_one_A_history": true
+    },
+    "text": {
+      "passed": true,
+      "bytes_per_token": 4,
+      "source_history_included_once_per_edge": true,
+      "repeated_bytes_equal_one_A_history": true
+    }
+  },
+  "c_uses_actual_cv_b_completed_cache": true,
+  "audit_events": [
+    {
+      "kind": "generate",
+      "tag": "tiny_free_chain_cpu:cpu:free_kv:A",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.012057325977366418
+    },
+    {
+      "kind": "cache_tail_forward",
+      "tag": "tiny_free_chain_cpu:cpu:free_kv:A:complete",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.0017756279557943344
+    },
+    {
+      "kind": "generate",
+      "tag": "tiny_free_chain_cpu:cpu:free_kv:B",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.011473674967419356
+    },
+    {
+      "kind": "cache_tail_forward",
+      "tag": "tiny_free_chain_cpu:cpu:free_kv:B:complete",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.0016742630396038294
+    },
+    {
+      "kind": "generate",
+      "tag": "tiny_free_chain_cpu:cpu:free_kv_control:B",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.013114101951941848
+    },
+    {
+      "kind": "generate",
+      "tag": "tiny_free_chain_cpu:cpu:free_kv:C",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.010268230980727822
+    },
+    {
+      "kind": "generate",
+      "tag": "tiny_free_chain_cpu:cpu:free_kv_control:C",
+      "status": "ok",
+      "diagnostic_instrumented_seconds": 0.012628346972633153
+    }
+  ],
+  "utc_completed": "2026-10-01T12:54:17Z"
+}

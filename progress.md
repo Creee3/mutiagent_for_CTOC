@@ -53,3 +53,11 @@ Git已在本实验目录初始化并提交c84e2d0，包含代码、805KB固定�
 chain3_20261001_122157完成并回传，进程退出/GPU0释放。20次generate+8次EOS尾补、20节点712生成forward均对账；B重放2/3、C3/3相同，所有EOS正常无触顶，门禁失败所以自由链0次。首题B第47token的means/corresponds排序翻转，末句释义同为German，尚未定位具体数值来源。原门禁未改。analyze_three_node.py独立重算历史、来源、位置、字节及向量hash；首次把CV可省略的原生cache_position入参误当实际位置，改为检查attention实际cache_position/RoPE，原始数据和GPU结果不变。另有独立只读审查得出相同结论。报告已写；后续同缓存原生接收控制正在准备。
 
 新增独立native_cache_control.py/cache_path_probe.py，不修改原三节点脚本/条件/结果。CPU原生cached与CV检查通过，条件在对话先告知（同一首题4次生成/至多1补尾）；启动cachepath_20261001_123341，PID3560168，GPU4 UUID GPU-89523765-dcd4-46ea-1f2d-4ff7d509138c，fresh 0%/24081MiB。4次生成+1EOS尾补完成，197生成forward核对正确，A复现旧记录；原生cached与CV52token相同、logits最大差0.0625，joint与原生cached同样第47token分岔。所有EOS正常。实际A缓存内容11,411,456 bytes，text int32内容796 bytes；未测网络。不能精确归因为BF16/SDPA，也不能说已完成自由链。原始结果回传，审计脚本和独立只读审查一致；首次Windows本地freeze默认GBK读UTF-8失败，显式UTF-8修复，发生在GPU启动前。工程说明_简单版.md供用户阅读，下一步单独冻结自由链/原生缓存实现控制，不倒改原门禁。
+
+Git35fe885已提交前述结果，工作树原先干净，bundle已备份云端。新heartbeat核对服务器无本任务GPU进程；0–3卡有其他任务，4卡0%/24081MiB，实际启动仍新鲜选择。正在新增free-chain独立运行器，只用原3校准+1预热、20生成/至多8补尾；原角色/材料/模型/预算一致，C读取实际CV-B缓存，另两次原生接收控制只做检查。独立设计审查通过，要求分开结构/EOS/控制匹配/全文差异，旧严格门禁失败不改。尚未启动本轮GPU。
+
+新free_chain_core.py的CPU检查通过：实际A native→B CV→C CV，B/C控制只读取同一发送cache；5generate/2EOS尾补、来源账本/位置/固定FP32误差/实际边字节核对通过。已在对话说明正式条件与20/≤8账目，启动freechain_20261001_125456，PID3571380，GPU4（fresh0%/24081MiB），沿用既有conda。旧参考manifest/逐题输出/summary与数据均冻结hash，旧gate不改；本轮所有依赖源码和条件另有快照，新增FAILED.json便于保留断言失败。尚待本轮结果。
+
+freechain_20261001_125456已完成并全部回传，进程退出/4卡释放。20generate/8补尾、主三题B/C控制各3/3、9主节点EOS，A和最终C分别复现旧参考；首题错误保留。analyze_free_chain.py独立核对714生成forward、实际CV-B→C来源、历史/分段/输入/旧参考hash、真实KV字节和评分，均通过；独立只读审查相同。边账本KV57,344bytes/token、跨边重复约31%，不称接收方已知冗余。CPU小检查及其报告保留。
+
+用户要求整体审查及更新定时任务。发现自动化提示仍在准备三节点、research-question-card.md/next_steps.md也有过时下一步。已整体更新到接收方信息缺口：基础诊断收住，不继续无新故障的浮点/逐字检查；先准备C确已收到A的来源去重对照并给文本相同机会，语义增量另做且先保证多源接入。暂不扩G-Design图/训练/大评测，500仍需授权。通过app工具更新原automation-2并回读核对ACTIVE、30分钟、同一thread，未新建或暂停。此后未启动新GPU实验，当前补齐报告/代码/文档提交。
