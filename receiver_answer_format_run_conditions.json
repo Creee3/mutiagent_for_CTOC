@@ -1,0 +1,107 @@
+{
+  "stage": "run conditions frozen; GPU not started",
+  "created_utc": "2026-10-01T21:26:10Z",
+  "model_path": "/home/liuxin/models/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "official_commit": "1fa086edb17d6e00d80953cb06f391bc0a85268c",
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "methods": [
+    "no_msg",
+    "token_full",
+    "kv_full",
+    "material_text"
+  ],
+  "system_rule": "You answer questions using the supplied evidence. Return only the answer: a name, number, date, short phrase, or yes/no, as needed. Do not repeat the question or add an explanation. Do not add a complete sentence around the answer. If the supplied evidence does not determine the answer, return unknown.",
+  "B_role": "You are Agent B, the answerer.",
+  "unique_questions": 6,
+  "selected_question_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac3a76e554299741d48a2be",
+    "5a7133565542994082a3e65c",
+    "5ae70ed7554299572ea546a1",
+    "5a74a8fa55429929fddd8497",
+    "5ae27b535542996483e649b6"
+  ],
+  "question_selection": "all frozen partial-available calibration IDs in original order; no scores read",
+  "receiver_inputs": 18,
+  "condition_counts": {
+    "missing": 6,
+    "partial": 6,
+    "full": 6
+  },
+  "input_file": "data/receiver_answer_format_20261002.json",
+  "input_sha256": "ae7b06317c88cb751094ffc358e4eb433c565c883324876d64e53b4f9c7882bf",
+  "answer_max_new_tokens": 48,
+  "greedy": true,
+  "num_beams": 1,
+  "repetition_penalty": 1.0,
+  "full_layers": 28,
+  "shift_back": false,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "proposed_expected_calls": {
+    "main_generate": 72,
+    "warmup_generate": 4,
+    "main_sender_prefill": 6,
+    "warmup_sender_prefill": 1
+  },
+  "warmup_key": "5add1d575542992c1e3a2540:missing",
+  "warmup_is_existing_calibration_view": true,
+  "timing_repeats": 0,
+  "cache_tail_forwards": 0,
+  "model_calls_executed": 0,
+  "inference_runner_ready": true,
+  "maximum_prompt_tokens_plus_answer_budget": 422,
+  "capacity_required_mib": 18000,
+  "source_hashes": {
+    "prepare_receiver_answer_format.py": "edd101bd920f44a15fb3754bc2ea4c69db5ecd29e0cc92f158cc56dfc1548dcc",
+    "receiver_endpoint_probe.py": "57239f54da5eb46e534a219b38f4b5cc06fd8568a17ded146d4247e870878ba7",
+    "run.py": "0721d48cead0fc87d0aaa3ee706b377de903bc3917d6efadaa2dcd59ec93130f",
+    "chain_core.py": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb",
+    "alignment_probe.py": "dc5e0bb2a0db1c16cd2e066a8fb36967a66b870a4c1fb402a21beaeb7f4c8b4f",
+    "owned_prefix_wire.py": "6a7b33154973204bdfda8cc723c41492f38e4a0c14ef5c40a09d34a0fa836a52",
+    "receiver_answer_format_probe.py": "a3bb43e960e7884fdd8f5dc82a249a35a04a9b8eaa08aad5b61e205ed3a922bd"
+  },
+  "input_source_hashes": {
+    "config.json": "38d207fa4704ac58b15f1028054f2fdb5b3042640b86e1591ec4890e2d2d82af",
+    "data/receiver_evidence_20261002/selector_input_views.json": "8648103bed04bc08027bf1aa237fafe4f66c80bb4b4f8e7af22ddfc9de7a71a4",
+    "data/receiver_runtime_views_20261002/runtime_payloads.json": "03ca3855de721953c3ffa4f9d531903bd220e67b5a9ebf50eb442b60bcd0a538",
+    "data/receiver_runtime_views_20261002/scheduler_metadata.json": "92201cf1dc4a7da1fb76e62a0e092df72d39da52ca0551c80a81c0b9622e1f8c"
+  },
+  "model_tokenizer_hashes": {
+    "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "generation_config.json": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f"
+  },
+  "answer_evaluation": {
+    "raw_response_EM_F1": true,
+    "gold_aware_extraction": false,
+    "format_review": "manual answer phrase/sentence/abstention review; no automatic length-based correctness",
+    "failure_rule": "if format differs systematically across methods, do not infer semantic message-value trend"
+  },
+  "limits": [
+    "format calibration, not an algorithm or confirmatory benchmark",
+    "A is a prefill-only source, not a sender-generated analysis; no private receiver cache merging",
+    "new canonical A state differs from the old role-prompt state; do not reuse old source cache",
+    "system rule, A representation and chat layout changed together; not causal isolation of old formatting",
+    "whole prefix still includes question/system/source framing, not only missing facts",
+    "material_text is a strong workflow baseline; its tokens differ from exact token/KV controls",
+    "full material is copied without condition/oracle pruning; visible held text remains in every method",
+    "six short public calibration questions only; no other-document control or 100/500 evaluations",
+    "timings start from prepared token arrays, excluding all prior tokenization uniformly; no network or speed claim"
+  ],
+  "preparation_conditions_sha256": "224ad28e03627a40694b9f8953ad1d96a2cf47d02182a2cc4db9861b4b91bc06",
+  "preparation_cpu_sha256": "098ae29a991e179ea3f069c501a38b9a84924e9f88f80d2ffe3287324555b40b",
+  "independent_cpu_audit_sha256": "dbf6f2026b7f8a6cf5782c114e95ecd5c40607c00777813545dd9c3df60cb23f",
+  "expected_calls": {
+    "main_generate": 72,
+    "warmup_generate": 4,
+    "main_sender_prefill": 6,
+    "warmup_sender_prefill": 1
+  }
+}

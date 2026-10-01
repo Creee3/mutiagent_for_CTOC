@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "script_sha256": "edd101bd920f44a15fb3754bc2ea4c69db5ecd29e0cc92f158cc56dfc1548dcc",
+  "inputs_sha256": "ae7b06317c88cb751094ffc358e4eb433c565c883324876d64e53b4f9c7882bf",
+  "conditions_sha256": "224ad28e03627a40694b9f8953ad1d96a2cf47d02182a2cc4db9861b4b91bc06",
+  "transformers_version": "4.53.3",
+  "unique_questions": 6,
+  "receiver_rows": 18,
+  "method_input_plans": 72,
+  "tokenizer_encode_calls": 78,
+  "canonical_prefix_suffix_equal_pairs": 18,
+  "single_system_full_prompts": 18,
+  "held_material_preserved_rows": 18,
+  "new_source_token_packet_roundtrips": 6,
+  "utf8_material_packet_roundtrips": 6,
+  "maximum_prompt_tokens_plus_48": 422,
+  "preparation_seconds": 0.09716577001381665,
+  "model_calls": 0,
+  "model_weights_loaded": false,
+  "new_KV_generated": false,
+  "gpu_initialized": false,
+  "old_frozen_inputs_modified": false
+}

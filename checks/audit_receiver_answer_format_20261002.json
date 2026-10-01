@@ -1,0 +1,266 @@
+{
+  "passed": true,
+  "checks": 374,
+  "errors": [],
+  "model_calls": 0,
+  "audit_script_sha256": "d53282e347299e417af641cdd7232a5a21cf1fc1fc0876ed545e30d667b7cd16",
+  "decoder_helper_sha256": "31cdfecdfe6366ac5f4accd2898906098ffccafd3b69df609f018ffcff16d75b",
+  "conditions_sha256": "224ad28e03627a40694b9f8953ad1d96a2cf47d02182a2cc4db9861b4b91bc06",
+  "inputs_sha256": "ae7b06317c88cb751094ffc358e4eb433c565c883324876d64e53b4f9c7882bf",
+  "selected_question_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac3a76e554299741d48a2be",
+    "5a7133565542994082a3e65c",
+    "5ae70ed7554299572ea546a1",
+    "5a74a8fa55429929fddd8497",
+    "5ae27b535542996483e649b6"
+  ],
+  "sender_count": 6,
+  "receiver_count": 18,
+  "method_input_plans": 72,
+  "builder_tokenizer_encode_calls": 78,
+  "maximum_prompt_tokens_plus_answer_budget": 422,
+  "proposed_only_generate": 76,
+  "proposed_only_sender_prefill": 7,
+  "source_packet_table": [
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "A_prefix_tokens": 163,
+      "tokenwire_bytes": 1404,
+      "tokenwire_sha256": "42d332490732b18ef1d3b360c44ece897d0f4d0c0c0df658ee8df3d5bcb02808",
+      "material_json_bytes": 418,
+      "material_json_sha256": "89e873307991d620f5e88eeebbd4914a65d29730dc6b43a016e702b9ac9210ca"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "A_prefix_tokens": 185,
+      "tokenwire_bytes": 1492,
+      "tokenwire_sha256": "c64b8c40175259030345d09fb0038667c43250540ba13a4a9e7dd477a880b254",
+      "material_json_bytes": 476,
+      "material_json_sha256": "3ca58e4a6f0e3b59fd144ce7070f66f0cde60fbf38a7493fbbf96ea63600eabd"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "A_prefix_tokens": 145,
+      "tokenwire_bytes": 1332,
+      "tokenwire_sha256": "e9d0ddf01af619848f12e0b55f03ec9f27a4737adf1be1dbf525f65088260daa",
+      "material_json_bytes": 337,
+      "material_json_sha256": "d1859e417c42f097db754fb9c6121deb086a0bfc990b7c52e9b7fb2c992ccb3b"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "A_prefix_tokens": 171,
+      "tokenwire_bytes": 1436,
+      "tokenwire_sha256": "d2e619b1f187cbc2450c78ee6578017ecef1c058a229971db23ee001ae97afd2",
+      "material_json_bytes": 431,
+      "material_json_sha256": "c4f0b3ffc70b97dba9a3e45e1cf8290b71a23a90f3d7c3090313d5a68763e355"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "A_prefix_tokens": 179,
+      "tokenwire_bytes": 1468,
+      "tokenwire_sha256": "63b8b47f80e83a0b95422318d18e7e9b0f931420ceee559aab41fdf6dcbd93d0",
+      "material_json_bytes": 394,
+      "material_json_sha256": "a3f017fe2cd5be9c226b8c023616fd31f1ffb48f63eb5ebdd98ddae917dc8f94"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "A_prefix_tokens": 157,
+      "tokenwire_bytes": 1380,
+      "tokenwire_sha256": "34049fe6bd7675418a3da73b184b1e9cdcdf062db0c44e0e7ff8d659e8bae618",
+      "material_json_bytes": 360,
+      "material_json_sha256": "4bf9563d3f04ea5a500af7658ed750f1f114cd084cae1275a94ccb09b6c2de90"
+    }
+  ],
+  "method_prompt_lengths": [
+    {
+      "key": "5add1d575542992c1e3a2540:missing",
+      "prompt_lengths": {
+        "no_msg": 193,
+        "token_full": 288,
+        "kv_full": 288,
+        "material_text": 264
+      },
+      "plus_answer_budget": 336
+    },
+    {
+      "key": "5add1d575542992c1e3a2540:partial",
+      "prompt_lengths": {
+        "no_msg": 224,
+        "token_full": 319,
+        "kv_full": 319,
+        "material_text": 295
+      },
+      "plus_answer_budget": 367
+    },
+    {
+      "key": "5add1d575542992c1e3a2540:full",
+      "prompt_lengths": {
+        "no_msg": 259,
+        "token_full": 354,
+        "kv_full": 354,
+        "material_text": 330
+      },
+      "plus_answer_budget": 402
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:missing",
+      "prompt_lengths": {
+        "no_msg": 177,
+        "token_full": 294,
+        "kv_full": 294,
+        "material_text": 262
+      },
+      "plus_answer_budget": 342
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:partial",
+      "prompt_lengths": {
+        "no_msg": 212,
+        "token_full": 329,
+        "kv_full": 329,
+        "material_text": 297
+      },
+      "plus_answer_budget": 377
+    },
+    {
+      "key": "5ac3a76e554299741d48a2be:full",
+      "prompt_lengths": {
+        "no_msg": 257,
+        "token_full": 374,
+        "kv_full": 374,
+        "material_text": 342
+      },
+      "plus_answer_budget": 422
+    },
+    {
+      "key": "5a7133565542994082a3e65c:missing",
+      "prompt_lengths": {
+        "no_msg": 222,
+        "token_full": 299,
+        "kv_full": 299,
+        "material_text": 266
+      },
+      "plus_answer_budget": 347
+    },
+    {
+      "key": "5a7133565542994082a3e65c:partial",
+      "prompt_lengths": {
+        "no_msg": 242,
+        "token_full": 319,
+        "kv_full": 319,
+        "material_text": 286
+      },
+      "plus_answer_budget": 367
+    },
+    {
+      "key": "5a7133565542994082a3e65c:full",
+      "prompt_lengths": {
+        "no_msg": 261,
+        "token_full": 338,
+        "kv_full": 338,
+        "material_text": 305
+      },
+      "plus_answer_budget": 386
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:missing",
+      "prompt_lengths": {
+        "no_msg": 124,
+        "token_full": 227,
+        "kv_full": 227,
+        "material_text": 199
+      },
+      "plus_answer_budget": 275
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:partial",
+      "prompt_lengths": {
+        "no_msg": 173,
+        "token_full": 276,
+        "kv_full": 276,
+        "material_text": 248
+      },
+      "plus_answer_budget": 324
+    },
+    {
+      "key": "5ae70ed7554299572ea546a1:full",
+      "prompt_lengths": {
+        "no_msg": 194,
+        "token_full": 297,
+        "kv_full": 297,
+        "material_text": 269
+      },
+      "plus_answer_budget": 345
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:missing",
+      "prompt_lengths": {
+        "no_msg": 158,
+        "token_full": 269,
+        "kv_full": 269,
+        "material_text": 229
+      },
+      "plus_answer_budget": 317
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:partial",
+      "prompt_lengths": {
+        "no_msg": 187,
+        "token_full": 298,
+        "kv_full": 298,
+        "material_text": 258
+      },
+      "plus_answer_budget": 346
+    },
+    {
+      "key": "5a74a8fa55429929fddd8497:full",
+      "prompt_lengths": {
+        "no_msg": 224,
+        "token_full": 335,
+        "kv_full": 335,
+        "material_text": 295
+      },
+      "plus_answer_budget": 383
+    },
+    {
+      "key": "5ae27b535542996483e649b6:missing",
+      "prompt_lengths": {
+        "no_msg": 164,
+        "token_full": 253,
+        "kv_full": 253,
+        "material_text": 218
+      },
+      "plus_answer_budget": 301
+    },
+    {
+      "key": "5ae27b535542996483e649b6:partial",
+      "prompt_lengths": {
+        "no_msg": 196,
+        "token_full": 285,
+        "kv_full": 285,
+        "material_text": 250
+      },
+      "plus_answer_budget": 333
+    },
+    {
+      "key": "5ae27b535542996483e649b6:full",
+      "prompt_lengths": {
+        "no_msg": 213,
+        "token_full": 302,
+        "kv_full": 302,
+        "material_text": 267
+      },
+      "plus_answer_budget": 350
+    }
+  ],
+  "runtime_constraint": "Use frozen method IDs and A IDs only; do not re-encode suffix_text/rendered strings at runtime.",
+  "limits": [
+    "Stdlib only; no SSH, model replay, or prior run re-audit.",
+    "UTF8 material packet bytes are present as packet_text; tokenwire bytes were independently reconstructed and match the recorded actual-packet SHA.",
+    "The six questions were already-used public support-sentence calibration inputs, not new held-out evidence.",
+    "The shared unknown rule, A data representation, and chat layout change together; this is format calibration, not a single-factor cause experiment.",
+    "Explicitly held duplicate text does not prove semantic knowledge or permission to delete corresponding KV.",
+    "No new KV or model answer exists in this preparation; 76/7 is a candidate future budget."
+  ]
+}
