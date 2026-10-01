@@ -81,3 +81,10 @@ owned_prefix_accounting.py从旧三题只读计算：固定triangle纯KV内容14
 官方接口准备：CacheBack main浅克隆固定6e961127，包src/rclc、硬限制Qwen3、Transformers>=4.57.1；不能直接用当前Qwen2.5/4.53.3。另只读paper与paper-v1快照15bc3f7a，注册Qwen仍为Qwen3且依赖栈不同，未安装/切分支。RelayCaching固定6b0e9d37克隆连接重置失败，未重复下载；改读官方固定源码网页，确认Qwen2路由存在但版本4.52.4及自定义forward/hidden/位置接口尚未迁移。更正证据附件的pre-RoPE表述为响应相对位置post-RoPE K＋V/hidden。不是任何路线复现通过。
 
 CacheBack main官方源码用git archive放到学校新upstream目录，123个普通文件hash和2个仓库内部hook链接均对照tar一致；未安装hook或执行源码。首次安全解包拒绝这两个内部链接，目标目录尚未创建；核对仅指向同目录pre-commit后允许并记录，无覆盖旧仓库。保存接口、分支、数据CPU与源码备份记录；前台简稿《接收方证据条件_准备结果_20261002.md》。本轮模型调用始终0，不修改旧1548次generate账目；sender输出/cache、动态query、合法删减接入和新调用数仍待冻结。
+
+
+2026-10-02完整消息端点：独立receiver_endpoint_probe.py从原材料派生闭合A user turn与直接回答B指令，不覆盖旧输入。学校CPU检查20文本包、1新账本小KV、72 token计划与26对新prompt等长，通过；启动前核对tokenizer两文件SHA并告知216正式＋3预热、20＋1 A prefill。GPU0 fresh0%/24081MiB、既有kv-graph，独立run receiver_endpoint_20261001_204127、PID3804839。已于UTC20:44:04完成并退出，219 generate/21 prefill/4952底层forward；主回答211 EOS、5触顶，均无消息组，原数据保留。
+
+新原始档案147文件约180.83MB已回传，包含42个真实包、73输入结果、21来源及冻结源码。analyze_receiver_endpoints.py沿用原标准评分，仅运行stdlib。missing/full原始F1分别无消息43.70/56.20、文本23.16/25.04、KV22.92/23.57；完整方法EM均0。独立质量复核发现这两状态完整方法80/80整句，无消息19/40答案短语；有材料补事实的案例，也有真实答错，不能据整段匹配低分说消息没用。分析报告增加格式限制，不改答案、金标或评分；没有用gold-span生成替代分数。
+
+新KV包20题均值8,433,248.4 B，token文本1,334.6 B，均含头，KV含来源token。missing单次接收模型约0.529/0.511s，加编码恢复与独立A prefill阶段和约0.531/0.611s（已有cache KV约0.585s）；不是网络或部署端到端测量，输出长度也有差。完整来源只实际prefill20次复用，另报独立72请求成本估算。新增报告《完整消息价值对照_结果_20261002.md》。后续先准备原同组6题的统一答案格式、规范边界和强文本对照，尚未冻结新预算，不本轮追加GPU。不修改旧1548次账目，新219次单独记录。

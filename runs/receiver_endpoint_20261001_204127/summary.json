@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "unique_questions": 20,
+  "main_input_rows": 72,
+  "counts": {
+    "sender_prefill": 21,
+    "generate": 219
+  },
+  "phase_counts": {
+    "main_generate": 216,
+    "main_sender_prefill": 20,
+    "warmup_generate": 3,
+    "warmup_sender_prefill": 1
+  },
+  "generate": 219,
+  "sender_prefill": 21,
+  "underlying_model_forward_calls": 4952,
+  "EOS_main_answers": 211,
+  "truncated_main_answers": 5,
+  "network_transfer_measured": false,
+  "timing_repeats": 0,
+  "quality_not_evaluated_by_runner": true,
+  "new_unique_evaluation_questions": 0
+}

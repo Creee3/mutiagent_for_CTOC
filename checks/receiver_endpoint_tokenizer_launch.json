@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-01T20:41:08Z",
+  "expected_tokenizer_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  "actual_tokenizer_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  "matched": true,
+  "conditions_sha256": "5ae6fda5f28b6ab939af4a35606f855a4e3e36083320727b841b8e302e4c17dc",
+  "model_calls": 0
+}

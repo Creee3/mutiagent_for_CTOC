@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "conditions_sha256": "5ae6fda5f28b6ab939af4a35606f855a4e3e36083320727b841b8e302e4c17dc",
+  "inputs_sha256": "c7dc2be0f4284b332c01710b5672caac15378f622ae821153cc467f5ab42b062",
+  "script_sha256": "57239f54da5eb46e534a219b38f4b5cc06fd8568a17ded146d4247e870878ba7",
+  "actual_text_packet_roundtrips": 20,
+  "new_source_ledger_toy_kv_packet_roundtrips": 1,
+  "joint_token_plans": 72,
+  "derived_complete_prompt_equal_length_pairs": 26,
+  "max_joint_tokens_plus_budget": 488,
+  "model_calls": 0,
+  "model_weights_loaded": false,
+  "toy_packet_not_real_7b": true
+}

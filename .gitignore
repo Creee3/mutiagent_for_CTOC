@@ -13,6 +13,9 @@ runs/*/items/
 runs/*/vectors/
 runs/*/warmup/
 runs/*/calls.jsonl
+runs/*/packets/
+runs/*/sources/
+runs/*/code/
 
 # Transient process and tunnel state.
 worker.json
@@ -20,6 +23,7 @@ alignment_worker.json
 three_node_worker.json
 cache_path_worker.json
 free_chain_worker.json
+receiver_endpoint_worker.json
 pipeline_status.json
 checks/*worker.json
 checks/proxy_tunnel.json

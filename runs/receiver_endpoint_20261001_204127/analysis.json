@@ -1,0 +1,4235 @@
+{
+  "run_name": "receiver_endpoint_20261001_204127",
+  "input_audit_passed": true,
+  "source_hashes": {
+    "manifest": "4b2bfb95cf94ce0a52fb8fca36af3614f5d4885f3ef8bef79d4f1f68d52a3c25",
+    "summary": "330487c6859a4c60145024f2f4fc2fec85861789792eb51fd7feb2811066730d",
+    "scoring_labels": "fb4b346d5e121062665559e3cf2a4257dfdfde1e7806fa39ab5372d33b06ef67",
+    "analysis_code": "301bad4b80f88517dec4e6a05fd3eff4c707e96eb5ed4c306494628f14146435",
+    "items": {
+      "main_01f08b39a16f78c92c55.json": "7d05e3755cb6e2ed229ed68c14a3eafaee0bcb9dff1f178d183cd6d220a96bfa",
+      "main_0897649d476cf166a728.json": "7d053d138484136cc6d535bab9ccebe8cf029820cf1c0021e0a5033c67d4ec1a",
+      "main_0a69eb0a1a0454ddce57.json": "845afc0a06edd5ac14a84fcab66de41d0ecabde0bf2cd2181712c7e2160959f0",
+      "main_0d35d614649791229b4c.json": "d85688bcb2b18ddc4e3990dfd8943beecbb622472ecc76a4274f9a6fadc6d267",
+      "main_0ff96a6a21618d9e76a1.json": "7b6db8011d9ec02b54a96b10b819f921af13a7302dcb9013c1f22f27bdc945ee",
+      "main_137fb77b831c18a7ed26.json": "e83d7c55e2cfce8773c55a33159a249f43fe7cc7731d75079e2755d0c7ee8b80",
+      "main_143bea19ffe485c8ed17.json": "5f9e5ea62b948877d7bcdc13b862a611c9dfd5ed977dacab0da19256b148035b",
+      "main_145e28c8aced3b0a1541.json": "c08dd0ad975a6f808ada7f3585bc27c7b26b973e402b3f33f440b0190fbe010f",
+      "main_14e7f420c150f32b7257.json": "f4d58734b0d85b1151afff29ce47ecc0b3ecf43db2fa8349bc0118dfd12f6362",
+      "main_20aa4f73bf694b3fad48.json": "108e347d0a1ed5cb31cdefecf00d59c68a80c31ae0b509bd2be21e3c64b7a12a",
+      "main_22879c4356313693bcaf.json": "ccbea14488f41479334428447bec59694eef6e98f70e727e40b29549ce8bd1df",
+      "main_28aadc9957fb0b027932.json": "949fa86df53f8ebd41e18d264eb431809e13e5fb622e5a1a4b3f158cf8e7b573",
+      "main_321c61f01f4efd12ff7f.json": "b5af87565069f31f127e87c27056ccb71cac1069448ef5118b59811216389f34",
+      "main_328b579685deb78738c2.json": "1a79d0ef11b42e671fa90e8ccb3bdc98623527c6c19d3f35f4f48d30b8dcaf33",
+      "main_336ab1b06b8a6943ca6d.json": "87a1520a7a90e18fda4652701ed0eaa5466eccd35c5e6b2c961725aa2e8120fb",
+      "main_37706d0001beaf3d2d58.json": "0a16696276ed4b2abe44decbcd32ce02c3e369fb3577556edd403ec21cf4d57f",
+      "main_39e585c83f67a24d214a.json": "4565515b2469844e9eb174b9175d324413d41eaeebc727ba9fee94855b9006f8",
+      "main_4218113b999b706e86fe.json": "6765d10d2f65acdf85843a7de822b3883f762cf02e6066b10f98222508a4315d",
+      "main_4628defa0cf1613b82d6.json": "14271175b4252dd25455f951ee478955f95a573dd323181e99c47d7a7110d333",
+      "main_4a47f68569eac6a5e497.json": "e3cde28f5ac2b09cd5e6427d163ddb8de4c644e5f402cfdd31b2bb5a7af67b1c",
+      "main_4caca5e851c24d05d03a.json": "de3a376c8bcdb005ff01b389fbe0539d0ae0f44bbfa7a7180b8d48f429133f7a",
+      "main_53150bc2a5291911215a.json": "56831333ea8cbc35f4a435a6abcd97a0e57f17b2ba8e12547988715052f3b13d",
+      "main_544d93778d7ab391d840.json": "897f75740902c05cc1222f2d5d685af73eb9e5e98346dc45365c1c0caa58dd4c",
+      "main_5a264a4ea9dbc5636190.json": "3c812beccfc05a24c5966f74425ac4c977b8952be0a86daf1fc35d1b5118e1f1",
+      "main_5d63c0c1f9298eac1d5a.json": "ed965a675a380d6611dd4b83a1344b27b317e3332bcfcf9bf70c4f53c4effd84",
+      "main_60569fc3c99ba1876b92.json": "b1ed9bd6e93960cc2bef52906b464ad4f09fd962c021ba7941ddce8c1d41840a",
+      "main_63e7c5fbeab65dc16f70.json": "04b9efb8a910844d5a8f73bc5de819c82fed5c40310c81f110d667a94f2d8337",
+      "main_681eedc7af4c53e7fa50.json": "600edbf6d6f44e8a4336a7c583ff9d0af1b22b659fd1d6f25b03ee632f7c2660",
+      "main_6c4b946911457e7641d2.json": "ec6e2eb3bbdb242873d45e628a5bbdcfb29562f33c74d7eaa2e9177876cfab3b",
+      "main_6e67401f4200ffb6a65c.json": "d6880c307a29c5464101043c2db3aba8c2f6ef283f34312efebcc57765ad56ff",
+      "main_6eae3b0ecfc24d0a2f1a.json": "0a66482b5e0c04e590b46d54b79e512a91b8c471ffbec3bf9f93834fb069ddad",
+      "main_70b29a5c7019fa40d1d2.json": "17a86f628879131933c12a3060fbbe02f8b0666ce5f708f1e31f45850460f75a",
+      "main_73401758cb3183412d90.json": "cfff62443be6d1d4bbca8b1dbeaaf7cdc669ee024d86c8daf40c85147b4c8918",
+      "main_76cdaa2bad3b034258c1.json": "4906d66a271aa0510ce5a3a3fe2fb77336870d565e3ec86b93c80a244d2f8ccc",
+      "main_77b82c43cb0d127281fe.json": "b5ee19d94832e8cddbfcff1aa75ceb148943ec062bd5c3e03f818745772577b8",
+      "main_7f7d90ee4f11f47dc795.json": "69c693edcc978f282d1ce4574724e80ab6133610ae4b15140827c1da693fabe9",
+      "main_826d93d25802c5135beb.json": "e0782b7c16533d67efc13375089c8764fe1a5f4f2f20ccb0788a92e3bed86485",
+      "main_85a10fe0a0fd5f42a219.json": "675dd52ffb27cafb0becc990d858b113f483f9c7aff302e1ef62f08a0067cef8",
+      "main_8ab621a65ba0c4b396ac.json": "24c8fd772ea4830f8912c6e029ae0ff17ef3e59cb25b6d8b06a0de28d413b4c0",
+      "main_8e7a840e10325701c87d.json": "9f6a68a785bf5b951a6793c7dcbc6ac58ea0d3a51a0fb4009956625e9022fe07",
+      "main_919d5c08179a0765b914.json": "9dda00a95026e15aa397fa53fc20f35a84002c80d7e7af931ea2985711c8addf",
+      "main_923e942e74c095d0bb91.json": "7b35e1bca6c87908f33a8cabf6518cb037900bb48e80cf3da301a41330929c07",
+      "main_9544696d48a6d7883cd1.json": "a869b4d61e43fb2257079c1e04d52feb4fcc372933ee9a7d93c4e1a84c17f87b",
+      "main_963e083bbc2862423bf0.json": "1ed675ef4762a45f6f4f837a5a12082ce7e552ceb9bdfd03c041fb3c35440f5c",
+      "main_9ce8969f38164e57c0c3.json": "2170aae753dac4527e8e4ded22555e2a7fda4a5c44eb0003ceb3a52088e8e246",
+      "main_a247370b69c862802768.json": "0a507cea3aaaec8967af0d167435febb6ab959f97e2c070b90d2a389dfeb3253",
+      "main_a36fb6919299843dd2ad.json": "601b73993fd19d01d58420be1d5fe941a0fff23a191ddbdd09f73989287c4ce9",
+      "main_ad3163b36f0a1324d452.json": "6481cbc56e3cbebb8b72cc3c41534ab971c6cc8ac060d8b7ee6ad69a4fc0e303",
+      "main_ae79e43acc701406dfcc.json": "098d7cf1618a110a8507a70d5ef9e29acedb304d4e6f866ab02b0853cd1cd990",
+      "main_aea1c431b562642ff432.json": "470866952791af7f19a55046a9512e45175c9173e25568e0e2bc7d87c4f017b2",
+      "main_b3a686c9878450127d6f.json": "d669e2bed07b3b7c870462352880aed2d418d55a3430ee0702e2d2e7996e413d",
+      "main_bb6ad86c61ddaf53c01e.json": "515abda49082de95ce9bdb9512d2b6c94e749570e6478771e488b41e3297aee4",
+      "main_bb75e67eda108f9ed417.json": "5df001ab47d048f96d14a3554f0cb93493096a38f4c3425f5e44c1dfebaf13d3",
+      "main_bc007110185b47ef745c.json": "c9e1939acf81211ee5ce51e3c3f48278bd5df6ca0df433c7591b0bbb8510e349",
+      "main_c738f01c13e28ae559c3.json": "eeff375355240634bd31078fd7a9ab8db41a29b7800ca3fb3e62f0ce7a6084b7",
+      "main_ca3190b6bfdcc11887d6.json": "0d88dd17ba9ff2476b8b5c1b076e7c97574adf05024381793651e84e10e53f97",
+      "main_cc8371dec819d34e1b73.json": "028a959ed21ed89a9594b0ff24d0d8d410b24b1c3e596b405692c6b651cfb62e",
+      "main_d20ec391a8084537c920.json": "6327452d79118f7f25771160d7fde79e2043467ab0f09fd7dcc97ede02709e24",
+      "main_d3f3ae45ceaa8b8a2fa7.json": "965e59a1faa2ecca57aa0c5452d54f5024eaf9d8095944915f1af689b6a3a1ee",
+      "main_da2e44957e44996acece.json": "78f22a67e420552c0f73ccbf185379b71bbbd88124b78f705b1990c756a32ee6",
+      "main_db0bf779fbd7625b6991.json": "8f29dd77c297ef309f34eba30dbe8b762f43c3c82f941d6aa06909e46b73d9a9",
+      "main_de099aa8bbee0b029ce8.json": "6acbe0939f04f552a1dd5bb035620565559494235b3729b1a7978a378e00c0e8",
+      "main_de3913f13d394c2cdfbb.json": "437ad4cb950102c795f8fb78573068f430bb188414636412238e86672680eb16",
+      "main_e118dd23f6ab188ec22a.json": "e61f420c361cce2a2680bb7a84e1194e622e004ffb8eeb0663241210ee353da7",
+      "main_e5417a4813d74e3bcd56.json": "6803d4c234cae3e363ffcd3cdc7785feea2647aad4195634b102f57552318bba",
+      "main_ea0cb5410b301f37ab0b.json": "4eb4b3d5893b0584950ba02b870f93cfbb3bf3bf159716b60ecf272d11250424",
+      "main_ec3075440e086fd575d6.json": "e775d9a0c9ddb7bf578bb00ba8cd3a4ffe90a0eb38541da1555f597419543c60",
+      "main_f54d3ab7f51597771b97.json": "32b433be49aba29bfd1b7368f6a8b01dc29a45049b78d1e9309a925ada25fe52",
+      "main_f6b27bda3a4a4f850bea.json": "5dad18d124aaeef3ac22f1c53d53d7fff0175a1a02ae1a3da0567b03c849b3bf",
+      "main_f7ea04d7d23ad7894e42.json": "7df04cad2aa9f06a60c7d0f3378f6c671a7bd58015777a37ad9f596c2f83cb89",
+      "main_fbff23383a721b1216d0.json": "0bf4d670741275f12e9e8ec2fa7702423af22dee467badb64096e46c696da379",
+      "main_fe24f9e633f01f263711.json": "9920487b95a1e82450afd1121c72f0f4990a28c3a4829ee2ab4e5c69429d4df2",
+      "warmup_20aa4f73bf694b3fad48.json": "90cd15781525e9b6082af770afe07cdf650856548ff99180fa0b300a1a9cd0b8"
+    }
+  },
+  "existing_scorer": {
+    "path": "/home/liuxin/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/score_repro_outputs.py",
+    "sha256": "23578521106d04bfe1d5dedee9ead2f470dd1740c3cc58fe95ed9dfe6788f922",
+    "functions": [
+      "normalize",
+      "hotpot_token_f1"
+    ],
+    "source_definitions_executed_unchanged": true
+  },
+  "main_questions": 20,
+  "main_receiver_views": 72,
+  "main_generate_calls": 216,
+  "warmup_rows_excluded_from_quality": 1,
+  "reported_call_counts": {
+    "generate": 219,
+    "source_prefill": 21,
+    "raw_counts": {
+      "sender_prefill": 21,
+      "generate": 219
+    }
+  },
+  "call_ledger_audit": {
+    "available": true,
+    "independently_checked": true,
+    "sha256": "6db923b9bacaa1d821b466f9b0f5fcd16d71eefadc6e496fa1be264305cb00eb",
+    "generate": 219,
+    "source_prefill": 21,
+    "raw_counts": {
+      "sender_prefill": 21,
+      "generate": 219
+    }
+  },
+  "primary_by_receiver_condition": {
+    "missing": {
+      "independent_question_count": 20,
+      "methods": {
+        "no_msg": {
+          "mean_token_f1": 0.43697872020452666,
+          "exact_match_rate": 0.3,
+          "eos_stopped_count": 18,
+          "actually_truncated_count": 2,
+          "mean_generated_tokens": 18.35,
+          "mean_payload_bytes": 0,
+          "mean_payload_content_bytes": 0,
+          "mean_payload_header_bytes": 0,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.36552375834726264,
+            "receiver_prefill_gpu_seconds": 0.025092950630187988,
+            "receiver_decode_gpu_seconds": 0.32846888437271116,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0,
+            "packet_restore_seconds": 0.0,
+            "from_scratch_stage_sum_seconds": 0.36552375834726264,
+            "preexisting_cache_stage_sum_seconds": 0.36552375834726264
+          }
+        },
+        "token_full": {
+          "mean_token_f1": 0.2316469739689554,
+          "exact_match_rate": 0,
+          "eos_stopped_count": 20,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 25.6,
+          "mean_payload_bytes": 1334.6,
+          "mean_payload_content_bytes": 587.6,
+          "mean_payload_header_bytes": 747,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.5294067599519622,
+            "receiver_prefill_gpu_seconds": 0.03861372947692871,
+            "receiver_decode_gpu_seconds": 0.47498220348358156,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0005237684526946396,
+            "packet_restore_seconds": 0.0009237406513420865,
+            "from_scratch_stage_sum_seconds": 0.5308542690559989,
+            "preexisting_cache_stage_sum_seconds": 0.5308542690559989
+          }
+        },
+        "kv_full": {
+          "mean_token_f1": 0.22918665650863793,
+          "exact_match_rate": 0,
+          "eos_stopped_count": 20,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 25.85,
+          "mean_payload_bytes": 8433248.4,
+          "mean_payload_content_bytes": 8424421.2,
+          "mean_payload_header_bytes": 8827.2,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.5106263571506133,
+            "receiver_prefill_gpu_seconds": 0.0263027361869812,
+            "receiver_decode_gpu_seconds": 0.4716333695411682,
+            "sender_prefill_seconds": 0.026022932946216316,
+            "packet_encode_seconds": 0.0394959455501521,
+            "packet_restore_seconds": 0.035301927506225184,
+            "from_scratch_stage_sum_seconds": 0.6114471631532069,
+            "preexisting_cache_stage_sum_seconds": 0.5854242302069906
+          }
+        }
+      },
+      "message_vs_no_message": {
+        "token_full": {
+          "paired_question_count": 20,
+          "mean_token_f1_delta": -0.20533174623557127,
+          "mean_exact_match_delta": -0.3,
+          "question_pairs": [
+            {
+              "question_id": "5ac55e835542993e66e82375",
+              "token_f1_delta": 0.22119815668202764,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "token_f1_delta": 0.1,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac1a4745542991316484b82",
+              "token_f1_delta": -0.8888888888888888,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a7331de5542994cef4bc4a8",
+              "token_f1_delta": 0.20311220311220307,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac39f7b554299218029dbe7",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "token_f1_delta": 0.11764705882352941,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7cb94f554299683c1c6353",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac55ea55542993e66e82377",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "token_f1_delta": -0.5142857142857143,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8cea40554299441c6b9f76",
+              "token_f1_delta": 0.04385964912280699,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "token_f1_delta": -0.1363636363636364,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae3a8985542992f92d82329",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae6363b55429929b0807af0",
+              "token_f1_delta": -0.7272727272727273,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5adc597d55429947ff17392f",
+              "token_f1_delta": -0.8333333333333333,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a7c6c9d554299683c1c6302",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ac15de55542991316484afb",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ab874ba5542990e739ec904",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "token_f1_delta": 0.04102564102564099,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8d9e0f554299441c6ba015",
+              "token_f1_delta": 0.2666666666666667,
+              "exact_match_delta": 0
+            }
+          ]
+        },
+        "kv_full": {
+          "paired_question_count": 20,
+          "mean_token_f1_delta": -0.20779206369588873,
+          "mean_exact_match_delta": -0.3,
+          "question_pairs": [
+            {
+              "question_id": "5ac55e835542993e66e82375",
+              "token_f1_delta": 0.23548387096774193,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "token_f1_delta": 0.1,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac1a4745542991316484b82",
+              "token_f1_delta": -0.8888888888888888,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a7331de5542994cef4bc4a8",
+              "token_f1_delta": 0.20311220311220307,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac39f7b554299218029dbe7",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "token_f1_delta": 0.11764705882352941,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7cb94f554299683c1c6353",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac55ea55542993e66e82377",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "token_f1_delta": -0.5142857142857143,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8cea40554299441c6b9f76",
+              "token_f1_delta": 0.04385964912280699,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "token_f1_delta": -0.1363636363636364,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae3a8985542992f92d82329",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae6363b55429929b0807af0",
+              "token_f1_delta": -0.7272727272727273,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5adc597d55429947ff17392f",
+              "token_f1_delta": -0.8333333333333333,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a7c6c9d554299683c1c6302",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ac15de55542991316484afb",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ab874ba5542990e739ec904",
+              "token_f1_delta": -0.06349206349206354,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "token_f1_delta": 0.04102564102564099,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8d9e0f554299441c6ba015",
+              "token_f1_delta": 0.2666666666666667,
+              "exact_match_delta": 0
+            }
+          ]
+        }
+      },
+      "text_kv_output_token_agreement": {
+        "matched": 18,
+        "compared": 20,
+        "diagnostic_only_not_a_gate": true
+      }
+    },
+    "partial": {
+      "independent_question_count": 6,
+      "methods": {
+        "no_msg": {
+          "mean_token_f1": 0.5314814814814814,
+          "exact_match_rate": 0.16666666666666666,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 9,
+          "mean_payload_bytes": 0,
+          "mean_payload_content_bytes": 0,
+          "mean_payload_header_bytes": 0,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.18598784567438997,
+            "receiver_prefill_gpu_seconds": 0.02753546651204427,
+            "receiver_decode_gpu_seconds": 0.15197094472249348,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0,
+            "packet_restore_seconds": 0.0,
+            "from_scratch_stage_sum_seconds": 0.18598784567438997,
+            "preexisting_cache_stage_sum_seconds": 0.18598784567438997
+          }
+        },
+        "token_full": {
+          "mean_token_f1": 0.22403707403707404,
+          "exact_match_rate": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 23.166666666666668,
+          "mean_payload_bytes": 1373.6666666666667,
+          "mean_payload_content_bytes": 626.6666666666666,
+          "mean_payload_header_bytes": 747,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.47766147849809687,
+            "receiver_prefill_gpu_seconds": 0.042729215621948244,
+            "receiver_decode_gpu_seconds": 0.42031967258453373,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0005221705068834126,
+            "packet_restore_seconds": 0.0009851049884067227,
+            "from_scratch_stage_sum_seconds": 0.47916875399338704,
+            "preexisting_cache_stage_sum_seconds": 0.47916875399338704
+          }
+        },
+        "kv_full": {
+          "mean_token_f1": 0.22403707403707404,
+          "exact_match_rate": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 23.166666666666668,
+          "mean_payload_bytes": 8993347.333333334,
+          "mean_payload_content_bytes": 8984520,
+          "mean_payload_header_bytes": 8827.333333333334,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.4609829054873747,
+            "receiver_prefill_gpu_seconds": 0.029025247891743978,
+            "receiver_decode_gpu_seconds": 0.42073817634582517,
+            "sender_prefill_seconds": 0.02674892367213033,
+            "packet_encode_seconds": 0.042027085340426616,
+            "packet_restore_seconds": 0.036829042161116377,
+            "from_scratch_stage_sum_seconds": 0.566587956661048,
+            "preexisting_cache_stage_sum_seconds": 0.5398390329889177
+          }
+        }
+      },
+      "message_vs_no_message": {
+        "token_full": {
+          "paired_question_count": 6,
+          "mean_token_f1_delta": -0.30744440744440743,
+          "mean_exact_match_delta": -0.16666666666666666,
+          "question_pairs": [
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "token_f1_delta": -0.5142857142857143,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "token_f1_delta": -0.6923076923076923,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "token_f1_delta": -0.1363636363636364,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "token_f1_delta": 0.13333333333333333,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "token_f1_delta": -0.06837606837606836,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "token_f1_delta": -0.5666666666666667,
+              "exact_match_delta": 0
+            }
+          ]
+        },
+        "kv_full": {
+          "paired_question_count": 6,
+          "mean_token_f1_delta": -0.30744440744440743,
+          "mean_exact_match_delta": -0.16666666666666666,
+          "question_pairs": [
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "token_f1_delta": -0.5142857142857143,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "token_f1_delta": -0.6923076923076923,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "token_f1_delta": -0.1363636363636364,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "token_f1_delta": 0.13333333333333333,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "token_f1_delta": -0.06837606837606836,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "token_f1_delta": -0.5666666666666667,
+              "exact_match_delta": 0
+            }
+          ]
+        }
+      },
+      "text_kv_output_token_agreement": {
+        "matched": 5,
+        "compared": 6,
+        "diagnostic_only_not_a_gate": true
+      }
+    },
+    "full": {
+      "independent_question_count": 20,
+      "methods": {
+        "no_msg": {
+          "mean_token_f1": 0.5620303691580287,
+          "exact_match_rate": 0.3,
+          "eos_stopped_count": 19,
+          "actually_truncated_count": 1,
+          "mean_generated_tokens": 16.35,
+          "mean_payload_bytes": 0,
+          "mean_payload_content_bytes": 0,
+          "mean_payload_header_bytes": 0,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.32899978914647365,
+            "receiver_prefill_gpu_seconds": 0.02817910385131836,
+            "receiver_decode_gpu_seconds": 0.2901477854728699,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0,
+            "packet_restore_seconds": 0.0,
+            "from_scratch_stage_sum_seconds": 0.32899978914647365,
+            "preexisting_cache_stage_sum_seconds": 0.32899978914647365
+          }
+        },
+        "token_full": {
+          "mean_token_f1": 0.2503696461196461,
+          "exact_match_rate": 0,
+          "eos_stopped_count": 20,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 24.85,
+          "mean_payload_bytes": 1334.6,
+          "mean_payload_content_bytes": 587.6,
+          "mean_payload_header_bytes": 747,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.5147116155480035,
+            "receiver_prefill_gpu_seconds": 0.04429559688568115,
+            "receiver_decode_gpu_seconds": 0.45491771059036257,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0005237684526946396,
+            "packet_restore_seconds": 0.0008513225970091298,
+            "from_scratch_stage_sum_seconds": 0.5160867065977073,
+            "preexisting_cache_stage_sum_seconds": 0.5160867065977073
+          }
+        },
+        "kv_full": {
+          "mean_token_f1": 0.23567267642267642,
+          "exact_match_rate": 0,
+          "eos_stopped_count": 20,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 26.2,
+          "mean_payload_bytes": 8433248.4,
+          "mean_payload_content_bytes": 8424421.2,
+          "mean_payload_header_bytes": 8827.2,
+          "single_pass_cost_means_seconds": {
+            "receiver_model_seconds": 0.5238048702070955,
+            "receiver_prefill_gpu_seconds": 0.029618512058258058,
+            "receiver_decode_gpu_seconds": 0.4812604553222656,
+            "sender_prefill_seconds": 0.026022932946216316,
+            "packet_encode_seconds": 0.0394959455501521,
+            "packet_restore_seconds": 0.036465755893732424,
+            "from_scratch_stage_sum_seconds": 0.6257895045971964,
+            "preexisting_cache_stage_sum_seconds": 0.59976657165098
+          }
+        }
+      },
+      "message_vs_no_message": {
+        "token_full": {
+          "paired_question_count": 20,
+          "mean_token_f1_delta": -0.3116607230383826,
+          "mean_exact_match_delta": -0.3,
+          "question_pairs": [
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "token_f1_delta": -0.1363636363636364,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7cb94f554299683c1c6353",
+              "token_f1_delta": -0.5238095238095237,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8d9e0f554299441c6ba015",
+              "token_f1_delta": -0.03999999999999998,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8cea40554299441c6b9f76",
+              "token_f1_delta": -0.01282051282051283,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "token_f1_delta": 0.125,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "token_f1_delta": -0.055555555555555525,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac1a4745542991316484b82",
+              "token_f1_delta": -0.5238095238095237,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac15de55542991316484afb",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ab874ba5542990e739ec904",
+              "token_f1_delta": -0.01904761904761909,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7331de5542994cef4bc4a8",
+              "token_f1_delta": 0.026451983898792386,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "token_f1_delta": -0.5142857142857143,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac55e835542993e66e82375",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "token_f1_delta": -0.6923076923076923,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a7c6c9d554299683c1c6302",
+              "token_f1_delta": -0.7333333333333333,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae3a8985542992f92d82329",
+              "token_f1_delta": -0.6,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae6363b55429929b0807af0",
+              "token_f1_delta": -0.5,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ac39f7b554299218029dbe7",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ac55ea55542993e66e82377",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5adc597d55429947ff17392f",
+              "token_f1_delta": -0.8,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "token_f1_delta": -0.5666666666666667,
+              "exact_match_delta": 0
+            }
+          ]
+        },
+        "kv_full": {
+          "paired_question_count": 20,
+          "mean_token_f1_delta": -0.3263576927353523,
+          "mean_exact_match_delta": -0.3,
+          "question_pairs": [
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "token_f1_delta": -0.1363636363636364,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7cb94f554299683c1c6353",
+              "token_f1_delta": -0.5238095238095237,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8d9e0f554299441c6ba015",
+              "token_f1_delta": -0.03999999999999998,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a8cea40554299441c6b9f76",
+              "token_f1_delta": -0.01282051282051283,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "token_f1_delta": 0.125,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "token_f1_delta": -0.055555555555555525,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac1a4745542991316484b82",
+              "token_f1_delta": -0.5238095238095237,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac15de55542991316484afb",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ab874ba5542990e739ec904",
+              "token_f1_delta": -0.01904761904761909,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7331de5542994cef4bc4a8",
+              "token_f1_delta": 0.026451983898792386,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "token_f1_delta": -0.5142857142857143,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac55e835542993e66e82375",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "token_f1_delta": -0.6923076923076923,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a7c6c9d554299683c1c6302",
+              "token_f1_delta": -0.7333333333333333,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae3a8985542992f92d82329",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ae6363b55429929b0807af0",
+              "token_f1_delta": -0.7272727272727273,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ac39f7b554299218029dbe7",
+              "token_f1_delta": -0.6666666666666666,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5ac55ea55542993e66e82377",
+              "token_f1_delta": 0.0,
+              "exact_match_delta": 0
+            },
+            {
+              "question_id": "5adc597d55429947ff17392f",
+              "token_f1_delta": -0.8,
+              "exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "token_f1_delta": -0.5666666666666667,
+              "exact_match_delta": 0
+            }
+          ]
+        }
+      },
+      "text_kv_output_token_agreement": {
+        "matched": 18,
+        "compared": 20,
+        "diagnostic_only_not_a_gate": true
+      }
+    }
+  },
+  "paired_three_state_same_six": {
+    "question_ids": [
+      "5a7133565542994082a3e65c",
+      "5a74a8fa55429929fddd8497",
+      "5ac3a76e554299741d48a2be",
+      "5add1d575542992c1e3a2540",
+      "5ae27b535542996483e649b6",
+      "5ae70ed7554299572ea546a1"
+    ],
+    "conditions": {
+      "missing": {
+        "independent_question_count": 6,
+        "methods": {
+          "no_msg": {
+            "mean_token_f1": 0.29814814814814816,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 5,
+            "actually_truncated_count": 1,
+            "mean_generated_tokens": 19.166666666666668,
+            "mean_payload_bytes": 0,
+            "mean_payload_content_bytes": 0,
+            "mean_payload_header_bytes": 0,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.380771653658788,
+              "receiver_prefill_gpu_seconds": 0.025753232002258302,
+              "receiver_decode_gpu_seconds": 0.3421870762507121,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0,
+              "packet_restore_seconds": 0.0,
+              "from_scratch_stage_sum_seconds": 0.380771653658788,
+              "preexisting_cache_stage_sum_seconds": 0.380771653658788
+            }
+          },
+          "token_full": {
+            "mean_token_f1": 0.2328187063481181,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 21.833333333333332,
+            "mean_payload_bytes": 1373.6666666666667,
+            "mean_payload_content_bytes": 626.6666666666666,
+            "mean_payload_header_bytes": 747,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.4499518900023152,
+              "receiver_prefill_gpu_seconds": 0.04141959444681803,
+              "receiver_decode_gpu_seconds": 0.39518817043304444,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0005221705068834126,
+              "packet_restore_seconds": 0.000906334666069597,
+              "from_scratch_stage_sum_seconds": 0.45138039517526823,
+              "preexisting_cache_stage_sum_seconds": 0.45138039517526823
+            }
+          },
+          "kv_full": {
+            "mean_token_f1": 0.2328187063481181,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 21.833333333333332,
+            "mean_payload_bytes": 8993347.333333334,
+            "mean_payload_content_bytes": 8984520,
+            "mean_payload_header_bytes": 8827.333333333334,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.43471465500382084,
+              "receiver_prefill_gpu_seconds": 0.027185275077819825,
+              "receiver_decode_gpu_seconds": 0.3963000688552856,
+              "sender_prefill_seconds": 0.02674892367213033,
+              "packet_encode_seconds": 0.042027085340426616,
+              "packet_restore_seconds": 0.03756833966084135,
+              "from_scratch_stage_sum_seconds": 0.5410590036772192,
+              "preexisting_cache_stage_sum_seconds": 0.5143100800050888
+            }
+          }
+        },
+        "message_vs_no_message": {
+          "token_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.06532944180003006,
+            "mean_exact_match_delta": 0,
+            "question_pairs": [
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": 0.1,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.11764705882352941,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": -0.1363636363636364,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": 0.04102564102564099,
+                "exact_match_delta": 0
+              }
+            ]
+          },
+          "kv_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.06532944180003006,
+            "mean_exact_match_delta": 0,
+            "question_pairs": [
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": 0.1,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.11764705882352941,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": -0.1363636363636364,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": 0.04102564102564099,
+                "exact_match_delta": 0
+              }
+            ]
+          }
+        },
+        "text_kv_output_token_agreement": {
+          "matched": 6,
+          "compared": 6,
+          "diagnostic_only_not_a_gate": true
+        }
+      },
+      "partial": {
+        "independent_question_count": 6,
+        "methods": {
+          "no_msg": {
+            "mean_token_f1": 0.5314814814814814,
+            "exact_match_rate": 0.16666666666666666,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 9,
+            "mean_payload_bytes": 0,
+            "mean_payload_content_bytes": 0,
+            "mean_payload_header_bytes": 0,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.18598784567438997,
+              "receiver_prefill_gpu_seconds": 0.02753546651204427,
+              "receiver_decode_gpu_seconds": 0.15197094472249348,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0,
+              "packet_restore_seconds": 0.0,
+              "from_scratch_stage_sum_seconds": 0.18598784567438997,
+              "preexisting_cache_stage_sum_seconds": 0.18598784567438997
+            }
+          },
+          "token_full": {
+            "mean_token_f1": 0.22403707403707404,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 23.166666666666668,
+            "mean_payload_bytes": 1373.6666666666667,
+            "mean_payload_content_bytes": 626.6666666666666,
+            "mean_payload_header_bytes": 747,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.47766147849809687,
+              "receiver_prefill_gpu_seconds": 0.042729215621948244,
+              "receiver_decode_gpu_seconds": 0.42031967258453373,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0005221705068834126,
+              "packet_restore_seconds": 0.0009851049884067227,
+              "from_scratch_stage_sum_seconds": 0.47916875399338704,
+              "preexisting_cache_stage_sum_seconds": 0.47916875399338704
+            }
+          },
+          "kv_full": {
+            "mean_token_f1": 0.22403707403707404,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 23.166666666666668,
+            "mean_payload_bytes": 8993347.333333334,
+            "mean_payload_content_bytes": 8984520,
+            "mean_payload_header_bytes": 8827.333333333334,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.4609829054873747,
+              "receiver_prefill_gpu_seconds": 0.029025247891743978,
+              "receiver_decode_gpu_seconds": 0.42073817634582517,
+              "sender_prefill_seconds": 0.02674892367213033,
+              "packet_encode_seconds": 0.042027085340426616,
+              "packet_restore_seconds": 0.036829042161116377,
+              "from_scratch_stage_sum_seconds": 0.566587956661048,
+              "preexisting_cache_stage_sum_seconds": 0.5398390329889177
+            }
+          }
+        },
+        "message_vs_no_message": {
+          "token_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.30744440744440743,
+            "mean_exact_match_delta": -0.16666666666666666,
+            "question_pairs": [
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": -0.5666666666666667,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": -0.06837606837606836,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.13333333333333333,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": -0.1363636363636364,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              }
+            ]
+          },
+          "kv_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.30744440744440743,
+            "mean_exact_match_delta": -0.16666666666666666,
+            "question_pairs": [
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": -0.5666666666666667,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": -0.06837606837606836,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.13333333333333333,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": -0.1363636363636364,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              }
+            ]
+          }
+        },
+        "text_kv_output_token_agreement": {
+          "matched": 5,
+          "compared": 6,
+          "diagnostic_only_not_a_gate": true
+        }
+      },
+      "full": {
+        "independent_question_count": 6,
+        "methods": {
+          "no_msg": {
+            "mean_token_f1": 0.5314814814814814,
+            "exact_match_rate": 0.16666666666666666,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 6.666666666666667,
+            "mean_payload_bytes": 0,
+            "mean_payload_content_bytes": 0,
+            "mean_payload_header_bytes": 0,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.14115954934580563,
+              "receiver_prefill_gpu_seconds": 0.029135018348693847,
+              "receiver_decode_gpu_seconds": 0.10673438358306885,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0,
+              "packet_restore_seconds": 0.0,
+              "from_scratch_stage_sum_seconds": 0.14115954934580563,
+              "preexisting_cache_stage_sum_seconds": 0.14115954934580563
+            }
+          },
+          "token_full": {
+            "mean_token_f1": 0.2247849372849373,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 23.166666666666668,
+            "mean_payload_bytes": 1373.6666666666667,
+            "mean_payload_content_bytes": 626.6666666666666,
+            "mean_payload_header_bytes": 747,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.4846113030022631,
+              "receiver_prefill_gpu_seconds": 0.04565464528401693,
+              "receiver_decode_gpu_seconds": 0.42458353741963706,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0005221705068834126,
+              "packet_restore_seconds": 0.0007355070071450124,
+              "from_scratch_stage_sum_seconds": 0.4858689805162915,
+              "preexisting_cache_stage_sum_seconds": 0.4858689805162915
+            }
+          },
+          "kv_full": {
+            "mean_token_f1": 0.2247849372849373,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 23.166666666666668,
+            "mean_payload_bytes": 8993347.333333334,
+            "mean_payload_content_bytes": 8984520,
+            "mean_payload_header_bytes": 8827.333333333334,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.46522006185841747,
+              "receiver_prefill_gpu_seconds": 0.030696117401123046,
+              "receiver_decode_gpu_seconds": 0.42315689150492347,
+              "sender_prefill_seconds": 0.02674892367213033,
+              "packet_encode_seconds": 0.042027085340426616,
+              "packet_restore_seconds": 0.03754464315716177,
+              "from_scratch_stage_sum_seconds": 0.5715407140281362,
+              "preexisting_cache_stage_sum_seconds": 0.5447917903560059
+            }
+          }
+        },
+        "message_vs_no_message": {
+          "token_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.3066965441965442,
+            "mean_exact_match_delta": -0.16666666666666666,
+            "question_pairs": [
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": -0.5666666666666667,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": -0.055555555555555525,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.125,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": -0.1363636363636364,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              }
+            ]
+          },
+          "kv_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.3066965441965442,
+            "mean_exact_match_delta": -0.16666666666666666,
+            "question_pairs": [
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": -0.5666666666666667,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": -0.055555555555555525,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.125,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": -0.1363636363636364,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              }
+            ]
+          }
+        },
+        "text_kv_output_token_agreement": {
+          "matched": 6,
+          "compared": 6,
+          "diagnostic_only_not_a_gate": true
+        }
+      }
+    },
+    "per_question": [
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "conditions": {
+          "missing": {
+            "no_msg": {
+              "token_f1": 0.8,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.2857142857142857,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.2857142857142857,
+              "exact_match": false
+            }
+          },
+          "partial": {
+            "no_msg": {
+              "token_f1": 0.8,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.2857142857142857,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.2857142857142857,
+              "exact_match": false
+            }
+          },
+          "full": {
+            "no_msg": {
+              "token_f1": 0.8,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.2857142857142857,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.2857142857142857,
+              "exact_match": false
+            }
+          }
+        }
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "conditions": {
+          "missing": {
+            "no_msg": {
+              "token_f1": 0.0,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.1,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.1,
+              "exact_match": false
+            }
+          },
+          "partial": {
+            "no_msg": {
+              "token_f1": 0.6666666666666666,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.1,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.1,
+              "exact_match": false
+            }
+          },
+          "full": {
+            "no_msg": {
+              "token_f1": 0.6666666666666666,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.1,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.1,
+              "exact_match": false
+            }
+          }
+        }
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "conditions": {
+          "missing": {
+            "no_msg": {
+              "token_f1": 0.2222222222222222,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.2222222222222222,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.2222222222222222,
+              "exact_match": false
+            }
+          },
+          "partial": {
+            "no_msg": {
+              "token_f1": 0.2222222222222222,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.15384615384615385,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.15384615384615385,
+              "exact_match": false
+            }
+          },
+          "full": {
+            "no_msg": {
+              "token_f1": 0.2222222222222222,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.16666666666666669,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.16666666666666669,
+              "exact_match": false
+            }
+          }
+        }
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "conditions": {
+          "missing": {
+            "no_msg": {
+              "token_f1": 0.0,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.11764705882352941,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.11764705882352941,
+              "exact_match": false
+            }
+          },
+          "partial": {
+            "no_msg": {
+              "token_f1": 0.0,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.13333333333333333,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.13333333333333333,
+              "exact_match": false
+            }
+          },
+          "full": {
+            "no_msg": {
+              "token_f1": 0.0,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.125,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.125,
+              "exact_match": false
+            }
+          }
+        }
+      },
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "conditions": {
+          "missing": {
+            "no_msg": {
+              "token_f1": 0.5,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.3636363636363636,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.3636363636363636,
+              "exact_match": false
+            }
+          },
+          "partial": {
+            "no_msg": {
+              "token_f1": 0.5,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.3636363636363636,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.3636363636363636,
+              "exact_match": false
+            }
+          },
+          "full": {
+            "no_msg": {
+              "token_f1": 0.5,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.3636363636363636,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.3636363636363636,
+              "exact_match": false
+            }
+          }
+        }
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "conditions": {
+          "missing": {
+            "no_msg": {
+              "token_f1": 0.2666666666666667,
+              "exact_match": false
+            },
+            "token_full": {
+              "token_f1": 0.3076923076923077,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.3076923076923077,
+              "exact_match": false
+            }
+          },
+          "partial": {
+            "no_msg": {
+              "token_f1": 1.0,
+              "exact_match": true
+            },
+            "token_full": {
+              "token_f1": 0.3076923076923077,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.3076923076923077,
+              "exact_match": false
+            }
+          },
+          "full": {
+            "no_msg": {
+              "token_f1": 1.0,
+              "exact_match": true
+            },
+            "token_full": {
+              "token_f1": 0.3076923076923077,
+              "exact_match": false
+            },
+            "kv_full": {
+              "token_f1": 0.3076923076923077,
+              "exact_match": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  "length_matched_other_material_controls": {
+    "partial": {
+      "paired_question_count": 6,
+      "other_material_summary": {
+        "independent_question_count": 6,
+        "methods": {
+          "no_msg": {
+            "mean_token_f1": 0.37037037037037035,
+            "exact_match_rate": 0.16666666666666666,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 19.666666666666668,
+            "mean_payload_bytes": 0,
+            "mean_payload_content_bytes": 0,
+            "mean_payload_header_bytes": 0,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.3919043723338594,
+              "receiver_prefill_gpu_seconds": 0.027441946665445964,
+              "receiver_decode_gpu_seconds": 0.3520236326853435,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0,
+              "packet_restore_seconds": 0.0,
+              "from_scratch_stage_sum_seconds": 0.3919043723338594,
+              "preexisting_cache_stage_sum_seconds": 0.3919043723338594
+            }
+          },
+          "token_full": {
+            "mean_token_f1": 0.23543308543308542,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 21.333333333333332,
+            "mean_payload_bytes": 1373.6666666666667,
+            "mean_payload_content_bytes": 626.6666666666666,
+            "mean_payload_header_bytes": 747,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.44677961751585826,
+              "receiver_prefill_gpu_seconds": 0.042586079279581704,
+              "receiver_decode_gpu_seconds": 0.3906232639948527,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0005221705068834126,
+              "packet_restore_seconds": 0.00106601050356403,
+              "from_scratch_stage_sum_seconds": 0.4483677985263057,
+              "preexisting_cache_stage_sum_seconds": 0.4483677985263057
+            }
+          },
+          "kv_full": {
+            "mean_token_f1": 0.23543308543308542,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 6,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 21.333333333333332,
+            "mean_payload_bytes": 8993347.333333334,
+            "mean_payload_content_bytes": 8984520,
+            "mean_payload_header_bytes": 8827.333333333334,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.4303205356797359,
+              "receiver_prefill_gpu_seconds": 0.028920132954915363,
+              "receiver_decode_gpu_seconds": 0.3901811733245849,
+              "sender_prefill_seconds": 0.02674892367213033,
+              "packet_encode_seconds": 0.042027085340426616,
+              "packet_restore_seconds": 0.03861948118234674,
+              "from_scratch_stage_sum_seconds": 0.5377160258746395,
+              "preexisting_cache_stage_sum_seconds": 0.5109671022025092
+            }
+          }
+        },
+        "message_vs_no_message": {
+          "token_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.13493728493728496,
+            "mean_exact_match_delta": -0.16666666666666666,
+            "question_pairs": [
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": 0.1,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.13333333333333333,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": 0.1636363636363636,
+                "exact_match_delta": 0
+              }
+            ]
+          },
+          "kv_full": {
+            "paired_question_count": 6,
+            "mean_token_f1_delta": -0.13493728493728496,
+            "mean_exact_match_delta": -0.16666666666666666,
+            "question_pairs": [
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": 0.1,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.13333333333333333,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": 0.1636363636363636,
+                "exact_match_delta": 0
+              }
+            ]
+          }
+        },
+        "text_kv_output_token_agreement": {
+          "matched": 6,
+          "compared": 6,
+          "diagnostic_only_not_a_gate": true
+        }
+      },
+      "held_minus_other_means": {
+        "no_msg": {
+          "held_minus_other_token_f1": 0.16111111111111112,
+          "held_minus_other_exact_match": 0
+        },
+        "token_full": {
+          "held_minus_other_token_f1": -0.011396011396011393,
+          "held_minus_other_exact_match": 0,
+          "held_minus_other_message_gain_token_f1": -0.1725071225071225
+        },
+        "kv_full": {
+          "held_minus_other_token_f1": -0.011396011396011393,
+          "held_minus_other_exact_match": 0,
+          "held_minus_other_message_gain_token_f1": -0.1725071225071225
+        }
+      },
+      "question_pairs": [
+        {
+          "question_id": "5a7133565542994082a3e65c",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5a74a8fa55429929fddd8497",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.6666666666666666,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.6666666666666666
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.6666666666666666
+            }
+          }
+        },
+        {
+          "question_id": "5ac3a76e554299741d48a2be",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": -0.06837606837606836,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.06837606837606836
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": -0.06837606837606836,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.06837606837606836
+            }
+          }
+        },
+        {
+          "question_id": "5add1d575542992c1e3a2540",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5ae27b535542996483e649b6",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.30000000000000004,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.30000000000000004
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.30000000000000004
+            }
+          }
+        },
+        {
+          "question_id": "5ae70ed7554299572ea546a1",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        }
+      ],
+      "semantic_irrelevance_verified": false
+    },
+    "full": {
+      "paired_question_count": 20,
+      "other_material_summary": {
+        "independent_question_count": 20,
+        "methods": {
+          "no_msg": {
+            "mean_token_f1": 0.4344560994560995,
+            "exact_match_rate": 0.3,
+            "eos_stopped_count": 18,
+            "actually_truncated_count": 2,
+            "mean_generated_tokens": 19.6,
+            "mean_payload_bytes": 0,
+            "mean_payload_content_bytes": 0,
+            "mean_payload_header_bytes": 0,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.3953698933531996,
+              "receiver_prefill_gpu_seconds": 0.028155628967285157,
+              "receiver_decode_gpu_seconds": 0.35458544778823853,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0,
+              "packet_restore_seconds": 0.0,
+              "from_scratch_stage_sum_seconds": 0.3953698933531996,
+              "preexisting_cache_stage_sum_seconds": 0.3953698933531996
+            }
+          },
+          "token_full": {
+            "mean_token_f1": 0.24737999524764231,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 20,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 25.5,
+            "mean_payload_bytes": 1334.6,
+            "mean_payload_content_bytes": 587.6,
+            "mean_payload_header_bytes": 747,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.5275812634499744,
+              "receiver_prefill_gpu_seconds": 0.0439181806564331,
+              "receiver_decode_gpu_seconds": 0.46805957784652713,
+              "sender_prefill_seconds": 0.0,
+              "packet_encode_seconds": 0.0005237684526946396,
+              "packet_restore_seconds": 0.0009024093946209177,
+              "from_scratch_stage_sum_seconds": 0.5290074412972899,
+              "preexisting_cache_stage_sum_seconds": 0.5290074412972899
+            }
+          },
+          "kv_full": {
+            "mean_token_f1": 0.24737999524764231,
+            "exact_match_rate": 0,
+            "eos_stopped_count": 20,
+            "actually_truncated_count": 0,
+            "mean_generated_tokens": 25.55,
+            "mean_payload_bytes": 8433248.4,
+            "mean_payload_content_bytes": 8424421.2,
+            "mean_payload_header_bytes": 8827.2,
+            "single_pass_cost_means_seconds": {
+              "receiver_model_seconds": 0.5127182895928855,
+              "receiver_prefill_gpu_seconds": 0.02956406373977661,
+              "receiver_decode_gpu_seconds": 0.47020201311111454,
+              "sender_prefill_seconds": 0.026022932946216316,
+              "packet_encode_seconds": 0.0394959455501521,
+              "packet_restore_seconds": 0.036971401699702255,
+              "from_scratch_stage_sum_seconds": 0.6152085697889561,
+              "preexisting_cache_stage_sum_seconds": 0.5891856368427397
+            }
+          }
+        },
+        "message_vs_no_message": {
+          "token_full": {
+            "paired_question_count": 20,
+            "mean_token_f1_delta": -0.18707610420845716,
+            "mean_exact_match_delta": -0.3,
+            "question_pairs": [
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.125,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac55ea55542993e66e82377",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae3a8985542992f92d82329",
+                "token_f1_delta": -0.6666666666666666,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5a8d9e0f554299441c6ba015",
+                "token_f1_delta": 0.25,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a8cea40554299441c6b9f76",
+                "token_f1_delta": 0.06862745098039214,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae6363b55429929b0807af0",
+                "token_f1_delta": -0.7272727272727273,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": 0.08333333333333333,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7cb94f554299683c1c6353",
+                "token_f1_delta": 0.14285714285714288,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5ab874ba5542990e739ec904",
+                "token_f1_delta": -0.01904761904761909,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac15de55542991316484afb",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7c6c9d554299683c1c6302",
+                "token_f1_delta": -0.6666666666666666,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5a7331de5542994cef4bc4a8",
+                "token_f1_delta": 0.20311220311220307,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac39f7b554299218029dbe7",
+                "token_f1_delta": -0.12820512820512814,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac1a4745542991316484b82",
+                "token_f1_delta": -0.8666666666666667,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5adc597d55429947ff17392f",
+                "token_f1_delta": -0.8333333333333333,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5ac55e835542993e66e82375",
+                "token_f1_delta": 0.5,
+                "exact_match_delta": 0
+              }
+            ]
+          },
+          "kv_full": {
+            "paired_question_count": 20,
+            "mean_token_f1_delta": -0.18707610420845716,
+            "mean_exact_match_delta": -0.3,
+            "question_pairs": [
+              {
+                "question_id": "5ac3a76e554299741d48a2be",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5add1d575542992c1e3a2540",
+                "token_f1_delta": 0.125,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae27b535542996483e649b6",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac55ea55542993e66e82377",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae3a8985542992f92d82329",
+                "token_f1_delta": -0.6666666666666666,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5a8d9e0f554299441c6ba015",
+                "token_f1_delta": 0.25,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7133565542994082a3e65c",
+                "token_f1_delta": -0.5142857142857143,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a8cea40554299441c6b9f76",
+                "token_f1_delta": 0.06862745098039214,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae6363b55429929b0807af0",
+                "token_f1_delta": -0.7272727272727273,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5a74a8fa55429929fddd8497",
+                "token_f1_delta": 0.08333333333333333,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7cb94f554299683c1c6353",
+                "token_f1_delta": 0.14285714285714288,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ae70ed7554299572ea546a1",
+                "token_f1_delta": -0.6923076923076923,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5ab874ba5542990e739ec904",
+                "token_f1_delta": -0.01904761904761909,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac15de55542991316484afb",
+                "token_f1_delta": 0.0,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5a7c6c9d554299683c1c6302",
+                "token_f1_delta": -0.6666666666666666,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5a7331de5542994cef4bc4a8",
+                "token_f1_delta": 0.20311220311220307,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac39f7b554299218029dbe7",
+                "token_f1_delta": -0.12820512820512814,
+                "exact_match_delta": 0
+              },
+              {
+                "question_id": "5ac1a4745542991316484b82",
+                "token_f1_delta": -0.8666666666666667,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5adc597d55429947ff17392f",
+                "token_f1_delta": -0.8333333333333333,
+                "exact_match_delta": -1
+              },
+              {
+                "question_id": "5ac55e835542993e66e82375",
+                "token_f1_delta": 0.5,
+                "exact_match_delta": 0
+              }
+            ]
+          }
+        },
+        "text_kv_output_token_agreement": {
+          "matched": 19,
+          "compared": 20,
+          "diagnostic_only_not_a_gate": true
+        }
+      },
+      "held_minus_other_means": {
+        "no_msg": {
+          "held_minus_other_token_f1": 0.12757426970192928,
+          "held_minus_other_exact_match": 0
+        },
+        "token_full": {
+          "held_minus_other_token_f1": 0.0029896508720038163,
+          "held_minus_other_exact_match": 0,
+          "held_minus_other_message_gain_token_f1": -0.12458461882992547
+        },
+        "kv_full": {
+          "held_minus_other_token_f1": -0.011707318824965882,
+          "held_minus_other_exact_match": 0,
+          "held_minus_other_message_gain_token_f1": -0.13928158852689515
+        }
+      },
+      "question_pairs": [
+        {
+          "question_id": "5a7133565542994082a3e65c",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5a7331de5542994cef4bc4a8",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.17666021921341069,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.17666021921341069
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.17666021921341069
+            }
+          }
+        },
+        {
+          "question_id": "5a74a8fa55429929fddd8497",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.6666666666666666,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.016666666666666677,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.65
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.016666666666666677,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.65
+            }
+          }
+        },
+        {
+          "question_id": "5a7c6c9d554299683c1c6302",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": -0.06666666666666665,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.06666666666666665
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": -0.06666666666666665,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.06666666666666665
+            }
+          }
+        },
+        {
+          "question_id": "5a7cb94f554299683c1c6353",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.6666666666666666,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.6666666666666666
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.6666666666666666
+            }
+          }
+        },
+        {
+          "question_id": "5a8cea40554299441c6b9f76",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": -0.08144796380090497,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.08144796380090497
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": -0.08144796380090497,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.08144796380090497
+            }
+          }
+        },
+        {
+          "question_id": "5a8d9e0f554299441c6ba015",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.19999999999999998,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": -0.09,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.29
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": -0.09,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.29
+            }
+          }
+        },
+        {
+          "question_id": "5ab874ba5542990e739ec904",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5ac15de55542991316484afb",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5ac1a4745542991316484b82",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": -0.33333333333333337,
+              "held_minus_other_exact_match": -1
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.009523809523809545,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.34285714285714297
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.009523809523809545,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.34285714285714297
+            }
+          }
+        },
+        {
+          "question_id": "5ac39f7b554299218029dbe7",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.5384615384615385,
+              "held_minus_other_exact_match": 1
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.5384615384615385
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.5384615384615385
+            }
+          }
+        },
+        {
+          "question_id": "5ac3a76e554299741d48a2be",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": -0.055555555555555525,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.055555555555555525
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": -0.055555555555555525,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.055555555555555525
+            }
+          }
+        },
+        {
+          "question_id": "5ac55e835542993e66e82375",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.5,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.5
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.5
+            }
+          }
+        },
+        {
+          "question_id": "5ac55ea55542993e66e82377",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5adc597d55429947ff17392f",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0333333333333333,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.033333333333333215
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0333333333333333,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.033333333333333215
+            }
+          }
+        },
+        {
+          "question_id": "5add1d575542992c1e3a2540",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5ae27b535542996483e649b6",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.1363636363636364,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.1363636363636364
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": -0.1363636363636364
+            }
+          }
+        },
+        {
+          "question_id": "5ae3a8985542992f92d82329",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.06666666666666665,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.06666666666666665
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5ae6363b55429929b0807af0",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.2272727272727273,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.2272727272727273
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        },
+        {
+          "question_id": "5ae70ed7554299572ea546a1",
+          "methods": {
+            "no_msg": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0
+            },
+            "token_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            },
+            "kv_full": {
+              "held_minus_other_token_f1": 0.0,
+              "held_minus_other_exact_match": 0,
+              "held_minus_other_message_gain_token_f1": 0.0
+            }
+          }
+        }
+      ],
+      "semantic_irrelevance_verified": false
+    }
+  },
+  "text_kv_output_token_agreement": {
+    "matched": 66,
+    "compared_receiver_views": 72,
+    "independent_questions": 20,
+    "diagnostic_only_not_a_gate": true,
+    "per_receiver_view": [
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a7cb94f554299683c1c6353",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ac55e835542993e66e82375",
+        "condition": "missing",
+        "matched": false
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ac1a4745542991316484b82",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5a7331de5542994cef4bc4a8",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "partial_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ac39f7b554299218029dbe7",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "partial_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a8d9e0f554299441c6ba015",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a8cea40554299441c6b9f76",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ac55ea55542993e66e82377",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a7cb94f554299683c1c6353",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ae3a8985542992f92d82329",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a8d9e0f554299441c6ba015",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "partial",
+        "matched": false
+      },
+      {
+        "question_id": "5ac1a4745542991316484b82",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a8cea40554299441c6b9f76",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ac15de55542991316484afb",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ac55ea55542993e66e82377",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ae6363b55429929b0807af0",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5ab874ba5542990e739ec904",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5a7cb94f554299683c1c6353",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a7331de5542994cef4bc4a8",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "partial_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "partial_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ac55e835542993e66e82375",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a8cea40554299441c6b9f76",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "partial_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a7c6c9d554299683c1c6302",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ae3a8985542992f92d82329",
+        "condition": "full",
+        "matched": false
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ae3a8985542992f92d82329",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ae6363b55429929b0807af0",
+        "condition": "full",
+        "matched": false
+      },
+      {
+        "question_id": "5ae6363b55429929b0807af0",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ab874ba5542990e739ec904",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ac39f7b554299218029dbe7",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5adc597d55429947ff17392f",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5ac15de55542991316484afb",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a7c6c9d554299683c1c6302",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ac15de55542991316484afb",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5a7c6c9d554299683c1c6302",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ac55ea55542993e66e82377",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5adc597d55429947ff17392f",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a7331de5542994cef4bc4a8",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ab874ba5542990e739ec904",
+        "condition": "missing",
+        "matched": false
+      },
+      {
+        "question_id": "5ac39f7b554299218029dbe7",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "partial_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ac1a4745542991316484b82",
+        "condition": "full_other_document_control",
+        "matched": false
+      },
+      {
+        "question_id": "5a8d9e0f554299441c6ba015",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5adc597d55429947ff17392f",
+        "condition": "full_other_document_control",
+        "matched": true
+      },
+      {
+        "question_id": "5ac55e835542993e66e82375",
+        "condition": "full_other_document_control",
+        "matched": true
+      }
+    ]
+  },
+  "main_source_prefill_allocation": {
+    "actually_computed_unique_sources": 20,
+    "sum_unique_source_prefill_seconds": 0.5204586589243263,
+    "counterfactual_per_request_source_prefill_sum_seconds": 1.8823630608385429,
+    "independent_kv_requests": 72,
+    "not_the_measured_actual_run_wall_time": true
+  },
+  "per_receiver_scores": [
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.5,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7cb94f554299683c1c6353",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.6666666666666666,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.14285714285714288,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.14285714285714288,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac55e835542993e66e82375",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.06451612903225806,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac1a4745542991316484b82",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.1111111111111111,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.1111111111111111,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.12121212121212122,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3243243243243243,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3243243243243243,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "partial_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac39f7b554299218029dbe7",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.11764705882352941,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.11764705882352941,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.125,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.125,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "partial_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.8,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.19999999999999998,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.16,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.16,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a8cea40554299441c6b9f76",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.15384615384615385,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.15384615384615385,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac55ea55542993e66e82377",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.125,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.125,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7cb94f554299683c1c6353",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae3a8985542992f92d82329",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.25,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.25,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "partial",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.8,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac1a4745542991316484b82",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.6666666666666666,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.14285714285714288,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.14285714285714288,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.8,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a8cea40554299441c6b9f76",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.23529411764705882,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.23529411764705882,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac15de55542991316484afb",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac55ea55542993e66e82377",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae6363b55429929b0807af0",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.2727272727272727,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2727272727272727,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.08333333333333333,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.08333333333333333,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "partial",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "partial",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.5,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ab874ba5542990e739ec904",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.4,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.38095238095238093,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.38095238095238093,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.8,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7cb94f554299683c1c6353",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.14285714285714288,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.14285714285714288,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.2978723404255319,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3243243243243243,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3243243243243243,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "partial",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.13333333333333333,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.13333333333333333,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "partial_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.8,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2857142857142857,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "partial_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac55e835542993e66e82375",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.5,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.5,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.5,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a8cea40554299441c6b9f76",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.21052631578947367,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.21052631578947367,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "partial_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.13333333333333333,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.13333333333333333,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.2666666666666667,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2666666666666667,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.5,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae3a8985542992f92d82329",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.4,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae3a8985542992f92d82329",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae6363b55429929b0807af0",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.5,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2727272727272727,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae6363b55429929b0807af0",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.2727272727272727,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2727272727272727,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ab874ba5542990e739ec904",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.4,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.38095238095238093,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.38095238095238093,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac39f7b554299218029dbe7",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5adc597d55429947ff17392f",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "partial",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.2222222222222222,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.15384615384615385,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.15384615384615385,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac15de55542991316484afb",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac15de55542991316484afb",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.0,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac55ea55542993e66e82377",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.15384615384615383,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "partial",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.6666666666666666,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5adc597d55429947ff17392f",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.19999999999999998,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.19999999999999998,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.12121212121212122,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3243243243243243,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3243243243243243,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "full",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.6666666666666666,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.1,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ab874ba5542990e739ec904",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.4444444444444445,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.4444444444444445,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.38095238095238093,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac39f7b554299218029dbe7",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.4615384615384615,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.33333333333333337,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.2666666666666667,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3076923076923077,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "partial_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.19999999999999998,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.3636363636363636,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac1a4745542991316484b82",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.13333333333333333,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.13333333333333333,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "condition": "missing",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.2666666666666667,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.2666666666666667,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5adc597d55429947ff17392f",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 1.0,
+          "exact_match": true
+        },
+        "token_full": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.16666666666666669,
+          "exact_match": false
+        }
+      }
+    },
+    {
+      "question_id": "5ac55e835542993e66e82375",
+      "condition": "full_other_document_control",
+      "methods": {
+        "no_msg": {
+          "token_f1": 0.0,
+          "exact_match": false
+        },
+        "token_full": {
+          "token_f1": 0.5,
+          "exact_match": false
+        },
+        "kv_full": {
+          "token_f1": 0.5,
+          "exact_match": false
+        }
+      }
+    }
+  ],
+  "answer_format": {
+    "scored_response": "entire decoded response",
+    "gold_aware_answer_extraction_used": false,
+    "response_format_review_required_before_semantic_utility_claim": true
+  },
+  "limits": [
+    "raw EM/F1 scores the entire answer; sentence packaging versus answer-only output can confound semantic utility",
+    "20 public calibration questions with support sentences; not a confirmatory or long-context benchmark",
+    "three receiver states are paired on the same six questions; 72 views are not independent questions",
+    "message is the whole A prefix containing role, question and material, not only missing facts",
+    "A only prefills; no sender-generated message or original node-output text baseline was tested",
+    "receiver-visible material is not proof of correct understanding or independently cached private state",
+    "other-question materials are length controls, not certified semantically irrelevant evidence",
+    "single-pass instrumented timings are descriptive; no robust speedup or network latency claim",
+    "encoded payload bytes include headers; no message selection/compression or network transfer was tested",
+    "from-prompt-ready stage sums exclude earlier tokenization/model loading and are not full wall latency",
+    "preexisting-cache scenario defers source production cost; it does not make cache creation free",
+    "text/KV token agreement is descriptive and not a per-token/floating-point pass gate"
+  ]
+}

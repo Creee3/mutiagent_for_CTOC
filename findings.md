@@ -49,3 +49,10 @@
 - 实验condition/key可暴露oracle持有状态，不能将原整条record传给选择器。新runtime白名单只有question/sender_material/receiver_visible_text，调度lookup/状态、诊断标注与评分标签独立；后续仅嵌套payload入模型。
 - CacheBack官方main6e961127只支持Qwen3且Transformers>=4.57.1；paper-v1/15bc3f7a的Qwen注册同为Qwen3，运行栈另锁Torch2.9.0+cu128/Transformers4.57.1/vLLM0.11.1，不能在当前4.53.3/Qwen2.5直接使用。源码已放学校、123文件hash相同，未安装/运行。
 - RelayCaching静态Qwen2路由覆盖目标模型类，但官方4.52.4与当前4.53.3不同，hidden relay、forward与cache/位置记录未迁移。代码仅将输出K旋转-prefix长度，发布响应相对位置post-RoPE K；此前pre-RoPE表述已撤回。源码网页核查不能称当前checkpoint兼容。
+
+
+- 2026-10-02完整消息端点已完成：20校准题72输入、216主回答，A不生成。完整文本/KV共享精确token与28层完整前缀。主211 EOS、5触顶均无消息；66/72输出token一致，不作门禁。
+- 原始EM/F1受回答格式干扰：完整方法missing/full共80回答均整句，no_msg有19/40短语。人口数字相同却掉分；RoyalFlash补Prussian、Dudman补姓名，仍EM0；专辑题又确实答错。不能据低原始分数推出新增材料无价值，也不能把全部差异归因于格式或金标抽取改分。
+- 主假设尚未干净测到：全A前缀包括角色/题目/系统模板，而非只新增事实；A角色对风格的作用尚未干预确认。仅20短支持句，不是长文benchmark，多源融合/输出KV/语义删减未运行。
+- 实际编码均值KV8.43MB、token文本1.33KB含头，KV还含来源IDs。missing单次完整成本阶段和文本0.531s/KV0.611s，cache已存在KV0.585s；未测网络/重复时，模型输出长度不同，尚无总成本优势证据。
+- 下一步先规范回答与强文本：原同组6题，各方法保持同一格式/信息权限；核对canonical chat和缓存来源，新条件先冻结。不重跑已通过通路、不直接进入层选择，也不使用100/500题。

@@ -1,0 +1,1148 @@
+{
+  "passed": true,
+  "checks": 9833,
+  "errors": [],
+  "run_dir": "D:\\liuxin_workspace\\ICML2027\\experiments\\kvcomm_text_kv_baseline_20261001\\runs\\receiver_endpoint_20261001_204127",
+  "audit_script_sha256": "31cdfecdfe6366ac5f4accd2898906098ffccafd3b69df609f018ffcff16d75b",
+  "model_calls": 0,
+  "counts": {
+    "sender_prefill": 21,
+    "generate": 219
+  },
+  "phase_counts": {
+    "warmup_sender_prefill": 1,
+    "warmup_generate": 3,
+    "main_sender_prefill": 20,
+    "main_generate": 216
+  },
+  "underlying_model_forward_calls": 4952,
+  "main_rows": 72,
+  "warmup_rows": 1,
+  "packet_files_audited": 42,
+  "full_prompt_control_pairs": 26,
+  "partial_unique_questions": 6,
+  "token_full_kv_full_exact_output_pairs": 66,
+  "main_EOS": 211,
+  "main_truncated": 5,
+  "independent_output_decode": "verified Qwen ByteLevel vocabulary; stdlib only",
+  "token_full_kv_full_output_differences": [
+    {
+      "key": "5ac55e835542993e66e82375:missing",
+      "first_difference_index": 27,
+      "token_full_response": "The gunfight at the O.K. Corral occurred on October 25, 1881. Thomas Fitch defended John Henry Holliday in this case.",
+      "kv_full_response": "The gunfight at the O.K. Corral occurred on October 25, 1881. Thomas Fitch defended Doc Holliday in the subsequent accusations."
+    },
+    {
+      "key": "5a7133565542994082a3e65c:partial",
+      "first_difference_index": 5,
+      "token_full_response": "Oldham County, Kentucky has a population of 60,316 and features the Lake Louisvilla neighborhood.",
+      "kv_full_response": "Oldham County, Kentucky features the Lake Louisvilla neighborhood and has a population of 60,316."
+    },
+    {
+      "key": "5ae3a8985542992f92d82329:full",
+      "first_difference_index": 15,
+      "token_full_response": "Politician Lyman Sherwood was born in Rensselaer County.",
+      "kv_full_response": "Politician Lyman Sherwood was born in Rensselaer County, New York."
+    },
+    {
+      "key": "5ae6363b55429929b0807af0:full",
+      "first_difference_index": 8,
+      "token_full_response": "Ole Einar Bjørndalen was born on 27 January 1974.",
+      "kv_full_response": "Ole Einar Bjørndalen, the defending titlist of the 2009–10 Biathlon World Cup – Pursuit Men, was born on 27 January 1974."
+    },
+    {
+      "key": "5ab874ba5542990e739ec904:missing",
+      "first_difference_index": 8,
+      "token_full_response": "The Twelfth United States Army Group commander was the first chairman of the Joint Chiefs of Staff.",
+      "kv_full_response": "The Twelfth United States Army Group commander, General Omar Bradley, was the first chairman of the Joint Chiefs of Staff."
+    },
+    {
+      "key": "5ac1a4745542991316484b82:full:other_document_control",
+      "first_difference_index": 1,
+      "token_full_response": "The city that contains Para Hills West, South Australia has an estimated population of 138,535 people.",
+      "kv_full_response": "The City of Salisbury, which encompasses Para Hills West, has an estimated population of 138,535 people."
+    }
+  ],
+  "decoder_tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+  "packet_table": [
+    {
+      "phase": "main",
+      "question_id": "5add1d575542992c1e3a2540",
+      "method": "token_full",
+      "payload_bytes": 1359,
+      "payload_content_bytes": 612,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 612,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "2728cc6b969f650c99ce403362124622c7c1a3d8200da9cd62292a810223a624",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5add1d575542992c1e3a2540",
+      "method": "kv_full",
+      "payload_bytes": 8783071,
+      "payload_content_bytes": 8774244,
+      "payload_header_bytes": 8827,
+      "token_content_bytes": 612,
+      "kv_tensor_content_bytes": 8773632,
+      "packet_sha256": "793a21cd9e854bc04e9a78ffe71258612018c8fffca1940070dbdc7f3816bf49",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac55ea55542993e66e82377",
+      "method": "token_full",
+      "payload_bytes": 1291,
+      "payload_content_bytes": 544,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 544,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "8abd730938cf7cd330a7f48cb95ed361280679d4e5432c09e8feb9ea765d7657",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac55ea55542993e66e82377",
+      "method": "kv_full",
+      "payload_bytes": 7808154,
+      "payload_content_bytes": 7799328,
+      "payload_header_bytes": 8826,
+      "token_content_bytes": 544,
+      "kv_tensor_content_bytes": 7798784,
+      "packet_sha256": "e3614be449a3742b0aebb9d7afd6a217bc99812764e9fd2677f9c61a8424919a",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac3a76e554299741d48a2be",
+      "method": "token_full",
+      "payload_bytes": 1447,
+      "payload_content_bytes": 700,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 700,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "5711a9850dfac504fe06e15077fffa35340ca907290f67eda2ff2d35d6591507",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac3a76e554299741d48a2be",
+      "method": "kv_full",
+      "payload_bytes": 10044729,
+      "payload_content_bytes": 10035900,
+      "payload_header_bytes": 8829,
+      "token_content_bytes": 700,
+      "kv_tensor_content_bytes": 10035200,
+      "packet_sha256": "996b64ace41b2569efa936510e97a60e268fcf545c5a23740096fb4075b02bd5",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7133565542994082a3e65c",
+      "method": "token_full",
+      "payload_bytes": 1287,
+      "payload_content_bytes": 540,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 540,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "71f5449ca58c31ebb0195deedbe91fcf1fdc36baef2186889fe0c2a473ee7980",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7133565542994082a3e65c",
+      "method": "kv_full",
+      "payload_bytes": 7750806,
+      "payload_content_bytes": 7741980,
+      "payload_header_bytes": 8826,
+      "token_content_bytes": 540,
+      "kv_tensor_content_bytes": 7741440,
+      "packet_sha256": "126e8a11278dc5d183ea0bf829a0487b1cbb987f684baad9797b8696b619a7e8",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac1a4745542991316484b82",
+      "method": "token_full",
+      "payload_bytes": 1215,
+      "payload_content_bytes": 468,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 468,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "4888d0692713f4dbd1ef72c51d4e1193f048120cdf9a65e622cbd78dbb7b601d",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac1a4745542991316484b82",
+      "method": "kv_full",
+      "payload_bytes": 6718541,
+      "payload_content_bytes": 6709716,
+      "payload_header_bytes": 8825,
+      "token_content_bytes": 468,
+      "kv_tensor_content_bytes": 6709248,
+      "packet_sha256": "9add69e8638e474a4c03071a677d1a6383733b8c6f143746dabd37ea046c176d",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5adc597d55429947ff17392f",
+      "method": "token_full",
+      "payload_bytes": 1287,
+      "payload_content_bytes": 540,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 540,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "7dc2005b98036c2e7e75dc89727f811568da06d92ac4eba170076e375eeddaf7",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5adc597d55429947ff17392f",
+      "method": "kv_full",
+      "payload_bytes": 7750806,
+      "payload_content_bytes": 7741980,
+      "payload_header_bytes": 8826,
+      "token_content_bytes": 540,
+      "kv_tensor_content_bytes": 7741440,
+      "packet_sha256": "fb5d6ac605ab3724bfce8c43ddd1828776ad3664850307e0d9d8a6d5f8c521c7",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac55e835542993e66e82375",
+      "method": "token_full",
+      "payload_bytes": 1427,
+      "payload_content_bytes": 680,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 680,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "94dece66e1b5a2194dfb95ba1b5b4962b828ca65c10cd95449a1cf10bf8fc806",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac55e835542993e66e82375",
+      "method": "kv_full",
+      "payload_bytes": 9757988,
+      "payload_content_bytes": 9749160,
+      "payload_header_bytes": 8828,
+      "token_content_bytes": 680,
+      "kv_tensor_content_bytes": 9748480,
+      "packet_sha256": "70274c4687aeb3e6e584a69413de48789a4d9a4a51aea6a569a60ec10b47cf54",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "method": "token_full",
+      "payload_bytes": 1527,
+      "payload_content_bytes": 780,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 780,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "72df6133dbe6bd4acf43d95bc5617c72e6aa1a5b241979cfffb65de1dc7850c5",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "method": "kv_full",
+      "payload_bytes": 11191694,
+      "payload_content_bytes": 11182860,
+      "payload_header_bytes": 8834,
+      "token_content_bytes": 780,
+      "kv_tensor_content_bytes": 11182080,
+      "packet_sha256": "9a85f21f5c20653019192fe71d9aa6d9a679877abde3427abbbcb2062637f02a",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae70ed7554299572ea546a1",
+      "method": "token_full",
+      "payload_bytes": 1391,
+      "payload_content_bytes": 644,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 644,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "2cb4956d7229a6dc8dfc812a2c3ddd35ff0f464eb6989fff1b032bf419f7a1a0",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae70ed7554299572ea546a1",
+      "method": "kv_full",
+      "payload_bytes": 9241855,
+      "payload_content_bytes": 9233028,
+      "payload_header_bytes": 8827,
+      "token_content_bytes": 644,
+      "kv_tensor_content_bytes": 9232384,
+      "packet_sha256": "57f1c6ca4fc4f7f36333add15fb4acfa7cb90bb8f4502290b0f28d5c44ba33da",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a74a8fa55429929fddd8497",
+      "method": "token_full",
+      "payload_bytes": 1423,
+      "payload_content_bytes": 676,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 676,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "2234ea8bd9c322e902c45f482874eb849c9a0dcd8f7eccba67d79dc02df2251a",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a74a8fa55429929fddd8497",
+      "method": "kv_full",
+      "payload_bytes": 9700640,
+      "payload_content_bytes": 9691812,
+      "payload_header_bytes": 8828,
+      "token_content_bytes": 676,
+      "kv_tensor_content_bytes": 9691136,
+      "packet_sha256": "fdb24d6e70a969bdddba5e4f172bd034ff5ebaedfe7eb67b82d14f668f1eecb4",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7cb94f554299683c1c6353",
+      "method": "token_full",
+      "payload_bytes": 1255,
+      "payload_content_bytes": 508,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 508,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "2fefab1fc2dc8672828cd5ba00dd57314b57802daaea03ec3292987e5d4f38a9",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7cb94f554299683c1c6353",
+      "method": "kv_full",
+      "payload_bytes": 7292022,
+      "payload_content_bytes": 7283196,
+      "payload_header_bytes": 8826,
+      "token_content_bytes": 508,
+      "kv_tensor_content_bytes": 7282688,
+      "packet_sha256": "b9de601abf349e68698aca7c51f8c3e637911bdc5f2aada24a27b30c0cc2fa67",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ab874ba5542990e739ec904",
+      "method": "token_full",
+      "payload_bytes": 1231,
+      "payload_content_bytes": 484,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 484,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "4f4fe6fb2555b24e3f5a0bbe953af8ca81982ddc6bf61b2e8728bf1dd981b4c3",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ab874ba5542990e739ec904",
+      "method": "kv_full",
+      "payload_bytes": 6947933,
+      "payload_content_bytes": 6939108,
+      "payload_header_bytes": 8825,
+      "token_content_bytes": 484,
+      "kv_tensor_content_bytes": 6938624,
+      "packet_sha256": "14b8c598a9c9389be5f71ccd8e81bb5a2e5f3e1793ee30199e88ba6b1fa062da",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae3a8985542992f92d82329",
+      "method": "token_full",
+      "payload_bytes": 1343,
+      "payload_content_bytes": 596,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 596,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "cd7ed9c05c86823b4c84b30cb1509b6fb76f14b7754c5262df99ee94659826e4",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae3a8985542992f92d82329",
+      "method": "kv_full",
+      "payload_bytes": 8553679,
+      "payload_content_bytes": 8544852,
+      "payload_header_bytes": 8827,
+      "token_content_bytes": 596,
+      "kv_tensor_content_bytes": 8544256,
+      "packet_sha256": "f93420975f2476074109b53be44a814ee68a494620ee8d77b5b2db03335e504e",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac39f7b554299218029dbe7",
+      "method": "token_full",
+      "payload_bytes": 1507,
+      "payload_content_bytes": 760,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 760,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "10760e7a6e2f4ea7858669fa2a27ab83fcba8c25b1d9da73bed5c97e1d534c74",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac39f7b554299218029dbe7",
+      "method": "kv_full",
+      "payload_bytes": 10904953,
+      "payload_content_bytes": 10896120,
+      "payload_header_bytes": 8833,
+      "token_content_bytes": 760,
+      "kv_tensor_content_bytes": 10895360,
+      "packet_sha256": "f2af4a1fdcaf7c17bf9c6aa1a13cf05fb9a794d2fdbd9eef22b7efb0b37fa46d",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae27b535542996483e649b6",
+      "method": "token_full",
+      "payload_bytes": 1335,
+      "payload_content_bytes": 588,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 588,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "d385694feb64713435e3c38a31d01a71ff1aba13b7eb4b0d34852d1a561960a2",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae27b535542996483e649b6",
+      "method": "kv_full",
+      "payload_bytes": 8438983,
+      "payload_content_bytes": 8430156,
+      "payload_header_bytes": 8827,
+      "token_content_bytes": 588,
+      "kv_tensor_content_bytes": 8429568,
+      "packet_sha256": "87bb2f91b63e78d48491e7231a5012b1cede17c7b88a4b4bec4502b00989e738",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "method": "token_full",
+      "payload_bytes": 1343,
+      "payload_content_bytes": 596,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 596,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "944f9d504578e044421b8b5b8fcacaddd1289164617648035ae6f87e6dd624a0",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "method": "kv_full",
+      "payload_bytes": 8553679,
+      "payload_content_bytes": 8544852,
+      "payload_header_bytes": 8827,
+      "token_content_bytes": 596,
+      "kv_tensor_content_bytes": 8544256,
+      "packet_sha256": "e3dad384071fb2aa1765621e5ff769351332535143af9236db27afc8edb53e41",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac15de55542991316484afb",
+      "method": "token_full",
+      "payload_bytes": 1247,
+      "payload_content_bytes": 500,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 500,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "7ee8849ed5f0722cddf9056235f9b123d6c801ce37f88f3838706b6a70aad915",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ac15de55542991316484afb",
+      "method": "kv_full",
+      "payload_bytes": 7177326,
+      "payload_content_bytes": 7168500,
+      "payload_header_bytes": 8826,
+      "token_content_bytes": 500,
+      "kv_tensor_content_bytes": 7168000,
+      "packet_sha256": "a8804c59bd6db6e25228aa8d27336db2fd284983ac7ee57b57672e6ed8a04b61",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "method": "token_full",
+      "payload_bytes": 1219,
+      "payload_content_bytes": 472,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 472,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "bd8674f087f572a05a2c743c8b07f2799a8148b0cd576de4d4b0dbe0d0d99b35",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "method": "kv_full",
+      "payload_bytes": 6775889,
+      "payload_content_bytes": 6767064,
+      "payload_header_bytes": 8825,
+      "token_content_bytes": 472,
+      "kv_tensor_content_bytes": 6766592,
+      "packet_sha256": "6137c0f57f1d32bb828ceba71be4478ae3c0fd4c8ed9b9b7c2074882d82af7e6",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae6363b55429929b0807af0",
+      "method": "token_full",
+      "payload_bytes": 1275,
+      "payload_content_bytes": 528,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 528,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "39faba575229f2f88ca391615e20d0db165eb598a98b3eab0d29b6cded391af7",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5ae6363b55429929b0807af0",
+      "method": "kv_full",
+      "payload_bytes": 7578762,
+      "payload_content_bytes": 7569936,
+      "payload_header_bytes": 8826,
+      "token_content_bytes": 528,
+      "kv_tensor_content_bytes": 7569408,
+      "packet_sha256": "6d917e5fd714491f99c7ae927d7642cb32ce2ddad618f564c08db4b33592b56d",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a8cea40554299441c6b9f76",
+      "method": "token_full",
+      "payload_bytes": 1283,
+      "payload_content_bytes": 536,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 536,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "58bd90007e8e5414d39a63fa836f8a1ff27e9ffb9b14ab224e40ff3eb0b5fe34",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "main",
+      "question_id": "5a8cea40554299441c6b9f76",
+      "method": "kv_full",
+      "payload_bytes": 7693458,
+      "payload_content_bytes": 7684632,
+      "payload_header_bytes": 8826,
+      "token_content_bytes": 536,
+      "kv_tensor_content_bytes": 7684096,
+      "packet_sha256": "9fb6aa73def8c26ae62924f25aba220205883fa5e3b69d5f619c7b1d0347e66c",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "warmup",
+      "question_id": "5add1d575542992c1e3a2540",
+      "method": "token_full",
+      "payload_bytes": 1359,
+      "payload_content_bytes": 612,
+      "payload_header_bytes": 747,
+      "token_content_bytes": 612,
+      "kv_tensor_content_bytes": 0,
+      "packet_sha256": "2728cc6b969f650c99ce403362124622c7c1a3d8200da9cd62292a810223a624",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    },
+    {
+      "phase": "warmup",
+      "question_id": "5add1d575542992c1e3a2540",
+      "method": "kv_full",
+      "payload_bytes": 8783071,
+      "payload_content_bytes": 8774244,
+      "payload_header_bytes": 8827,
+      "token_content_bytes": 612,
+      "kv_tensor_content_bytes": 8773632,
+      "packet_sha256": "793a21cd9e854bc04e9a78ffe71258612018c8fffca1940070dbdc7f3816bf49",
+      "encoding": "owned-prefix-wire-v1",
+      "position_base": 0,
+      "network_transfer_measured": false
+    }
+  ],
+  "diagnostic_metrics_not_benchmark": [
+    {
+      "condition": "full",
+      "method": "kv_full",
+      "n": 20,
+      "em_count": 0,
+      "token_f1_mean": 0.23567267642267642,
+      "gold_surface_containment_count_not_semantic_accuracy": 18
+    },
+    {
+      "condition": "full",
+      "method": "no_msg",
+      "n": 20,
+      "em_count": 6,
+      "token_f1_mean": 0.5620303691580287,
+      "gold_surface_containment_count_not_semantic_accuracy": 17
+    },
+    {
+      "condition": "full",
+      "method": "token_full",
+      "n": 20,
+      "em_count": 0,
+      "token_f1_mean": 0.2503696461196461,
+      "gold_surface_containment_count_not_semantic_accuracy": 18
+    },
+    {
+      "condition": "full_other_document_control",
+      "method": "kv_full",
+      "n": 20,
+      "em_count": 0,
+      "token_f1_mean": 0.24737999524764231,
+      "gold_surface_containment_count_not_semantic_accuracy": 18
+    },
+    {
+      "condition": "full_other_document_control",
+      "method": "no_msg",
+      "n": 20,
+      "em_count": 6,
+      "token_f1_mean": 0.4344560994560995,
+      "gold_surface_containment_count_not_semantic_accuracy": 13
+    },
+    {
+      "condition": "full_other_document_control",
+      "method": "token_full",
+      "n": 20,
+      "em_count": 0,
+      "token_f1_mean": 0.24737999524764231,
+      "gold_surface_containment_count_not_semantic_accuracy": 18
+    },
+    {
+      "condition": "missing",
+      "method": "kv_full",
+      "n": 20,
+      "em_count": 0,
+      "token_f1_mean": 0.22918665650863793,
+      "gold_surface_containment_count_not_semantic_accuracy": 17
+    },
+    {
+      "condition": "missing",
+      "method": "no_msg",
+      "n": 20,
+      "em_count": 6,
+      "token_f1_mean": 0.43697872020452666,
+      "gold_surface_containment_count_not_semantic_accuracy": 13
+    },
+    {
+      "condition": "missing",
+      "method": "token_full",
+      "n": 20,
+      "em_count": 0,
+      "token_f1_mean": 0.23164697396895542,
+      "gold_surface_containment_count_not_semantic_accuracy": 17
+    },
+    {
+      "condition": "partial",
+      "method": "kv_full",
+      "n": 6,
+      "em_count": 0,
+      "token_f1_mean": 0.22403707403707404,
+      "gold_surface_containment_count_not_semantic_accuracy": 6
+    },
+    {
+      "condition": "partial",
+      "method": "no_msg",
+      "n": 6,
+      "em_count": 1,
+      "token_f1_mean": 0.5314814814814816,
+      "gold_surface_containment_count_not_semantic_accuracy": 5
+    },
+    {
+      "condition": "partial",
+      "method": "token_full",
+      "n": 6,
+      "em_count": 0,
+      "token_f1_mean": 0.22403707403707404,
+      "gold_surface_containment_count_not_semantic_accuracy": 6
+    },
+    {
+      "condition": "partial_other_document_control",
+      "method": "kv_full",
+      "n": 6,
+      "em_count": 0,
+      "token_f1_mean": 0.23543308543308542,
+      "gold_surface_containment_count_not_semantic_accuracy": 6
+    },
+    {
+      "condition": "partial_other_document_control",
+      "method": "no_msg",
+      "n": 6,
+      "em_count": 1,
+      "token_f1_mean": 0.3703703703703704,
+      "gold_surface_containment_count_not_semantic_accuracy": 4
+    },
+    {
+      "condition": "partial_other_document_control",
+      "method": "token_full",
+      "n": 6,
+      "em_count": 0,
+      "token_f1_mean": 0.23543308543308542,
+      "gold_surface_containment_count_not_semantic_accuracy": 6
+    }
+  ],
+  "full_condition_actual_outputs": [
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "method": "token_full",
+      "response": "The band's lead singer of \"November Rain\" is Axl Rose.",
+      "gold": "Axl Rose"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "method": "no_msg",
+      "response": "The band's lead singer is Axl Rose.",
+      "gold": "Axl Rose"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "method": "kv_full",
+      "response": "The band's lead singer of \"November Rain\" is Axl Rose.",
+      "gold": "Axl Rose"
+    },
+    {
+      "question_id": "5a7cb94f554299683c1c6353",
+      "method": "no_msg",
+      "response": "The Hungry Hustlerz",
+      "gold": "The Hungry"
+    },
+    {
+      "question_id": "5a7cb94f554299683c1c6353",
+      "method": "token_full",
+      "response": "The first two words of the fifth studio album of Joseph Edgar Foreman are \"The Hungry.\"",
+      "gold": "The Hungry"
+    },
+    {
+      "question_id": "5a7cb94f554299683c1c6353",
+      "method": "kv_full",
+      "response": "The first two words of the fifth studio album of Joseph Edgar Foreman are \"The Hungry.\"",
+      "gold": "The Hungry"
+    },
+    {
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "method": "token_full",
+      "response": "Sunil Grover, who played Gutthi on Comedy Nights with Kapil Show, also starred in Vaisakhi List, a 2016 Punjabi film directed by Smeep Kang.",
+      "gold": "Vaisakhi List"
+    },
+    {
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "method": "kv_full",
+      "response": "Sunil Grover, who played Gutthi on Comedy Nights with Kapil Show, also starred in Vaisakhi List, a 2016 Punjabi film directed by Smeep Kang.",
+      "gold": "Vaisakhi List"
+    },
+    {
+      "question_id": "5a8d9e0f554299441c6ba015",
+      "method": "no_msg",
+      "response": "The actor that played Gutthi on Comedy nights with Kapil Show also starred in the 2016 Punjabi film Vaisakhi List.",
+      "gold": "Vaisakhi List"
+    },
+    {
+      "question_id": "5a8cea40554299441c6b9f76",
+      "method": "no_msg",
+      "response": "Gasherbrum II is taller than Langtang Ri. Gasherbrum II stands at 8035 m, while Langtang Ri is 7205 m above sea level.",
+      "gold": "Gasherbrum II"
+    },
+    {
+      "question_id": "5a8cea40554299441c6b9f76",
+      "method": "token_full",
+      "response": "Gasherbrum II is taller than Langtang Ri. Gasherbrum II is 8035 m above sea level, while Langtang Ri is 7205 m above sea level.",
+      "gold": "Gasherbrum II"
+    },
+    {
+      "question_id": "5a8cea40554299441c6b9f76",
+      "method": "kv_full",
+      "response": "Gasherbrum II is taller than Langtang Ri. Gasherbrum II is 8035 m above sea level, while Langtang Ri is 7205 m above sea level.",
+      "gold": "Gasherbrum II"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "method": "token_full",
+      "response": "Oliver Reed's character in the film Royal Flash was Otto von Bismarck, who was Prussian (German).",
+      "gold": "Prussian"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "method": "kv_full",
+      "response": "Oliver Reed's character in the film Royal Flash was Otto von Bismarck, who was Prussian (German).",
+      "gold": "Prussian"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "method": "no_msg",
+      "response": "German",
+      "gold": "Prussian"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "method": "token_full",
+      "response": "U2 released \"With or Without You\" first, on 16 March 1987.",
+      "gold": "U2"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "method": "kv_full",
+      "response": "U2 released \"With or Without You\" first, on 16 March 1987.",
+      "gold": "U2"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "method": "no_msg",
+      "response": "U2 released the song \"With or Without You\" first.",
+      "gold": "U2"
+    },
+    {
+      "question_id": "5ac1a4745542991316484b82",
+      "method": "kv_full",
+      "response": "The city containing Para Hills West, South Australia has an estimated population of 138,535 people.",
+      "gold": "138,535"
+    },
+    {
+      "question_id": "5ac1a4745542991316484b82",
+      "method": "no_msg",
+      "response": "138,535 people",
+      "gold": "138,535"
+    },
+    {
+      "question_id": "5ac1a4745542991316484b82",
+      "method": "token_full",
+      "response": "The city containing Para Hills West, South Australia has an estimated population of 138,535 people.",
+      "gold": "138,535"
+    },
+    {
+      "question_id": "5ac15de55542991316484afb",
+      "method": "no_msg",
+      "response": "No, the films Crazy Love and Welcome to Nollywood were not both released in 2008. Crazy Love was released in 2007, and Welcome to Nollywood was also released in 2007.",
+      "gold": "no"
+    },
+    {
+      "question_id": "5ac15de55542991316484afb",
+      "method": "kv_full",
+      "response": "No, neither Crazy Love nor Welcome to Nollywood were released in 2008. Both films were released in 2007.",
+      "gold": "no"
+    },
+    {
+      "question_id": "5ac15de55542991316484afb",
+      "method": "token_full",
+      "response": "No, neither Crazy Love nor Welcome to Nollywood were released in 2008. Both films were released in 2007.",
+      "gold": "no"
+    },
+    {
+      "question_id": "5ab874ba5542990e739ec904",
+      "method": "no_msg",
+      "response": "The Twelfth United States Army Group commander, Omar Bradley, was the first chairman of the Joint Chiefs of Staff.",
+      "gold": "Joint Chiefs of Staff"
+    },
+    {
+      "question_id": "5ab874ba5542990e739ec904",
+      "method": "token_full",
+      "response": "The Twelfth United States Army Group commander, General Omar Bradley, was the first chairman of the Joint Chiefs of Staff.",
+      "gold": "Joint Chiefs of Staff"
+    },
+    {
+      "question_id": "5ab874ba5542990e739ec904",
+      "method": "kv_full",
+      "response": "The Twelfth United States Army Group commander, General Omar Bradley, was the first chairman of the Joint Chiefs of Staff.",
+      "gold": "Joint Chiefs of Staff"
+    },
+    {
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "method": "token_full",
+      "response": "The Tenerife airport disaster occurred first, on March 27, 1977.",
+      "gold": "On March 27, 1977, two Boeing 747 passenger jets, KLM Flight 4805 and Pan Am Flight 1736, collided on the runway at Los Rodeos Airport (now Tenerife North Airport)"
+    },
+    {
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "method": "no_msg",
+      "response": "The Tenerife airport disaster occurred first, on March 27, 1977, while the Charkhi Dadri mid-air collision happened on November 12, 1996.",
+      "gold": "On March 27, 1977, two Boeing 747 passenger jets, KLM Flight 4805 and Pan Am Flight 1736, collided on the runway at Los Rodeos Airport (now Tenerife North Airport)"
+    },
+    {
+      "question_id": "5a7331de5542994cef4bc4a8",
+      "method": "kv_full",
+      "response": "The Tenerife airport disaster occurred first, on March 27, 1977.",
+      "gold": "On March 27, 1977, two Boeing 747 passenger jets, KLM Flight 4805 and Pan Am Flight 1736, collided on the runway at Los Rodeos Airport (now Tenerife North Airport)"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "method": "token_full",
+      "response": "Oldham County, Kentucky features the Lake Louisvilla neighborhood and has a population of 60,316.",
+      "gold": "Oldham County"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "method": "kv_full",
+      "response": "Oldham County, Kentucky features the Lake Louisvilla neighborhood and has a population of 60,316.",
+      "gold": "Oldham County"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "method": "no_msg",
+      "response": "Oldham County, Kentucky",
+      "gold": "Oldham County"
+    },
+    {
+      "question_id": "5ac55e835542993e66e82375",
+      "method": "token_full",
+      "response": "The gunfight at the O.K. Corral occurred on October 25, 1881.",
+      "gold": "October 25, 1881"
+    },
+    {
+      "question_id": "5ac55e835542993e66e82375",
+      "method": "kv_full",
+      "response": "The gunfight at the O.K. Corral occurred on October 25, 1881.",
+      "gold": "October 25, 1881"
+    },
+    {
+      "question_id": "5ac55e835542993e66e82375",
+      "method": "no_msg",
+      "response": "The gunfight at the O.K. Corral occurred on October 25, 1881.",
+      "gold": "October 25, 1881"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "method": "token_full",
+      "response": "Twisted Fortune starred Charlie Murphy, who is the brother of Eddie Murphy.",
+      "gold": "Charlie Murphy"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "method": "no_msg",
+      "response": "Charlie Murphy",
+      "gold": "Charlie Murphy"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "method": "kv_full",
+      "response": "Twisted Fortune starred Charlie Murphy, who is the brother of Eddie Murphy.",
+      "gold": "Charlie Murphy"
+    },
+    {
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "method": "no_msg",
+      "response": "Nassau County",
+      "gold": "Nassau County"
+    },
+    {
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "method": "kv_full",
+      "response": "Duffy Jackson was born in Freeport, New York, which is in Nassau County.",
+      "gold": "Nassau County"
+    },
+    {
+      "question_id": "5a7c6c9d554299683c1c6302",
+      "method": "token_full",
+      "response": "Duffy Jackson was born in Freeport, New York, which is in Nassau County.",
+      "gold": "Nassau County"
+    },
+    {
+      "question_id": "5ae3a8985542992f92d82329",
+      "method": "kv_full",
+      "response": "Politician Lyman Sherwood was born in Rensselaer County, New York.",
+      "gold": "Rensselaer County"
+    },
+    {
+      "question_id": "5ae3a8985542992f92d82329",
+      "method": "no_msg",
+      "response": "Rensselaer County",
+      "gold": "Rensselaer County"
+    },
+    {
+      "question_id": "5ae3a8985542992f92d82329",
+      "method": "token_full",
+      "response": "Politician Lyman Sherwood was born in Rensselaer County.",
+      "gold": "Rensselaer County"
+    },
+    {
+      "question_id": "5ae6363b55429929b0807af0",
+      "method": "kv_full",
+      "response": "Ole Einar Bjørndalen, the defending titlist of the 2009–10 Biathlon World Cup – Pursuit Men, was born on 27 January 1974.",
+      "gold": "27 January 1974"
+    },
+    {
+      "question_id": "5ae6363b55429929b0807af0",
+      "method": "no_msg",
+      "response": "27 January 1974",
+      "gold": "27 January 1974"
+    },
+    {
+      "question_id": "5ae6363b55429929b0807af0",
+      "method": "token_full",
+      "response": "Ole Einar Bjørndalen was born on 27 January 1974.",
+      "gold": "27 January 1974"
+    },
+    {
+      "question_id": "5ac39f7b554299218029dbe7",
+      "method": "no_msg",
+      "response": "Harry F. Sinclair",
+      "gold": "Harry F. Sinclair"
+    },
+    {
+      "question_id": "5ac39f7b554299218029dbe7",
+      "method": "token_full",
+      "response": "Robert Earl Holding owned Sinclair Oil Corporation, which was originally founded by Harry F. Sinclair.",
+      "gold": "Harry F. Sinclair"
+    },
+    {
+      "question_id": "5ac39f7b554299218029dbe7",
+      "method": "kv_full",
+      "response": "Robert Earl Holding owned Sinclair Oil Corporation, which was originally founded by Harry F. Sinclair.",
+      "gold": "Harry F. Sinclair"
+    },
+    {
+      "question_id": "5ac55ea55542993e66e82377",
+      "method": "token_full",
+      "response": "Pacific Mozart Ensemble performed Kurt Weill's Der Lindberghflug in 2002.",
+      "gold": "Kurt Julian Weill"
+    },
+    {
+      "question_id": "5ac55ea55542993e66e82377",
+      "method": "no_msg",
+      "response": "Pacific Mozart Ensemble performed Kurt Weill's Der Lindberghflug in 2002.",
+      "gold": "Kurt Julian Weill"
+    },
+    {
+      "question_id": "5ac55ea55542993e66e82377",
+      "method": "kv_full",
+      "response": "Pacific Mozart Ensemble performed Kurt Weill's Der Lindberghflug in 2002.",
+      "gold": "Kurt Julian Weill"
+    },
+    {
+      "question_id": "5adc597d55429947ff17392f",
+      "method": "token_full",
+      "response": "The narrator of \"Blackadder's Christmas Carol\" was born in 1959.",
+      "gold": "1959"
+    },
+    {
+      "question_id": "5adc597d55429947ff17392f",
+      "method": "no_msg",
+      "response": "1959",
+      "gold": "1959"
+    },
+    {
+      "question_id": "5adc597d55429947ff17392f",
+      "method": "kv_full",
+      "response": "The narrator of \"Blackadder's Christmas Carol\" was born in 1959.",
+      "gold": "1959"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "method": "kv_full",
+      "response": "Bill Dudman was Industrial Chaplain to the Bishop of Lincoln after his curacy at Frodingham, which is a suburb of Scunthorpe.",
+      "gold": "Dudman"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "method": "no_msg",
+      "response": "Bill Dudman",
+      "gold": "Dudman"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "method": "token_full",
+      "response": "Bill Dudman was Industrial Chaplain to the Bishop of Lincoln after his curacy at Frodingham, which is a suburb of Scunthorpe.",
+      "gold": "Dudman"
+    }
+  ],
+  "limits": [
+    "No model replay, SSH, network measurement, or old-run audit was performed.",
+    "Source-cache immutability relies on the frozen runner's successful live hash assertions.",
+    "Recorded input identities are bound by frozen IDs and runner assertions; hidden live tensors were not replayed.",
+    "Strict EM, token F1 and gold surface containment are diagnostic metrics; containment is not semantic correctness.",
+    "No semantic-message-value conclusion is made; complete-prefix answer formatting must be checked first."
+  ]
+}
