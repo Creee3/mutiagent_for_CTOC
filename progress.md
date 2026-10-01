@@ -1,5 +1,9 @@
 # 进度
 
+2026-10-02（10月1日晚工作收尾）：用户授权跳出只沿本地论文延伸的局限，完成本地全文方法段、官方代码和外部新近工作的重叠审查。发现CacheBack、XKV、LatCom均直接接近，修正宽泛新颖性表述；KVComm已有receiver query选层、C2C也使用双方cache。短讨论稿和证据附件已写，独立只读审查通过。候选实验收窄到同题、固定sender状态、不同receiver显式持有证据，包含强文本、信息互补/纠错及全成本；尚未冻结新GPU条件、未启动模型。RelayCaching和另一篇FastMAS/KVCOMM仅作为官方接入载体候选核查，未适配。
+
+本轮模型调用0；原100/500题和旧源代码均未改。三篇最近邻arXiv身份已当次人工对照，自动在线核验需真实CONTACT_EMAIL，已问用户但不阻塞讨论；本地静态解析机器原文：PASS: 0/3 verified, 0 errors, 0 warnings (0 checks skipped)。offline，三条PARSED_ONLY，不宣称正式引文门禁通过。研究问题卡、next_steps和任务计划已同步新结论。automation-2已更新到本文献与条件准备阶段，并回读核对每小时/当前对话/ACTIVE及500题边界；快照见checks/receiver_increment_automation_snapshot.json。学校当前未查到本任务运行器进程。本轮文档链接/目录清单和来源指纹见checks/receiver_increment_review_audit.json；Git与学校备份以实际HEAD和exports的备份收据为准。
+
 2026-10-01，用户同意先讨论原版公开问答的文本/KV收益对照，询问想法。应用research-ideation的研究问题与支持/否定条件规划，沿用planning-with-files记录。
 
 核对全文模型对、官方sender prefill/NLD/选层/评分源码和旧两题检查；只读查询服务器模型目录与GPU资源。发现所查位置未有Qwen7B，已有3B只能用于接口检查。未下载模型、安装依赖、加载真实模型或启动GPU。

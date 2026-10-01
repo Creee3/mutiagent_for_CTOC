@@ -35,3 +35,10 @@
 - 小人工缓存的实际编码净成本相反：BF16三边full5093 B、delta5620 B；text2258 B、2534 B。引用开销超过省下内容，不能只看payload减小宣布压缩成功。
 - G-Designer原版node.py113–125仅取前驱当前最后输出，analyze_agent.py37–42加入各节点输出。B不会自动携带A完整历史；严格相同祖先KV重复属于本完整历史适配的开销。自然三角/跨轮次提供持有机会，但不同生成事件的相同文字不等于同源KV。后续语义增量对照必须保留原版消息文本基线。
 - 最新automation-2按用户要求每小时ACTIVE，可随实际进度更新提示并回读；主问题、学校conda、GPU说明与500题授权约束保持。今天完整记录与1548次generate账目另存，题数/调用数明确分开。
+
+- 2026-10-01开始、10月2日收尾的全文/代码与外部近邻复查：KVComm读取B query并已有在线重选层；C2C、LCF-X包含receiver cache融合，不能说这些工作完全不考虑接收方。
+- XKV已做双cache联合记忆及receiver逐位置残差，CacheBack（9月25日）已有接收请求条件位置选择，LatCom（9月29日）已有多sender latent联合压缩。“receiver-aware”与“跨agent latent去冗余”不能单独立作创新；9月17日的空白判断需要更新。
+- CacheBack实际实验选择连续input rows，再fresh prefill；不是直接删原始KV再拼接。源文本位置可传token IDs，latent步骤没有IDs。`message.nbytes`只计tensor，不能当含包头wire成本。
+- 候选问题仅收窄为同题/同sender状态/不同receiver显式可见证据的边际通信价值，含互补与纠错和全成本。尚未证明研究空白或可保质量压缩；只把known facts加入请求先视为扩展基线。
+- RelayCaching官方代码在新前文下局部修复输出KV，另一篇FastMAS/KVCOMM用anchor偏移校正。二者是合法接入的候选载体，未适配当前工程，不是语义已知去重算法；与本工程Zephyroam/KVComm身份严格区分。
+- 本轮只读文献/代码与写稿，0模型调用。短讨论稿及全文证据附件已写，独立审查通过。三篇最接近参考的静态检查机器原文：PASS: 0/3 verified, 0 errors, 0 warnings (0 checks skipped)。offline，仅PARSED_ONLY；自动在线核验待真实CONTACT_EMAIL，不称引文已验证。

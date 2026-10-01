@@ -1,0 +1,14 @@
+{
+  "id": "automation-2",
+  "status": "ACTIVE",
+  "hourly": true,
+  "target_thread_id": "01a0e1f4-7336-73b3-b761-326c5ebd53a6",
+  "prompt_sha256": "0f50d379d95d6a794cd3b73189f53e7b00e69b96e705046d4e0fd2368fab6a3e",
+  "has_cacheback": true,
+  "has_xkv": true,
+  "has_latcom": true,
+  "has_relaycaching": true,
+  "requires_preparation_before_gpu": true,
+  "requires_explicit_authorization_500": true,
+  "updated_at": 1790879209145
+}

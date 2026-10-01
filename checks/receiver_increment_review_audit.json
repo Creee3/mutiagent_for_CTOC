@@ -1,0 +1,558 @@
+{
+  "checked_at_utc": "2026-10-01T18:32:30.168716+00:00",
+  "scope": "local file inventory and document-link checks, no model inference",
+  "inventory_pdf_count": 46,
+  "inventory_is_not_full_read_count": true,
+  "inventory_roots": [
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09"
+  ],
+  "inventory_files": [
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\followup\\sources\\agentask.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\cama_BeyondMemoryMajority_CAMA.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\latent_cache_flow_LatentCacheFlow.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\latent_channels_DoLatentChannels.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\latent_comm_pay_WhenDoesLatentCommunicationPay.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\lcguard_LCGuard.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\less_latent_WhenLessLatent.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\qkvcomm_QKVComm.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\see_what_SeeWhatIKnow.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\literature_review_20260917\\papers\\xkv_DualCache_XKV.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\01_通信拓扑\\ICLR2025_AgentPrune_CutTheCrap_Zhang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\01_通信拓扑\\ICLR2025_ExponentialTopology_Li_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\01_通信拓扑\\ICML2024_GPTSwarm_Zhuge_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\01_通信拓扑\\ICML2025_G-Designer_Zhang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\01_通信拓扑\\NeurIPS2025_AgentNet_Yang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\02_传递内容\\NeurIPS2024_SemanticsSpatiality_BenZion_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\02_传递内容\\NeurIPS2024_SpeakingYourLanguage_Lipinski_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\03_LLM多智能体\\ICLR2024-Oral_MetaGPT_Hong_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\03_LLM多智能体\\ICLR2024_AgentVerse_Chen_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\03_LLM多智能体\\ICLR2025_MacNet_Qian_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\03_LLM多智能体\\NeurIPS2023_CAMEL_Li_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\03_LLM多智能体\\NeurIPS2025_Puppeteer_Dang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\04_涌现通信\\ICLR2024_ConversationalRepair_Nikolaus.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\04_涌现通信\\ICLR2025_CtD_Carmeli_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\04_涌现通信\\NeurIPS2023_EmergentCommRulesReasoning_Guo_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\04_涌现通信\\NeurIPS2024_BridgingSemanticsPragmatics_Gualdoni_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\06_AAAI补充_2026\\AAAI2026_AssembleYourCrew_Li_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\06_AAAI补充_2026\\AAAI2026_SafeSieve_Zhang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\07_跨域参考_协同感知\\NeurIPS2023_How2comm_Yang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\08_指定会议补充_消息表示与处理_2024-2026\\ICLR2024_CIPHER_Pham_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\08_指定会议补充_消息表示与处理_2024-2026\\ICLR2026_CacheToCache_Fu_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\08_指定会议补充_消息表示与处理_2024-2026\\ICLR2026_KVComm_SelectiveKVSharing_Shi_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\08_指定会议补充_消息表示与处理_2024-2026\\ICML2025_ActivationCommunication_Ramesh_Li.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\08_指定会议补充_消息表示与处理_2024-2026\\ICML2026_LatentMAS_arXiv2511.20639v4.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\多智能体通信_指定会议论文_2023-2026\\08_指定会议补充_消息表示与处理_2024-2026\\NeurIPS2025_ThoughtCommunication_Zheng_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\00_综述与背景\\2024_LLM_MultiAgent_Survey_Li_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\02_传递内容\\ACL2024_ChatDev_Qian_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\02_传递内容\\EMNLP2023_ExchangeOfThought_Yin_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\03_LLM多智能体\\ACL2025_MegaAgent_Wang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\05_补充_消息路由与传播\\ACL2025_AgentDropout_Wang_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\05_补充_消息路由与传播\\EMNLP2024_SparseCommunicationTopology_Li_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\05_补充_消息路由与传播\\EMNLP2025_InformationPropagation_Shen_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\07_归档_偏应用_协同感知\\ICCV2025_mmCooper_Liu_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\08_补充_消息表示与处理_2026-09-07\\ACL2026_AgentAsk_Lin_et_al.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\08_补充_消息表示与处理_2026-09-07\\Preprint2026_WhatDoAgentsCommunicate_Chun_Ahmed.pdf",
+    "D:\\liuxin_workspace\\ICML2027\\论文归档_其他会议与预印本_2026-09-09\\ICML2025_G-Designer_Zhang_et_al.pdf"
+  ],
+  "checked_local_link_count": 50,
+  "link_checks": [
+    {
+      "document": "接收方信息增量_讨论稿_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_文献证据_20261001.md",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_讨论稿_20261001.md",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/reports/idea_review.md",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/reports/overlap_matrix.md",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/research_ideation_20260930_c2c_kvcomm/kvcomm_fulltext.txt:324",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/coding_base/KVComm-official/models.py:155",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/coding_base/KVComm-official/layer_importance.py:20",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/coding_base/KVComm-official/eval_online.py:153",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/coding_base/C2C-main/rosetta/model/projector.py:967",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/latent_cache_flow_LatentCacheFlow.txt:288",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/papers/xkv_DualCache_XKV.pdf",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/xkv_DualCache_XKV.txt:365",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/多智能体通信_指定会议论文_2023-2026/07_跨域参考_协同感知/NeurIPS2023_How2comm_Yang_et_al.pdf",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/cama_BeyondMemoryMajority_CAMA.txt:70",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/papers/see_what_SeeWhatIKnow.pdf",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/papers/latent_channels_DoLatentChannels.pdf",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/latent_channels_DoLatentChannels.txt:444",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/多智能体通信_指定会议论文_2023-2026/08_指定会议补充_消息表示与处理_2024-2026/NeurIPS2025_ThoughtCommunication_Zheng_et_al.pdf",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/literature_review_20260917/followup/sources/agentask.pdf",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/论文归档_其他会议与预印本_2026-09-09/08_补充_消息表示与处理_2026-09-07/Preprint2026_WhatDoAgentsCommunicate_Chun_Ahmed.pdf",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/receiver_increment_nearby_refs.bib",
+      "exists": true
+    },
+    {
+      "document": "接收方信息增量_文献证据_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/receiver_increment_citation_static.json",
+      "exists": true
+    },
+    {
+      "document": "research-question-card.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_讨论稿_20261001.md",
+      "exists": true
+    },
+    {
+      "document": "next_steps.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_讨论稿_20261001.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/运行条件.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/assets.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/model7b_manifest.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/main7b_20261001_045806/report.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/main7b_20261001_045806/independent_audit.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/prompt_alignment_conditions.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/alignment7b_20261001_054917/summary.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/alignment7b_20261001_054917/audit.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/chain3_20261001_122157/report.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/cachepath_20261001_123341/report.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/freechain_20261001_125456/report.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/receiver_owned_conditions.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/owned_prefix_wire_cpu.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/owned_prefix_accounting.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/coding_base/GDesigner-main/GDesigner/graph/node.py:113",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/coding_base/GDesigner-main/GDesigner/agents/analyze_agent.py:37",
+      "exists": true,
+      "line_in_range": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/daily_20261001_accounting.json",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/run.py",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/free_chain_core.py",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/owned_prefix_wire.py",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/task_plan.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/research-question-card.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/next_steps.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_讨论稿_20261001.md",
+      "exists": true
+    },
+    {
+      "document": "今日工作记录_20261001.md",
+      "target": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_文献证据_20261001.md",
+      "exists": true
+    }
+  ],
+  "invalid_links": [],
+  "source_files": [
+    {
+      "path": "D:/liuxin_workspace/ICML2027/coding_base/C2C-main/rosetta/model/projector.py",
+      "bytes": 50952,
+      "sha256": "d4426933c1d788adb3ca4cc5e8ad75ba504b5b2e7d0e996c22a19866869238f6"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/coding_base/GDesigner-main/GDesigner/agents/analyze_agent.py",
+      "bytes": 3830,
+      "sha256": "1183b049486dff12d93de37fa34856f1d688b1859b4604645cb96863ddd8a45a"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/coding_base/GDesigner-main/GDesigner/graph/node.py",
+      "bytes": 8542,
+      "sha256": "f1386464971d6cc9b58d415fc3f1938380409a80892fb27b56e63abe6ada74fb"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/coding_base/KVComm-official/eval_online.py",
+      "bytes": 8609,
+      "sha256": "c3675060c1b8d58b8d477bbe13620547793be61f37597fb01321f365d9b278f3"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/coding_base/KVComm-official/layer_importance.py",
+      "bytes": 1933,
+      "sha256": "d4535b2b45cae14ca2bc4d97abe8ca3e58743a9671c1b9a15e1aec809275a684"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/coding_base/KVComm-official/models.py",
+      "bytes": 20575,
+      "sha256": "d40a2f4163a3ee1fea2312e96fc928c4c6dd6f8cd77b7dda9fd8b850095518a0"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/assets.json",
+      "bytes": 24863,
+      "sha256": "814a9f5f0c515e0f004c86e2fe7b9f16ceacf192d92a549d8fb94c4b00405a3f"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/chain_core.py",
+      "bytes": 11688,
+      "sha256": "e37ea22b25c7aefaae2768d1ad2abe0d9c48e3d0342b3306c907c5c1adf1edfb"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/daily_20261001_accounting.json",
+      "bytes": 2378,
+      "sha256": "5e91d175d9cb93e29b332ddc91bff2ecefabee5b5acde990fc966c8132113676"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/model7b_manifest.json",
+      "bytes": 2247,
+      "sha256": "0a4e955d60f2debffd7456c75c5f4f29526008adc52044c74982a5a2b79e967a"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/owned_prefix_accounting.json",
+      "bytes": 6283,
+      "sha256": "50398e2c5d178c94e81eae720d43e9f6fe2f647a5c38b660d229cce9ddbd4ae8"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/owned_prefix_wire_cpu.json",
+      "bytes": 16736,
+      "sha256": "05b894ddd5941a4bc06cd3233f192e8b492db273fe6917540c1e1f7c77d94cdc"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/checks/receiver_increment_citation_static.json",
+      "bytes": 1020,
+      "sha256": "623514be6fe6138b31a9c7383884966e2ac27ea11a9f84db13a7289fdb60c827"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/free_chain_core.py",
+      "bytes": 23224,
+      "sha256": "76c23e7350dc079ef43a3a7a12cc01a648b31b1216ecbcdfdf3a3dbfcad81799"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/next_steps.md",
+      "bytes": 4196,
+      "sha256": "b9e8a83acb79160e395504ac469e55e693946ca9202d317dbf3034d7772b6c36"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/owned_prefix_wire.py",
+      "bytes": 33264,
+      "sha256": "6a7b33154973204bdfda8cc723c41492f38e4a0c14ef5c40a09d34a0fa836a52"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/prompt_alignment_conditions.md",
+      "bytes": 2696,
+      "sha256": "5459f4eb691f839830adae249cf540fe63327868cf889e076473b4ad3ce4221d"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/receiver_increment_nearby_refs.bib",
+      "bytes": 1277,
+      "sha256": "4e865f1c2c6eb4c8a325b6979cd82901558c4186e34ce77b93c905fcd1e70553"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/receiver_owned_conditions.md",
+      "bytes": 4564,
+      "sha256": "082609454bbdaf0f7fb0ed51ee51c0c34492afd301fa1217a788aba8d1ff92dc"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/research-question-card.md",
+      "bytes": 5055,
+      "sha256": "951251401380bb7b870d9f6c50494bcb3c8c1da8e03f2a0ab5b40e07c9c59357"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/run.py",
+      "bytes": 20981,
+      "sha256": "0721d48cead0fc87d0aaa3ee706b377de903bc3917d6efadaa2dcd59ec93130f"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/alignment7b_20261001_054917/audit.json",
+      "bytes": 3790,
+      "sha256": "819b6ce7ce266b84c385236b2ca1855624d1fa7132bd87c164c4587a3609e50c"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/alignment7b_20261001_054917/summary.json",
+      "bytes": 1974,
+      "sha256": "5e66837af1b18a67bda42a26e8590639906db362e833c19f14d666808953afbd"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/cachepath_20261001_123341/report.md",
+      "bytes": 1739,
+      "sha256": "6feaf034436eb6a7a0b9a6d8dac9f3883d156a394449b316d21ae279f18553b5"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/chain3_20261001_122157/report.md",
+      "bytes": 1840,
+      "sha256": "6bf9f41ec5df3d2323f36590fcac4078274ecd57c14877ab7fedba3e6a556bfc"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/freechain_20261001_125456/report.md",
+      "bytes": 1864,
+      "sha256": "6fc06c18ae5b8a96536ad1976c37d353200a677ae2f9238618e46ea82dec4a70"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/main7b_20261001_045806/independent_audit.json",
+      "bytes": 885,
+      "sha256": "6ac13d64e6d1da2b51d78f8822e4e9f4532c2f5896031f11261e21d18d05d5b4"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/runs/main7b_20261001_045806/report.md",
+      "bytes": 4059,
+      "sha256": "a40d81ee160e9260faaec235e8bcb9dcc78c71a615449aa795969b72aa2ea79c"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/task_plan.md",
+      "bytes": 6706,
+      "sha256": "34ede21b27a2e208ac7f7b8ff5eba3c53bbd5eeaddb1011d0d859b646e6c8f6d"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_文献证据_20261001.md",
+      "bytes": 17883,
+      "sha256": "ff8d7dd4117c7383748ca33b01e0bf342cf495b4dafa525ed28cd9d8468fc92c"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/接收方信息增量_讨论稿_20261001.md",
+      "bytes": 7607,
+      "sha256": "4c868c55c97d3ca323ba42a23f169d127a27da1b46f3ae634fbc5cb6062c2b97"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/experiments/kvcomm_text_kv_baseline_20261001/运行条件.md",
+      "bytes": 3165,
+      "sha256": "f7ec12019f03f0b56da76519b7d5f9041c71f153fd0359967c765d8a8c36608f"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/followup/sources/agentask.pdf",
+      "bytes": 9027094,
+      "sha256": "75e8a924c7ab64b9d1c5c18545b5c6fd4343571d2fc3a7189d7a2e9c60fdc766"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/papers/latent_channels_DoLatentChannels.pdf",
+      "bytes": 1269103,
+      "sha256": "8486bb8ba0e8441b577b0cf696d5ab6eccb8436c29e0584a1b2f55714994ca8a"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/papers/see_what_SeeWhatIKnow.pdf",
+      "bytes": 3310807,
+      "sha256": "2a16cbd2718637baefaa249ffb4d03cadbb2a6aa0ff191ba9eb99b1bdcc516df"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/papers/xkv_DualCache_XKV.pdf",
+      "bytes": 526846,
+      "sha256": "29082138a262167c8c999b82c8bb31527a579a78942581dd9fb94057211441c7"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/reports/idea_review.md",
+      "bytes": 7233,
+      "sha256": "6ea0fd831e4f0157207c9472a148025b6d2418a893a610daac4c6f4cddf69979"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/reports/overlap_matrix.md",
+      "bytes": 4211,
+      "sha256": "f9347ffdcfd59cf8a28c4e0fe26a79d7747167b889d6436ef2e8c490dbfbda23"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/cama_BeyondMemoryMajority_CAMA.txt",
+      "bytes": 81613,
+      "sha256": "5e97cc66770c0a94699195d518330cc090a392f371e42277eb4d31d891fb00f9"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/latent_cache_flow_LatentCacheFlow.txt",
+      "bytes": 48345,
+      "sha256": "4756cdf21e80765fee7482c3f2a634305792714cc2222c6882976447f4c0a1b4"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/latent_channels_DoLatentChannels.txt",
+      "bytes": 41770,
+      "sha256": "2008cda6bfa9f152670eb7725714b8a2fa16c8d3c28b5ac23514fad8c881777d"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/literature_review_20260917/work/xkv_DualCache_XKV.txt",
+      "bytes": 60349,
+      "sha256": "abb7906db8a5df40bba03f314fea2a70ee0ad4c279733d26f2cf26f61062edae"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/research_ideation_20260930_c2c_kvcomm/kvcomm_fulltext.txt",
+      "bytes": 147309,
+      "sha256": "ca86e3fba45b42d58d3727536c564d1b202c54ee52d84dce20f1d452da6f2fd5"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/多智能体通信_指定会议论文_2023-2026/07_跨域参考_协同感知/NeurIPS2023_How2comm_Yang_et_al.pdf",
+      "bytes": 1514449,
+      "sha256": "44833baf4b9f41b8c4c50899b23a93fa8a0432ecb8ceb6be77f15d0023706ec2"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/多智能体通信_指定会议论文_2023-2026/08_指定会议补充_消息表示与处理_2024-2026/NeurIPS2025_ThoughtCommunication_Zheng_et_al.pdf",
+      "bytes": 1778519,
+      "sha256": "25d67cc0e82a390a6588ccdefb581c48fab18be4be27994f1040a3cd5fa34638"
+    },
+    {
+      "path": "D:/liuxin_workspace/ICML2027/论文归档_其他会议与预印本_2026-09-09/08_补充_消息表示与处理_2026-09-07/Preprint2026_WhatDoAgentsCommunicate_Chun_Ahmed.pdf",
+      "bytes": 2300281,
+      "sha256": "b274095b06c0feebca380093502feb1dc785ae732884268037ca7510c8507351"
+    }
+  ],
+  "model_calls": 0,
+  "independent_design_review": "passed; no required changes"
+}

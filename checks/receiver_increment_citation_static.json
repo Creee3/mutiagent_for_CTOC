@@ -1,0 +1,46 @@
+{
+  "file": "receiver_increment_nearby_refs.bib",
+  "checked_at": "2026-10-01T18:18:40Z",
+  "mode": "offline",
+  "verdict": "PASS",
+  "verdict_line": "PASS: 0/3 verified, 0 errors, 0 warnings (0 checks skipped)",
+  "skipped_checks": [],
+  "entries": [
+    {
+      "key": "rossi2026cacheback",
+      "type": "misc",
+      "line": 3,
+      "status": "PARSED_ONLY",
+      "resolved": null,
+      "flags": []
+    },
+    {
+      "key": "liu2026dualcache",
+      "type": "misc",
+      "line": 12,
+      "status": "PARSED_ONLY",
+      "resolved": null,
+      "flags": []
+    },
+    {
+      "key": "zhang2026latcom",
+      "type": "misc",
+      "line": 21,
+      "status": "PARSED_ONLY",
+      "resolved": null,
+      "flags": []
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "verified": 0,
+    "errors": 0,
+    "warnings_only": 0,
+    "warnings_by_flag": {},
+    "unresolved": 0,
+    "retracted": 0,
+    "canonical_instance": 0,
+    "low_relevance": 0,
+    "checks_skipped": 0
+  }
+}
