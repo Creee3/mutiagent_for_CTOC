@@ -1,0 +1,127 @@
+{
+  "run_name": "answer_format_20261002_002346",
+  "passed": true,
+  "checks": 3222,
+  "errors": [],
+  "scope": "new run only: raw packets, frozen source/input binding, actual positions, ledger and output decoding",
+  "model_calls_by_audit": 0,
+  "model_imported_by_audit": false,
+  "old_runs_reaudited": false,
+  "floating_point_equality_gate": false,
+  "manual_answer_format_review_completed": false,
+  "main_answers": 72,
+  "event_counts": {
+    "sender_prefill": 7,
+    "generate": 76
+  },
+  "phase_counts": {
+    "warmup_sender_prefill": 1,
+    "warmup_generate": 4,
+    "main_sender_prefill": 6,
+    "main_generate": 72
+  },
+  "underlying_model_forward_calls": 243,
+  "main_eos": 72,
+  "main_truncated": 0,
+  "source_hashes": {
+    "audit_script": "76944fef32eee9c3f347c974d82668572aa7577ba1ec91b93e3713d03abf71f4",
+    "wire_parser_helper": "31cdfecdfe6366ac5f4accd2898906098ffccafd3b69df609f018ffcff16d75b",
+    "conditions": "6065b653e402b8d10b41a5db2414e8756077ce77364ce6045fc0cbfc8a44fad6",
+    "manifest": "1505f758f2a810af014f67c47faaa8a3e55327e0c7af97c11b2d3877326e4bdf",
+    "summary": "680e2f05d4e65abaf11e462bcef8afc106e63eb399f42f6605152352aa13b664",
+    "calls": "efe84db2ea9b5ccfb8f3aead1ca01792e54c5315dbd105f27cb86b382806754b",
+    "inputs": "ae7b06317c88cb751094ffc358e4eb433c565c883324876d64e53b4f9c7882bf",
+    "tokenizer": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  "actual_packets": {
+    "main_5a7133565542994082a3e65c_token_full.bin": {
+      "sha256": "e9d0ddf01af619848f12e0b55f03ec9f27a4737adf1be1dbf525f65088260daa",
+      "bytes": 1332
+    },
+    "main_5a7133565542994082a3e65c_kv_full.bin": {
+      "sha256": "43373b2c81393a9bdb0ed85d0aca4c08db3dfe9190a4dcfd6719e6c15583ef27",
+      "bytes": 8324292
+    },
+    "main_5a7133565542994082a3e65c_material_text.bin": {
+      "sha256": "d1859e417c42f097db754fb9c6121deb086a0bfc990b7c52e9b7fb2c992ccb3b",
+      "bytes": 337
+    },
+    "main_5a74a8fa55429929fddd8497_token_full.bin": {
+      "sha256": "63b8b47f80e83a0b95422318d18e7e9b0f931420ceee559aab41fdf6dcbd93d0",
+      "bytes": 1468
+    },
+    "main_5a74a8fa55429929fddd8497_kv_full.bin": {
+      "sha256": "14f052684e7ecd95d63e5cbb56d2a6678928c82879593bce9a362e018c61aea6",
+      "bytes": 10274127
+    },
+    "main_5a74a8fa55429929fddd8497_material_text.bin": {
+      "sha256": "a3f017fe2cd5be9c226b8c023616fd31f1ffb48f63eb5ebdd98ddae917dc8f94",
+      "bytes": 394
+    },
+    "main_5ac3a76e554299741d48a2be_token_full.bin": {
+      "sha256": "c64b8c40175259030345d09fb0038667c43250540ba13a4a9e7dd477a880b254",
+      "bytes": 1492
+    },
+    "main_5ac3a76e554299741d48a2be_kv_full.bin": {
+      "sha256": "8d88a4aecb4326ec44a4b6e275f2e2f2186c52603b839c8a1603a4b30e4abcfd",
+      "bytes": 10618217
+    },
+    "main_5ac3a76e554299741d48a2be_material_text.bin": {
+      "sha256": "3ca58e4a6f0e3b59fd144ce7070f66f0cde60fbf38a7493fbbf96ea63600eabd",
+      "bytes": 476
+    },
+    "main_5add1d575542992c1e3a2540_token_full.bin": {
+      "sha256": "42d332490732b18ef1d3b360c44ece897d0f4d0c0c0df658ee8df3d5bcb02808",
+      "bytes": 1404
+    },
+    "main_5add1d575542992c1e3a2540_kv_full.bin": {
+      "sha256": "73d8c68c1ba7da09bc6337916ec296438a329ee72e2d539c71aef5fa7f01cef2",
+      "bytes": 9356557
+    },
+    "main_5add1d575542992c1e3a2540_material_text.bin": {
+      "sha256": "89e873307991d620f5e88eeebbd4914a65d29730dc6b43a016e702b9ac9210ca",
+      "bytes": 418
+    },
+    "main_5ae27b535542996483e649b6_token_full.bin": {
+      "sha256": "34049fe6bd7675418a3da73b184b1e9cdcdf062db0c44e0e7ff8d659e8bae618",
+      "bytes": 1380
+    },
+    "main_5ae27b535542996483e649b6_kv_full.bin": {
+      "sha256": "3fc4d0248ae3518d4eb87fd029eaa3fb7648972e517ed3f8ba8d5f32787aae22",
+      "bytes": 9012468
+    },
+    "main_5ae27b535542996483e649b6_material_text.bin": {
+      "sha256": "4bf9563d3f04ea5a500af7658ed750f1f114cd084cae1275a94ccb09b6c2de90",
+      "bytes": 360
+    },
+    "main_5ae70ed7554299572ea546a1_token_full.bin": {
+      "sha256": "d2e619b1f187cbc2450c78ee6578017ecef1c058a229971db23ee001ae97afd2",
+      "bytes": 1436
+    },
+    "main_5ae70ed7554299572ea546a1_kv_full.bin": {
+      "sha256": "3de6147101c5c2e9ed17d11361cd97509ce75966a45f57639292fbaa9385d135",
+      "bytes": 9815341
+    },
+    "main_5ae70ed7554299572ea546a1_material_text.bin": {
+      "sha256": "c4f0b3ffc70b97dba9a3e45e1cf8290b71a23a90f3d7c3090313d5a68763e355",
+      "bytes": 431
+    },
+    "warmup_5add1d575542992c1e3a2540_token_full.bin": {
+      "sha256": "42d332490732b18ef1d3b360c44ece897d0f4d0c0c0df658ee8df3d5bcb02808",
+      "bytes": 1404
+    },
+    "warmup_5add1d575542992c1e3a2540_kv_full.bin": {
+      "sha256": "73d8c68c1ba7da09bc6337916ec296438a329ee72e2d539c71aef5fa7f01cef2",
+      "bytes": 9356557
+    },
+    "warmup_5add1d575542992c1e3a2540_material_text.bin": {
+      "sha256": "89e873307991d620f5e88eeebbd4914a65d29730dc6b43a016e702b9ac9210ca",
+      "bytes": 418
+    }
+  },
+  "limits": [
+    "Successful byte/provenance/position checks do not establish semantic equivalence or KV superiority.",
+    "All 72 main answers still need human format review; short output is not an automatic answer-only pass.",
+    "Response IDs are decoded without gold labels or answer extraction."
+  ]
+}

@@ -61,3 +61,10 @@
 - 新六题短答案与强文本条件已准备：共同system、规范模板、完整材料数据前缀，新Acache需以后新建；不能接旧reader-role cache。KV/token全文同数组，材料直接入B作为不同工作流强文本，B已持有材料原样保留，不隐藏oracle去重。
 - 学校CPU78编码/72方法计划及374项独立检查通过，0模型/0KV答案，76generate与7prefill是未来预算。unknown为统一证据不足规则，其统计只是弃答；新规则/A表示/layout一起改变，不隔离旧格式成因。
 - 包成本进一步分清：强文本为UTF8 JSON材料包，真实总长含语法转义/元数据；精确token/KV包还发送system、题目和边界，大小差不能全叫语义压缩。强文本不付A prefill，所有tokenization在本次GPU时钟之前统一排除。
+
+
+- 六题短答案检查answer_format_20261002_002346完成：65答案短语、7 unknown、0整句解释；主72EOS、0触顶，76generate/7prefill/243底层forward与新run独立审计一致。原始58文件本地/学校SHA一致。旧格式混杂在本组消失，但规则/A表示/layout共同改变，不隔离其原因。
+- token全文与KV18视图输出token相同；强材料文本F1三状态均77.78，token/KV均72.22。无消息missing66.67/partial50/full77.78。六题校准不支持KV质量优势，也不能据partial最大增益推断已知程度与增量价值单调关系。
+- 逐题必要信息缺口比材料持有标签重要：Charlie/Oldham/Axl的B本来就有答案线索，Axl partial新增文字后反而unknown；Dudmanmissing/partial收完整材料由unknown到Bill Dudman，full无消息已给姓名。B显式看见不等于理解正确；模型先验与局部重复也可能影响输出。
+- 本组实际KV包均值9.57MB，token前缀1.42KB，材料JSON403B；missing单次阶段和KV从新建cache约0.179s、已有cache约0.152s，材料文本约0.082s。包含记录/编解码，不含统一排除的先前tokenization，未测网络/重复时，不证明稳定速度优劣。
+- 之后先CPU冻结按题目/receiver实际可见信息/随机同预算的公平选择条件。固定来源整包可跳过与选中文本fresh prefill是不同研究对象；后者改变cache表示并产生重建成本，不能冒充原始KV直接删减。原文完全匹配仅系统基线，语义选择创新和KV收益仍未证明。

@@ -1,0 +1,1332 @@
+{
+  "run_name": "answer_format_20261002_002346",
+  "structural_and_call_audit_passed": true,
+  "existing_scorer": {
+    "path": "D:\\liuxin_workspace\\ICML2027\\experiments\\kvcomm_text_kv_baseline_20261001\\score_repro_outputs.py",
+    "sha256": "23578521106d04bfe1d5dedee9ead2f470dd1740c3cc58fe95ed9dfe6788f922",
+    "functions": [
+      "normalize",
+      "hotpot_token_f1"
+    ],
+    "source_definitions_executed_unchanged": true
+  },
+  "question_ids": [
+    "5add1d575542992c1e3a2540",
+    "5ac3a76e554299741d48a2be",
+    "5a7133565542994082a3e65c",
+    "5ae70ed7554299572ea546a1",
+    "5a74a8fa55429929fddd8497",
+    "5ae27b535542996483e649b6"
+  ],
+  "independent_questions": 6,
+  "main_receiver_views": 18,
+  "main_answers": 72,
+  "warmup_answers_excluded_from_quality": 4,
+  "call_counts": {
+    "sender_prefill": 7,
+    "generate": 76
+  },
+  "phase_counts": {
+    "warmup_sender_prefill": 1,
+    "warmup_generate": 4,
+    "main_sender_prefill": 6,
+    "main_generate": 72
+  },
+  "same_six_question_paired_conditions": {
+    "missing": {
+      "paired_question_count": 6,
+      "methods": {
+        "no_msg": {
+          "raw_exact_match_rate": 0.6666666666666666,
+          "raw_mean_token_f1": 0.6666666666666666,
+          "normalized_unknown_abstention_count": 2,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3,
+          "mean_payload_bytes": 0,
+          "mean_payload_content_bytes": 0,
+          "mean_payload_header_bytes": 0,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.06855898098244022,
+            "receiver_prefill_gpu_seconds": 0.02784098148345947,
+            "receiver_decode_gpu_seconds": 0.03771559969584147,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0,
+            "packet_restore_seconds": 0.0,
+            "from_scratch_stage_sum_seconds": 0.06855898098244022,
+            "preexisting_cache_stage_sum_seconds": 0.06855898098244022
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "token_full": {
+          "raw_exact_match_rate": 0.5,
+          "raw_mean_token_f1": 0.7222222222222222,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.1666666666666665,
+          "mean_payload_bytes": 1418.6666666666667,
+          "mean_payload_content_bytes": 666.6666666666666,
+          "mean_payload_header_bytes": 752,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.08155312266899273,
+            "receiver_prefill_gpu_seconds": 0.03743583456675212,
+            "receiver_decode_gpu_seconds": 0.04107765897115072,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0005173678218852729,
+            "packet_restore_seconds": 0.0007653514912817627,
+            "from_scratch_stage_sum_seconds": 0.08283584198215976,
+            "preexisting_cache_stage_sum_seconds": 0.08283584198215976
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "kv_full": {
+          "raw_exact_match_rate": 0.5,
+          "raw_mean_token_f1": 0.7222222222222222,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.1666666666666665,
+          "mean_payload_bytes": 9566833.666666666,
+          "mean_payload_content_bytes": 9558000,
+          "mean_payload_header_bytes": 8833.666666666666,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.06852537331481774,
+            "receiver_prefill_gpu_seconds": 0.025004069328308107,
+            "receiver_decode_gpu_seconds": 0.040920746485392255,
+            "sender_prefill_seconds": 0.027698593155946583,
+            "packet_encode_seconds": 0.0444764513328361,
+            "packet_restore_seconds": 0.03857611533991682,
+            "from_scratch_stage_sum_seconds": 0.17927653314351724,
+            "preexisting_cache_stage_sum_seconds": 0.15157793998757066
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "material_text": {
+          "raw_exact_match_rate": 0.6666666666666666,
+          "raw_mean_token_f1": 0.7777777777777778,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.3333333333333335,
+          "mean_payload_bytes": 402.6666666666667,
+          "mean_payload_content_bytes": 247.83333333333334,
+          "mean_payload_header_bytes": 154.83333333333334,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.08225539549797152,
+            "receiver_prefill_gpu_seconds": 0.03482699203491211,
+            "receiver_decode_gpu_seconds": 0.044151482899983725,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 2.6424493019779522e-05,
+            "packet_restore_seconds": 4.837500940387448e-05,
+            "from_scratch_stage_sum_seconds": 0.08233019500039518,
+            "preexisting_cache_stage_sum_seconds": 0.08233019500039518
+          },
+          "header_interpretation": "JSON metadata plus escaping overhead above raw material UTF-8 bytes"
+        }
+      },
+      "message_vs_no_message": {
+        "token_full": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": 0.055555555555555546,
+          "mean_raw_exact_match_delta": -0.16666666666666666,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": -0.33333333333333337,
+              "raw_exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.6666666666666666,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        },
+        "kv_full": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": 0.055555555555555546,
+          "mean_raw_exact_match_delta": -0.16666666666666666,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": -0.33333333333333337,
+              "raw_exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.6666666666666666,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        },
+        "material_text": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": 0.1111111111111111,
+          "mean_raw_exact_match_delta": 0,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.6666666666666666,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        }
+      }
+    },
+    "partial": {
+      "paired_question_count": 6,
+      "methods": {
+        "no_msg": {
+          "raw_exact_match_rate": 0.5,
+          "raw_mean_token_f1": 0.5,
+          "normalized_unknown_abstention_count": 3,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 2.6666666666666665,
+          "mean_payload_bytes": 0,
+          "mean_payload_content_bytes": 0,
+          "mean_payload_header_bytes": 0,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.0637366310111247,
+            "receiver_prefill_gpu_seconds": 0.029440277417500813,
+            "receiver_decode_gpu_seconds": 0.03147652784983317,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0,
+            "packet_restore_seconds": 0.0,
+            "from_scratch_stage_sum_seconds": 0.0637366310111247,
+            "preexisting_cache_stage_sum_seconds": 0.0637366310111247
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "token_full": {
+          "raw_exact_match_rate": 0.5,
+          "raw_mean_token_f1": 0.7222222222222222,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.1666666666666665,
+          "mean_payload_bytes": 1418.6666666666667,
+          "mean_payload_content_bytes": 666.6666666666666,
+          "mean_payload_header_bytes": 752,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.08543011800308402,
+            "receiver_prefill_gpu_seconds": 0.04145152537027995,
+            "receiver_decode_gpu_seconds": 0.04101726945241292,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0005173678218852729,
+            "packet_restore_seconds": 0.0007450383466978868,
+            "from_scratch_stage_sum_seconds": 0.08669252417166717,
+            "preexisting_cache_stage_sum_seconds": 0.08669252417166717
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "kv_full": {
+          "raw_exact_match_rate": 0.5,
+          "raw_mean_token_f1": 0.7222222222222222,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.1666666666666665,
+          "mean_payload_bytes": 9566833.666666666,
+          "mean_payload_content_bytes": 9558000,
+          "mean_payload_header_bytes": 8833.666666666666,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.07011199366146077,
+            "receiver_prefill_gpu_seconds": 0.02653997834523519,
+            "receiver_decode_gpu_seconds": 0.04094062932332357,
+            "sender_prefill_seconds": 0.027698593155946583,
+            "packet_encode_seconds": 0.0444764513328361,
+            "packet_restore_seconds": 0.038146200337602444,
+            "from_scratch_stage_sum_seconds": 0.1804332384878459,
+            "preexisting_cache_stage_sum_seconds": 0.15273464533189932
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "material_text": {
+          "raw_exact_match_rate": 0.6666666666666666,
+          "raw_mean_token_f1": 0.7777777777777778,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.3333333333333335,
+          "mean_payload_bytes": 402.6666666666667,
+          "mean_payload_content_bytes": 247.83333333333334,
+          "mean_payload_header_bytes": 154.83333333333334,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.08541175699792802,
+            "receiver_prefill_gpu_seconds": 0.037405493100484216,
+            "receiver_decode_gpu_seconds": 0.044808015505472816,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 2.6424493019779522e-05,
+            "packet_restore_seconds": 4.740766598843038e-05,
+            "from_scratch_stage_sum_seconds": 0.08548558915693623,
+            "preexisting_cache_stage_sum_seconds": 0.08548558915693623
+          },
+          "header_interpretation": "JSON metadata plus escaping overhead above raw material UTF-8 bytes"
+        }
+      },
+      "message_vs_no_message": {
+        "token_full": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": 0.2222222222222222,
+          "mean_raw_exact_match_delta": 0,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": -0.33333333333333337,
+              "raw_exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.6666666666666666,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 1.0,
+              "raw_exact_match_delta": 1
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        },
+        "kv_full": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": 0.2222222222222222,
+          "mean_raw_exact_match_delta": 0,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": -0.33333333333333337,
+              "raw_exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.6666666666666666,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 1.0,
+              "raw_exact_match_delta": 1
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        },
+        "material_text": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": 0.2777777777777778,
+          "mean_raw_exact_match_delta": 0.16666666666666666,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.6666666666666666,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 1.0,
+              "raw_exact_match_delta": 1
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        }
+      }
+    },
+    "full": {
+      "paired_question_count": 6,
+      "methods": {
+        "no_msg": {
+          "raw_exact_match_rate": 0.6666666666666666,
+          "raw_mean_token_f1": 0.7777777777777778,
+          "normalized_unknown_abstention_count": 1,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.3333333333333335,
+          "mean_payload_bytes": 0,
+          "mean_payload_content_bytes": 0,
+          "mean_payload_header_bytes": 0,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.08211387149640359,
+            "receiver_prefill_gpu_seconds": 0.03478502368927002,
+            "receiver_decode_gpu_seconds": 0.044144298871358234,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0,
+            "packet_restore_seconds": 0.0,
+            "from_scratch_stage_sum_seconds": 0.08211387149640359,
+            "preexisting_cache_stage_sum_seconds": 0.08211387149640359
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "token_full": {
+          "raw_exact_match_rate": 0.5,
+          "raw_mean_token_f1": 0.7222222222222222,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.1666666666666665,
+          "mean_payload_bytes": 1418.6666666666667,
+          "mean_payload_content_bytes": 666.6666666666666,
+          "mean_payload_header_bytes": 752,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.0878735026732708,
+            "receiver_prefill_gpu_seconds": 0.04302943483988444,
+            "receiver_decode_gpu_seconds": 0.041240501085917154,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 0.0005173678218852729,
+            "packet_restore_seconds": 0.0007700306887272745,
+            "from_scratch_stage_sum_seconds": 0.08916090118388335,
+            "preexisting_cache_stage_sum_seconds": 0.08916090118388335
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "kv_full": {
+          "raw_exact_match_rate": 0.5,
+          "raw_mean_token_f1": 0.7222222222222222,
+          "normalized_unknown_abstention_count": 0,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.1666666666666665,
+          "mean_payload_bytes": 9566833.666666666,
+          "mean_payload_content_bytes": 9558000,
+          "mean_payload_header_bytes": 8833.666666666666,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.07268660665916589,
+            "receiver_prefill_gpu_seconds": 0.029028319994608563,
+            "receiver_decode_gpu_seconds": 0.04106162103017171,
+            "sender_prefill_seconds": 0.027698593155946583,
+            "packet_encode_seconds": 0.0444764513328361,
+            "packet_restore_seconds": 0.039217652685086556,
+            "from_scratch_stage_sum_seconds": 0.18407930383303514,
+            "preexisting_cache_stage_sum_seconds": 0.15638071067708856
+          },
+          "header_interpretation": "encoded protocol header/framing"
+        },
+        "material_text": {
+          "raw_exact_match_rate": 0.6666666666666666,
+          "raw_mean_token_f1": 0.7777777777777778,
+          "normalized_unknown_abstention_count": 1,
+          "eos_stopped_count": 6,
+          "actually_truncated_count": 0,
+          "mean_generated_tokens": 3.3333333333333335,
+          "mean_payload_bytes": 402.6666666666667,
+          "mean_payload_content_bytes": 247.83333333333334,
+          "mean_payload_header_bytes": 154.83333333333334,
+          "single_pass_stage_means_seconds": {
+            "receiver_model_seconds": 0.08900898749319215,
+            "receiver_prefill_gpu_seconds": 0.04169281578063965,
+            "receiver_decode_gpu_seconds": 0.04418402067820231,
+            "sender_prefill_seconds": 0.0,
+            "packet_encode_seconds": 2.6424493019779522e-05,
+            "packet_restore_seconds": 4.316266858950257e-05,
+            "from_scratch_stage_sum_seconds": 0.08907857465480144,
+            "preexisting_cache_stage_sum_seconds": 0.08907857465480144
+          },
+          "header_interpretation": "JSON metadata plus escaping overhead above raw material UTF-8 bytes"
+        }
+      },
+      "message_vs_no_message": {
+        "token_full": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": -0.05555555555555556,
+          "mean_raw_exact_match_delta": -0.16666666666666666,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": -0.33333333333333337,
+              "raw_exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        },
+        "kv_full": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": -0.05555555555555556,
+          "mean_raw_exact_match_delta": -0.16666666666666666,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": -0.33333333333333337,
+              "raw_exact_match_delta": -1
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        },
+        "material_text": {
+          "paired_question_count": 6,
+          "mean_raw_token_f1_delta": 0.0,
+          "mean_raw_exact_match_delta": 0,
+          "question_pairs": [
+            {
+              "question_id": "5add1d575542992c1e3a2540",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ac3a76e554299741d48a2be",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a7133565542994082a3e65c",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae70ed7554299572ea546a1",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5a74a8fa55429929fddd8497",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            },
+            {
+              "question_id": "5ae27b535542996483e649b6",
+              "raw_token_f1_delta": 0.0,
+              "raw_exact_match_delta": 0
+            }
+          ],
+          "semantic_message_value_interpretation_requires_manual_format_review": true
+        }
+      }
+    }
+  },
+  "per_question_raw_responses_and_scores": [
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "conditions": {
+        "missing": {
+          "no_msg": {
+            "response": "unknown",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": true
+          },
+          "token_full": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          }
+        },
+        "partial": {
+          "no_msg": {
+            "response": "unknown",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": true
+          },
+          "token_full": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          }
+        },
+        "full": {
+          "no_msg": {
+            "response": "unknown",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": true
+          },
+          "token_full": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "German",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "unknown",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": true
+          }
+        }
+      }
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "conditions": {
+        "missing": {
+          "no_msg": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "partial": {
+          "no_msg": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "full": {
+          "no_msg": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "U2",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        }
+      }
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "conditions": {
+        "missing": {
+          "no_msg": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "partial": {
+          "no_msg": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "full": {
+          "no_msg": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Oldham County",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        }
+      }
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "conditions": {
+        "missing": {
+          "no_msg": {
+            "response": "Charlie Murphy",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Charlie",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Charlie",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Charlie Murphy",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "partial": {
+          "no_msg": {
+            "response": "Charlie Murphy",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Charlie",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Charlie",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Charlie Murphy",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "full": {
+          "no_msg": {
+            "response": "Charlie Murphy",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Charlie",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Charlie",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Charlie Murphy",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        }
+      }
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "conditions": {
+        "missing": {
+          "no_msg": {
+            "response": "unknown",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": true
+          },
+          "token_full": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          }
+        },
+        "partial": {
+          "no_msg": {
+            "response": "unknown",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": true
+          },
+          "token_full": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          }
+        },
+        "full": {
+          "no_msg": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Bill Dudman",
+            "exact_match": false,
+            "token_f1": 0.6666666666666666,
+            "normalized_unknown": false
+          }
+        }
+      }
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "conditions": {
+        "missing": {
+          "no_msg": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "partial": {
+          "no_msg": {
+            "response": "unknown",
+            "exact_match": false,
+            "token_f1": 0.0,
+            "normalized_unknown": true
+          },
+          "token_full": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        },
+        "full": {
+          "no_msg": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "token_full": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "kv_full": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          },
+          "material_text": {
+            "response": "Axl Rose",
+            "exact_match": true,
+            "token_f1": 1.0,
+            "normalized_unknown": false
+          }
+        }
+      }
+    }
+  ],
+  "manual_format_review": {
+    "completed_by_this_script": false,
+    "required_before_semantic_message_value_conclusion": true,
+    "no_token_length_or_gold_extraction_gate": true,
+    "review_categories": [
+      "answer phrase",
+      "whole sentence or explanation",
+      "abstention",
+      "other"
+    ]
+  },
+  "token_kv_output_token_agreement": {
+    "matched": 18,
+    "compared_views": 18,
+    "independent_questions": 6,
+    "diagnostic_only_not_a_gate": true,
+    "pairs": [
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5add1d575542992c1e3a2540",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5a7133565542994082a3e65c",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ae27b535542996483e649b6",
+        "condition": "missing",
+        "matched": true
+      },
+      {
+        "question_id": "5ac3a76e554299741d48a2be",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "partial",
+        "matched": true
+      },
+      {
+        "question_id": "5a74a8fa55429929fddd8497",
+        "condition": "full",
+        "matched": true
+      },
+      {
+        "question_id": "5ae70ed7554299572ea546a1",
+        "condition": "missing",
+        "matched": true
+      }
+    ]
+  },
+  "source_prefill_allocation": {
+    "actual_main_sources": 6,
+    "actual_main_source_seconds": 0.1661915589356795,
+    "counterfactual_independent_kv_requests": 18,
+    "counterfactual_recomputed_source_stage_sum_seconds": 0.4985746768070385,
+    "not_an_independently_observed_wall_time": true
+  },
+  "source_hashes": {
+    "manifest": "1505f758f2a810af014f67c47faaa8a3e55327e0c7af97c11b2d3877326e4bdf",
+    "summary": "680e2f05d4e65abaf11e462bcef8afc106e63eb399f42f6605152352aa13b664",
+    "inputs": "ae7b06317c88cb751094ffc358e4eb433c565c883324876d64e53b4f9c7882bf",
+    "scoring_labels": "fb4b346d5e121062665559e3cf2a4257dfdfde1e7806fa39ab5372d33b06ef67",
+    "calls": "efe84db2ea9b5ccfb8f3aead1ca01792e54c5315dbd105f27cb86b382806754b",
+    "analysis_code": "2d07317f89e866e56254aeff45e1b710c35c701ee6aee9124c197a836a884563",
+    "item_files": {
+      "main_01f08b39a16f78c92c55.json": "6ecf253970889b51ea51017b5f6b9a82030b3fd085edf86d65b335e1eb3d5bc7",
+      "main_0ff96a6a21618d9e76a1.json": "41d52361a30b70634bc02b999cbb8de29de0c4040c35f113f2a53f322a017da5",
+      "main_20aa4f73bf694b3fad48.json": "225db25ba13ad10898e1c1df13acd7ffbb821f7f65200cc2c436f28fe667d4da",
+      "main_39e585c83f67a24d214a.json": "45786fefcc6e08a366dce058e543a03e958652e6020bc494de3407b293d16739",
+      "main_4628defa0cf1613b82d6.json": "641dd35aa42c01aafe5b9f6102218ac5e087bed64f433663867efba1af39c5d6",
+      "main_53150bc2a5291911215a.json": "e0f40036f4236d05248ff0a4a2a73bc6c925fafd635322571e9b753d6ec58371",
+      "main_6e67401f4200ffb6a65c.json": "89f14a290c8c72b060e511b4dc3075908f76d76107d388a3fe82e4c02e0c9529",
+      "main_6eae3b0ecfc24d0a2f1a.json": "e09c35b32f6e7edb06adbaa30c387026d0639c1b37e7b0e086ef1e74e7582ff9",
+      "main_73401758cb3183412d90.json": "f8f574902e29511507a5ca97dab3908a4cd764cca98ba5a51d097e21dceec1f7",
+      "main_7f7d90ee4f11f47dc795.json": "b2706c4148e9c30e0028badf13dd77bbb60be7eefaaeb6741ffe68f3aee9ae8f",
+      "main_826d93d25802c5135beb.json": "f837806599cfb1094f02205ad66f20e86a8adb42edd990751587009ad6bffa71",
+      "main_8ab621a65ba0c4b396ac.json": "8f01f9ae9c8eafc9a2ffdfbfded5e4bd0295a93cdcf05fed1b9d2c486fb48170",
+      "main_963e083bbc2862423bf0.json": "d24adf137c05758753191b1ac5184b06bd602f912c109cccdbb2f7f22a9be130",
+      "main_a247370b69c862802768.json": "680444f44912bbb663325f9bd70e26944363b241a78aac5125f1a24ab2f34987",
+      "main_c738f01c13e28ae559c3.json": "5ba1e7b653db0697c69160179c679247acab5f7d9d7c861b773391bdb848a4bb",
+      "main_db0bf779fbd7625b6991.json": "c9e2146b29d010adbc3964b09ada478ad5a8db2002970853ee7005cb0977b29c",
+      "main_e118dd23f6ab188ec22a.json": "9e64f6c76e130ba44faa43ad6fd916e5d0c9e36eeacf8b13f6b6bc6393a8e37f",
+      "main_ec3075440e086fd575d6.json": "5ef8c7d786acaf0e5ced702d46f8b183d799dfc0cc9745fc43740c2d3cd509be",
+      "warmup_20aa4f73bf694b3fad48.json": "7c802bb037d67238486379f2534889f1108333276c1ab773e19f5745e3a44397"
+    },
+    "source_files": {
+      "main_5a7133565542994082a3e65c.json": "bf0c2c46e9483a45740b24bf3750360971ad0ec7e5c9bc552d06da2aecd6338d",
+      "main_5a74a8fa55429929fddd8497.json": "b25fe07176cfd0a93ed7396824be4babda8a8ef8013b7ff4cc8da6e679362f84",
+      "main_5ac3a76e554299741d48a2be.json": "f9b3551372eef6210d6ec0b409709317d9fc9a4b699551e5ac75686c0e0f4b70",
+      "main_5add1d575542992c1e3a2540.json": "9efa5f045062339a43187ff22228bd9315bdb52b2bc84e3de6d5c6e90eca059d",
+      "main_5ae27b535542996483e649b6.json": "609c809ed15b9fce2078a38b7e27893b44499ce5e1d38a7d8a1fa1b0c59797ec",
+      "main_5ae70ed7554299572ea546a1.json": "2f892c4b5bcd4c68385c4ac77992822d210298a8a5b41805d7c1c24d9692cb9d",
+      "warmup_5add1d575542992c1e3a2540.json": "c84887e70b15a19977ce0b75af509c2aaef6742035ed7abe2bf83f94e7e816ba"
+    }
+  },
+  "limits": [
+    "six previously used public support-sentence calibration questions, not a confirmatory benchmark",
+    "raw response EM/F1 use the existing scorer; no gold-span extraction or replacement scores",
+    "normalized unknown is a descriptive abstention count, not proof of calibrated uncertainty or factual correctness",
+    "manual per-item answer-format review is required; this script does not automatically infer answer-only compliance",
+    "system rule, A representation and chat layout changed together; not causal isolation of the previous formatting issue",
+    "A only prefills; original generated node-output text communication is untested",
+    "canonical token/KV share exact input arrays; material_text has a different strong text workflow",
+    "whole A prefix includes system/question/framing, not just previously missing facts",
+    "held material stays visible; full source material is not oracle-pruned",
+    "material_text payload_header_bytes includes JSON metadata and escaping overhead above raw UTF-8 material",
+    "timings start from prepared tokens, exclude prior tokenization uniformly, and include lightweight recording",
+    "single-pass stage sums and preexisting-cache scenarios do not establish speedup, network acceleration or compression"
+  ]
+}

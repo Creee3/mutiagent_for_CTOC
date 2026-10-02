@@ -93,3 +93,10 @@ CacheBack main官方源码用git archive放到学校新upstream目录，123个�
 2026-10-02短答案条件准备完成（本轮仅CPU）：原同组6题、三状态18输入、四方法72计划，新增共同短答案system与unknown规则，A改为来源材料数据、单system完整模板；A角色/规则/layout共同改变，不是旧格式原因单因素实验。学校既有conda78次编码、6新token包/6 UTF8 JSON材料包恢复、18 canonical拼接与held保留通过，最大422tokens，0模型/0新KV。独立stdlib374项审计通过；输入与运行条件分开冻结，运行器复用官方CVCommunicator、现成CallLedger/完整前缀wire，强文本直接复制完整A材料且不付A prefill。候选正式72＋预热4 generate、A6＋1prefill，当前实际调用0。
 
 子任务在准备末尾因Codex额度中断，实际已保存分析脚本和独立审计文件；恢复后读取文件完成状态，没有重复输入生成或原run审计。补上运行器审计gate对输入/准备条件/审计脚本的SHA绑定，freeze-run通过，run_conditions SHA6065b653e402b8d10b41a5db2414e8756077ce77364ce6045fc0cbfc8a44fad6。本轮未启动GPU、未改变旧84bf317结果；完整设置见《短答案检查_条件_20261002.md》。下一次先核对没有自己的在跑进程，说明冻结设置后执行这一小检查，逐题人工复核格式，再回到消息增量，不长期追prompt。
+
+
+2026-10-02六题短答案检查执行完成：先说明冻结条件，检查学校无answer_format worker/run及锁，启动前GPU0 fresh0%/24081MiB。既有kv-graph运行answer_format_20261002_002346，PID3915971已退出。实际76generate/7sender_prefill、243底层forward，主72EOS、0触顶；生成继承的temperature/top_p/top_k在greedy下提示忽略，未更改冻结解码或环境。58个原始文件68,145,982B回传并逐文件SHA一致，原始包与记录保留。既有analyzer沿原评分一次运行通过；独立新run3222项来源/21真实包/位置/83事件/输出解码审计通过，0模型调用，没有重做旧374/9833或浮点门禁。
+
+逐条阅读72主回答，独立第二阅读计数一致：65短答案、7 literal unknown、0整句/解释。token/KV18视图逐token相同，只作描述。本组标准F1无消息missing66.67/partial50/full77.78，token/KV均72.22，直接材料文本均77.78。Dudman材料能补姓名，Charlie原有标题已给答案，Axl partial反而弃答；missing材料范围不等于必要信息缺口，不据6题证明单调增量规律或KV优越。原始答案/金标不修改。
+
+本组真实源包均值KV9,566,833.67B、token1,418.67B、材料JSON402.67B；missing单次阶段和材料0.08233s/token0.08284s/KV0.17928s，已有cache KV0.15158s，不是网络/重复时结果。实际主6prefill合计0.16619s与18独立请求重建估算0.49857s分列。结果稿及逐条格式JSON保存。本轮只跑已授权六题；旧1548及219账目不改，新76另计。下一步回到信息增量，先CPU准备公平选择条件与合法表示，不能把按选中文本重建cache当固定raw KV删减。Git/学校备份以本轮HEAD和收据为准，不推送。

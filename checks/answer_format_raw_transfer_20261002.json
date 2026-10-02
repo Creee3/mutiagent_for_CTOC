@@ -1,0 +1,11 @@
+{
+  "run_name": "answer_format_20261002_002346",
+  "file_count": 58,
+  "total_raw_bytes": 68145982,
+  "archive_sha256": "4c034d9781e3ec090864a37f1de15f0d1cc79a2544f0c5eb63a61f51be79893b",
+  "archive_bytes": 53574224,
+  "manifest_sha256": "e84cdf9bdabe080b675f3c2689f3b727ea993fc9b1c3684862b5eaa3e562322f",
+  "file_hash_mismatches": [],
+  "local_and_school_raw_files_match": true,
+  "model_calls_on_local": 0
+}

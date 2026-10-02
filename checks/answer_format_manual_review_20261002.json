@@ -1,0 +1,555 @@
+{
+  "run_name": "answer_format_20261002_002346",
+  "review_completed": true,
+  "review_method": "assistant manual reading of all 72 raw responses; explicit categories assigned to the eight observed strings; no gold-span extraction or token-length gate",
+  "independent_reading_agreed_on_format_counts": true,
+  "main_answer_count": 72,
+  "format_counts": {
+    "answer phrase": 65,
+    "abstention": 7,
+    "whole sentence or explanation": 0,
+    "other": 0
+  },
+  "per_method_counts": {
+    "no_msg": {
+      "answer phrase": 12,
+      "abstention": 6,
+      "whole sentence or explanation": 0,
+      "other": 0
+    },
+    "token_full": {
+      "answer phrase": 18,
+      "abstention": 0,
+      "whole sentence or explanation": 0,
+      "other": 0
+    },
+    "kv_full": {
+      "answer phrase": 18,
+      "abstention": 0,
+      "whole sentence or explanation": 0,
+      "other": 0
+    },
+    "material_text": {
+      "answer phrase": 17,
+      "abstention": 1,
+      "whole sentence or explanation": 0,
+      "other": 0
+    }
+  },
+  "analysis_sha256": "3a85e2fe98a781c3dee4d0433c4a8666c1a4b10b39f13036e98830bcde65c615",
+  "format_is_not_correctness": true,
+  "unchanged_raw_scoring": true,
+  "notes": [
+    "Charlie is answer-only but a shorter name than Charlie Murphy; no automatic correction",
+    "Bill Dudman remains raw text although public gold is Dudman",
+    "German is answer-only but disagrees with Prussian gold; not an explanation-format issue",
+    "unknown is a literal abstention description, not proof of calibrated uncertainty",
+    "rule, A representation and chat layout changed jointly; previous format root cause is not isolated"
+  ],
+  "items": [
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "missing",
+      "method": "no_msg",
+      "response": "unknown",
+      "format_category": "abstention"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "missing",
+      "method": "token_full",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "missing",
+      "method": "kv_full",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "missing",
+      "method": "material_text",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "partial",
+      "method": "no_msg",
+      "response": "unknown",
+      "format_category": "abstention"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "partial",
+      "method": "token_full",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "partial",
+      "method": "kv_full",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "partial",
+      "method": "material_text",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "full",
+      "method": "no_msg",
+      "response": "unknown",
+      "format_category": "abstention"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "full",
+      "method": "token_full",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "full",
+      "method": "kv_full",
+      "response": "German",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5add1d575542992c1e3a2540",
+      "condition": "full",
+      "method": "material_text",
+      "response": "unknown",
+      "format_category": "abstention"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "missing",
+      "method": "no_msg",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "missing",
+      "method": "token_full",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "missing",
+      "method": "kv_full",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "missing",
+      "method": "material_text",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "partial",
+      "method": "no_msg",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "partial",
+      "method": "token_full",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "partial",
+      "method": "kv_full",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "partial",
+      "method": "material_text",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "full",
+      "method": "no_msg",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "full",
+      "method": "token_full",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "full",
+      "method": "kv_full",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ac3a76e554299741d48a2be",
+      "condition": "full",
+      "method": "material_text",
+      "response": "U2",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "missing",
+      "method": "no_msg",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "missing",
+      "method": "token_full",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "missing",
+      "method": "kv_full",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "missing",
+      "method": "material_text",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "partial",
+      "method": "no_msg",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "partial",
+      "method": "token_full",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "partial",
+      "method": "kv_full",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "partial",
+      "method": "material_text",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "full",
+      "method": "no_msg",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "full",
+      "method": "token_full",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "full",
+      "method": "kv_full",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a7133565542994082a3e65c",
+      "condition": "full",
+      "method": "material_text",
+      "response": "Oldham County",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "missing",
+      "method": "no_msg",
+      "response": "Charlie Murphy",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "missing",
+      "method": "token_full",
+      "response": "Charlie",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "missing",
+      "method": "kv_full",
+      "response": "Charlie",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "missing",
+      "method": "material_text",
+      "response": "Charlie Murphy",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "partial",
+      "method": "no_msg",
+      "response": "Charlie Murphy",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "partial",
+      "method": "token_full",
+      "response": "Charlie",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "partial",
+      "method": "kv_full",
+      "response": "Charlie",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "partial",
+      "method": "material_text",
+      "response": "Charlie Murphy",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "full",
+      "method": "no_msg",
+      "response": "Charlie Murphy",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "full",
+      "method": "token_full",
+      "response": "Charlie",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "full",
+      "method": "kv_full",
+      "response": "Charlie",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae70ed7554299572ea546a1",
+      "condition": "full",
+      "method": "material_text",
+      "response": "Charlie Murphy",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "missing",
+      "method": "no_msg",
+      "response": "unknown",
+      "format_category": "abstention"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "missing",
+      "method": "token_full",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "missing",
+      "method": "kv_full",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "missing",
+      "method": "material_text",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "partial",
+      "method": "no_msg",
+      "response": "unknown",
+      "format_category": "abstention"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "partial",
+      "method": "token_full",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "partial",
+      "method": "kv_full",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "partial",
+      "method": "material_text",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "full",
+      "method": "no_msg",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "full",
+      "method": "token_full",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "full",
+      "method": "kv_full",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5a74a8fa55429929fddd8497",
+      "condition": "full",
+      "method": "material_text",
+      "response": "Bill Dudman",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "missing",
+      "method": "no_msg",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "missing",
+      "method": "token_full",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "missing",
+      "method": "kv_full",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "missing",
+      "method": "material_text",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "partial",
+      "method": "no_msg",
+      "response": "unknown",
+      "format_category": "abstention"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "partial",
+      "method": "token_full",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "partial",
+      "method": "kv_full",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "partial",
+      "method": "material_text",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "full",
+      "method": "no_msg",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "full",
+      "method": "token_full",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "full",
+      "method": "kv_full",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    },
+    {
+      "question_id": "5ae27b535542996483e649b6",
+      "condition": "full",
+      "method": "material_text",
+      "response": "Axl Rose",
+      "format_category": "answer phrase"
+    }
+  ]
+}
